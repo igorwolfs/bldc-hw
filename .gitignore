@@ -2,4 +2,7 @@ kicad/*cache
 kicad/*backups
 simulations/*.log
 simulations/*.raw
+simulations/*.plt
 simulations/spice_libs/*.log
+simulations/spice_libs/*.raw
+simulations/spice_libs/*.plt

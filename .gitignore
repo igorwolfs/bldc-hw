@@ -1,0 +1,5 @@
+kicad/*cache
+kicad/*backups
+simulations/*.log
+simulations/*.raw
+simulations/spice_libs/*.log

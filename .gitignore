@@ -1,5 +1,7 @@
 kicad/*cache
 kicad/*backups
+kicad/*#
+kicad/datasheets/*
 simulations/*.log
 simulations/*.raw
 simulations/*.plt

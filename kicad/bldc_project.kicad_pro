@@ -326,6 +326,14 @@
     [
       "91e2f46a-700b-4d7a-a06a-22469f63223f",
       ""
+    ],
+    [
+      "7f7e17e0-7d73-4fbb-9112-49949fae378a",
+      "Driver and measurement feedback circuit"
+    ],
+    [
+      "7eb1e86b-8a48-408f-b231-0c52f4ea1971",
+      "CPU, oscillators and temperature measurement"
     ]
   ],
   "text_variables": {}

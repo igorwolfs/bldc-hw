@@ -1331,6 +1331,11 @@
     (effects (font (size 1 1) bold) (justify left bottom))
     (uuid 86248326-f4f2-4da2-b233-9b9aedb293c9)
   )
+  (text "Resistance to virtual ground larger enough to avoid large I"
+    (at 200.66 52.07 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid df278832-ae66-4d36-bbf2-0d279ab2a0e0)
+  )
   (text "NOTE: Vin dimensioned for 10 V\n" (at 99.06 29.21 0)
     (effects (font (size 1 1) bold) (justify left bottom))
     (uuid f32743a9-f709-4c11-9f06-72b6ad81646e)

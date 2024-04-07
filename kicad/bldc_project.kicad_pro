@@ -334,6 +334,10 @@
     [
       "7eb1e86b-8a48-408f-b231-0c52f4ea1971",
       "CPU, oscillators and temperature measurement"
+    ],
+    [
+      "53dc30ee-9af6-4771-8676-c78726df5d90",
+      "Communication"
     ]
   ],
   "text_variables": {}

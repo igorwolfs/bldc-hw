@@ -1383,7 +1383,12 @@
     (effects (font (size 1 1) bold) (justify left bottom))
     (uuid 1cc5aa25-fed9-4a0b-b24c-34f2ff34c07e)
   )
-  (text "Preliminary value, check if not too large" (at 60.96 68.58 0)
+  (text "Minimum 10 V" (at 41.91 27.94 0)
+    (effects (font (size 1 1) bold) (justify left bottom))
+    (uuid 4a804ec5-ad7b-4cb2-8159-86ed4c0f1105)
+  )
+  (text "Snubber circuit\nPreliminary value, check if not too large"
+    (at 60.96 68.58 0)
     (effects (font (size 1 1) bold) (justify left bottom))
     (uuid 57c9e3cd-e60a-43b2-a52a-fd73f6744396)
   )

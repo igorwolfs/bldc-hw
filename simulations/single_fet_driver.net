@@ -1,0 +1,25 @@
+* Z:\home\iwolfs\Projects\Electronics\KiCad_Projects\bldc_project\simulations\single_fet_driver.asc
+XMu_L Vs N005 0 irfz44n
+XMu_U N001 N002 Vs irfz44n
+Vu_U PWM 0 PWL REPEAT FOREVER ((0 3.3) (19.9u 3.3) (20u 0) (59.9u 0) (60u 3.3)) ENDREPEAT
+XU1 LO HO 0 PWM Vcc Vb Vs NSD IR2104
+V1 Vcc 0 5
+D1 N003 Vb 1N5819
+C1 Vb Vs 0.45µ
+Vu_U1 NSD 0 PWL REPEAT FOREVER ((0 3.3) (19.9u 3.3) (20u 0) (29.9u 0) (30u 3.3)) ENDREPEAT
+R1 N004 Vs 10
+V2 N001 0 16
+R2 N003 Vcc 5
+R3 N002 HO 100
+R4 N005 LO 100
+L1 N004 0 100µ
+Cdecoupling Vcc 0 4.7µ
+D2 N002 HO 1N4148
+D3 N005 LO 1N4148
+.model D D
+.lib C:\users\iwolfs\My Documents\LTspiceXVII\lib\cmp\standard.dio
+.tran 0 1ms 0 1u7
+.lib irfz44n.spi
+.lib C:\users\iwolfs\My Documents\LTspiceXVII\lib\other\IR2104\Model\IR2104.lib
+.backanno
+.end

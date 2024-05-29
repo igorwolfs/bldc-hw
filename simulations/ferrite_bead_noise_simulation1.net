@@ -1,4 +1,4 @@
-* C:\users\igorwolfs\My Documents\Personal\Projects\kicad_projects\bldc\simulations\ferrite_bead_noise_simulation1.asc
+* Z:\home\iwolfs\Projects\Electronics\KiCad_Projects\bldc_project\simulations\ferrite_bead_noise_simulation1.asc
 C1 N001 0 10n
 C2 REF 0 100n
 V1 N001 0 5
@@ -7,7 +7,6 @@ R2 REF2 N002 10
 C3 REF2 0 10n
 R1 REF N001 14
 R3 0 REF 14
-XU1 N008 REF3 BLM18PG221SN1
 V3 N008 0 5
 L1 REF4 N005 3.2n Ipk=2 Rser=0.064 Rpar=620 Cpar=1.1p
 R5 REF3 0 100k
@@ -36,14 +35,15 @@ L6 REF7 N012 3.2n
 C7 REF7 N013 1000n
 R15 REF7 N013 1000
 V7 N011 N013 5
+XU2 N008 REF3 BLM18PG221SN1
 ;tran 0 1ms 0 1us
 ;noise V(REF4) V4 dec 100 1 10000000000k
 ;tran 0 1ms 0 1us
-.noise V(REF2) V2 dec 100 1 100k
+;noise V(REF2) V2 dec 100 1 100k
 ;noise V(REF3) V3 dec 100 1 10000000000k
 ;noise V(REF5) V5 dec 100 1 10000000000k
 ;noise V(REF6) V6 dec 100 1 10000000000k
-;noise V(REF7) V7 dec 100 1 10000000000k
-.lib C:\users\igorwolfs\My Documents\Personal\Projects\kicad_projects\bldc\simulations\spice_libs\BLM18PG221SN1.mod
+.noise V(REF7) V7 dec 100 1 10000000000k
+.lib Z:\home\iwolfs\Projects\Electronics\KiCad_Projects\bldc_project\simulations\spice_libs\BLM18PG221SN1.mod
 .backanno
 .end

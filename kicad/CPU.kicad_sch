@@ -2117,7 +2117,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid b2fe119b-169a-463b-abbc-e86c1be5ac2b)
   )
-  (text "Input cap: CMIN\n=(Iout.DC.(1-DC).1000)/(fsw.Vp(max))\n=0.25*0.463*(1-0.463)*1000/(12000*0.1)\n=0.051798125 F"
+  (text "Input cap: CMIN\n=(Iout.DC.(1-DC).1000)/(fsw.Vp(max))\n=0.25*0.463*(1-0.463)*1000/(12*0.1)\n= 51.798125 uF"
     (at 195.58 -2.54 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid c0bb02a5-23a4-4f43-8408-8b7bf818e62b)

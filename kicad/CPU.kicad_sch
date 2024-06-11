@@ -2448,7 +2448,7 @@
     (property "Footprint" "" (at 210.82 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 210.82 74.93 0)
+    (property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps2116.pdf?ts=1718101806474&ref_url=https%253A%252F%252Fwww.mouser.it%252F" (at 210.82 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "" (uuid 450acd39-3bfd-4c94-b853-3c9e68e2ec69))

@@ -3,8 +3,8 @@ SymbolType BLOCK
 RECTANGLE Normal -64 -72 64 72
 WINDOW 0 0 -72 Bottom 2
 WINDOW 3 0 72 Top 2
-SYMATTR Prefix X
 SYMATTR Value IR2104
+SYMATTR Prefix X
 SYMATTR ModelFile C:\users\iwolfs\My Documents\LTspiceXVII\lib\other\IR2104\Model\IR2104.lib
 PIN 64 48 RIGHT 8
 PINATTR PinName LO

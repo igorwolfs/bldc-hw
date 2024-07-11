@@ -1,5 +1,0 @@
-## TI
-### TIDA-00472 driver
-https://www.ti.com/tool/TIDA-00472#design-products
-
-

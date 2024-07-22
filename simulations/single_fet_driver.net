@@ -1,0 +1,46 @@
+* Z:\home\iwolfs\Projects\Electronics\KiCad_Projects\bldc_project\simulations\single_fet_driver.asc
+XMu_L Vs N009 N010 irfz44n
+XMu_U N002 N006 Vs irfz44n
+Vu_U PWM 0 PWL REPEAT FOREVER ((0 3.3) (19.9u 3.3) (20u 0) (59.9u 0) (60u 3.3)) ENDREPEAT
+V1 Vcc 0 11
+D1 N003 Vb 1N5819
+C1 Vb Vs 4.7µ
+Vu_U1 NSD 0 PWL REPEAT FOREVER ((0 3.3) (19.9u 3.3) (20u 0) (29.9u 0) (30u 3.3)) ENDREPEAT
+R1 N007 Vs 10
+V2 N001 0 16
+L1 N007 0 100µ
+Cdecoupling Vcc 0 4.7µ
+XU2 LO HO 0 PWM Vcc Vb Vs NSD IR2104
+XMu_L1 V_d1 V_g1 V_s1 irfz44n
+Vu_U2 V_g1 0 PWL REPEAT FOREVER ((0 0) (39.9u 0) (40u 24) (59.9u 24) (60u 0)) ENDREPEAT
+V3 N004 0 12
+R5 V_s1 P001 10
+C2 N002 0 10n Rser=1
+C3 Vs 0 10n Rser=1
+C4 N010 0 10n Rser=1
+C5 V_d1 0 10n Rser=1
+C6 V_s1 0 10n Rser=1
+L2 V_d1 N004 5n
+L3 P001 0 5n
+L4 N002 N001 5n
+L5 0 N010 5n
+XMu_L2 V_drain P002 V_source irfz44n
+Vu_U3 N008 0 PWL REPEAT FOREVER ((0 0) (39.9u 0) (40u 15) (59.9u 15) (60u 0)) ENDREPEAT
+V4 N005 0 5
+R6 V_source P003 10
+L6 V_drain N005 5n
+L7 P003 0 5n
+R3 P002 N008 50
+R4 N006 HO 50
+R7 N009 LO 50
+R2 N003 Vcc 10
+.model D D
+.lib C:\users\iwolfs\My Documents\LTspiceXVII\lib\cmp\standard.dio
+.tran 0 1ms 0 1u7
+.lib irfz44n.spi
+.lib IR2104.lib
+* MOSFET SIMULATION
+* MOSFET SIMULATION
+.lib C:\users\iwolfs\My Documents\LTspiceXVII\lib\other\IR2104\Model\IR2104.lib
+.backanno
+.end

@@ -1784,7 +1784,7 @@
   (symbol (lib_id "Device:R_Small") (at 181.61 30.48 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 02cdb9da-2648-45e6-98e8-0642bfd9aa35)
-    (property "Reference" "R23" (at 177.8 29.21 0)
+    (property "Reference" "R2" (at 177.8 29.21 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "33k" (at 177.8 31.75 0)
@@ -1804,7 +1804,42 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "R23") (unit 1)
+          (reference "R2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_Small") (at 70.485 165.1 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 04a78cd3-2300-43ab-a333-9877bf9a99fa)
+    (property "Reference" "R30" (at 70.485 161.29 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "51" (at 70.485 163.195 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_1206_3216Metric" (at 70.485 165.1 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206010145_UNI-ROYAL-Uniroyal-Elec-1206W4F510JT5E_C18019.pdf" (at 70.485 165.1 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLCPCB" "" (at 70.485 165.1 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MFR.Part" "1206W4F510JT5E" (at 70.485 165.1 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "jlcpcb" "C18019" (at 70.485 165.1 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "2" (uuid 04860e39-8459-465e-97a4-fa57ec7c2297))
+    (pin "1" (uuid d18465db-ebb6-4b07-b705-2f65dec3b3dc))
+    (instances
+      (project "bldc_project"
+        (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
+          (reference "R30") (unit 1)
         )
       )
     )
@@ -1813,7 +1848,7 @@
   (symbol (lib_id "Device:R_Small") (at 161.925 50.8 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0509afd2-5cad-4197-bfa4-a04ce53d91ca)
-    (property "Reference" "R25" (at 163.195 49.53 0)
+    (property "Reference" "R13" (at 163.195 49.53 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "33k" (at 163.195 52.07 0)
@@ -1833,7 +1868,7 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "R25") (unit 1)
+          (reference "R13") (unit 1)
         )
       )
     )
@@ -1842,7 +1877,7 @@
   (symbol (lib_id "bldc_lib:IRFZ44N") (at 82.55 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 083fde4b-6d26-4f7c-b9de-f91193d2f41c)
-    (property "Reference" "Q1" (at 86.36 100.33 0)
+    (property "Reference" "Q3" (at 86.36 100.33 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "IRFZ44N" (at 85.09 100.33 0)
@@ -1863,7 +1898,7 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "Q1") (unit 1)
+          (reference "Q3") (unit 1)
         )
       )
     )
@@ -1872,7 +1907,7 @@
   (symbol (lib_id "power:GND") (at 213.995 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0b343779-01a3-4b32-8195-186ad09d0fac)
-    (property "Reference" "#PWR066" (at 213.995 93.98 0)
+    (property "Reference" "#PWR011" (at 213.995 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 211.455 90.17 0)
@@ -1888,7 +1923,7 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "#PWR066") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
       )
     )
@@ -1897,7 +1932,7 @@
   (symbol (lib_id "Device:R_Small") (at 171.45 50.8 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0d5a0a11-daf9-4df7-8fb8-5cf1d653eb0d)
-    (property "Reference" "R26" (at 172.72 49.53 0)
+    (property "Reference" "R14" (at 172.72 49.53 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "33k" (at 172.72 52.07 0)
@@ -1917,7 +1952,7 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "R26") (unit 1)
+          (reference "R14") (unit 1)
         )
       )
     )
@@ -1926,16 +1961,22 @@
   (symbol (lib_id "Device:C_Small") (at 39.37 144.78 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0d5df2fa-aca7-43f3-90a4-0f723dabbf41)
-    (property "Reference" "C5" (at 41.91 143.5163 0)
+    (property "Reference" "C16" (at 41.91 143.5163 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.47uF" (at 41.91 146.0563 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 39.37 144.78 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 39.37 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 39.37 144.78 0)
+    (property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL21A475KAQNNNE_C1779.pdf" (at 39.37 144.78 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MFR.Part" "CL21A475KAQNNNE" (at 39.37 144.78 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "jlcpcb" "C1779" (at 39.37 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid d4c5a246-8aac-46fa-aa0a-20588b0716e2))
@@ -1943,7 +1984,7 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "C5") (unit 1)
+          (reference "C16") (unit 1)
         )
       )
     )
@@ -1952,7 +1993,7 @@
   (symbol (lib_id "Device:R_Small") (at 99.695 123.825 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 17aebcdc-70c4-4a16-8052-3b9902b3486f)
-    (property "Reference" "R13" (at 100.33 121.92 0)
+    (property "Reference" "R25" (at 100.33 121.92 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1" (at 101.6 125.095 0)
@@ -1964,7 +2005,10 @@
     (property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206010130_UNI-ROYAL-Uniroyal-Elec-0603WAF100KT5E_C22936.pdf" (at 99.695 123.825 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "JLCPCB" "C22936" (at 99.695 123.825 0)
+    (property "JLCPCB" "" (at 99.695 123.825 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "jlcpcb" "C22936" (at 99.695 123.825 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid c56dc555-4634-47de-9d64-0a943e087baa))
@@ -1972,7 +2016,7 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "R13") (unit 1)
+          (reference "R25") (unit 1)
         )
       )
     )
@@ -1993,7 +2037,13 @@
     (property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206010145_UNI-ROYAL-Uniroyal-Elec-1206W4F100JT5E_C17903.pdf" (at 58.42 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "JLCPCB" "C17903" (at 58.42 30.48 90)
+    (property "JLCPCB" "" (at 58.42 30.48 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MFR.Part" "1206W4F100JT5E" (at 58.42 30.48 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "jlcpcb" "C17903" (at 58.42 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 50ee3638-70e5-44de-a184-fda4e0c3786e))
@@ -2010,7 +2060,7 @@
   (symbol (lib_id "Amplifier_Current:INA180A2") (at 255.905 94.615 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 18b2c91c-cc34-428d-b467-40dab37c6f68)
-    (property "Reference" "U15" (at 270.51 88.9 0)
+    (property "Reference" "U3" (at 270.51 88.9 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "INA180A2" (at 261.62 97.79 0)
@@ -2022,7 +2072,10 @@
     (property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1811021124_Texas-Instruments-INA180A2IDBVR_C192764.pdf" (at 259.715 90.805 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "JLCPCB" "C192764" (at 255.905 94.615 0)
+    (property "JLCPCB" "" (at 255.905 94.615 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "jlcpcb" "C192764" (at 255.905 94.615 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid ba7f69ee-4824-4fec-9f04-765b77363419))
@@ -2033,7 +2086,7 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "U15") (unit 1)
+          (reference "U3") (unit 1)
         )
       )
     )
@@ -2042,7 +2095,7 @@
   (symbol (lib_id "power:GND") (at 116.84 189.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1915077b-6f75-4b21-b8fe-368f2f8aa560)
-    (property "Reference" "#PWR06" (at 116.84 195.58 0)
+    (property "Reference" "#PWR020" (at 116.84 195.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 116.84 193.675 0)
@@ -2058,7 +2111,7 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR020") (unit 1)
         )
       )
     )
@@ -2067,7 +2120,7 @@
   (symbol (lib_id "Device:R_Small") (at 116.84 163.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1b79a109-f5d2-4e3d-a68f-b721db720c2d)
-    (property "Reference" "R18" (at 118.11 162.56 0)
+    (property "Reference" "R29" (at 118.11 162.56 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1" (at 119.38 165.1 0)
@@ -2079,7 +2132,10 @@
     (property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206010130_UNI-ROYAL-Uniroyal-Elec-0603WAF100KT5E_C22936.pdf" (at 116.84 163.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "JLCPCB" "C22936" (at 116.84 163.83 0)
+    (property "JLCPCB" "" (at 116.84 163.83 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "jlcpcb" "C22936" (at 116.84 163.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 448c8e0f-e0ef-4e0a-9005-1654a051944e))
@@ -2087,7 +2143,42 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "R18") (unit 1)
+          (reference "R29") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_Small") (at 59.69 86.36 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 1c1aefe7-5cc9-49c9-a435-5e5d37453cd1)
+    (property "Reference" "R20" (at 59.69 81.28 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "10" (at 59.69 83.82 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_1206_3216Metric" (at 59.69 86.36 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206010145_UNI-ROYAL-Uniroyal-Elec-1206W4F100JT5E_C17903.pdf" (at 59.69 86.36 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLCPCB" "" (at 59.69 86.36 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MFR.Part" "1206W4F100JT5E" (at 59.69 86.36 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "jlcpcb" "C17903" (at 59.69 86.36 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 8fd2ff62-ca16-4dea-8ed2-e51eb53e4be9))
+    (pin "2" (uuid b59a0da0-49b6-4063-b2d1-39f714b0a888))
+    (instances
+      (project "bldc_project"
+        (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
+          (reference "R20") (unit 1)
         )
       )
     )
@@ -2096,7 +2187,7 @@
   (symbol (lib_id "Device:C_Small") (at 115.57 59.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1e3122bc-e221-49bf-b37a-9c1e7c234887)
-    (property "Reference" "C8" (at 116.205 58.42 0)
+    (property "Reference" "C4" (at 116.205 58.42 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10nF" (at 116.84 60.96 0)
@@ -2108,10 +2199,13 @@
     (property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL05B103KB5NNNC_C15195.pdf" (at 115.57 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "JLCPCB" "C15195" (at 115.57 59.69 0)
+    (property "JLCPCB" "" (at 115.57 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Field5" "" (at 115.57 59.69 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "jlcpcb" "C15195" (at 115.57 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "2" (uuid 231e0176-1511-45e4-8284-0efd1b4ceb82))
@@ -2119,7 +2213,7 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "C8") (unit 1)
+          (reference "C4") (unit 1)
         )
       )
     )
@@ -2128,7 +2222,7 @@
   (symbol (lib_id "Device:R_Small") (at 161.925 40.64 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 20a9185d-2408-487d-aec1-be2d1fc1df1e)
-    (property "Reference" "R20" (at 158.115 39.37 0)
+    (property "Reference" "R8" (at 158.115 39.37 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "33k" (at 158.115 41.91 0)
@@ -2148,7 +2242,7 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "R20") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
     )
@@ -2187,7 +2281,7 @@
   (symbol (lib_id "Device:C_Small") (at 64.77 105.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 27c34530-681e-4392-8756-9a8a7fb94129)
-    (property "Reference" "C1" (at 67.31 104.1463 0)
+    (property "Reference" "C11" (at 67.31 104.1463 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7uF" (at 67.31 106.6863 0)
@@ -2199,7 +2293,10 @@
     (property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL10A475KO8NNNC_C19666.pdf" (at 64.77 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "JLCPCB" "C19666" (at 64.77 105.41 0)
+    (property "JLCPCB" "" (at 64.77 105.41 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "jlcpcb" "C19666" (at 64.77 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 228c89e8-4426-48ef-915d-dfdc5aa3d17a))
@@ -2207,7 +2304,7 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "C1") (unit 1)
+          (reference "C11") (unit 1)
         )
       )
     )
@@ -2216,7 +2313,7 @@
   (symbol (lib_id "power:+10V") (at 54.61 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2ac11b50-1460-41eb-b0fe-dd6cf90badf3)
-    (property "Reference" "#PWR012" (at 54.61 86.36 0)
+    (property "Reference" "#PWR07" (at 54.61 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+10V" (at 54.61 77.47 0)
@@ -2232,7 +2329,7 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
       )
     )
@@ -2241,7 +2338,7 @@
   (symbol (lib_id "Device:C_Small") (at 116.84 168.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2c2cab1c-e9a7-4a4d-8887-88c8fbdf44d6)
-    (property "Reference" "C39" (at 117.475 167.64 0)
+    (property "Reference" "C18" (at 117.475 167.64 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10nF" (at 118.11 170.18 0)
@@ -2253,10 +2350,13 @@
     (property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL05B103KB5NNNC_C15195.pdf" (at 116.84 168.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "JLCPCB" "C15195" (at 116.84 168.91 0)
+    (property "JLCPCB" "" (at 116.84 168.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Field5" "" (at 116.84 168.91 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "jlcpcb" "C15195" (at 116.84 168.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "2" (uuid 8ac08964-cfa7-4bb8-926c-06f04dffdc38))
@@ -2264,7 +2364,7 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "C39") (unit 1)
+          (reference "C18") (unit 1)
         )
       )
     )
@@ -2273,7 +2373,7 @@
   (symbol (lib_id "Driver_FET:IR2104") (at 53.34 49.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2fda8df4-34e7-416d-b7d8-2375e536fd1b)
-    (property "Reference" "U2" (at 55.5341 34.29 0)
+    (property "Reference" "U1" (at 55.5341 34.29 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "IR2104" (at 55.5341 36.83 0)
@@ -2285,10 +2385,13 @@
     (property "Datasheet" "file:///home/igorwolfs/Downloads/1.translated.pdf" (at 53.34 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "JLCPCB" "C5804631" (at 53.34 49.53 0)
+    (property "JLCPCB" "" (at 53.34 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Field5" "" (at 53.34 49.53 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "jlcpcb" "C5804631" (at 53.34 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "4" (uuid ea00fe4c-6b19-4c39-84de-d293d2758e2d))
@@ -2302,7 +2405,7 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "U2") (unit 1)
+          (reference "U1") (unit 1)
         )
       )
     )
@@ -2311,7 +2414,7 @@
   (symbol (lib_id "Device:R_Small") (at 82.55 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 35a66775-1c51-458a-a035-f817b5ff392a)
-    (property "Reference" "R10" (at 85.09 67.31 0)
+    (property "Reference" "R19" (at 85.09 67.31 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "3m" (at 85.09 69.85 0)
@@ -2326,7 +2429,7 @@
     (property "jlcpcb" "C500615" (at 82.55 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MFR." "LR2512D-2W-3mR-1%" (at 82.55 68.58 0)
+    (property "MFR.Part" "LR2512D-2W-3mR-1%" (at 82.55 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "2" (uuid 9b9254f5-5687-49bb-a681-a77d7c851faf))
@@ -2334,7 +2437,7 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "R10") (unit 1)
+          (reference "R19") (unit 1)
         )
       )
     )
@@ -2343,7 +2446,7 @@
   (symbol (lib_id "Device:R_Small") (at 107.315 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 374881de-01c9-4ad5-a971-349cca27fade)
-    (property "Reference" "R11" (at 108.585 56.515 0)
+    (property "Reference" "R17" (at 108.585 56.515 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1" (at 108.585 59.055 0)
@@ -2355,7 +2458,10 @@
     (property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206010130_UNI-ROYAL-Uniroyal-Elec-0603WAF100KT5E_C22936.pdf" (at 107.315 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "JLCPCB" "C22936" (at 107.315 58.42 0)
+    (property "JLCPCB" "" (at 107.315 58.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "jlcpcb" "C22936" (at 107.315 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid c8d024b2-01f2-415e-b05d-5ce238b7cd13))
@@ -2363,7 +2469,7 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "R11") (unit 1)
+          (reference "R17") (unit 1)
         )
       )
     )
@@ -2372,7 +2478,7 @@
   (symbol (lib_id "bldc_lib:IRFZ44N") (at 82.55 44.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 37c0ed99-1302-408f-98d3-7dcddb392a7c)
-    (property "Reference" "Q3" (at 86.36 44.45 0)
+    (property "Reference" "Q1" (at 86.36 44.45 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "IRFZ44N" (at 85.09 44.45 0)
@@ -2393,7 +2499,7 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "Q3") (unit 1)
+          (reference "Q1") (unit 1)
         )
       )
     )
@@ -2402,7 +2508,7 @@
   (symbol (lib_id "Device:C_Small") (at 259.715 86.995 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 37e50271-6f15-4ee1-9c63-66f483ccacc6)
-    (property "Reference" "C33" (at 262.255 85.7313 0)
+    (property "Reference" "C9" (at 262.255 85.7313 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 262.255 88.2713 0)
@@ -2422,7 +2528,42 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "C33") (unit 1)
+          (reference "C9") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_Small") (at 71.12 113.03 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 37f9e120-1428-44b0-ad7d-60a7841a43c9)
+    (property "Reference" "R22" (at 71.12 109.22 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "51" (at 71.12 111.125 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_1206_3216Metric" (at 71.12 113.03 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206010145_UNI-ROYAL-Uniroyal-Elec-1206W4F510JT5E_C18019.pdf" (at 71.12 113.03 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLCPCB" "" (at 71.12 113.03 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MFR.Part" "1206W4F510JT5E" (at 71.12 113.03 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "jlcpcb" "C18019" (at 71.12 113.03 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "2" (uuid 63a74f95-f4eb-4ad2-b7dd-8d701e2f1a13))
+    (pin "1" (uuid bed398d3-b434-4457-a201-82b0e76d0feb))
+    (instances
+      (project "bldc_project"
+        (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
+          (reference "R22") (unit 1)
         )
       )
     )
@@ -2431,7 +2572,7 @@
   (symbol (lib_id "Device:R_Small") (at 107.315 118.11 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3b6975b6-ee1d-4d29-a4b8-3862b53bbc7e)
-    (property "Reference" "R14" (at 108.585 116.205 0)
+    (property "Reference" "R24" (at 108.585 116.205 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1" (at 108.585 118.745 0)
@@ -2443,7 +2584,10 @@
     (property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206010130_UNI-ROYAL-Uniroyal-Elec-0603WAF100KT5E_C22936.pdf" (at 107.315 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "JLCPCB" "C22936" (at 107.315 118.11 0)
+    (property "JLCPCB" "" (at 107.315 118.11 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "jlcpcb" "C22936" (at 107.315 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 4c6d4c29-3dba-4933-b77e-984b577e7b84))
@@ -2451,36 +2595,7 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "R14") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R_Small") (at 59.69 138.43 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 42c21374-6df5-4a05-a3af-a2a544ee72e1)
-    (property "Reference" "R3" (at 59.69 133.35 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "10" (at 59.69 135.89 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_1206_3216Metric" (at 59.69 138.43 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206010145_UNI-ROYAL-Uniroyal-Elec-1206W4F100JT5E_C17903.pdf" (at 59.69 138.43 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCPCB" "C17903" (at 59.69 138.43 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 6d571d8b-8dfd-44cc-9fec-da176484cd43))
-    (pin "2" (uuid 6e0b95ff-b325-447b-bcf4-d1213610f825))
-    (instances
-      (project "bldc_project"
-        (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "R3") (unit 1)
+          (reference "R24") (unit 1)
         )
       )
     )
@@ -2501,7 +2616,13 @@
     (property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2204281430_Guangdong-Hottech-1N5819WS_C191023.pdf" (at 64.77 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "JLCPCB" "C191023" (at 64.77 142.24 90)
+    (property "JLCPCB" "" (at 64.77 142.24 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "jlcpcb" "C191023" (at 64.77 142.24 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MFR.Part" "1N5819WS" (at 64.77 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 226bedf6-6580-4b26-8653-81261c9e9bd5))
@@ -2518,19 +2639,25 @@
   (symbol (lib_id "Device:R_Small") (at 69.215 44.45 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 46e90c5d-c39e-4c26-86b2-dd6b5543313d)
-    (property "Reference" "R4" (at 69.215 40.64 90)
+    (property "Reference" "R10" (at 69.215 40.64 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "50" (at 69.215 42.545 90)
+    (property "Value" "51" (at 69.215 42.545 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_SMD:R_1206_3216Metric" (at 69.215 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2211151030_Viking-Tech-ARG06BTC0500_C5266158.pdf" (at 69.215 44.45 0)
+    (property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206010145_UNI-ROYAL-Uniroyal-Elec-1206W4F510JT5E_C18019.pdf" (at 69.215 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "JLCPCB" "C5266158" (at 69.215 44.45 90)
+    (property "JLCPCB" "" (at 69.215 44.45 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MFR.Part" "1206W4F510JT5E" (at 69.215 44.45 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "jlcpcb" "C18019" (at 69.215 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "2" (uuid e028b8d0-a6e9-4cf3-a571-97f371c12923))
@@ -2538,7 +2665,7 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "R4") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
     )
@@ -2547,7 +2674,7 @@
   (symbol (lib_id "Device:C_Small") (at 63.5 49.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 48b66299-8670-4f48-b066-0667b45b9efc)
-    (property "Reference" "C4" (at 66.04 48.2663 0)
+    (property "Reference" "C2" (at 66.04 48.2663 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7uF" (at 66.04 50.8063 0)
@@ -2559,7 +2686,10 @@
     (property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL10A475KO8NNNC_C19666.pdf" (at 63.5 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "JLCPCB" "C19666" (at 63.5 49.53 0)
+    (property "JLCPCB" "" (at 63.5 49.53 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "jlcpcb" "C19666" (at 63.5 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 23260c86-9410-468b-b04b-7c03eb19a673))
@@ -2567,7 +2697,7 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "C4") (unit 1)
+          (reference "C2") (unit 1)
         )
       )
     )
@@ -2576,7 +2706,7 @@
   (symbol (lib_id "power:+10V") (at 53.34 27.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 496d742f-59ab-4b7e-a458-016b9b94660f)
-    (property "Reference" "#PWR011" (at 53.34 31.75 0)
+    (property "Reference" "#PWR01" (at 53.34 31.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+10V" (at 53.34 22.86 0)
@@ -2592,7 +2722,42 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR01") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_Small") (at 70.485 152.4 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 4a3845b0-210b-4920-8998-18fcbcc15b4a)
+    (property "Reference" "R28" (at 70.485 148.59 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "51" (at 70.485 150.495 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_1206_3216Metric" (at 70.485 152.4 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206010145_UNI-ROYAL-Uniroyal-Elec-1206W4F510JT5E_C18019.pdf" (at 70.485 152.4 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLCPCB" "" (at 70.485 152.4 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MFR.Part" "1206W4F510JT5E" (at 70.485 152.4 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "jlcpcb" "C18019" (at 70.485 152.4 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "2" (uuid fec887f5-d641-4f07-869f-531321a27da6))
+    (pin "1" (uuid 1b379d42-5ec2-4cf8-8083-cdfe4bdb19ae))
+    (instances
+      (project "bldc_project"
+        (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
+          (reference "R28") (unit 1)
         )
       )
     )
@@ -2601,7 +2766,7 @@
   (symbol (lib_id "power:GND") (at 39.37 170.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4a77c9e4-176d-44cf-ad45-9c5eb99c853b)
-    (property "Reference" "#PWR03" (at 39.37 176.53 0)
+    (property "Reference" "#PWR019" (at 39.37 176.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 39.37 175.26 0)
@@ -2617,7 +2782,7 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR019") (unit 1)
         )
       )
     )
@@ -2626,7 +2791,7 @@
   (symbol (lib_id "Device:R_Small") (at 204.47 48.26 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4f2fea68-f43c-4464-abba-0551b541f2ae)
-    (property "Reference" "R30" (at 204.47 45.72 90)
+    (property "Reference" "R11" (at 204.47 45.72 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "33k" (at 208.28 45.72 90)
@@ -2646,7 +2811,7 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "R30") (unit 1)
+          (reference "R11") (unit 1)
         )
       )
     )
@@ -2655,7 +2820,7 @@
   (symbol (lib_id "power:+10V") (at 54.61 135.89 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 53cc105c-5d8e-4b10-8d99-9db2ae44b5ff)
-    (property "Reference" "#PWR070" (at 54.61 139.7 0)
+    (property "Reference" "#PWR018" (at 54.61 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+10V" (at 54.61 130.81 0)
@@ -2671,7 +2836,7 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "#PWR070") (unit 1)
+          (reference "#PWR018") (unit 1)
         )
       )
     )
@@ -2680,7 +2845,7 @@
   (symbol (lib_id "power:GND") (at 39.37 118.11 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 54d25889-0bf6-4cf7-8fd2-2d76edb315f0)
-    (property "Reference" "#PWR02" (at 39.37 124.46 0)
+    (property "Reference" "#PWR016" (at 39.37 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 39.37 123.19 0)
@@ -2696,7 +2861,7 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR016") (unit 1)
         )
       )
     )
@@ -2705,7 +2870,7 @@
   (symbol (lib_id "Device:R_Small") (at 108.585 168.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5bde2038-d81a-496c-b93e-f464ba7546b8)
-    (property "Reference" "R17" (at 109.855 167.005 0)
+    (property "Reference" "R31" (at 109.855 167.005 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1" (at 109.855 169.545 0)
@@ -2717,7 +2882,10 @@
     (property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206010130_UNI-ROYAL-Uniroyal-Elec-0603WAF100KT5E_C22936.pdf" (at 108.585 168.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "JLCPCB" "C22936" (at 108.585 168.91 0)
+    (property "JLCPCB" "" (at 108.585 168.91 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "jlcpcb" "C22936" (at 108.585 168.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 187f270b-7e9d-4f3b-ae7d-85a8ad874c25))
@@ -2725,7 +2893,7 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "R17") (unit 1)
+          (reference "R31") (unit 1)
         )
       )
     )
@@ -2734,16 +2902,22 @@
   (symbol (lib_id "Device:C_Small") (at 39.37 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5d0d9eb8-39c5-4d1b-a263-85cea295bd8a)
-    (property "Reference" "C2" (at 41.91 91.4463 0)
+    (property "Reference" "C10" (at 41.91 91.4463 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.47uF" (at 41.91 93.9863 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 39.37 92.71 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 39.37 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 39.37 92.71 0)
+    (property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL21A475KAQNNNE_C1779.pdf" (at 39.37 92.71 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MFR.Part" "CL21A475KAQNNNE" (at 39.37 92.71 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "jlcpcb" "C1779" (at 39.37 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 9f96e766-3d2d-4e3f-bec0-2e9147ce6edf))
@@ -2751,36 +2925,7 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "C2") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R_Small") (at 71.12 100.33 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 6117abb0-098a-4f12-b22e-4b0cd02d9e6b)
-    (property "Reference" "R6" (at 71.12 96.52 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "50" (at 71.12 98.425 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_1206_3216Metric" (at 71.12 100.33 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2211151030_Viking-Tech-ARG06BTC0500_C5266158.pdf" (at 71.12 100.33 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCPCB" "C5266158" (at 71.12 100.33 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "2" (uuid b6eff0b9-8a5c-4656-b24c-d3aa6baddc73))
-    (pin "1" (uuid f806acaf-5951-4ec3-9084-f885e0d6f774))
-    (instances
-      (project "bldc_project"
-        (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "R6") (unit 1)
+          (reference "C10") (unit 1)
         )
       )
     )
@@ -2789,7 +2934,7 @@
   (symbol (lib_id "power:GND") (at 207.645 102.87 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 61f97664-e353-4e60-b5b8-6624d6f13a0e)
-    (property "Reference" "#PWR065" (at 207.645 109.22 0)
+    (property "Reference" "#PWR015" (at 207.645 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 207.645 107.95 0)
@@ -2805,7 +2950,7 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "#PWR065") (unit 1)
+          (reference "#PWR015") (unit 1)
         )
       )
     )
@@ -2814,7 +2959,7 @@
   (symbol (lib_id "power:GND") (at 115.57 74.295 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 629aad80-e333-49be-80a2-baf840853d27)
-    (property "Reference" "#PWR04" (at 115.57 80.645 0)
+    (property "Reference" "#PWR05" (at 115.57 80.645 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 115.57 78.74 0)
@@ -2830,7 +2975,7 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
     )
@@ -2839,7 +2984,7 @@
   (symbol (lib_id "power:GND") (at 171.45 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 670dec7c-4634-4f47-b294-1b4df50c403f)
-    (property "Reference" "#PWR013" (at 171.45 62.23 0)
+    (property "Reference" "#PWR02" (at 171.45 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 166.37 59.69 0)
@@ -2855,7 +3000,7 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR02") (unit 1)
         )
       )
     )
@@ -2864,7 +3009,7 @@
   (symbol (lib_id "Device:R_Small") (at 171.45 39.37 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 689defa8-cb90-4a7d-9e63-868a0cece77f)
-    (property "Reference" "R22" (at 167.64 38.1 0)
+    (property "Reference" "R7" (at 167.64 38.1 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "33k" (at 167.64 40.64 0)
@@ -2884,7 +3029,7 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "R22") (unit 1)
+          (reference "R7") (unit 1)
         )
       )
     )
@@ -2893,7 +3038,7 @@
   (symbol (lib_id "power:GND") (at 259.715 89.535 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 70530b91-5b71-4474-8751-438b40ce1550)
-    (property "Reference" "#PWR069" (at 259.715 95.885 0)
+    (property "Reference" "#PWR012" (at 259.715 95.885 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 257.175 89.535 0)
@@ -2909,7 +3054,7 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "#PWR069") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
       )
     )
@@ -2918,7 +3063,7 @@
   (symbol (lib_id "Diode:1N5819") (at 64.77 90.17 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 71ee9271-d448-4319-939d-73413e6b19ae)
-    (property "Reference" "D1" (at 67.31 89.2175 90)
+    (property "Reference" "D2" (at 67.31 89.2175 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N5819WS" (at 67.31 91.7575 90)
@@ -2930,7 +3075,13 @@
     (property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2204281430_Guangdong-Hottech-1N5819WS_C191023.pdf" (at 64.77 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "JLCPCB" "C191023" (at 64.77 90.17 90)
+    (property "JLCPCB" "" (at 64.77 90.17 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "jlcpcb" "C191023" (at 64.77 90.17 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MFR.Part" "1N5819WS" (at 64.77 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 88921ff7-7d01-41b4-aa3f-8970136fd622))
@@ -2938,7 +3089,7 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "D1") (unit 1)
+          (reference "D2") (unit 1)
         )
       )
     )
@@ -2947,7 +3098,7 @@
   (symbol (lib_id "Device:R_Small") (at 161.925 31.75 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 72efb698-cdb0-4743-94fb-153d296b2858)
-    (property "Reference" "R19" (at 158.115 30.48 0)
+    (property "Reference" "R3" (at 158.115 30.48 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "33k" (at 158.115 33.02 0)
@@ -2967,7 +3118,7 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "R19") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
     )
@@ -2976,7 +3127,7 @@
   (symbol (lib_id "Device:C_Polarized_Small") (at 124.46 54.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 740901cc-e067-4f7e-be26-dbd427608200)
-    (property "Reference" "C41" (at 127 52.7939 0)
+    (property "Reference" "C3" (at 127 52.7939 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "470uF" (at 127 55.3339 0)
@@ -2996,7 +3147,7 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "C41") (unit 1)
+          (reference "C3") (unit 1)
         )
       )
     )
@@ -3005,7 +3156,7 @@
   (symbol (lib_id "Device:R_Small") (at 181.61 50.8 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 74aed5b7-a775-4313-8dd5-56f49cb1456e)
-    (property "Reference" "R27" (at 182.88 49.53 0)
+    (property "Reference" "R15" (at 182.88 49.53 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "33k" (at 182.88 52.07 0)
@@ -3025,7 +3176,7 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "R27") (unit 1)
+          (reference "R15") (unit 1)
         )
       )
     )
@@ -3034,7 +3185,7 @@
   (symbol (lib_id "Diode:1N5819") (at 63.5 34.29 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 768ec1ee-752a-4ded-ac58-2ac7f8b7e624)
-    (property "Reference" "D2" (at 66.04 33.3375 90)
+    (property "Reference" "D1" (at 66.04 33.3375 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N5819WS" (at 66.04 35.8775 90)
@@ -3046,7 +3197,13 @@
     (property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2204281430_Guangdong-Hottech-1N5819WS_C191023.pdf" (at 63.5 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "JLCPCB" "C191023" (at 63.5 34.29 90)
+    (property "JLCPCB" "" (at 63.5 34.29 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "jlcpcb" "C191023" (at 63.5 34.29 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MFR.Part" "1N5819WS" (at 63.5 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid f98b6a2f-400f-49f3-aafd-b4d6c327da87))
@@ -3054,7 +3211,7 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "D2") (unit 1)
+          (reference "D1") (unit 1)
         )
       )
     )
@@ -3063,7 +3220,7 @@
   (symbol (lib_id "Device:C_Small") (at 64.77 157.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 773810e3-14b3-4986-b3f1-945736195754)
-    (property "Reference" "C6" (at 67.31 156.2163 0)
+    (property "Reference" "C17" (at 67.31 156.2163 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7uF" (at 67.31 158.7563 0)
@@ -3075,7 +3232,10 @@
     (property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL10A475KO8NNNC_C19666.pdf" (at 64.77 157.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "JLCPCB" "C19666" (at 64.77 157.48 0)
+    (property "JLCPCB" "" (at 64.77 157.48 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "jlcpcb" "C19666" (at 64.77 157.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 25531bca-138a-4377-ba99-ef66fe57085a))
@@ -3083,36 +3243,7 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "C6") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R_Small") (at 59.69 86.36 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 7e3b1c73-686e-4f39-b5cb-81cadaf7bf56)
-    (property "Reference" "R2" (at 59.69 81.28 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "10" (at 59.69 83.82 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_1206_3216Metric" (at 59.69 86.36 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206010145_UNI-ROYAL-Uniroyal-Elec-1206W4F100JT5E_C17903.pdf" (at 59.69 86.36 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCPCB" "C17903" (at 59.69 86.36 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 5d302bb6-b286-4a20-896d-710b05e51f70))
-    (pin "2" (uuid b37123d8-07c8-4821-af40-f357119a27e8))
-    (instances
-      (project "bldc_project"
-        (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "R2") (unit 1)
+          (reference "C17") (unit 1)
         )
       )
     )
@@ -3121,7 +3252,7 @@
   (symbol (lib_id "Driver_FET:IR2104") (at 54.61 157.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 81ab4ef6-709d-424d-845d-75d4ccaf05e1)
-    (property "Reference" "U3" (at 56.8041 142.24 0)
+    (property "Reference" "U6" (at 56.8041 142.24 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "IR2104" (at 56.8041 144.78 0)
@@ -3133,7 +3264,10 @@
     (property "Datasheet" "file:///home/igorwolfs/Downloads/1.translated.pdf" (at 54.61 157.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "JLCPCB" "C5804631" (at 54.61 157.48 0)
+    (property "JLCPCB" "" (at 54.61 157.48 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "jlcpcb" "C5804631" (at 54.61 157.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "4" (uuid 330d73f6-f157-4853-ac63-11e2114b9672))
@@ -3147,7 +3281,7 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "U3") (unit 1)
+          (reference "U6") (unit 1)
         )
       )
     )
@@ -3156,7 +3290,7 @@
   (symbol (lib_id "Device:C_Small") (at 107.315 123.19 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 85243897-551a-4c49-b903-603e002b03fd)
-    (property "Reference" "C9" (at 107.95 121.285 0)
+    (property "Reference" "C14" (at 107.95 121.285 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10nF" (at 108.585 124.46 0)
@@ -3168,10 +3302,13 @@
     (property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL05B103KB5NNNC_C15195.pdf" (at 107.315 123.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "JLCPCB" "C15195" (at 107.315 123.19 0)
+    (property "JLCPCB" "" (at 107.315 123.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Field5" "" (at 107.315 123.19 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "jlcpcb" "C15195" (at 107.315 123.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "2" (uuid 431d40a8-43c7-4b2c-b011-61c26070e5be))
@@ -3179,7 +3316,7 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "C9") (unit 1)
+          (reference "C14") (unit 1)
         )
       )
     )
@@ -3188,7 +3325,7 @@
   (symbol (lib_id "Device:C_Small") (at 100.965 184.785 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8576594f-1896-4186-af9f-179930cf7414)
-    (property "Reference" "C35" (at 102.235 183.515 0)
+    (property "Reference" "C21" (at 102.235 183.515 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10nF" (at 101.6 186.055 0)
@@ -3200,10 +3337,13 @@
     (property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL05B103KB5NNNC_C15195.pdf" (at 100.965 184.785 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "JLCPCB" "C15195" (at 100.965 184.785 0)
+    (property "JLCPCB" "" (at 100.965 184.785 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Field5" "" (at 100.965 184.785 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "jlcpcb" "C15195" (at 100.965 184.785 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "2" (uuid 807743b8-ec5f-42fd-92c8-ef69cf3098e2))
@@ -3211,7 +3351,7 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "C35") (unit 1)
+          (reference "C21") (unit 1)
         )
       )
     )
@@ -3220,7 +3360,7 @@
   (symbol (lib_id "Amplifier_Current:INA180A2") (at 165.1 94.615 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 85cb5c3a-cc23-4df1-a608-a2f22c9d8b27)
-    (property "Reference" "U13" (at 168.91 97.79 0)
+    (property "Reference" "U2" (at 168.91 97.79 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "INA180A2" (at 168.91 100.33 0)
@@ -3232,7 +3372,10 @@
     (property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1811021124_Texas-Instruments-INA180A2IDBVR_C192764.pdf" (at 168.91 90.805 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "JLCPCB" "C192764" (at 165.1 94.615 0)
+    (property "JLCPCB" "" (at 165.1 94.615 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "jlcpcb" "C192764" (at 165.1 94.615 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 1da0838d-29e5-42af-a33b-17898cb33a3f))
@@ -3243,36 +3386,7 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "U13") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R_Small") (at 70.485 165.1 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 895ca0e1-2933-40ba-88ff-70cdbff6aaf9)
-    (property "Reference" "R9" (at 70.485 161.29 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "50" (at 70.485 163.195 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_1206_3216Metric" (at 70.485 165.1 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2211151030_Viking-Tech-ARG06BTC0500_C5266158.pdf" (at 70.485 165.1 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCPCB" "C5266158" (at 70.485 165.1 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "2" (uuid 2bdbbdcf-8233-4627-afc6-1ebab1803f52))
-    (pin "1" (uuid 03b7e081-0707-4d2e-879e-117107d145a1))
-    (instances
-      (project "bldc_project"
-        (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "R9") (unit 1)
+          (reference "U2") (unit 1)
         )
       )
     )
@@ -3281,7 +3395,7 @@
   (symbol (lib_id "power:+3.3V") (at 162.56 81.915 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8c71990f-64f2-42bf-b2ca-7e8356a7b5da)
-    (property "Reference" "#PWR061" (at 162.56 85.725 0)
+    (property "Reference" "#PWR06" (at 162.56 85.725 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 162.56 76.835 0)
@@ -3297,7 +3411,7 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "#PWR061") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
       )
     )
@@ -3306,7 +3420,7 @@
   (symbol (lib_id "Device:R_Small") (at 99.695 64.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 94a0a574-edff-43a5-ad39-ef38cd97d0c6)
-    (property "Reference" "R10" (at 100.33 62.865 0)
+    (property "Reference" "R18" (at 100.33 62.865 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1" (at 101.6 66.04 0)
@@ -3318,7 +3432,7 @@
     (property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206010130_UNI-ROYAL-Uniroyal-Elec-0603WAF100KT5E_C22936.pdf" (at 99.695 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "JLCPCB" "C22936" (at 99.695 64.77 0)
+    (property "JLCPCB" "" (at 99.695 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid dafaada6-e3fa-4283-8f50-e9bf34a8c0cb))
@@ -3326,7 +3440,7 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "R10") (unit 1)
+          (reference "R18") (unit 1)
         )
       )
     )
@@ -3335,7 +3449,7 @@
   (symbol (lib_id "power:+3.3V") (at 253.365 84.455 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 959da836-dec0-46f0-a453-8b68447bb04e)
-    (property "Reference" "#PWR067" (at 253.365 88.265 0)
+    (property "Reference" "#PWR09" (at 253.365 88.265 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 253.365 79.375 0)
@@ -3351,7 +3465,7 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "#PWR067") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
     )
@@ -3360,7 +3474,7 @@
   (symbol (lib_id "bldc_lib:IRFZ44N") (at 82.55 113.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 95af98f4-6fda-418a-8127-2f0aaee06133)
-    (property "Reference" "Q2" (at 86.36 113.03 0)
+    (property "Reference" "Q4" (at 86.36 113.03 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "IRFZ44N" (at 85.09 113.03 0)
@@ -3381,7 +3495,7 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "Q2") (unit 1)
+          (reference "Q4") (unit 1)
         )
       )
     )
@@ -3390,7 +3504,7 @@
   (symbol (lib_id "Device:R_Small") (at 204.47 43.18 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a15d6ef5-f4d6-4a62-9d5e-d69f2ba98858)
-    (property "Reference" "R29" (at 204.47 40.64 90)
+    (property "Reference" "R9" (at 204.47 40.64 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "33k" (at 208.28 40.64 90)
@@ -3410,7 +3524,42 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "R29") (unit 1)
+          (reference "R9") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_Small") (at 71.12 100.33 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid a213d0c3-7714-4784-a84f-6392af7d0e35)
+    (property "Reference" "R21" (at 71.12 96.52 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "51" (at 71.12 98.425 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_1206_3216Metric" (at 71.12 100.33 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206010145_UNI-ROYAL-Uniroyal-Elec-1206W4F510JT5E_C18019.pdf" (at 71.12 100.33 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLCPCB" "" (at 71.12 100.33 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MFR.Part" "1206W4F510JT5E" (at 71.12 100.33 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "jlcpcb" "C18019" (at 71.12 100.33 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "2" (uuid ee338052-c586-4a54-a598-178ef58e2016))
+    (pin "1" (uuid bc403b76-bc39-4d10-ba95-918da0837b5e))
+    (instances
+      (project "bldc_project"
+        (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
+          (reference "R21") (unit 1)
         )
       )
     )
@@ -3449,7 +3598,7 @@
   (symbol (lib_id "Device:C_Small") (at 99.695 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a5f6b7ac-6744-45b3-aa27-ae53e665853b)
-    (property "Reference" "C37" (at 100.965 68.58 0)
+    (property "Reference" "C6" (at 100.965 68.58 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10nF" (at 100.33 71.12 0)
@@ -3461,7 +3610,10 @@
     (property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL05B103KB5NNNC_C15195.pdf" (at 99.695 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "JLCPCB" "C15195" (at 99.695 69.85 0)
+    (property "JLCPCB" "" (at 99.695 69.85 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "jlcpcb" "C15195" (at 99.695 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "2" (uuid 30a56976-80ce-449c-8ec0-5f3febd313a7))
@@ -3469,7 +3621,7 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "C37") (unit 1)
+          (reference "C6") (unit 1)
         )
       )
     )
@@ -3478,7 +3630,7 @@
   (symbol (lib_id "Device:R_Small") (at 82.55 128.27 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a67ab3bd-d35a-496c-81ec-a879ae236212)
-    (property "Reference" "R11" (at 85.09 127 0)
+    (property "Reference" "R26" (at 85.09 127 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "3m" (at 85.09 129.54 0)
@@ -3493,7 +3645,10 @@
     (property "jlcpcb" "C500615" (at 82.55 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MFR." "LR2512D-2W-3mR-1%" (at 82.55 128.27 0)
+    (property "MFR." "" (at 82.55 128.27 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MFR.Part" "LR2512D-2W-3mR-1%" (at 82.55 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "2" (uuid fdd3fa17-5130-4bdd-b4d8-2051a9ca2a4f))
@@ -3501,7 +3656,7 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "R11") (unit 1)
+          (reference "R26") (unit 1)
         )
       )
     )
@@ -3510,7 +3665,7 @@
   (symbol (lib_id "Device:C_Small") (at 108.585 173.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ab2104f0-1a1e-440f-951c-7fc225a20185)
-    (property "Reference" "C36" (at 109.22 172.085 0)
+    (property "Reference" "C20" (at 109.22 172.085 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10nF" (at 109.855 175.26 0)
@@ -3522,10 +3677,13 @@
     (property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL05B103KB5NNNC_C15195.pdf" (at 108.585 173.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "JLCPCB" "C15195" (at 108.585 173.99 0)
+    (property "JLCPCB" "" (at 108.585 173.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Field5" "" (at 108.585 173.99 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "jlcpcb" "C15195" (at 108.585 173.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "2" (uuid acf57a83-da2c-496a-990d-3eb611c7d365))
@@ -3533,7 +3691,7 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "C36") (unit 1)
+          (reference "C20") (unit 1)
         )
       )
     )
@@ -3554,7 +3712,10 @@
     (property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206010130_UNI-ROYAL-Uniroyal-Elec-0603WAF100KT5E_C22936.pdf" (at 115.57 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "JLCPCB" "C22936" (at 115.57 50.8 0)
+    (property "JLCPCB" "" (at 115.57 50.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "jlcpcb" "C22936" (at 115.57 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid ca634fee-50c8-4ddf-9aa1-52b17420de9e))
@@ -3571,7 +3732,7 @@
   (symbol (lib_id "Device:R_Small") (at 171.45 31.75 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b1c5e436-8f18-49af-b93d-322801f676b5)
-    (property "Reference" "R21" (at 167.64 30.48 0)
+    (property "Reference" "R4" (at 167.64 30.48 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "33k" (at 167.64 33.02 0)
@@ -3591,7 +3752,7 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "R21") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -3600,7 +3761,7 @@
   (symbol (lib_id "Driver_FET:IR2104") (at 54.61 105.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b4cb5ef9-60c5-4205-b927-a19724cd6f05)
-    (property "Reference" "U1" (at 56.8041 90.17 0)
+    (property "Reference" "U5" (at 56.8041 90.17 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "IR2104" (at 56.8041 92.71 0)
@@ -3612,7 +3773,10 @@
     (property "Datasheet" "file:///home/igorwolfs/Downloads/1.translated.pdf" (at 54.61 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "JLCPCB" "C5804631" (at 54.61 105.41 0)
+    (property "JLCPCB" "" (at 54.61 105.41 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "jlcpcb" "C5804631" (at 54.61 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "4" (uuid 463a05c5-4c03-40c8-bfda-4fd7b6dc3bc2))
@@ -3626,7 +3790,7 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "U1") (unit 1)
+          (reference "U5") (unit 1)
         )
       )
     )
@@ -3635,7 +3799,7 @@
   (symbol (lib_id "power:GND") (at 82.55 71.755 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b6757ed3-0f5c-4ac3-882c-bbea8749424c)
-    (property "Reference" "#PWR060" (at 82.55 78.105 0)
+    (property "Reference" "#PWR04" (at 82.55 78.105 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 82.55 76.2 0)
@@ -3651,36 +3815,7 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "#PWR060") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R_Small") (at 71.12 113.03 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid ba2b99a5-5364-47ea-986d-dc2f286d583a)
-    (property "Reference" "R7" (at 71.12 109.22 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "50" (at 71.12 111.125 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_1206_3216Metric" (at 71.12 113.03 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2211151030_Viking-Tech-ARG06BTC0500_C5266158.pdf" (at 71.12 113.03 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCPCB" "C5266158" (at 71.12 113.03 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "2" (uuid 1a8b725b-3217-4154-92e1-beb51fb01d13))
-    (pin "1" (uuid 44016688-f5de-481f-9662-ed6c4f348729))
-    (instances
-      (project "bldc_project"
-        (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "R7") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
       )
     )
@@ -3689,7 +3824,7 @@
   (symbol (lib_id "Device:R_Small") (at 115.57 113.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c05f020c-a155-4cbf-b541-e2e192f7e109)
-    (property "Reference" "R15" (at 116.84 111.76 0)
+    (property "Reference" "R23" (at 116.84 111.76 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1" (at 118.11 114.3 0)
@@ -3701,7 +3836,10 @@
     (property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206010130_UNI-ROYAL-Uniroyal-Elec-0603WAF100KT5E_C22936.pdf" (at 115.57 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "JLCPCB" "C22936" (at 115.57 113.03 0)
+    (property "JLCPCB" "" (at 115.57 113.03 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "jlcpcb" "C22936" (at 115.57 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 67f86d27-36b9-424e-a521-498bd5a7c093))
@@ -3709,7 +3847,7 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "R15") (unit 1)
+          (reference "R23") (unit 1)
         )
       )
     )
@@ -3718,7 +3856,7 @@
   (symbol (lib_id "Device:C_Small") (at 115.57 118.11 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c3c2a67b-b9ef-470a-8ebc-3d3a42697cc2)
-    (property "Reference" "C34" (at 116.205 116.84 0)
+    (property "Reference" "C13" (at 116.205 116.84 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10nF" (at 116.84 119.38 0)
@@ -3730,10 +3868,13 @@
     (property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL05B103KB5NNNC_C15195.pdf" (at 115.57 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "JLCPCB" "C15195" (at 115.57 118.11 0)
+    (property "JLCPCB" "" (at 115.57 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Field5" "" (at 115.57 118.11 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "jlcpcb" "C15195" (at 115.57 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "2" (uuid 1ac51104-898a-47c4-a0f3-404cf6fe9f91))
@@ -3741,36 +3882,7 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "C34") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R_Small") (at 69.215 57.15 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid cc5e2535-d8d4-4989-b011-086437e585e1)
-    (property "Reference" "R5" (at 69.215 53.34 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "50" (at 69.215 55.245 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_1206_3216Metric" (at 69.215 57.15 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2211151030_Viking-Tech-ARG06BTC0500_C5266158.pdf" (at 69.215 57.15 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCPCB" "C5266158" (at 69.215 57.15 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "2" (uuid d35a604b-25b8-4754-a726-82aaaa4232ed))
-    (pin "1" (uuid 1f6d80b9-e66c-4e95-a545-aeeb03406e3e))
-    (instances
-      (project "bldc_project"
-        (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "R5") (unit 1)
+          (reference "C13") (unit 1)
         )
       )
     )
@@ -3779,7 +3891,7 @@
   (symbol (lib_id "bldc_lib:IRFZ44N") (at 82.55 57.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cdf73798-93ee-4b08-b409-2b70764a1a6e)
-    (property "Reference" "Q4" (at 86.36 57.15 0)
+    (property "Reference" "Q2" (at 86.36 57.15 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "IRFZ44N" (at 85.09 57.15 0)
@@ -3800,7 +3912,7 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "Q4") (unit 1)
+          (reference "Q2") (unit 1)
         )
       )
     )
@@ -3809,7 +3921,7 @@
   (symbol (lib_id "Device:C_Small") (at 168.91 84.455 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d032c80e-e902-4680-b860-42d1fe5396e8)
-    (property "Reference" "C31" (at 171.45 83.1913 0)
+    (property "Reference" "C7" (at 171.45 83.1913 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 171.45 85.7313 0)
@@ -3829,7 +3941,7 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "C31") (unit 1)
+          (reference "C7") (unit 1)
         )
       )
     )
@@ -3838,7 +3950,7 @@
   (symbol (lib_id "Device:C_Polarized_Small") (at 125.73 168.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d684993a-4b0b-4a7f-9db8-d8029a5f8d03)
-    (property "Reference" "C40" (at 128.27 167.0939 0)
+    (property "Reference" "C19" (at 128.27 167.0939 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "470uF" (at 128.27 169.6339 0)
@@ -3858,7 +3970,7 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "C40") (unit 1)
+          (reference "C19") (unit 1)
         )
       )
     )
@@ -3867,16 +3979,22 @@
   (symbol (lib_id "Device:C_Small") (at 38.1 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid daa02116-8258-4136-8581-c24348adaff0)
-    (property "Reference" "C3" (at 40.64 35.5663 0)
+    (property "Reference" "C1" (at 40.64 35.5663 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.47uF" (at 40.64 38.1063 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 38.1 36.83 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 38.1 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 38.1 36.83 0)
+    (property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL21A475KAQNNNE_C1779.pdf" (at 38.1 36.83 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MFR.Part" "CL21A475KAQNNNE" (at 38.1 36.83 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "jlcpcb" "C1779" (at 38.1 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 97000fb1-adeb-4abe-8ffd-e85ef793318d))
@@ -3884,7 +4002,7 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "C3") (unit 1)
+          (reference "C1") (unit 1)
         )
       )
     )
@@ -3893,7 +4011,7 @@
   (symbol (lib_id "Device:R_Small") (at 181.61 35.56 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid daa7bd47-b65e-482a-b575-2686a5e8e739)
-    (property "Reference" "R24" (at 177.8 34.29 0)
+    (property "Reference" "R5" (at 177.8 34.29 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "33k" (at 177.8 36.83 0)
@@ -3913,7 +4031,7 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "R24") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -3922,7 +4040,7 @@
   (symbol (lib_id "power:GND") (at 253.365 102.235 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid db614f1a-6838-4604-9a6f-70d31f0167aa)
-    (property "Reference" "#PWR068" (at 253.365 108.585 0)
+    (property "Reference" "#PWR014" (at 253.365 108.585 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 253.365 107.315 0)
@@ -3938,7 +4056,42 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "#PWR068") (unit 1)
+          (reference "#PWR014") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_Small") (at 59.69 138.43 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid db6d18e8-e6fc-48e5-a04c-b211419d63fe)
+    (property "Reference" "R27" (at 59.69 133.35 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "10" (at 59.69 135.89 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_1206_3216Metric" (at 59.69 138.43 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206010145_UNI-ROYAL-Uniroyal-Elec-1206W4F100JT5E_C17903.pdf" (at 59.69 138.43 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLCPCB" "" (at 59.69 138.43 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MFR.Part" "1206W4F100JT5E" (at 59.69 138.43 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "jlcpcb" "C17903" (at 59.69 138.43 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 376d3b0d-35e9-4b61-85a9-18c30e0e79f3))
+    (pin "2" (uuid 1e8e7a4f-eeb8-4624-b27c-400f3332e993))
+    (instances
+      (project "bldc_project"
+        (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
+          (reference "R27") (unit 1)
         )
       )
     )
@@ -3947,7 +4100,7 @@
   (symbol (lib_id "power:GND") (at 168.91 86.995 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid db8e82cd-c6ee-4c26-8d34-cb695035f32c)
-    (property "Reference" "#PWR063" (at 168.91 93.345 0)
+    (property "Reference" "#PWR010" (at 168.91 93.345 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 166.37 89.535 0)
@@ -3963,7 +4116,7 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "#PWR063") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
     )
@@ -3972,7 +4125,7 @@
   (symbol (lib_id "Device:R_Small") (at 82.55 180.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ddd5de66-68f3-4db0-8b22-3a9584fa2333)
-    (property "Reference" "R12" (at 85.09 179.07 0)
+    (property "Reference" "R33" (at 85.09 179.07 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "3m" (at 85.09 181.61 0)
@@ -3987,7 +4140,10 @@
     (property "jlcpcb" "C500615" (at 82.55 180.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MFR." "LR2512D-2W-3mR-1%" (at 82.55 180.34 0)
+    (property "MFR." "" (at 82.55 180.34 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MFR.Part" "LR2512D-2W-3mR-1%" (at 82.55 180.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "2" (uuid 605457e5-acd3-4f95-b6f6-eece46185371))
@@ -3995,7 +4151,7 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "R12") (unit 1)
+          (reference "R33") (unit 1)
         )
       )
     )
@@ -4004,7 +4160,7 @@
   (symbol (lib_id "power:+3.3V") (at 207.645 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e29c0a29-f777-4811-aac8-b0fe42f17120)
-    (property "Reference" "#PWR064" (at 207.645 86.36 0)
+    (property "Reference" "#PWR08" (at 207.645 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 207.645 77.47 0)
@@ -4020,7 +4176,7 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "#PWR064") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -4029,7 +4185,7 @@
   (symbol (lib_id "Device:R_Small") (at 204.47 38.1 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e4cd6007-e763-4472-868b-0ee0ded290d7)
-    (property "Reference" "R28" (at 204.47 35.56 90)
+    (property "Reference" "R6" (at 204.47 35.56 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "33k" (at 208.28 35.56 90)
@@ -4049,7 +4205,7 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "R28") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
     )
@@ -4058,7 +4214,7 @@
   (symbol (lib_id "power:GND") (at 38.1 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e6f4217f-f22c-4374-94c5-b2d628f8a01b)
-    (property "Reference" "#PWR01" (at 38.1 68.58 0)
+    (property "Reference" "#PWR03" (at 38.1 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 38.1 67.31 0)
@@ -4074,7 +4230,7 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR03") (unit 1)
         )
       )
     )
@@ -4083,7 +4239,7 @@
   (symbol (lib_id "Amplifier_Current:INA180A2") (at 210.185 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e7272583-4316-4caf-89a2-9d0f08aac972)
-    (property "Reference" "U14" (at 214.63 100.33 0)
+    (property "Reference" "U4" (at 214.63 100.33 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "INA180A2" (at 214.63 102.87 0)
@@ -4095,7 +4251,10 @@
     (property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1811021124_Texas-Instruments-INA180A2IDBVR_C192764.pdf" (at 213.995 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "JLCPCB" "C192764" (at 210.185 95.25 0)
+    (property "JLCPCB" "" (at 210.185 95.25 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "jlcpcb" "C192764" (at 210.185 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 725580a2-cd1c-4482-afec-638b1f99cb02))
@@ -4106,7 +4265,7 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "U14") (unit 1)
+          (reference "U4") (unit 1)
         )
       )
     )
@@ -4115,7 +4274,7 @@
   (symbol (lib_id "Device:C_Small") (at 107.315 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e756eeaa-25ff-4ec8-93a8-f78d02f178b6)
-    (property "Reference" "C38" (at 107.95 61.595 0)
+    (property "Reference" "C5" (at 107.95 61.595 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10nF" (at 108.585 64.77 0)
@@ -4127,10 +4286,13 @@
     (property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL05B103KB5NNNC_C15195.pdf" (at 107.315 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "JLCPCB" "C15195" (at 107.315 63.5 0)
+    (property "JLCPCB" "" (at 107.315 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Field5" "" (at 107.315 63.5 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "jlcpcb" "C15195" (at 107.315 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "2" (uuid 9f245128-c059-4716-b404-89ada7b77b5a))
@@ -4138,7 +4300,7 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "C38") (unit 1)
+          (reference "C5") (unit 1)
         )
       )
     )
@@ -4147,7 +4309,7 @@
   (symbol (lib_id "power:GND") (at 162.56 102.235 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e7f3d75e-3c0f-4efe-91f3-38b91e14647f)
-    (property "Reference" "#PWR062" (at 162.56 108.585 0)
+    (property "Reference" "#PWR013" (at 162.56 108.585 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 162.56 107.315 0)
@@ -4163,7 +4325,7 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "#PWR062") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
       )
     )
@@ -4172,7 +4334,7 @@
   (symbol (lib_id "Device:R_Small") (at 100.965 179.705 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e804f1af-e38f-429a-9d9f-83b0dec527dd)
-    (property "Reference" "R16" (at 101.6 177.8 0)
+    (property "Reference" "R32" (at 101.6 177.8 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1" (at 102.87 180.975 0)
@@ -4184,7 +4346,10 @@
     (property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206010130_UNI-ROYAL-Uniroyal-Elec-0603WAF100KT5E_C22936.pdf" (at 100.965 179.705 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "JLCPCB" "C22936" (at 100.965 179.705 0)
+    (property "JLCPCB" "" (at 100.965 179.705 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "jlcpcb" "C22936" (at 100.965 179.705 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid c5f21c99-1adb-4f2f-bf53-964be07942d6))
@@ -4192,7 +4357,7 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "R16") (unit 1)
+          (reference "R32") (unit 1)
         )
       )
     )
@@ -4201,7 +4366,7 @@
   (symbol (lib_id "Device:C_Small") (at 213.995 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ec2adcfb-1116-4819-a923-2851d30e1257)
-    (property "Reference" "C32" (at 216.535 83.8263 0)
+    (property "Reference" "C8" (at 216.535 83.8263 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 216.535 86.3663 0)
@@ -4221,7 +4386,7 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "C32") (unit 1)
+          (reference "C8") (unit 1)
         )
       )
     )
@@ -4230,7 +4395,7 @@
   (symbol (lib_id "Device:C_Polarized_Small") (at 124.46 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f1da59e4-09a5-4df1-b4df-c10e17d038ae)
-    (property "Reference" "C42" (at 127 109.9439 0)
+    (property "Reference" "C12" (at 127 109.9439 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "470uF" (at 127 112.4839 0)
@@ -4250,7 +4415,7 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "C42") (unit 1)
+          (reference "C12") (unit 1)
         )
       )
     )
@@ -4259,7 +4424,7 @@
   (symbol (lib_id "Device:C_Small") (at 99.695 128.905 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f9b4981b-eb9f-4272-b99d-926a52a4f051)
-    (property "Reference" "C7" (at 100.965 127.635 0)
+    (property "Reference" "C15" (at 100.965 127.635 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10nF" (at 100.33 130.175 0)
@@ -4271,10 +4436,13 @@
     (property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL05B103KB5NNNC_C15195.pdf" (at 99.695 128.905 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "JLCPCB" "C15195" (at 99.695 128.905 0)
+    (property "JLCPCB" "" (at 99.695 128.905 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Field5" "" (at 99.695 128.905 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "jlcpcb" "C15195" (at 99.695 128.905 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "2" (uuid 7c2bd7ef-2b5f-4a59-bb75-f2dfced966f8))
@@ -4282,7 +4450,7 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "C7") (unit 1)
+          (reference "C15") (unit 1)
         )
       )
     )
@@ -4291,7 +4459,7 @@
   (symbol (lib_id "power:GND") (at 115.57 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f9ce7cb4-276a-4982-ae7d-5e18511a8908)
-    (property "Reference" "#PWR05" (at 115.57 139.7 0)
+    (property "Reference" "#PWR017" (at 115.57 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 115.57 137.795 0)
@@ -4307,36 +4475,42 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR017") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Device:R_Small") (at 70.485 152.4 90) (unit 1)
+  (symbol (lib_id "Device:R_Small") (at 69.215 57.15 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
-    (uuid fb2027e0-768d-4d6d-87b3-9b754a5c0602)
-    (property "Reference" "R8" (at 70.485 148.59 90)
+    (uuid fad2d85c-5e2f-4a41-b053-a8f5e3da0c3c)
+    (property "Reference" "R16" (at 69.215 53.34 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "50" (at 70.485 150.495 90)
+    (property "Value" "51" (at 69.215 55.245 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_1206_3216Metric" (at 70.485 152.4 0)
+    (property "Footprint" "Resistor_SMD:R_1206_3216Metric" (at 69.215 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2211151030_Viking-Tech-ARG06BTC0500_C5266158.pdf" (at 70.485 152.4 0)
+    (property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206010145_UNI-ROYAL-Uniroyal-Elec-1206W4F510JT5E_C18019.pdf" (at 69.215 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "JLCPCB" "C5266158" (at 70.485 152.4 90)
+    (property "JLCPCB" "" (at 69.215 57.15 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 5d8955fd-1225-4001-8050-b5b028ee327d))
-    (pin "1" (uuid cff91e89-84e0-4f57-92b7-917cc22fee22))
+    (property "MFR.Part" "1206W4F510JT5E" (at 69.215 57.15 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "jlcpcb" "C18019" (at 69.215 57.15 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "2" (uuid 4d6c7c41-f39c-4042-9c45-1a106841560c))
+    (pin "1" (uuid b0f8d751-b9de-4795-a3f6-7861d462662f))
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "R8") (unit 1)
+          (reference "R16") (unit 1)
         )
       )
     )

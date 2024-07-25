@@ -4231,7 +4231,7 @@
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 53.34 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL10C200JB81PNC_C346210.pdf" (at 53.34 41.91 0)
+    (property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL10C040CB8NNNC_C307494.pdf" (at 53.34 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "MFR.Part" "CL10C200JB81PNC" (at 53.34 41.91 0)

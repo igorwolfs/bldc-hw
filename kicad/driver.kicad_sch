@@ -493,7 +493,7 @@
           (name "VB" (effects (font (size 1.27 1.27))))
           (number "8" (effects (font (size 1.27 1.27))))
         )
-        (pin output line (at -7.62 2.54 0) (length 2.54)
+        (pin power_in line (at -7.62 2.54 0) (length 2.54)
           (name "GND_TH" (effects (font (size 1.27 1.27))))
           (number "9" (effects (font (size 1.27 1.27))))
         )
@@ -520,6 +520,132 @@
         (pin input line (at -5.08 0 0) (length 2.54)
           (name "PAD" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "ir2104_th_1" (in_bom yes) (on_board yes)
+      (property "Reference" "U" (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "ir2104_th_1_0_0"
+        (text "" (at 0 0 0)
+          (effects (font (size 1.27 1.27)))
+        )
+      )
+      (symbol "ir2104_th_1_0_1"
+        (rectangle (start -5.08 10.16) (end 5.08 -10.16)
+          (stroke (width 0.254) (type default))
+          (fill (type background))
+        )
+      )
+      (symbol "ir2104_th_1_1_1"
+        (pin power_in line (at 0 12.7 270) (length 2.54)
+          (name "VCC" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at -7.62 0 0) (length 2.54)
+          (name "IN" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at -7.62 -2.54 0) (length 2.54)
+          (name "~{SD}" (effects (font (size 1.27 1.27))))
+          (number "3" (effects (font (size 1.27 1.27))))
+        )
+        (pin power_in line (at 0 -12.7 90) (length 2.54)
+          (name "COM" (effects (font (size 1.27 1.27))))
+          (number "4" (effects (font (size 1.27 1.27))))
+        )
+        (pin output line (at 7.62 -7.62 180) (length 2.54)
+          (name "LO" (effects (font (size 1.27 1.27))))
+          (number "5" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 7.62 -5.08 180) (length 2.54)
+          (name "VS" (effects (font (size 1.27 1.27))))
+          (number "6" (effects (font (size 1.27 1.27))))
+        )
+        (pin output line (at 7.62 5.08 180) (length 2.54)
+          (name "HO" (effects (font (size 1.27 1.27))))
+          (number "7" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 7.62 7.62 180) (length 2.54)
+          (name "VB" (effects (font (size 1.27 1.27))))
+          (number "8" (effects (font (size 1.27 1.27))))
+        )
+        (pin power_in line (at -7.62 2.54 0) (length 2.54)
+          (name "GND_TH" (effects (font (size 1.27 1.27))))
+          (number "9" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "ir2104_th_2" (in_bom yes) (on_board yes)
+      (property "Reference" "U" (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "ir2104_th_2_0_0"
+        (text "" (at 0 0 0)
+          (effects (font (size 1.27 1.27)))
+        )
+      )
+      (symbol "ir2104_th_2_0_1"
+        (rectangle (start -5.08 10.16) (end 5.08 -10.16)
+          (stroke (width 0.254) (type default))
+          (fill (type background))
+        )
+      )
+      (symbol "ir2104_th_2_1_1"
+        (pin power_in line (at 0 12.7 270) (length 2.54)
+          (name "VCC" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at -7.62 0 0) (length 2.54)
+          (name "IN" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at -7.62 -2.54 0) (length 2.54)
+          (name "~{SD}" (effects (font (size 1.27 1.27))))
+          (number "3" (effects (font (size 1.27 1.27))))
+        )
+        (pin power_in line (at 0 -12.7 90) (length 2.54)
+          (name "COM" (effects (font (size 1.27 1.27))))
+          (number "4" (effects (font (size 1.27 1.27))))
+        )
+        (pin output line (at 7.62 -7.62 180) (length 2.54)
+          (name "LO" (effects (font (size 1.27 1.27))))
+          (number "5" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 7.62 -5.08 180) (length 2.54)
+          (name "VS" (effects (font (size 1.27 1.27))))
+          (number "6" (effects (font (size 1.27 1.27))))
+        )
+        (pin output line (at 7.62 5.08 180) (length 2.54)
+          (name "HO" (effects (font (size 1.27 1.27))))
+          (number "7" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 7.62 7.62 180) (length 2.54)
+          (name "VB" (effects (font (size 1.27 1.27))))
+          (number "8" (effects (font (size 1.27 1.27))))
+        )
+        (pin power_in line (at -7.62 2.54 0) (length 2.54)
+          (name "GND_TH" (effects (font (size 1.27 1.27))))
+          (number "9" (effects (font (size 1.27 1.27))))
         )
       )
     )
@@ -1917,7 +2043,7 @@
   (symbol (lib_id "power:GND") (at 217.17 86.995 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0b343779-01a3-4b32-8195-186ad09d0fac)
-    (property "Reference" "#PWR017" (at 217.17 93.345 0)
+    (property "Reference" "#PWR024" (at 217.17 93.345 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 214.63 89.535 0)
@@ -1933,7 +2059,7 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "#PWR017") (unit 1)
+          (reference "#PWR024") (unit 1)
         )
       )
     )
@@ -2003,7 +2129,7 @@
   (symbol (lib_id "bldc:pad") (at 157.48 134.62 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1089cb9b-5d77-46a3-bac7-b485a2c27c67)
-    (property "Reference" "P5" (at 161.29 134.62 0)
+    (property "Reference" "P3" (at 161.29 134.62 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "~" (at 157.48 134.62 0)
@@ -2019,16 +2145,16 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "P5") (unit 1)
+          (reference "P3") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "bldc:ir2104_th") (at 54.61 105.41 0) (unit 1)
+  (symbol (lib_name "ir2104_th_2") (lib_id "bldc:ir2104_th") (at 54.61 105.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 15dc6e9b-583f-4c1d-ac50-74e47c4c356c)
-    (property "Reference" "U1" (at 56.8041 93.345 0)
+    (property "Reference" "U2" (at 56.8041 93.345 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "ir2104" (at 54.61 105.41 0)
@@ -2058,7 +2184,7 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "U1") (unit 1)
+          (reference "U2") (unit 1)
         )
       )
     )
@@ -2169,7 +2295,7 @@
   (symbol (lib_id "power:GND") (at 116.84 189.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1915077b-6f75-4b21-b8fe-368f2f8aa560)
-    (property "Reference" "#PWR010" (at 116.84 195.58 0)
+    (property "Reference" "#PWR015" (at 116.84 195.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 116.84 193.675 0)
@@ -2185,7 +2311,7 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR015") (unit 1)
         )
       )
     )
@@ -2325,7 +2451,7 @@
   (symbol (lib_id "power:GND") (at 254.635 105.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 20e16bf0-1370-4b16-9cd6-dcd81347aecc)
-    (property "Reference" "#PWR019" (at 254.635 111.76 0)
+    (property "Reference" "#PWR027" (at 254.635 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 254.635 110.49 0)
@@ -2341,7 +2467,7 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR027") (unit 1)
         )
       )
     )
@@ -2851,7 +2977,7 @@
   (symbol (lib_id "power:GND") (at 210.82 104.775 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5146835d-3419-4987-ad54-d7e86efe8d93)
-    (property "Reference" "#PWR016" (at 210.82 111.125 0)
+    (property "Reference" "#PWR023" (at 210.82 111.125 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 210.82 109.855 0)
@@ -2867,7 +2993,7 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR023") (unit 1)
         )
       )
     )
@@ -2959,7 +3085,7 @@
   (symbol (lib_id "bldc:ir2104_th") (at 54.61 157.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5aacb843-bb63-4252-8088-4bec52d3b77d)
-    (property "Reference" "U2" (at 56.8041 145.415 0)
+    (property "Reference" "U3" (at 56.8041 145.415 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "ir2104" (at 54.61 157.48 0)
@@ -2989,7 +3115,7 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "U2") (unit 1)
+          (reference "U3") (unit 1)
         )
       )
     )
@@ -3062,7 +3188,7 @@
   (symbol (lib_id "power:GND") (at 236.855 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 60a2254b-c80d-4e2a-9a1a-0cf39fa3aaf5)
-    (property "Reference" "#PWR079" (at 236.855 104.14 0)
+    (property "Reference" "#PWR025" (at 236.855 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 236.855 102.87 0)
@@ -3078,7 +3204,7 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "#PWR079") (unit 1)
+          (reference "#PWR025") (unit 1)
         )
       )
     )
@@ -3087,7 +3213,7 @@
   (symbol (lib_id "power:GND") (at 115.57 74.295 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 629aad80-e333-49be-80a2-baf840853d27)
-    (property "Reference" "#PWR08" (at 115.57 80.645 0)
+    (property "Reference" "#PWR013" (at 115.57 80.645 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 115.57 78.74 0)
@@ -3103,7 +3229,7 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
       )
     )
@@ -3112,7 +3238,7 @@
   (symbol (lib_id "power:GND") (at 171.45 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 670dec7c-4634-4f47-b294-1b4df50c403f)
-    (property "Reference" "#PWR014" (at 171.45 62.23 0)
+    (property "Reference" "#PWR020" (at 171.45 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 166.37 59.69 0)
@@ -3128,7 +3254,7 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR020") (unit 1)
         )
       )
     )
@@ -3199,7 +3325,7 @@
   (symbol (lib_id "power:GND") (at 194.31 97.155 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6e4bb7a9-df15-450a-8d83-97e02792dc9d)
-    (property "Reference" "#PWR078" (at 194.31 103.505 0)
+    (property "Reference" "#PWR021" (at 194.31 103.505 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 194.31 102.235 0)
@@ -3215,7 +3341,7 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "#PWR078") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
       )
     )
@@ -3224,7 +3350,7 @@
   (symbol (lib_id "power:GND") (at 260.985 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 70530b91-5b71-4474-8751-438b40ce1550)
-    (property "Reference" "#PWR020" (at 260.985 96.52 0)
+    (property "Reference" "#PWR028" (at 260.985 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 258.445 90.17 0)
@@ -3240,7 +3366,7 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR028") (unit 1)
         )
       )
     )
@@ -3471,7 +3597,7 @@
   (symbol (lib_id "power:GND") (at 145.415 96.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7f80de8b-5180-4006-8bad-a126b759b1a2)
-    (property "Reference" "#PWR077" (at 145.415 102.87 0)
+    (property "Reference" "#PWR016" (at 145.415 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 145.415 101.6 0)
@@ -3487,7 +3613,7 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "#PWR077") (unit 1)
+          (reference "#PWR016") (unit 1)
         )
       )
     )
@@ -3601,7 +3727,7 @@
   (symbol (lib_id "bldc:pad") (at 157.48 130.81 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 88874b50-c486-44d8-addd-20b971cb1d8b)
-    (property "Reference" "P4" (at 161.29 130.81 0)
+    (property "Reference" "P2" (at 161.29 130.81 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "~" (at 157.48 130.81 0)
@@ -3617,7 +3743,7 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "P4") (unit 1)
+          (reference "P2") (unit 1)
         )
       )
     )
@@ -3626,7 +3752,7 @@
   (symbol (lib_id "power:+3.3V") (at 163.195 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8c71990f-64f2-42bf-b2ca-7e8356a7b5da)
-    (property "Reference" "#PWR011" (at 163.195 85.09 0)
+    (property "Reference" "#PWR017" (at 163.195 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 163.195 76.2 0)
@@ -3642,7 +3768,7 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR017") (unit 1)
         )
       )
     )
@@ -3680,7 +3806,7 @@
   (symbol (lib_id "power:+3.3V") (at 254.635 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 959da836-dec0-46f0-a453-8b68447bb04e)
-    (property "Reference" "#PWR018" (at 254.635 88.9 0)
+    (property "Reference" "#PWR026" (at 254.635 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 254.635 80.01 0)
@@ -3696,7 +3822,7 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR026") (unit 1)
         )
       )
     )
@@ -3738,7 +3864,7 @@
   (symbol (lib_id "power:GND") (at 82.55 131.445 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a1050738-67d7-498c-97bf-193587dc2de5)
-    (property "Reference" "#PWR028" (at 82.55 137.795 0)
+    (property "Reference" "#PWR010" (at 82.55 137.795 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 87.63 133.35 0)
@@ -3754,7 +3880,7 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
     )
@@ -3827,7 +3953,7 @@
   (symbol (lib_id "power:+BATT") (at 82.55 142.875 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a5f5df22-9903-4810-b557-74118d68d2e8)
-    (property "Reference" "#PWR082" (at 82.55 146.685 0)
+    (property "Reference" "#PWR011" (at 82.55 146.685 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+BATT" (at 82.55 138.43 0)
@@ -3843,7 +3969,7 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "#PWR082") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
       )
     )
@@ -3919,7 +4045,7 @@
   (symbol (lib_id "power:GND") (at 82.55 184.785 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a71d8fed-0a7a-485f-bf20-0ae966cbcd7c)
-    (property "Reference" "#PWR076" (at 82.55 191.135 0)
+    (property "Reference" "#PWR012" (at 82.55 191.135 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 82.55 189.23 0)
@@ -3935,7 +4061,7 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "#PWR076") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
       )
     )
@@ -3976,10 +4102,10 @@
     )
   )
 
-  (symbol (lib_id "bldc:ir2104_th") (at 53.34 49.53 0) (unit 1)
+  (symbol (lib_name "ir2104_th_1") (lib_id "bldc:ir2104_th") (at 53.34 49.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ac8b0f6c-5c36-4d80-94a9-fdb3b45f0472)
-    (property "Reference" "U14" (at 55.5341 37.465 0)
+    (property "Reference" "U1" (at 55.5341 37.465 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "ir2104" (at 53.34 49.53 0)
@@ -4009,7 +4135,7 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "U14") (unit 1)
+          (reference "U1") (unit 1)
         )
       )
     )
@@ -4079,7 +4205,7 @@
   (symbol (lib_id "power:GND") (at 82.55 71.755 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b6757ed3-0f5c-4ac3-882c-bbea8749424c)
-    (property "Reference" "#PWR07" (at 82.55 78.105 0)
+    (property "Reference" "#PWR08" (at 82.55 78.105 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 82.55 76.2 0)
@@ -4095,7 +4221,7 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -4104,7 +4230,7 @@
   (symbol (lib_id "bldc:pad") (at 157.48 127 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bc2ae841-b254-4442-9402-4b7fe2be159a)
-    (property "Reference" "P3" (at 161.29 127 0)
+    (property "Reference" "P1" (at 161.29 127 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "~" (at 157.48 127 0)
@@ -4120,7 +4246,7 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "P3") (unit 1)
+          (reference "P1") (unit 1)
         )
       )
     )
@@ -4129,7 +4255,7 @@
   (symbol (lib_id "power:+BATT") (at 82.55 32.385 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bdd8ffa9-d71e-4b1a-b968-98e188862a57)
-    (property "Reference" "#PWR081" (at 82.55 36.195 0)
+    (property "Reference" "#PWR07" (at 82.55 36.195 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+BATT" (at 82.55 27.94 0)
@@ -4145,7 +4271,7 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "#PWR081") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
       )
     )
@@ -4221,7 +4347,7 @@
   (symbol (lib_id "power:+BATT") (at 82.55 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c4a5939c-dd7d-4c1a-b992-f8ecaf8c546f)
-    (property "Reference" "#PWR083" (at 82.55 90.17 0)
+    (property "Reference" "#PWR09" (at 82.55 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+BATT" (at 82.55 81.915 0)
@@ -4237,7 +4363,7 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "#PWR083") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
     )
@@ -4433,7 +4559,7 @@
   (symbol (lib_id "power:GND") (at 169.545 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid db8e82cd-c6ee-4c26-8d34-cb695035f32c)
-    (property "Reference" "#PWR013" (at 169.545 92.71 0)
+    (property "Reference" "#PWR019" (at 169.545 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 167.005 88.9 0)
@@ -4449,7 +4575,7 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR019") (unit 1)
         )
       )
     )
@@ -4493,7 +4619,7 @@
   (symbol (lib_id "power:+3.3V") (at 210.82 81.915 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e29c0a29-f777-4811-aac8-b0fe42f17120)
-    (property "Reference" "#PWR015" (at 210.82 85.725 0)
+    (property "Reference" "#PWR022" (at 210.82 85.725 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 210.82 76.835 0)
@@ -4509,7 +4635,7 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "#PWR015") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
       )
     )
@@ -4642,7 +4768,7 @@
   (symbol (lib_id "power:GND") (at 163.195 103.505 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e7f3d75e-3c0f-4efe-91f3-38b91e14647f)
-    (property "Reference" "#PWR012" (at 163.195 109.855 0)
+    (property "Reference" "#PWR018" (at 163.195 109.855 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 163.195 108.585 0)
@@ -4658,7 +4784,7 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR018") (unit 1)
         )
       )
     )
@@ -4792,7 +4918,7 @@
   (symbol (lib_id "power:GND") (at 115.57 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f9ce7cb4-276a-4982-ae7d-5e18511a8908)
-    (property "Reference" "#PWR09" (at 115.57 139.7 0)
+    (property "Reference" "#PWR014" (at 115.57 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 115.57 137.795 0)
@@ -4808,7 +4934,7 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7f7e17e0-7d73-4fbb-9112-49949fae378a"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR014") (unit 1)
         )
       )
     )

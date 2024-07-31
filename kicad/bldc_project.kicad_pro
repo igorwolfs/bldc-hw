@@ -648,7 +648,7 @@
       },
       {
         "netclass": "PhaseV",
-        "pattern": "/DRIVER/PhaseV"
+        "pattern": "/DRIVER/PhaseV*"
       },
       {
         "netclass": "PhaseW",

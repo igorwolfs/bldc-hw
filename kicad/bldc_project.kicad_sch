@@ -15,6 +15,13 @@
   )
 
 
+  (text_box "Final checks:\n- Return vias\n- Footprint checks\n"
+    (at 123.825 93.98 0) (size 115.57 25.4)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (effects (font (size 1.27 1.27)) (justify left top))
+    (uuid 80d7f392-55e1-4233-93e1-66429a898e34)
+  )
   (text_box "TODO for 1.1:\n- Add connectors for Power and phases instead of solder-pads\n- Add wireless com.\n- Modify Bulk Capacitance after simulation and testing\n- Modify crystal resistor after testing stm-oscillator drive strength\n- Check if USB power filtering is necessary\n- Check if keeping stm32 analog and digital ground separate has an effect on stm32 adc performance.\n- Add a 30 amp fuse to avoid the whole circuit from burning down\n- Add an extra sensor input for an encoder"
     (at 124.46 49.53 0) (size 115.57 25.4)
     (stroke (width 0) (type default))

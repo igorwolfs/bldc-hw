@@ -16,7 +16,7 @@
   (fp_circle (center -0.9652 0.9652) (end -0.7652 0.9652)
     (stroke (width 0) (type solid)) (fill solid) (layer "F.SilkS") (tstamp 734afa4f-9734-46a3-b215-b22ccfb1a699))
   (fp_rect (start -0.75 -0.525) (end 0.75 0.525)
-    (stroke (width 0.01) (type default)) (fill none) (layer "Margin") (tstamp 7f407950-6371-4836-b84e-1d44b850740c))
+    (stroke (width 0.01) (type default)) (fill none) (layer "F.CrtYd") (tstamp 7f407950-6371-4836-b84e-1d44b850740c))
   (pad "1" smd rect (at -0.5 0.375) (size 0.3 0.5) (layers "F.Cu" "F.Paste" "F.Mask")
     (thermal_bridge_angle 45) (tstamp e06c2b6a-2e92-4718-b036-f39b6042450d))
   (pad "2" smd rect (at 0 0.375) (size 0.3 0.5) (layers "F.Cu" "F.Paste" "F.Mask")

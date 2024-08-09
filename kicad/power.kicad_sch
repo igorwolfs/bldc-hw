@@ -2175,7 +2175,7 @@
   (symbol (lib_id "Regulator_Linear:XC6206PxxxMR") (at 133.35 34.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0d481b1d-311f-4342-9cbe-427a8ad70a68)
-    (property "Reference" "U14" (at 133.35 27.94 0)
+    (property "Reference" "U12" (at 133.35 27.94 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "XC6206P332MR-G" (at 133.35 30.48 0)
@@ -2199,7 +2199,7 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/53dc30ee-9af6-4771-8676-c78726df5d90"
-          (reference "U14") (unit 1)
+          (reference "U12") (unit 1)
         )
       )
     )
@@ -2386,7 +2386,7 @@
   (symbol (lib_id "Diode:1N5819") (at 53.34 78.74 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1cd74d59-fd84-4103-8fd9-d61bd9f7286a)
-    (property "Reference" "D8" (at 58.42 80.01 90)
+    (property "Reference" "D5" (at 58.42 80.01 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1N5819WS" (at 62.23 78.74 90)
@@ -2409,7 +2409,7 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/53dc30ee-9af6-4771-8676-c78726df5d90"
-          (reference "D8") (unit 1)
+          (reference "D5") (unit 1)
         )
       )
     )
@@ -2532,7 +2532,7 @@
   (symbol (lib_id "Diode:1N5819") (at 50.8 27.94 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1df7c294-f40d-46df-961c-86810ea0a5c6)
-    (property "Reference" "D7" (at 55.88 29.21 90)
+    (property "Reference" "D4" (at 55.88 29.21 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1N5819WS" (at 59.69 27.94 90)
@@ -2555,7 +2555,7 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/53dc30ee-9af6-4771-8676-c78726df5d90"
-          (reference "D7") (unit 1)
+          (reference "D4") (unit 1)
         )
       )
     )
@@ -2893,7 +2893,7 @@
     (property "Reference" "U9" (at 39.37 151.13 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "~" (at 39.37 158.75 0)
+    (property "Value" "TPD4S012DRYR" (at 39.37 158.75 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "bldc:TI_R-PUSON-N6" (at 39.37 158.75 0)
@@ -3529,7 +3529,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 164.465 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 787a6b1b-7926-4627-a532-913ca7382515)
-    (property "Reference" "#FLG04" (at 164.465 69.215 0)
+    (property "Reference" "#FLG05" (at 164.465 69.215 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 170.815 73.66 0)
@@ -3545,7 +3545,7 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/53dc30ee-9af6-4771-8676-c78726df5d90"
-          (reference "#FLG04") (unit 1)
+          (reference "#FLG05") (unit 1)
         )
       )
     )
@@ -3586,7 +3586,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 76.2 165.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8afdf75e-dace-4d37-acdc-e170157a8e41)
-    (property "Reference" "#FLG02" (at 76.2 163.195 0)
+    (property "Reference" "#FLG03" (at 76.2 163.195 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 80.01 162.56 0)
@@ -3602,7 +3602,7 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/53dc30ee-9af6-4771-8676-c78726df5d90"
-          (reference "#FLG02") (unit 1)
+          (reference "#FLG03") (unit 1)
         )
       )
     )
@@ -3636,7 +3636,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 26.67 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 943db0ed-cdd9-4492-988d-07dccd3c99d9)
-    (property "Reference" "#FLG01" (at 26.67 83.185 0)
+    (property "Reference" "#FLG02" (at 26.67 83.185 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 26.67 80.01 0)
@@ -3652,7 +3652,7 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/53dc30ee-9af6-4771-8676-c78726df5d90"
-          (reference "#FLG01") (unit 1)
+          (reference "#FLG02") (unit 1)
         )
       )
     )
@@ -3972,7 +3972,7 @@
   (symbol (lib_id "Device:LED") (at 260.35 38.1 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c6766633-fd87-4218-9326-dbf7b4153894)
-    (property "Reference" "D9" (at 261.9375 30.48 0)
+    (property "Reference" "D6" (at 261.9375 30.48 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LED" (at 261.9375 33.02 0)
@@ -3995,7 +3995,7 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/53dc30ee-9af6-4771-8676-c78726df5d90"
-          (reference "D9") (unit 1)
+          (reference "D6") (unit 1)
         )
       )
     )
@@ -4081,7 +4081,7 @@
     (property "Reference" "U13" (at 241.3 20.32 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "~" (at 241.3 36.83 0)
+    (property "Value" "TPS2116DRLR" (at 241.3 36.83 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Package_TO_SOT_SMD:SOT-583-8" (at 241.3 36.83 0)
@@ -4219,7 +4219,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 164.465 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e11a0541-4c9a-4292-8855-e28aaf221e95)
-    (property "Reference" "#FLG03" (at 164.465 64.135 0)
+    (property "Reference" "#FLG04" (at 164.465 64.135 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 170.815 62.23 0)
@@ -4235,7 +4235,7 @@
     (instances
       (project "bldc_project"
         (path "/91e2f46a-700b-4d7a-a06a-22469f63223f/53dc30ee-9af6-4771-8676-c78726df5d90"
-          (reference "#FLG03") (unit 1)
+          (reference "#FLG04") (unit 1)
         )
       )
     )

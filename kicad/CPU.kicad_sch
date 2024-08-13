@@ -2252,7 +2252,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid ce6d98cb-c902-4c19-8535-5a098ce81241)
   )
-  (text "120 ohm termination resistance\n- dual LP filter around fc 26 MHz\n- can-standard requires ground\n(for convenience chose 51 Ohms)"
+  (text "120 ohm termination resistance\n- dual LP filter around fc 26 MHz\n- can-standard requires ground\n(for convenience chose 56 Ohms)"
     (at 218.44 124.46 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid e7423158-4246-4171-9bf8-b2dbd9c0c81f)

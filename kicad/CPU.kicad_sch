@@ -10,6 +10,207 @@
 		(company "IW")
 	)
 	(lib_symbols
+		(symbol "Connector:Conn_01x03_Pin"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x03_Pin"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x03, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x03_Pin_1_1"
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0.8636 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector:Conn_ARM_SWD_TagConnect_TC2030-NL"
 			(exclude_from_sim no)
 			(in_bom no)
@@ -198,246 +399,6 @@
 					)
 					(fill
 						(type background)
-					)
-				)
-			)
-		)
-		(symbol "Connector:Screw_Terminal_01x03"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Screw_Terminal_01x03"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "screw terminal"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TerminalBlock*:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Screw_Terminal_01x03_1_1"
-				(rectangle
-					(start -1.27 3.81)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center 0 -2.54)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 2.8702) (xy 0.3302 2.032)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 0.508) (xy 0.508 -0.3302)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 3.048) (xy 0.508 2.2098)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 2.54)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
 					)
 				)
 			)
@@ -3931,12 +3892,6 @@
 		(uuid "37b93996-b49e-41f0-8e3e-994d89338556")
 	)
 	(junction
-		(at 238.76 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3b9d4ca3-7a5b-4e31-8d3d-b948d6679907")
-	)
-	(junction
 		(at 46.99 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3997,6 +3952,12 @@
 		(uuid "9f4252a6-8dcc-4003-9f25-c90cf1f0cd89")
 	)
 	(junction
+		(at 245.11 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a5334a2f-2cde-45f5-b78d-0514b135223b")
+	)
+	(junction
 		(at 20.32 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4025,6 +3986,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c1aea59e-8929-4997-abb2-ca33fe658fc5")
+	)
+	(junction
+		(at 238.76 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c20a5b8a-eece-4381-a37e-d4ec780f2b95")
 	)
 	(junction
 		(at 54.61 78.74)
@@ -4073,12 +4040,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ee85e8c9-67ae-4b60-a2c9-fdef2ca6b64f")
-	)
-	(junction
-		(at 245.11 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f2f317a6-6aa0-4b9d-a5ed-abeda40bae1f")
 	)
 	(junction
 		(at 54.61 73.66)
@@ -4394,16 +4355,6 @@
 	)
 	(wire
 		(pts
-			(xy 258.445 129.54) (xy 245.745 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "419b8b4a-ae04-43b6-91c6-b29198a3d3f9")
-	)
-	(wire
-		(pts
 			(xy 107.95 43.18) (xy 111.76 43.18)
 		)
 		(stroke
@@ -4584,16 +4535,6 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 74.93) (xy 250.19 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56b53dd3-f662-4c67-9fb6-aea04c798259")
-	)
-	(wire
-		(pts
 			(xy 46.99 73.66) (xy 54.61 73.66)
 		)
 		(stroke
@@ -4601,6 +4542,16 @@
 			(type default)
 		)
 		(uuid "57ecfb8c-e4bd-4be2-b2fc-66e253bbbddc")
+	)
+	(wire
+		(pts
+			(xy 245.11 77.47) (xy 254 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "587356bc-417b-47b0-aa49-413d28cc5f49")
 	)
 	(wire
 		(pts
@@ -4644,7 +4595,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.905 134.62) (xy 258.445 134.62)
+			(xy 255.905 134.62) (xy 259.08 134.62)
 		)
 		(stroke
 			(width 0)
@@ -4724,16 +4675,6 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 80.01) (xy 250.19 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b49e199-e740-4644-b398-929a0f75393b")
-	)
-	(wire
-		(pts
 			(xy 43.18 25.4) (xy 53.34 25.4)
 		)
 		(stroke
@@ -4801,6 +4742,16 @@
 			(type default)
 		)
 		(uuid "743f2d56-94ce-4506-b910-a690424bbbc5")
+	)
+	(wire
+		(pts
+			(xy 228.6 80.01) (xy 254 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75d75c31-bb71-444f-b05a-c112d34ca230")
 	)
 	(wire
 		(pts
@@ -4904,16 +4855,6 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 77.47) (xy 250.19 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8987e48f-6c71-4e4e-8745-55dfad892084")
-	)
-	(wire
-		(pts
 			(xy 163.83 132.08) (xy 166.37 132.08)
 		)
 		(stroke
@@ -4944,7 +4885,7 @@
 	)
 	(wire
 		(pts
-			(xy 254.635 132.08) (xy 258.445 132.08)
+			(xy 254.635 132.08) (xy 259.08 132.08)
 		)
 		(stroke
 			(width 0)
@@ -5041,6 +4982,16 @@
 			(type default)
 		)
 		(uuid "998db0db-7f24-4eec-97ed-f9df0fba0829")
+	)
+	(wire
+		(pts
+			(xy 238.76 74.93) (xy 254 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99ed4e77-f06b-4ea5-ac25-a661ca695e13")
 	)
 	(wire
 		(pts
@@ -5511,6 +5462,16 @@
 			(type default)
 		)
 		(uuid "da35c637-0ec8-4515-8351-77bcae03e108")
+	)
+	(wire
+		(pts
+			(xy 245.745 129.54) (xy 259.08 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc46d19b-baae-499f-9680-52faff59341e")
 	)
 	(wire
 		(pts
@@ -6853,7 +6814,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR.Part" "CL10C200JB81PNC"
+		(property "Manufacturing part number" "CL10C200JB81PNC"
 			(at 259.08 25.4 0)
 			(effects
 				(font
@@ -6862,7 +6823,7 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb" "C346210"
+		(property "jlcpcb part number" "C346210"
 			(at 259.08 25.4 0)
 			(effects
 				(font
@@ -6912,7 +6873,7 @@
 				)
 			)
 		)
-		(property "Footprint" "bldc:ALPSALPINE_BUTTON_SPEH110100"
+		(property "Footprint" "bldc:TS-1088_w4.00xD3.00"
 			(at 29.21 113.03 0)
 			(effects
 				(font
@@ -6921,7 +6882,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2101071837_SHOU-HAN-5-8-ZSGT_C2681587.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_XUNPU-TS-1088-AR02016_C720477.pdf"
 			(at 29.21 113.03 0)
 			(effects
 				(font
@@ -6939,7 +6900,7 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb" "C97448"
+		(property "Manufacturing part number" "TS-1088-AR02016 "
 			(at 29.21 118.11 0)
 			(effects
 				(font
@@ -6948,7 +6909,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR.Part" "SPEH110100"
+		(property "jlcpcb part number" "C720477"
 			(at 29.21 118.11 0)
 			(effects
 				(font
@@ -7027,7 +6988,7 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb" "C307331"
+		(property "Manufacturing part number" "CL05B104KB54PNC"
 			(at 29.21 76.2 0)
 			(effects
 				(font
@@ -7036,7 +6997,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR.Part" "CL05B104KB54PNC"
+		(property "jlcpcb part number" "C307331"
 			(at 29.21 76.2 0)
 			(effects
 				(font
@@ -7115,7 +7076,7 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb" "C307331"
+		(property "Manufacturing part number" "CL05B104KB54PNC"
 			(at 107.95 46.99 0)
 			(effects
 				(font
@@ -7124,7 +7085,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR.Part" "CL05B104KB54PNC"
+		(property "jlcpcb part number" "C307331"
 			(at 107.95 46.99 0)
 			(effects
 				(font
@@ -7342,8 +7303,8 @@
 				(hide yes)
 			)
 		)
-		(property "MFR.Part" "0603WAD560JT5E"
-			(at 242.57 129.54 90)
+		(property "Manufacturing part number" "0603WAD560JT5E"
+			(at 242.57 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7351,7 +7312,7 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb" "C423025"
+		(property "jlcpcb part number" "C423025"
 			(at 242.57 129.54 0)
 			(effects
 				(font
@@ -7427,7 +7388,7 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb" "C389817"
+		(property "Manufacturing part number" "7325-0800A2010-00"
 			(at 255.27 30.48 0)
 			(effects
 				(font
@@ -7436,7 +7397,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR.Part" "7325-0800A2010-00"
+		(property "jlcpcb part number" "C389817"
 			(at 255.27 30.48 0)
 			(effects
 				(font
@@ -7782,8 +7743,8 @@
 				(hide yes)
 			)
 		)
-		(property "MFR.Part" "0402WGF100JTCE"
-			(at 114.3 38.1 90)
+		(property "Manufacturing part number" "0402WGF100JTCE"
+			(at 114.3 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7791,7 +7752,7 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb" "C25077"
+		(property "jlcpcb part number" "C25077"
 			(at 114.3 38.1 0)
 			(effects
 				(font
@@ -8133,7 +8094,7 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb" "C307331"
+		(property "Manufacturing part number" "CL05B104KB54PNC"
 			(at 63.5 76.2 0)
 			(effects
 				(font
@@ -8142,7 +8103,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR.Part" "CL05B104KB54PNC"
+		(property "jlcpcb part number" "C307331"
 			(at 63.5 76.2 0)
 			(effects
 				(font
@@ -8288,7 +8249,7 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb" "C307331"
+		(property "Manufacturing part number" "CL05B104KB54PNC"
 			(at 217.805 114.3 0)
 			(effects
 				(font
@@ -8297,7 +8258,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR.Part" "CL05B104KB54PNC"
+		(property "jlcpcb part number" "C307331"
 			(at 217.805 114.3 0)
 			(effects
 				(font
@@ -8508,7 +8469,7 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb" "C307331"
+		(property "Manufacturing part number" "CL05B104KB54PNC"
 			(at 38.1 76.2 0)
 			(effects
 				(font
@@ -8517,7 +8478,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR.Part" "CL05B104KB54PNC"
+		(property "jlcpcb part number" "C307331"
 			(at 38.1 76.2 0)
 			(effects
 				(font
@@ -8596,7 +8557,7 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb" "C307331"
+		(property "Manufacturing part number" "CL05B104KB54PNC"
 			(at 43.18 121.285 0)
 			(effects
 				(font
@@ -8605,7 +8566,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR.Part" "CL05B104KB54PNC"
+		(property "jlcpcb part number" "C307331"
 			(at 43.18 121.285 0)
 			(effects
 				(font
@@ -8692,7 +8653,7 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb" "C19666"
+		(property "Manufacturing part number" "CL10A475KO8NNNC"
 			(at 20.32 76.2 0)
 			(effects
 				(font
@@ -8701,7 +8662,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR.Part" "CL10A475KO8NNNC"
+		(property "jlcpcb part number" "C19666"
 			(at 20.32 76.2 0)
 			(effects
 				(font
@@ -8779,7 +8740,7 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb" "C4216"
+		(property "Manufacturing part number" "0603WAF3302T5E"
 			(at 38.1 40.64 0)
 			(effects
 				(font
@@ -8788,7 +8749,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR.Part" "0603WAF3302T5E"
+		(property "jlcpcb part number" "C4216"
 			(at 38.1 40.64 0)
 			(effects
 				(font
@@ -8931,7 +8892,7 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb" "C4216"
+		(property "Manufacturing part number" "0603WAF3302T5E"
 			(at 62.23 29.21 0)
 			(effects
 				(font
@@ -8940,7 +8901,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR.Part" "0603WAF3302T5E"
+		(property "jlcpcb part number" "C4216"
 			(at 62.23 29.21 0)
 			(effects
 				(font
@@ -9025,96 +8986,6 @@
 			(project "bldc_project"
 				(path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7eb1e86b-8a48-408f-b231-0c52f4ea1971"
 					(reference "#PWR037")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x03")
-		(at 255.27 77.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5ee915e9-0ce5-4fea-a0f3-61fd02029a34")
-		(property "Reference" "J3"
-			(at 257.81 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Screw_Terminal_01x03"
-			(at 257.81 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-3-2.54_1x03_P2.54mm_Horizontal"
-			(at 255.27 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304251414_Phoenix-Contact-1725669_C5288763.pdf"
-			(at 255.27 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 255.27 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "jlcpcb" "C5288763"
-			(at 255.27 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR.Part" "1725669"
-			(at 255.27 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8b2b31e0-c1a1-4805-a354-be7b02a9f237")
-		)
-		(pin "2"
-			(uuid "8baee004-c14c-4c29-823c-57ae0cbb137b")
-		)
-		(pin "3"
-			(uuid "23b8540e-81b1-485f-b8bc-492543a9772b")
-		)
-		(instances
-			(project "bldc_project"
-				(path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7eb1e86b-8a48-408f-b231-0c52f4ea1971"
-					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -9240,7 +9111,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR.Part" "CL10C101JB8NNNC"
+		(property "Manufacturing part number" "CL10C101JB8NNNC"
 			(at 238.125 143.51 0)
 			(effects
 				(font
@@ -9249,7 +9120,7 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb" "C14858"
+		(property "jlcpcb part number" "C14858"
 			(at 238.125 143.51 0)
 			(effects
 				(font
@@ -9458,7 +9329,7 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb" "C2671262"
+		(property "Manufacturing part number" "ATA6560-GAQW-N"
 			(at 226.695 132.08 0)
 			(effects
 				(font
@@ -9467,7 +9338,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR.Part" "ATA6560-GAQW-N"
+		(property "jlcpcb part number" "C2671262"
 			(at 226.695 132.08 0)
 			(effects
 				(font
@@ -9697,7 +9568,7 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb" "C4216"
+		(property "Manufacturing part number" "0603WAF3302T5E"
 			(at 52.705 121.92 0)
 			(effects
 				(font
@@ -9706,7 +9577,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR.Part" "0603WAF3302T5E"
+		(property "jlcpcb part number" "C4216"
 			(at 52.705 121.92 0)
 			(effects
 				(font
@@ -9785,7 +9656,7 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb" "C279702"
+		(property "Manufacturing part number" "SDNT1005X473F4050FTF"
 			(at 62.23 39.37 0)
 			(effects
 				(font
@@ -9794,7 +9665,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR.Part" "SDNT1005X473F4050FTF"
+		(property "jlcpcb part number" "C279702"
 			(at 62.23 39.37 0)
 			(effects
 				(font
@@ -9870,7 +9741,7 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb" "C7496819"
+		(property "Manufacturing part number" "F.0603.00026/P2-0603B1TS2-06T-001"
 			(at 60.325 130.81 0)
 			(effects
 				(font
@@ -9879,7 +9750,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR.Part" "F.0603.00026/P2-0603B1TS2-06T-001"
+		(property "jlcpcb part number" "C7496819"
 			(at 60.325 130.81 0)
 			(effects
 				(font
@@ -9970,6 +9841,97 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 259.08 77.47 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "757d836a-7c97-4926-afc1-6355e1c295c2")
+		(property "Reference" "J3"
+			(at 260.35 78.7401 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x03_Pin"
+			(at 260.35 76.2001 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 259.08 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2312301336_Hanbo-Electronic-HB-PH3-25413PB2GOP_C6332196.pdf"
+			(at 259.08 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 259.08 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" "C6332196"
+			(at 259.08 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR.Part" "HB-PH3-25413PB2GOP "
+			(at 259.08 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "374313ba-f53d-44ac-bce8-eee364305c9d")
+		)
+		(pin "1"
+			(uuid "2526dd43-d7a0-4308-9798-79b22edee0a5")
+		)
+		(pin "2"
+			(uuid "867f92de-f5b6-4f0c-b5e4-9eaca7f740ca")
+		)
+		(instances
+			(project ""
+				(path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7eb1e86b-8a48-408f-b231-0c52f4ea1971"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 46.99 76.2 0)
 		(unit 1)
@@ -10023,7 +9985,7 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb" "C307331"
+		(property "Manufacturing part number" "CL05B104KB54PNC"
 			(at 46.99 76.2 0)
 			(effects
 				(font
@@ -10032,7 +9994,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR.Part" "CL05B104KB54PNC"
+		(property "jlcpcb part number" "C307331"
 			(at 46.99 76.2 0)
 			(effects
 				(font
@@ -10123,6 +10085,97 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 264.16 132.08 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "85266374-1110-4a2c-8457-9917ff6c5e1c")
+		(property "Reference" "J2"
+			(at 265.43 133.3501 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x03_Pin"
+			(at 265.43 130.8101 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 264.16 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2312301336_Hanbo-Electronic-HB-PH3-25413PB2GOP_C6332196.pdf"
+			(at 264.16 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 264.16 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" "C6332196"
+			(at 264.16 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR.Part" "HB-PH3-25413PB2GOP "
+			(at 264.16 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "3f338b81-6959-4017-aea7-3b2065fd7a55")
+		)
+		(pin "1"
+			(uuid "09c1ce04-d3ec-46f1-ac8f-da048ac8f1bc")
+		)
+		(pin "2"
+			(uuid "17cc8d9b-b4cd-4d49-a56a-283eefe055ee")
+		)
+		(instances
+			(project "bldc_project"
+				(path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7eb1e86b-8a48-408f-b231-0c52f4ea1971"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 85.09 76.2 0)
 		(unit 1)
@@ -10177,7 +10230,7 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb" "C307331"
+		(property "Manufacturing part number" "CL05B104KB54PNC"
 			(at 85.09 76.2 0)
 			(effects
 				(font
@@ -10186,7 +10239,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR.Part" "CL05B104KB54PNC"
+		(property "jlcpcb part number" "C307331"
 			(at 85.09 76.2 0)
 			(effects
 				(font
@@ -10331,7 +10384,7 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb" "C1848"
+		(property "Manufacturing part number" "CL31B105KBHNNNE"
 			(at 105.41 76.2 0)
 			(effects
 				(font
@@ -10340,7 +10393,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR.Part" "CL31B105KBHNNNE"
+		(property "jlcpcb part number" "C1848"
 			(at 105.41 76.2 0)
 			(effects
 				(font
@@ -10417,8 +10470,8 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb" "C14709"
-			(at 95.25 73.66 90)
+		(property "Manufacturing part number" "BLM18PG121SN1D"
+			(at 95.25 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10426,8 +10479,8 @@
 				(hide yes)
 			)
 		)
-		(property "MFR.Part" "BLM18PG121SN1D"
-			(at 95.25 73.66 90)
+		(property "jlcpcb part number" "C14709"
+			(at 95.25 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10517,96 +10570,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x03")
-		(at 263.525 132.08 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "93b62d97-a0ea-4f5b-9f45-a1ddc7113e76")
-		(property "Reference" "J2"
-			(at 257.81 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Screw_Terminal_01x03"
-			(at 257.81 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-3-2.54_1x03_P2.54mm_Horizontal"
-			(at 263.525 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304251414_Phoenix-Contact-1725669_C5288763.pdf"
-			(at 263.525 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 263.525 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "jlcpcb" "C5288763"
-			(at 263.525 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR.Part" "1725669"
-			(at 263.525 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a5ff3ab5-f885-4f1e-bb70-2c823c6b12c4")
-		)
-		(pin "2"
-			(uuid "4601db7c-0d89-4e2c-868a-4c09aa946182")
-		)
-		(pin "3"
-			(uuid "463909b2-e76f-42aa-8c7a-1b384fdac7e6")
-		)
-		(instances
-			(project "bldc_project"
-				(path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7eb1e86b-8a48-408f-b231-0c52f4ea1971"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 259.08 34.29 270)
 		(unit 1)
@@ -10658,7 +10621,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR.Part" "CL10C200JB81PNC"
+		(property "Manufacturing part number" "CL10C200JB81PNC"
 			(at 259.08 34.29 0)
 			(effects
 				(font
@@ -10667,7 +10630,7 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb" "C346210"
+		(property "jlcpcb part number" "C346210"
 			(at 259.08 34.29 0)
 			(effects
 				(font
@@ -10810,7 +10773,7 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb" "C4310"
+		(property "Manufacturing part number" "0805W8F1501T5E"
 			(at 39.37 118.11 0)
 			(effects
 				(font
@@ -10819,7 +10782,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR.Part" "0805W8F1501T5E"
+		(property "jlcpcb part number" "C4310"
 			(at 39.37 118.11 0)
 			(effects
 				(font
@@ -11097,7 +11060,7 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb" "C1848"
+		(property "Manufacturing part number" "CL31B105KBHNNNE"
 			(at 76.2 76.2 0)
 			(effects
 				(font
@@ -11106,7 +11069,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR.Part" "CL31B105KBHNNNE"
+		(property "jlcpcb part number" "C1848"
 			(at 76.2 76.2 0)
 			(effects
 				(font
@@ -11389,8 +11352,8 @@
 				(hide yes)
 			)
 		)
-		(property "MFR.Part" "0603WAD560JT5E"
-			(at 242.57 134.62 90)
+		(property "Manufacturing part number" "0603WAD560JT5E"
+			(at 242.57 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11398,7 +11361,7 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb" "C423025"
+		(property "jlcpcb part number" "C423025"
 			(at 242.57 134.62 0)
 			(effects
 				(font
@@ -11543,7 +11506,7 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb" "C108516"
+		(property "Manufacturing part number" "STM32F303CBT6"
 			(at 96.52 148.59 0)
 			(effects
 				(font
@@ -11552,7 +11515,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR.Part" "STM32F303CBT6"
+		(property "jlcpcb part number" "C108516"
 			(at 96.52 148.59 0)
 			(effects
 				(font
@@ -11834,8 +11797,8 @@
 				(hide yes)
 			)
 		)
-		(property "MFR.Part" "0402WGF100JTCE"
-			(at 114.3 43.18 90)
+		(property "Manufacturing part number" "0402WGF100JTCE"
+			(at 114.3 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11843,7 +11806,7 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb" "C25077"
+		(property "jlcpcb part number" "C25077"
 			(at 114.3 43.18 0)
 			(effects
 				(font
@@ -12055,7 +12018,7 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb" "C23137"
+		(property "Manufacturing part number" "0603WAF3303T5E"
 			(at 38.1 30.48 0)
 			(effects
 				(font
@@ -12064,7 +12027,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR.Part" "0603WAF3303T5E"
+		(property "jlcpcb part number" "C23137"
 			(at 38.1 30.48 0)
 			(effects
 				(font
@@ -12142,7 +12105,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR.Part" "0805W8F4701T5E"
+		(property "Manufacturing part number" "0805W8F4701T5E"
 			(at 238.76 66.04 0)
 			(effects
 				(font
@@ -12151,7 +12114,7 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb" "C17673"
+		(property "jlcpcb part number" "C17673"
 			(at 238.76 66.04 0)
 			(effects
 				(font
@@ -12229,8 +12192,8 @@
 				(hide yes)
 			)
 		)
-		(property "MFR.Part" "0402WGF100JTCE"
-			(at 114.3 35.56 90)
+		(property "Manufacturing part number" "0402WGF100JTCE"
+			(at 114.3 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12238,7 +12201,7 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb" "C25077"
+		(property "jlcpcb part number" "C25077"
 			(at 114.3 35.56 0)
 			(effects
 				(font
@@ -12381,7 +12344,7 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb" "C4125"
+		(property "Manufacturing part number" "0402WGF4990TCE"
 			(at 67.31 130.81 0)
 			(effects
 				(font
@@ -12390,7 +12353,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR.Part" "0402WGF4990TCE"
+		(property "jlcpcb part number" "C4125"
 			(at 67.31 130.81 0)
 			(effects
 				(font
@@ -12547,8 +12510,8 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb" "C17168"
-			(at 247.65 25.4 90)
+		(property "Manufacturing part number" "0402WGF0000TCE"
+			(at 247.65 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12556,8 +12519,8 @@
 				(hide yes)
 			)
 		)
-		(property "MFR.Part" "0402WGF0000TCE"
-			(at 247.65 25.4 90)
+		(property "jlcpcb part number" "C17168"
+			(at 247.65 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12701,7 +12664,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR.Part" "0805W8F4701T5E"
+		(property "Manufacturing part number" "0805W8F4701T5E"
 			(at 245.11 66.04 0)
 			(effects
 				(font
@@ -12710,7 +12673,7 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb" "C17673"
+		(property "jlcpcb part number" "C17673"
 			(at 245.11 66.04 0)
 			(effects
 				(font
@@ -12789,7 +12752,7 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb" "C307331"
+		(property "Manufacturing part number" "CL05B104KB54PNC"
 			(at 54.61 76.2 0)
 			(effects
 				(font
@@ -12798,7 +12761,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR.Part" "CL05B104KB54PNC"
+		(property "jlcpcb part number" "C307331"
 			(at 54.61 76.2 0)
 			(effects
 				(font

@@ -6057,7 +6057,7 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb" "C4216"
+		(property "Manufacturing part number" "0603WAF3302T5E"
 			(at 47.625 169.545 0)
 			(effects
 				(font
@@ -6066,7 +6066,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR.Part" "0603WAF3302T5E"
+		(property "jlcpcb part number" "C4216"
 			(at 47.625 169.545 0)
 			(effects
 				(font
@@ -6210,7 +6210,7 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb" "C5446"
+		(property "Manufacturing part number" "XC6206P332MR-G"
 			(at 175.26 41.91 0)
 			(effects
 				(font
@@ -6219,7 +6219,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR.Part" "XC6206P332MR-G"
+		(property "jlcpcb part number" "C5446"
 			(at 175.26 41.91 0)
 			(effects
 				(font
@@ -6300,7 +6300,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR.Part" "CA55-B6R3M107T"
+		(property "Manufacturing part number" "CA55-B6R3M107T"
 			(at 38.1 87.63 0)
 			(effects
 				(font
@@ -6309,7 +6309,7 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb" "C568913"
+		(property "jlcpcb part number" "C568913"
 			(at 38.1 87.63 0)
 			(effects
 				(font
@@ -6451,7 +6451,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR.Part" "CA55-B6R3M107T"
+		(property "Manufacturing part number" "CA55-B6R3M107T"
 			(at 91.44 100.33 0)
 			(effects
 				(font
@@ -6460,7 +6460,7 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb" "C568913"
+		(property "jlcpcb part number" "C568913"
 			(at 91.44 100.33 0)
 			(effects
 				(font
@@ -6537,8 +6537,8 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb" "C17673"
-			(at 39.37 24.13 90)
+		(property "Manufacturing part number" "0805W8F4701T5E"
+			(at 39.37 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6546,8 +6546,8 @@
 				(hide yes)
 			)
 		)
-		(property "MFR.Part" "0805W8F4701T5E"
-			(at 39.37 24.13 90)
+		(property "jlcpcb part number" "C17673"
+			(at 39.37 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6624,7 +6624,7 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb" "C4216"
+		(property "Manufacturing part number" "0603WAF3302T5E"
 			(at 236.22 34.29 0)
 			(effects
 				(font
@@ -6633,7 +6633,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR.Part" "0603WAF3302T5E"
+		(property "jlcpcb part number" "C4216"
 			(at 236.22 34.29 0)
 			(effects
 				(font
@@ -6711,7 +6711,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR.Part" "1N5819WS"
+		(property "Manufacturing part number" "1N5819WS"
 			(at 52.07 78.74 0)
 			(effects
 				(font
@@ -6720,7 +6720,7 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb" "C191023"
+		(property "jlcpcb part number" "C191023"
 			(at 52.07 78.74 0)
 			(effects
 				(font
@@ -6772,7 +6772,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 82.55 100.33 0)
 			(effects
 				(font
@@ -6799,7 +6799,7 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb" "C25468"
+		(property "Manufacturing part number" "1206W4J033KT5E"
 			(at 82.55 100.33 0)
 			(effects
 				(font
@@ -6808,7 +6808,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR.Part" "25121WF330LT4E"
+		(property "jlcpcb part number" "C25347"
 			(at 82.55 100.33 0)
 			(effects
 				(font
@@ -6953,7 +6953,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR.Part" "0805W8F5101T5E"
+		(property "Manufacturing part number" "0805W8F5101T5E"
 			(at 65.405 170.18 0)
 			(effects
 				(font
@@ -6962,7 +6962,7 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb" "C27834"
+		(property "jlcpcb part number" "C27834"
 			(at 65.405 170.18 0)
 			(effects
 				(font
@@ -7172,7 +7172,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR.Part" "1N5819WS"
+		(property "Manufacturing part number" "1N5819WS"
 			(at 50.8 27.94 0)
 			(effects
 				(font
@@ -7181,7 +7181,7 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb" "C191023"
+		(property "jlcpcb part number" "C191023"
 			(at 50.8 27.94 0)
 			(effects
 				(font
@@ -7326,7 +7326,7 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb" "C4125"
+		(property "Manufacturing part number" "0402WGF4990TCE"
 			(at 261.62 36.83 0)
 			(effects
 				(font
@@ -7335,7 +7335,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR.Part" "0402WGF4990TCE"
+		(property "jlcpcb part number" "C4125"
 			(at 261.62 36.83 0)
 			(effects
 				(font
@@ -7413,7 +7413,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR.Part" "CA55-B6R3M107T"
+		(property "Manufacturing part number" "CA55-B6R3M107T"
 			(at 30.48 36.83 0)
 			(effects
 				(font
@@ -7422,7 +7422,7 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb" "C568913"
+		(property "jlcpcb part number" "C568913"
 			(at 30.48 36.83 0)
 			(effects
 				(font
@@ -7632,7 +7632,7 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb" "C1848"
+		(property "Manufacturing part number" "CL31B105KBHNNNE"
 			(at 187.96 46.355 0)
 			(effects
 				(font
@@ -7641,7 +7641,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR.Part" "CL31B105KBHNNNE"
+		(property "jlcpcb part number" "C1848"
 			(at 187.96 46.355 0)
 			(effects
 				(font
@@ -7718,7 +7718,7 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb" "C4125"
+		(property "Manufacturing part number" "0402WGF4990TCE"
 			(at 193.04 38.1 0)
 			(effects
 				(font
@@ -7727,7 +7727,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR.Part" "0402WGF4990TCE"
+		(property "jlcpcb part number" "C4125"
 			(at 193.04 38.1 0)
 			(effects
 				(font
@@ -8065,8 +8065,8 @@
 				(hide yes)
 			)
 		)
-		(property "MFR.Part" "BSMD1812-050-60V"
-			(at 93.98 44.45 90)
+		(property "Manufacturing part number" "BSMD1812-050-60V"
+			(at 93.98 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8074,8 +8074,8 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb" "C883142"
-			(at 93.98 44.45 90)
+		(property "jlcpcb part number" "C883142"
+			(at 93.98 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8283,7 +8283,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR.Part" "SWPA6045S101MT"
+		(property "Manufacturing part number" "SWPA6045S101MT"
 			(at 45.72 85.09 0)
 			(effects
 				(font
@@ -8292,7 +8292,7 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb" "C60633"
+		(property "jlcpcb part number" "C60633"
 			(at 45.72 85.09 0)
 			(effects
 				(font
@@ -8368,7 +8368,7 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb" "C7496820"
+		(property "Manufacturing part number" "F.0603.00139/P2-0603R1TS2-06T-002"
 			(at 196.85 46.99 0)
 			(effects
 				(font
@@ -8377,7 +8377,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR.Part" "F.0603.00139/P2-0603R1TS2-06T-002"
+		(property "jlcpcb part number" "C7496820"
 			(at 196.85 46.99 0)
 			(effects
 				(font
@@ -8454,8 +8454,8 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb" "C4310"
-			(at 62.23 74.93 90)
+		(property "Manufacturing part number" "0805W8F1501T5E"
+			(at 62.23 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8463,7 +8463,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR.Part" "0805W8F1501T5E"
+		(property "jlcpcb part number" "C4310"
 			(at 62.23 74.93 0)
 			(effects
 				(font
@@ -8608,7 +8608,7 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb" "C4216"
+		(property "Manufacturing part number" "0603WAF3302T5E"
 			(at 47.625 181.61 0)
 			(effects
 				(font
@@ -8617,7 +8617,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR.Part" "0603WAF3302T5E"
+		(property "jlcpcb part number" "C4216"
 			(at 47.625 181.61 0)
 			(effects
 				(font
@@ -8761,8 +8761,8 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb" "C296722"
-			(at 90.17 85.09 90)
+		(property "Manufacturing part number" "CL21B821KBANNNC"
+			(at 90.17 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8770,8 +8770,8 @@
 				(hide yes)
 			)
 		)
-		(property "MFR.Part" "CL21B821KBANNNC"
-			(at 90.17 85.09 90)
+		(property "jlcpcb part number" "C296722"
+			(at 90.17 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8913,8 +8913,8 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb" "C4310"
-			(at 59.69 24.13 90)
+		(property "Manufacturing part number" "0805W8F1501T5E"
+			(at 59.69 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8922,7 +8922,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR.Part" "0805W8F1501T5E"
+		(property "jlcpcb part number" "C4310"
 			(at 59.69 24.13 0)
 			(effects
 				(font
@@ -9132,7 +9132,7 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb" "C5349988"
+		(property "Manufacturing part number" "MC34063"
 			(at 72.39 90.17 0)
 			(effects
 				(font
@@ -9141,7 +9141,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR.Part" "MC34063"
+		(property "jlcpcb part number" "C5349988"
 			(at 72.39 90.17 0)
 			(effects
 				(font
@@ -9431,7 +9431,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR.Part" "SWPA6045S101MT"
+		(property "Manufacturing part number" "SWPA6045S101MT"
 			(at 43.18 34.29 0)
 			(effects
 				(font
@@ -9440,7 +9440,7 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb" "C60633"
+		(property "jlcpcb part number" "C60633"
 			(at 43.18 34.29 0)
 			(effects
 				(font
@@ -9518,7 +9518,7 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb" "C4216"
+		(property "Manufacturing part number" "0603WAF3302T5E"
 			(at 236.22 39.37 0)
 			(effects
 				(font
@@ -9527,7 +9527,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR.Part" "0603WAF3302T5E"
+		(property "jlcpcb part number" "C4216"
 			(at 236.22 39.37 0)
 			(effects
 				(font
@@ -9709,7 +9709,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 80.01 49.53 0)
 			(effects
 				(font
@@ -9736,7 +9736,7 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb" "C25468"
+		(property "Manufacturing part number" "1206W4J033KT5E"
 			(at 80.01 49.53 0)
 			(effects
 				(font
@@ -9745,7 +9745,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR.Part" "25121WF330LT4E"
+		(property "jlcpcb part number" "C25347"
 			(at 80.01 49.53 0)
 			(effects
 				(font
@@ -10087,8 +10087,8 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb" "C1743"
-			(at 85.09 34.29 90)
+		(property "Manufacturing part number" "0805B471K500NT"
+			(at 85.09 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10096,8 +10096,8 @@
 				(hide yes)
 			)
 		)
-		(property "MFR.Part" "0805B471K500NT"
-			(at 85.09 34.29 90)
+		(property "jlcpcb part number" "C1743"
+			(at 85.09 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10239,7 +10239,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR.Part" "CA55-B6R3M107T"
+		(property "Manufacturing part number" "CA55-B6R3M107T"
 			(at 33.02 87.63 0)
 			(effects
 				(font
@@ -10248,7 +10248,7 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb" "C568913"
+		(property "jlcpcb part number" "C568913"
 			(at 33.02 87.63 0)
 			(effects
 				(font
@@ -10389,7 +10389,7 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb" "C7496820"
+		(property "Manufacturing part number" "F.0603.00139/P2-0603R1TS2-06T-002"
 			(at 269.24 43.18 0)
 			(effects
 				(font
@@ -10398,7 +10398,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR.Part" "F.0603.00139/P2-0603R1TS2-06T-002"
+		(property "jlcpcb part number" "C7496820"
 			(at 269.24 43.18 0)
 			(effects
 				(font
@@ -10739,7 +10739,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR.Part" "CA55-B6R3M107T"
+		(property "Manufacturing part number" "CA55-B6R3M107T"
 			(at 88.9 49.53 0)
 			(effects
 				(font
@@ -10748,7 +10748,7 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb" "C568913"
+		(property "jlcpcb part number" "C568913"
 			(at 88.9 49.53 0)
 			(effects
 				(font
@@ -10827,7 +10827,7 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb" "C1848"
+		(property "Manufacturing part number" "CL31B105KBHNNNE"
 			(at 160.02 46.99 0)
 			(effects
 				(font
@@ -10836,7 +10836,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR.Part" "CL31B105KBHNNNE"
+		(property "jlcpcb part number" "C1848"
 			(at 160.02 46.99 0)
 			(effects
 				(font
@@ -10913,8 +10913,8 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb" "C22790"
-			(at 41.91 74.93 90)
+		(property "Manufacturing part number" "0603WAF1202T5E"
+			(at 41.91 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10922,8 +10922,8 @@
 				(hide yes)
 			)
 		)
-		(property "MFR.Part" "0603WAF1202T5E"
-			(at 41.91 74.93 90)
+		(property "jlcpcb part number" "C22790"
+			(at 41.91 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11001,7 +11001,7 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb" "C4125"
+		(property "Manufacturing part number" "0402WGF4990TCE"
 			(at 68.58 138.43 0)
 			(effects
 				(font
@@ -11010,7 +11010,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR.Part" "0402WGF4990TCE"
+		(property "jlcpcb part number" "C4125"
 			(at 68.58 138.43 0)
 			(effects
 				(font
@@ -11088,7 +11088,7 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb" "C5349988"
+		(property "Manufacturing part number" "MC34063"
 			(at 69.85 39.37 0)
 			(effects
 				(font
@@ -11097,7 +11097,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR.Part" "MC34063"
+		(property "jlcpcb part number" "C5349988"
 			(at 69.85 39.37 0)
 			(effects
 				(font
@@ -11194,7 +11194,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR.Part" "TYPE-C-31-M-12"
+		(property "Manufacturing part number" "TYPE-C-31-M-12"
 			(at 95.25 149.86 0)
 			(effects
 				(font
@@ -11203,7 +11203,7 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb" "C165948"
+		(property "jlcpcb part number" "C165948"
 			(at 95.25 149.86 0)
 			(effects
 				(font
@@ -11325,8 +11325,8 @@
 				(hide yes)
 			)
 		)
-		(property "MFR.Part" "BSMD1812-050-60V"
-			(at 97.79 95.25 90)
+		(property "Manufacturing part number" "BSMD1812-050-60V"
+			(at 97.79 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11334,8 +11334,8 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb" "C883142"
-			(at 97.79 95.25 90)
+		(property "jlcpcb part number" "C883142"
+			(at 97.79 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11474,8 +11474,8 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb" "C12333"
-			(at 30.48 147.955 90)
+		(property "Manufacturing part number" "PRTR5V0U2X,215"
+			(at 30.48 147.955 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11483,8 +11483,8 @@
 				(hide yes)
 			)
 		)
-		(property "MFR.Part" "PRTR5V0U2X,215"
-			(at 30.48 147.955 90)
+		(property "jlcpcb part number" "C12333"
+			(at 30.48 147.955 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11568,7 +11568,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR.Part" "0805W8F5101T5E"
+		(property "Manufacturing part number" "0805W8F5101T5E"
 			(at 73.025 170.18 0)
 			(effects
 				(font
@@ -11577,7 +11577,7 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb" "C27834"
+		(property "jlcpcb part number" "C27834"
 			(at 73.025 170.18 0)
 			(effects
 				(font
@@ -11984,7 +11984,7 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb" "C3235557"
+		(property "Manufacturing part number" "TPS2116DRLR"
 			(at 250.19 41.91 0)
 			(effects
 				(font
@@ -11993,7 +11993,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR.Part" "TPS2116DRLR"
+		(property "jlcpcb part number" "C3235557"
 			(at 250.19 41.91 0)
 			(effects
 				(font
@@ -12617,7 +12617,7 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb" "C1848"
+		(property "Manufacturing part number" "CL31B105KBHNNNE"
 			(at 31.75 168.91 0)
 			(effects
 				(font
@@ -12626,7 +12626,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR.Part" "CL31B105KBHNNNE"
+		(property "jlcpcb part number" "C1848"
 			(at 31.75 168.91 0)
 			(effects
 				(font
@@ -12835,7 +12835,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR.Part" "CA55-B6R3M107T"
+		(property "Manufacturing part number" "CA55-B6R3M107T"
 			(at 35.56 36.83 0)
 			(effects
 				(font
@@ -12844,7 +12844,7 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb" "C568913"
+		(property "jlcpcb part number" "C568913"
 			(at 35.56 36.83 0)
 			(effects
 				(font

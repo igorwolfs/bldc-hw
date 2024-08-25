@@ -805,6 +805,18 @@
           "label": "Description",
           "name": "Description",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MFR.Part",
+          "name": "MFR.Part",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "jlcpcb",
+          "name": "jlcpcb",
+          "show": true
         }
       ],
       "filter_string": "",

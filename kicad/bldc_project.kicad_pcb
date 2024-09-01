@@ -332,12 +332,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C19666"
+		(property "LCSC Part Number" "C19666"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "616ff608-4157-46d1-ad8c-86c46eed30ce")
+			(uuid "834e9577-ee94-496e-9ca0-3d44ee39d772")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aa1b8ad3-2fed-4d01-b91e-39e34872e161")
 			(effects
 				(font
 					(size 1 1)
@@ -569,12 +582,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C2586"
+		(property "LCSC Part Number" "C2586"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "84969db2-3225-44eb-b880-187f53dfe929")
+			(uuid "1f907dde-23e9-49e7-a760-46a7a68908f1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "454e2239-6364-4ad7-86ee-25c450218018")
 			(effects
 				(font
 					(size 1 1)
@@ -901,12 +927,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C4216"
+		(property "LCSC Part Number" "C4216"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f92f24c9-fa85-4ea6-b9a5-8593c60133ab")
+			(uuid "45aa727d-0b33-43f3-a016-8c5d1636da70")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8d67700e-8d89-4f1f-99c7-9489c38ca5cb")
 			(effects
 				(font
 					(size 1 1)
@@ -1138,12 +1177,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C106666"
+		(property "LCSC Part Number" "C106666"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "27f76718-f278-49db-b101-a59eee835e21")
+			(uuid "f04914c0-11a1-4c6f-a5ba-a3e8151753b1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eca27c63-929a-473e-981b-c0c72a36e124")
 			(effects
 				(font
 					(size 1 1)
@@ -1310,12 +1362,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C307331"
+		(property "LCSC Part Number" "C307331"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a3dbda5d-3dc4-4c65-b85f-8f3e174facc2")
+			(uuid "112bee40-82e9-4cfb-9e84-7649af3243de")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "756d2f40-0760-4833-9d7b-989338e9f492")
 			(effects
 				(font
 					(size 1 1)
@@ -1547,12 +1612,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C191023"
+		(property "LCSC Part Number" "C191023"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bc5f52bd-3257-455c-8c22-bb432bed88b0")
+			(uuid "045e46d0-e0f6-4650-8df8-8b5de7aaf2b1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7a72c522-bb3d-4730-839e-841a7973b251")
 			(effects
 				(font
 					(size 1 1)
@@ -1856,12 +1934,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C2671262"
+		(property "LCSC Part Number" "C2671262"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0ee57a41-282d-459f-a5f9-3d1086b09895")
+			(uuid "0f083ed4-30ce-4a52-9041-a4a20e250105")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2fffc875-c9a8-4193-8fed-811934cc7c41")
 			(effects
 				(font
 					(size 1 1)
@@ -2195,6 +2286,19 @@
 				)
 			)
 		)
+		(property "jlcpcb" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0f2e6690-b443-4452-864c-e84aeacdc7cd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/53dc30ee-9af6-4771-8676-c78726df5d90/644fdc13-a3c1-4492-878a-bf26b7f9c616")
 		(sheetname "POWER")
@@ -2334,12 +2438,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C500615"
+		(property "LCSC Part Number" "C500615"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cba1f415-07e5-4c17-a3b0-c55b2b6512e2")
+			(uuid "0725f0ff-160b-4ed4-8cdb-75d87b7549ea")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "05286235-b475-4d70-a74d-60db03a2fe2c")
 			(effects
 				(font
 					(size 1 1)
@@ -2583,12 +2700,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C18019"
+		(property "LCSC Part Number" "C18019"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "abd6ae84-ce28-4aaf-910e-555dcb70bd2b")
+			(uuid "f26eb99e-7d68-4a10-8ba1-775eae26a5a3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "730a942c-5ee4-4703-bc0e-71873741745c")
 			(effects
 				(font
 					(size 1 1)
@@ -2820,12 +2950,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C106666"
+		(property "LCSC Part Number" "C106666"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f8c99cf1-0e51-4ac4-8e20-4b5d0cfc177c")
+			(uuid "6c836574-31e3-4a64-b328-c5db54b31429")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7c362c22-133a-4af2-af11-3acca6f8ed99")
 			(effects
 				(font
 					(size 1 1)
@@ -2992,12 +3135,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C1848"
+		(property "LCSC Part Number" "C1848"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2beef7b0-238c-4caa-b026-a1398400a732")
+			(uuid "cae731e1-ec80-48f3-9e1f-d07d32cb1d73")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e0468d8c-587f-4823-8349-72fa7a9fb67c")
 			(effects
 				(font
 					(size 1 1)
@@ -3229,12 +3385,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C4125"
+		(property "LCSC Part Number" "C4125"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "51a5bb88-bf5c-4b96-8301-f1faa39307c0")
+			(uuid "8f63eabe-e955-4656-b5eb-d2ff1a73d0e9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "89d7d470-b5ed-400b-afd7-5297214d016c")
 			(effects
 				(font
 					(size 1 1)
@@ -3466,12 +3635,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C192764"
+		(property "LCSC Part Number" "C192764"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d2ac2ddb-a1a7-446b-ae5e-4fa256aa78f1")
+			(uuid "7742da3c-c79a-4538-bc10-9bc789d9f714")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eae3d28c-41c2-4197-84ec-bb15ccedb38c")
 			(effects
 				(font
 					(size 1 1)
@@ -3763,6 +3945,19 @@
 				)
 			)
 		)
+		(property "jlcpcb" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "83f86346-16f2-4c8e-8fae-196ce89dcc9f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/7f7e17e0-7d73-4fbb-9112-49949fae378a/1089cb9b-5d77-46a3-bac7-b485a2c27c67")
 		(sheetname "DRIVER")
 		(sheetfile "driver.kicad_sch")
@@ -3906,12 +4101,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C4310"
+		(property "LCSC Part Number" "C4310"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2c72de96-68f1-473b-a04f-a65f1e51ae6c")
+			(uuid "82904795-339e-40c0-bb57-6112eb42fd1b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "98e11293-7d63-4844-b1ea-5dd9c82b108b")
 			(effects
 				(font
 					(size 1 1)
@@ -4155,12 +4363,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C22936"
+		(property "LCSC Part Number" "C22936"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "67fbc07b-dac1-4e04-a15b-15d077e0c846")
+			(uuid "9a76292c-4882-4b35-933e-1e77f88acab4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f2ece141-6544-4404-ba1d-1a6a4338d7b9")
 			(effects
 				(font
 					(size 1 1)
@@ -4379,6 +4600,19 @@
 				)
 			)
 		)
+		(property "jlcpcb" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "32677954-360e-461f-a873-9214c9e1a702")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/53dc30ee-9af6-4771-8676-c78726df5d90/6aa62efe-a6c1-4575-bef0-6c7650a4549a")
 		(sheetname "POWER")
@@ -4506,12 +4740,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C7496820"
+		(property "LCSC Part Number" "C7496820"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "760de4e9-844b-40ac-a150-8ad1321243b8")
+			(uuid "2ec2da3e-18f9-42e7-b2aa-862442a1cc6d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d1fc92f5-d4fc-4870-a9dd-67fc522345da")
 			(effects
 				(font
 					(size 1 1)
@@ -4765,12 +5012,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C23137"
+		(property "LCSC Part Number" "C23137"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f3257a0b-c227-48da-add0-2b2f2352c0a2")
+			(uuid "82653f55-9fee-4bf8-b6aa-f38da8d34da5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "969a7023-bc2b-4315-8b69-b6d7f934614b")
 			(effects
 				(font
 					(size 1 1)
@@ -5002,12 +5262,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C22790"
+		(property "LCSC Part Number" "C22790"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4ba9a081-9ceb-4f23-b205-27e7b834e853")
+			(uuid "df117e25-d98d-4f81-bdf9-1cdedaac236d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c2964b2d-42da-4d99-9e4a-d307a8c366f0")
 			(effects
 				(font
 					(size 1 1)
@@ -5239,12 +5512,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C4216"
+		(property "LCSC Part Number" "C4216"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "969f0b0e-ca5f-49c7-9224-e6ec7e9b57db")
+			(uuid "e85d9755-7afc-43ed-8a53-90849ff5be1a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "23f848fc-dec4-4537-ba5d-512991307899")
 			(effects
 				(font
 					(size 1 1)
@@ -5488,12 +5774,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C18019"
+		(property "LCSC Part Number" "C18019"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "be373440-3ef2-41c1-a630-0158e4a768bc")
+			(uuid "fbad13a1-3b22-4679-8361-0d5d9e54397c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "20755480-cc9c-4f6b-b877-8b3a19c8985e")
 			(effects
 				(font
 					(size 1 1)
@@ -5712,6 +6011,19 @@
 				)
 			)
 		)
+		(property "jlcpcb" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "282ea541-9df5-4df0-9f69-c44a01eaa984")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/53dc30ee-9af6-4771-8676-c78726df5d90/12e8fa66-57fb-42e9-aa7b-5fdcfc5a30ac")
 		(sheetname "POWER")
@@ -5851,12 +6163,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C18019"
+		(property "LCSC Part Number" "C18019"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6a3b1107-382c-4c39-9e51-638ca147ce91")
+			(uuid "547ce5f0-644a-4962-8522-122575fa6fe9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bfcdc30d-9e65-4414-989d-557d2414297b")
 			(effects
 				(font
 					(size 1 1)
@@ -6090,12 +6415,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C3235557"
+		(property "LCSC Part Number" "C3235557"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f311bcd6-80de-415b-8b7e-e188bcd24203")
+			(uuid "b1622276-1d83-460c-bb18-8d96d11278f8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f93a9d77-76c3-480e-90f2-b38af4b05767")
 			(effects
 				(font
 					(size 1 1)
@@ -6419,12 +6757,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C500615"
+		(property "LCSC Part Number" "C500615"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f1a69e98-554f-4353-a206-a123f96c1e81")
+			(uuid "34b9b6ae-514f-4429-8563-dc791e97d6b4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f50b16e5-f496-4e96-865a-26ab755f93ed")
 			(effects
 				(font
 					(size 1 1)
@@ -6656,12 +7007,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C4216"
+		(property "LCSC Part Number" "C4216"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0a5eba40-785f-4857-9ebe-3dc025caaa02")
+			(uuid "a19f8dbe-b0e7-4adb-a52b-698826e479b4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dccea245-bf9d-494b-ae32-f4f68f30c981")
 			(effects
 				(font
 					(size 1 1)
@@ -6893,12 +7257,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C7496819"
+		(property "LCSC Part Number" "C7496819"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "17d14681-4871-4d69-afe0-028f0b3e350c")
+			(uuid "a479a4dd-f8ab-4a07-88ce-20aab235932f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "64805b13-3c5c-4dee-93f7-927deffb6f0e")
 			(effects
 				(font
 					(size 1 1)
@@ -7152,12 +7529,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C4216"
+		(property "LCSC Part Number" "C4216"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b0c00d20-3343-41ba-aa6a-2945c827f5ee")
+			(uuid "2fbd37e6-e66e-421c-a787-2782311b8f3b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7794451d-6715-4437-917e-edb41377ddb3")
 			(effects
 				(font
 					(size 1 1)
@@ -7401,12 +7791,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C191023"
+		(property "LCSC Part Number" "C191023"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "87b89cfe-3e15-448d-9699-3bf80230555f")
+			(uuid "7aea30d9-a504-4678-8d11-f51f2c8a488b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7f7c4ec8-40b2-4056-b3e0-06e517c71d5e")
 			(effects
 				(font
 					(size 1 1)
@@ -7734,12 +8137,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C15195"
+		(property "LCSC Part Number" "C15195"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4ec2db83-6b32-414b-93a8-95fd7071ede7")
+			(uuid "620d8456-6a78-4036-9303-bee8875d90df")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "79152009-98da-48f2-ba8a-534dfd2c73f4")
 			(effects
 				(font
 					(size 1 1)
@@ -7958,6 +8374,19 @@
 				)
 			)
 		)
+		(property "jlcpcb" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d4dc03ef-2903-4cc4-89c9-21a2b4d92f62")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/7f7e17e0-7d73-4fbb-9112-49949fae378a/bc2ae841-b254-4442-9402-4b7fe2be159a")
 		(sheetname "DRIVER")
 		(sheetfile "driver.kicad_sch")
@@ -8113,12 +8542,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C22936"
+		(property "LCSC Part Number" "C22936"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7bdaea32-0c35-44eb-98e3-39170d3bbb0b")
+			(uuid "32b4d490-5a39-47f6-84af-550d6f57abb5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "564ce2d5-5063-42c7-a39a-5519bae92bb3")
 			(effects
 				(font
 					(size 1 1)
@@ -8350,12 +8792,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C14858"
+		(property "LCSC Part Number" "C14858"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "09368ec6-1f8c-4a79-95cc-4c6d672326a1")
+			(uuid "b1533255-9508-4e0f-96b6-0c31343f8493")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3306db88-7f61-4369-92b6-9a18f21c0feb")
 			(effects
 				(font
 					(size 1 1)
@@ -8587,12 +9042,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C307331"
+		(property "LCSC Part Number" "C307331"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "263358f5-a11d-4d93-943d-925dcf563dc6")
+			(uuid "874ff197-52d7-4bf3-b945-650f59586e4c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a2879d45-aa4a-43c1-a437-9fbb3f200cce")
 			(effects
 				(font
 					(size 1 1)
@@ -8824,12 +9292,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C4216"
+		(property "LCSC Part Number" "C4216"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d5bdbb56-54da-473b-9ed0-70c61d2c5cf2")
+			(uuid "ce32ea75-60d0-4269-b9a2-9b79212e0275")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "27e2b945-9f8a-4b49-acec-562ecba8318a")
 			(effects
 				(font
 					(size 1 1)
@@ -9085,12 +9566,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C15195"
+		(property "LCSC Part Number" "C15195"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5eaa1150-b049-41eb-b242-d172bcb4b0b0")
+			(uuid "8b55b9db-5884-434f-a6fa-607453a7b305")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "74e9ee8e-cf66-449f-b9f5-d66fcad8a532")
 			(effects
 				(font
 					(size 1 1)
@@ -9322,12 +9816,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C1848"
+		(property "LCSC Part Number" "C1848"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e017ed1a-4380-402e-926b-bbd32fd0aa0a")
+			(uuid "ec3d6014-29ef-41f5-8ea6-aff3467d760c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7d7bcfc2-0e12-4ddf-a924-3333aaaf5888")
 			(effects
 				(font
 					(size 1 1)
@@ -9571,12 +10078,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C22936"
+		(property "LCSC Part Number" "C22936"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ea839b58-79aa-48eb-a6a9-3f43f09c17fa")
+			(uuid "a08503ab-db65-4f1d-83a7-c6182abbcba1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "42617563-06a6-45d4-8493-3ea8c25dd954")
 			(effects
 				(font
 					(size 1 1)
@@ -9820,12 +10340,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C423025"
+		(property "LCSC Part Number" "C423025"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "84f4da2a-329f-4ffd-acac-ff8cc647d1b8")
+			(uuid "e1dea19f-4f35-425f-af85-f6c22edbdc93")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "035d2780-8efe-4839-a716-dd055bb7aa83")
 			(effects
 				(font
 					(size 1 1)
@@ -10057,12 +10590,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C279702"
+		(property "LCSC Part Number" "C279702"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6fe14d89-7814-4dba-a401-6e4cb23e174e")
+			(uuid "39a7c931-9d1d-4c10-b9ba-a578fd3acfb3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4f5f5290-d18c-4664-82de-1cf1a6e47369")
 			(effects
 				(font
 					(size 1 1)
@@ -10281,6 +10827,19 @@
 				)
 			)
 		)
+		(property "jlcpcb" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "70bca0aa-0993-4b23-9125-320080f8ba16")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Fiducial*")
 		(path "/53dc30ee-9af6-4771-8676-c78726df5d90/c6af4433-a7ea-43be-bd4f-37d6e884b25e")
 		(sheetname "POWER")
@@ -10430,12 +10989,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C15195"
+		(property "LCSC Part Number" "C15195"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cf2e77f2-2797-493b-8ec7-5689f8bd99ba")
+			(uuid "d14da49f-2a92-4b98-9b92-cf2786b12298")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5f25a9b2-d016-4034-9f7c-a2b2b4887f91")
 			(effects
 				(font
 					(size 1 1)
@@ -10667,12 +11239,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C883142"
+		(property "LCSC Part Number" "C883142"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "96b3dafb-5d37-42a3-b8b3-3ca5fe30ef78")
+			(uuid "881f33f6-9bf6-47ec-bfc3-0266d98ee368")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7853f2e7-9e9c-4009-939a-13431f777e23")
 			(effects
 				(font
 					(size 1 1)
@@ -10904,12 +11489,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C1848"
+		(property "LCSC Part Number" "C1848"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8580f12b-0366-4f21-b2bf-77a18589f773")
+			(uuid "4dc2dfed-adce-4b8c-8a4d-43391f2bfe78")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7ab3b447-1ba9-42c7-83c3-7238498272be")
 			(effects
 				(font
 					(size 1 1)
@@ -11141,12 +11739,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C2586"
+		(property "LCSC Part Number" "C2586"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "57303e07-1fba-43ad-9b12-8df4611a219f")
+			(uuid "0571f41d-84b7-44d0-b539-5d5e55cde93d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "35912194-99f3-4c4f-935f-65a75afc6993")
 			(effects
 				(font
 					(size 1 1)
@@ -11395,17 +12006,17 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_0805_2012Metric"
+	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "5474d481-a487-418c-ae14-22b741a0f989")
 		(at 112 95.5)
-		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
+		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C2"
-			(at 0 -1.68 0)
+			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "0551ca86-4de6-49f1-ad7c-9f1fd5169f2c")
+			(uuid "c9570594-6a2f-4c46-b4a9-8436523b39b1")
 			(effects
 				(font
 					(size 1 1)
@@ -11413,10 +12024,10 @@
 				)
 			)
 		)
-		(property "Value" "0.47uF"
-			(at 0 1.68 0)
+		(property "Value" "470nF"
+			(at 0 1.43 0)
 			(layer "F.Fab")
-			(uuid "f7f60874-d3c1-4be4-b6f5-7dbd9aa85b81")
+			(uuid "dffc8927-3fb3-444c-ad7c-560136429605")
 			(effects
 				(font
 					(size 1 1)
@@ -11424,11 +12035,12 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 0 0 0)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8714ba2b-14d5-4e0e-b207-f4fce64498ed")
+			(uuid "2a2ab1f6-4eb0-4ab4-a8e1-18c7fe6956c7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11436,11 +12048,12 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL21A475KAQNNNE_C1779.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL10B474KA8NNNC_C1623.pdf"
 			(at 0 0 0)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "856f8a7c-9683-479f-9bd9-36071b17ede2")
+			(uuid "398b5f2f-23a1-4c46-ad49-05bb22b7b7ea")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11450,9 +12063,10 @@
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3942f7ee-8bcd-4c8d-822a-14dd06ec0f50")
+			(uuid "79a66ad3-c945-4bff-aa42-782e9729b24d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11460,7 +12074,7 @@
 				)
 			)
 		)
-		(property "Manufacturing part number" "CL21A475KAQNNNE"
+		(property "Manufacturing part number" "CL10B474KA8NNNC"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11473,12 +12087,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C1779"
+		(property "LCSC Part Number" "C1623"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c5b8abb6-1315-4fe2-ad66-b85a2acce9d2")
+			(uuid "837e570d-f45c-4042-ad86-e4b9ccf9c23b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2267e583-a76d-4600-a92a-9c44a94fd32d")
 			(effects
 				(font
 					(size 1 1)
@@ -11492,135 +12119,135 @@
 		(sheetfile "driver.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -0.261252 -0.735)
-			(end 0.261252 -0.735)
+			(start -0.14058 -0.51)
+			(end 0.14058 -0.51)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "795763b0-fcda-48b7-b25e-8e6f6ecf02b2")
+			(uuid "04b8ac90-e4cb-4e03-9947-c2e2e30ef6ba")
 		)
 		(fp_line
-			(start -0.261252 0.735)
-			(end 0.261252 0.735)
+			(start -0.14058 0.51)
+			(end 0.14058 0.51)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "274709a9-35ea-485b-a85b-9ee1f121f5f8")
+			(uuid "539b4785-eda9-4f58-9ff8-2991a23bd9ce")
 		)
 		(fp_line
-			(start -1.7 -0.98)
-			(end 1.7 -0.98)
+			(start -1.48 -0.73)
+			(end 1.48 -0.73)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "e53e5569-208d-4343-b23a-020c774cdb1e")
+			(uuid "90ae3778-e4f2-484e-90c9-0a63d0068136")
 		)
 		(fp_line
-			(start -1.7 0.98)
-			(end -1.7 -0.98)
+			(start -1.48 0.73)
+			(end -1.48 -0.73)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "7ecaa6a4-7a00-4347-b734-2b76fcc13c67")
+			(uuid "6a81590d-09a1-4180-b545-0a28af7ffe66")
 		)
 		(fp_line
-			(start 1.7 -0.98)
-			(end 1.7 0.98)
+			(start 1.48 -0.73)
+			(end 1.48 0.73)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "bc5b86bc-0cfe-4f73-ab92-ad9354cb4037")
+			(uuid "be7327ce-5753-4798-8b98-b35425f0e2be")
 		)
 		(fp_line
-			(start 1.7 0.98)
-			(end -1.7 0.98)
+			(start 1.48 0.73)
+			(end -1.48 0.73)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "3515a133-21fc-43cf-be29-6546554ec19e")
+			(uuid "694f536e-6589-4305-a846-6c7b93704c77")
 		)
 		(fp_line
-			(start -1 -0.625)
-			(end 1 -0.625)
+			(start -0.8 -0.4)
+			(end 0.8 -0.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "91d06686-987b-4082-96bb-e96bd9875083")
+			(uuid "4d7750b7-8215-42a7-bcfb-5b75b5fff8b4")
 		)
 		(fp_line
-			(start -1 0.625)
-			(end -1 -0.625)
+			(start -0.8 0.4)
+			(end -0.8 -0.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "abb1bc4b-3b3f-402e-8f25-8350a80b8232")
+			(uuid "a9749228-7a85-4758-a003-2b1fee7f95e4")
 		)
 		(fp_line
-			(start 1 -0.625)
-			(end 1 0.625)
+			(start 0.8 -0.4)
+			(end 0.8 0.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "96d08e1d-8222-4dea-824f-fd23fbb7ff0d")
+			(uuid "0e0b50d1-8a8e-455e-a13b-18addb0b3ef3")
 		)
 		(fp_line
-			(start 1 0.625)
-			(end -1 0.625)
+			(start 0.8 0.4)
+			(end -0.8 0.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "63034c45-765f-4d51-88d6-b018f574d281")
+			(uuid "0ab4dbf8-e53d-49a2-adc5-d972ff1d75d7")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "ebb2192f-dca4-4325-9cb4-578ed793c5bc")
+			(uuid "a05e0dfb-83e4-4169-98f1-b847040cd3ba")
 			(effects
 				(font
-					(size 0.5 0.5)
-					(thickness 0.08)
+					(size 0.4 0.4)
+					(thickness 0.06)
 				)
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.95 0)
-			(size 1 1.45)
+			(at -0.775 0)
+			(size 0.9 0.95)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
 			(net 1 "+10V")
 			(pintype "passive")
-			(uuid "b6d79c3f-d58e-4ca8-9986-0dde580bc609")
+			(uuid "0fc39140-7659-49c3-8290-ffb875eacfea")
 		)
 		(pad "2" smd roundrect
-			(at 0.95 0)
-			(size 1 1.45)
+			(at 0.775 0)
+			(size 0.9 0.95)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
 			(net 2 "GND")
 			(pintype "passive")
-			(uuid "eb357039-b170-4efa-a7c1-1972df9e6197")
+			(uuid "32d29d56-23bc-4f93-94a3-150c2271863b")
 		)
-		(model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
+		(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11710,12 +12337,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C4216"
+		(property "LCSC Part Number" "C4216"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b5e70bc2-3e7d-4492-a94e-0e9f059f8ae3")
+			(uuid "5956f558-becd-4fe2-839f-0983cc60c182")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f7e7b358-c6d8-4bef-921f-d08259adad33")
 			(effects
 				(font
 					(size 1 1)
@@ -11947,12 +12587,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C5349988"
+		(property "LCSC Part Number" "C5349988"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "52fec6d2-bd6a-48c4-8847-0ee1ac2c0597")
+			(uuid "6bd80cb5-2f7a-46e9-8f9d-77ca1d5c552b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "573e504a-c50b-4984-a2f1-c2dda8482d5f")
 			(effects
 				(font
 					(size 1 1)
@@ -12312,12 +12965,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C15195"
+		(property "LCSC Part Number" "C15195"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d01e61e3-0e16-493f-a08c-331f67516042")
+			(uuid "2ea46ff2-0c51-488f-8c73-345a5459a755")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c735a201-3832-449d-b6b6-153cd3271919")
 			(effects
 				(font
 					(size 1 1)
@@ -12549,12 +13215,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C307331"
+		(property "LCSC Part Number" "C307331"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fbde6ae1-ca87-4423-982c-8d476161efd6")
+			(uuid "4195f016-138e-4bda-9fc0-e333f9e1c22f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0099f1d7-e533-41ec-a0ca-a53951610324")
 			(effects
 				(font
 					(size 1 1)
@@ -12786,12 +13465,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C4216"
+		(property "LCSC Part Number" "C4216"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "923a6978-84dc-46c0-a5c0-f98ae66ae9c1")
+			(uuid "1aa0f950-ab1d-4d4d-8377-93e65549825e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0498c8a6-dc18-4d7e-9089-6ee0c115d1c3")
 			(effects
 				(font
 					(size 1 1)
@@ -13023,12 +13715,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C14709"
+		(property "LCSC Part Number" "C14709"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "dd48ce5c-ef58-4644-8131-77bfca6ca5b8")
+			(uuid "d9c40017-053d-484e-9568-df463c972ca6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f3eb94a3-d0a2-4377-b1ec-afb34771554c")
 			(effects
 				(font
 					(size 1 1)
@@ -13260,12 +13965,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C5804631"
+		(property "LCSC Part Number" "C5804631"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1c34172a-76aa-4933-a8da-ad4e96657e63")
+			(uuid "3ebe7c36-87bf-4443-ad4b-42363ad77db7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "44a2da9f-b151-4078-bd4d-04aa75626038")
 			(effects
 				(font
 					(size 1 1)
@@ -13651,12 +14369,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C22936"
+		(property "LCSC Part Number" "C22936"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3830194d-9cc5-4f78-afc3-6903287eba44")
+			(uuid "982e0b78-f86d-41de-a463-ac3afd60b19f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3eff196a-78f1-418f-b2c7-481cc0de39a1")
 			(effects
 				(font
 					(size 1 1)
@@ -13875,6 +14606,19 @@
 				)
 			)
 		)
+		(property "jlcpcb" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ec120ba5-dca6-42fe-bf1d-f579f317e475")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/53dc30ee-9af6-4771-8676-c78726df5d90/e4ab1de8-e276-4e62-b040-22ad03298e1e")
 		(sheetname "POWER")
 		(sheetfile "power.kicad_sch")
@@ -14018,12 +14762,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C568913"
+		(property "LCSC Part Number" "C568913"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ef31509d-a31d-4039-bbe4-f3c2965a70d7")
+			(uuid "9a09b626-3448-4f05-8de5-3c0648c01049")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5ffd9b3c-e76a-4db4-8c5d-8edf3bc4b10c")
 			(effects
 				(font
 					(size 1 1)
@@ -14255,12 +15012,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C165948"
+		(property "LCSC Part Number" "C165948"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c75bd178-f42f-4d64-b0e4-94d49548fa2c")
+			(uuid "17cc219f-d691-47fc-88a9-98701cc40132")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ca76d3c5-1e6d-45ce-93e1-33b1176c0894")
 			(effects
 				(font
 					(size 1 1)
@@ -14717,12 +15487,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C4216"
+		(property "LCSC Part Number" "C4216"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f48e0cfa-bc9f-47de-864e-305906f12bb7")
+			(uuid "29dec959-0127-48cf-8a87-50a24572e1c4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "23d12032-adea-4f30-811a-66c4f7b56c3e")
 			(effects
 				(font
 					(size 1 1)
@@ -14954,12 +15737,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C568913"
+		(property "LCSC Part Number" "C568913"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "82f9c517-02c8-412d-8dca-b227b4f91ffa")
+			(uuid "a8487d6d-1345-4543-ba76-247b9b4d1042")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e01ccfb1-6071-4939-a811-904a7ed00f87")
 			(effects
 				(font
 					(size 1 1)
@@ -15191,12 +15987,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C1848"
+		(property "LCSC Part Number" "C1848"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b2fe7216-1ffc-4d10-b315-8e2bbea04b2c")
+			(uuid "19269cdd-a170-4470-b659-eec2c673c67b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "88af5455-4fcc-40b3-862f-61c07853b3ac")
 			(effects
 				(font
 					(size 1 1)
@@ -15428,12 +16237,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C192764"
+		(property "LCSC Part Number" "C192764"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "be2bc46b-f5c5-42a4-b0d7-ab8a61e31483")
+			(uuid "39480a88-e28d-43db-b7f4-c72f193d0870")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1782e315-60c0-4abb-96da-0dab4a062067")
 			(effects
 				(font
 					(size 1 1)
@@ -15738,12 +16560,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C883142"
+		(property "LCSC Part Number" "C883142"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "75880390-4c33-4cab-974f-35ecf0c0aae6")
+			(uuid "9300019a-c4ae-4999-aeee-b6e04aa01da1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3d374018-8209-48cc-8cf1-2801ce4be309")
 			(effects
 				(font
 					(size 1 1)
@@ -15987,12 +16822,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C17903"
+		(property "LCSC Part Number" "C17903"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "145376a2-4d75-4890-b71e-66262323fee0")
+			(uuid "4475456d-7494-414f-bc5e-01de73814fa2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "57a49d6a-352d-41ba-9965-d9d79ded7c29")
 			(effects
 				(font
 					(size 1 1)
@@ -16236,12 +17084,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C22936"
+		(property "LCSC Part Number" "C22936"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c03e3156-6d2f-4112-9a14-98e4cb2bb437")
+			(uuid "42ad88a9-986c-49d2-b4c8-901d9e1d660b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c5209e03-d0a1-4633-9ab6-91e1f1bac4a4")
 			(effects
 				(font
 					(size 1 1)
@@ -16473,12 +17334,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C4310"
+		(property "LCSC Part Number" "C4310"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "76d283c3-73fc-4398-8f24-1441cf2136b1")
+			(uuid "b43c4a71-32be-4a37-890c-78fda73c7c49")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4e98fecb-02e9-437c-a60b-b20a8319f1fd")
 			(effects
 				(font
 					(size 1 1)
@@ -16710,12 +17584,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C108516"
+		(property "LCSC Part Number" "C108516"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "34ccf5ec-93b4-4917-9a13-170db1f1f319")
+			(uuid "15f87b57-02dd-4470-acb4-f81fe20b6561")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d18feff3-9191-4e4f-b66a-ab7df0c8e08d")
 			(effects
 				(font
 					(size 1 1)
@@ -17691,12 +18578,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C27834"
+		(property "LCSC Part Number" "C27834"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "53532138-2c17-435d-9f9a-c16d3f74c4d1")
+			(uuid "67c11452-1ce2-4dc5-9c00-402b283a9923")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e25ec6ea-a305-42b4-9e10-b02f33a59676")
 			(effects
 				(font
 					(size 1 1)
@@ -17915,6 +18815,19 @@
 				)
 			)
 		)
+		(property "jlcpcb" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "46c493a4-a7f7-4e7f-afb9-5ee3789180c2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Fiducial*")
 		(path "/53dc30ee-9af6-4771-8676-c78726df5d90/e19418b9-88e1-4c4b-8e37-9f5ffc032b3f")
 		(sheetname "POWER")
@@ -18040,12 +18953,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C4310"
+		(property "LCSC Part Number" "C4310"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9e7184b1-d776-4617-a6f8-76b14042308d")
+			(uuid "5c414707-0517-451f-9e80-32fa545a1674")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3b0e63e0-1a7d-4641-bb10-a0ebc8ade600")
 			(effects
 				(font
 					(size 1 1)
@@ -18277,12 +19203,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C4216"
+		(property "LCSC Part Number" "C4216"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "00001414-cbc2-4711-99c1-55676ef264ee")
+			(uuid "797d48b9-fa85-4b03-a48f-3eda681926e6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "888c9f0f-722a-4138-b3aa-71cf0734917c")
 			(effects
 				(font
 					(size 1 1)
@@ -18514,12 +19453,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C2586"
+		(property "LCSC Part Number" "C2586"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e43f0afb-2237-4e14-bb1b-c12db9865cf0")
+			(uuid "b7efd643-351e-4ca2-9b78-7b139d925ab6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "687a63df-5251-4bd7-a390-f7ef3ac30d4e")
 			(effects
 				(font
 					(size 1 1)
@@ -18858,12 +19810,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C22936"
+		(property "LCSC Part Number" "C22936"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d0012151-612f-4a23-96f9-5fcf40cb2a3e")
+			(uuid "61c84e32-1609-445c-856e-58277d1f7d14")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cec9b5f9-5dbd-4cb6-91a7-1f90acdb5cde")
 			(effects
 				(font
 					(size 1 1)
@@ -19095,12 +20060,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C2586"
+		(property "LCSC Part Number" "C2586"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1f8d55e9-820e-4cab-b562-8c77f23c2aba")
+			(uuid "42b23518-48c4-4e64-985c-ba1c0f6ff6d5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9e4084a8-8bc7-431e-bc05-ee3418d05fac")
 			(effects
 				(font
 					(size 1 1)
@@ -19427,12 +20405,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C4216"
+		(property "LCSC Part Number" "C4216"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "dacdfa66-a85d-4cbf-8c2b-169437285c48")
+			(uuid "d7f2e14e-5c88-4227-b7dc-578ea767946d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "404c2fde-ffe0-4ed8-b8bd-a255ee8f1053")
 			(effects
 				(font
 					(size 1 1)
@@ -19676,12 +20667,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C19666"
+		(property "LCSC Part Number" "C19666"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "80cad8bb-c14a-48a4-ab7c-6b5604d2b107")
+			(uuid "71a128a9-ee09-4bed-86db-d8c26fba0b89")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f87eaba9-5b90-4aec-8e32-d08129c2963e")
 			(effects
 				(font
 					(size 1 1)
@@ -19913,12 +20917,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C4216"
+		(property "LCSC Part Number" "C4216"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "858fe262-5ea2-4d4a-8d23-c31010190ee1")
+			(uuid "30cdef87-d42e-414a-8188-aecae257e314")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3628bad7-03f0-421e-8a13-cbf1128b4099")
 			(effects
 				(font
 					(size 1 1)
@@ -20150,12 +21167,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C4216"
+		(property "LCSC Part Number" "C4216"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8507cf3e-787c-4f64-8b03-4c2a860f384d")
+			(uuid "ad0d9e2a-7970-45e8-ba8b-8b83d21a8d4b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "44afd6cc-f81d-46fa-9110-e0096f09ce43")
 			(effects
 				(font
 					(size 1 1)
@@ -20411,12 +21441,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C15195"
+		(property "LCSC Part Number" "C15195"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ba236b24-a9de-456d-8c2a-6eebf50d4a03")
+			(uuid "0260500a-a4de-4172-8b57-0894d77da053")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7b82ee57-824f-4173-a2a8-cc06e9e414b0")
 			(effects
 				(font
 					(size 1 1)
@@ -20648,12 +21691,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C17168"
+		(property "LCSC Part Number" "C17168"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "318cecfc-24cd-4a2c-b188-9883e67017e8")
+			(uuid "3ee0ca37-9599-456f-bac8-b421b047167a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8d319b57-0dfd-4b8b-9e19-2fb172afcda7")
 			(effects
 				(font
 					(size 1 1)
@@ -20885,12 +21941,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C307331"
+		(property "LCSC Part Number" "C307331"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1dff79aa-afd9-472f-997e-9354d5217145")
+			(uuid "864bc0c4-62ef-4e5b-b997-72791413e1cf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "12d8509a-d859-4a5b-ab3e-25bfe95719ea")
 			(effects
 				(font
 					(size 1 1)
@@ -21122,12 +22191,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C17673"
+		(property "LCSC Part Number" "C17673"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6e1850fc-76fc-4c23-a17b-4caf28b96cc8")
+			(uuid "95ae6d54-ad9b-4f02-81e2-b70154362361")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "77bcd557-0732-46c0-91e3-4cb947868db1")
 			(effects
 				(font
 					(size 1 1)
@@ -21359,12 +22441,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C568913"
+		(property "LCSC Part Number" "C568913"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "74255880-5223-4f77-a7b1-4e8de061e0f9")
+			(uuid "0f8814cc-6b02-4a60-aaaf-ffa2f729fd8f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5b3b02f3-f88a-47af-8777-951163c010a4")
 			(effects
 				(font
 					(size 1 1)
@@ -21596,12 +22691,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C5349988"
+		(property "LCSC Part Number" "C5349988"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b63480b4-e737-43f7-a0bf-defe0b111e14")
+			(uuid "3655f0ef-19aa-4b56-a6fa-46a01bb9a5ee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3f81cbce-bdda-4c04-ba5e-dfbb6efc7284")
 			(effects
 				(font
 					(size 1 1)
@@ -21937,12 +23045,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C2586"
+		(property "LCSC Part Number" "C2586"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7e77f551-4fc9-45bf-ac37-ec9ef9dad1b0")
+			(uuid "b02f31a9-b5b9-4113-a401-e02fea60f3df")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2a7450d6-e7ba-483a-8c79-b373e512e331")
 			(effects
 				(font
 					(size 1 1)
@@ -22281,12 +23402,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C18019"
+		(property "LCSC Part Number" "C18019"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "921e5afc-6a61-48e8-8aec-ff8b7ee81d71")
+			(uuid "4f042054-0f14-4956-9014-46013c78373e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "722ff2d3-9cc7-46fb-9ad0-85af2885b13a")
 			(effects
 				(font
 					(size 1 1)
@@ -22518,12 +23652,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C568913"
+		(property "LCSC Part Number" "C568913"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "474aee66-a1ad-4a13-9529-2206239a1b44")
+			(uuid "57789df8-eb38-421d-9092-e9f0e82239ee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7af473a8-38e0-46d4-b767-442e4a2381ce")
 			(effects
 				(font
 					(size 1 1)
@@ -22767,12 +23914,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C423025"
+		(property "LCSC Part Number" "C423025"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "894a2cf4-1055-4f19-b3bd-aabbf8f1cab9")
+			(uuid "0602d4bd-7d35-4868-955c-811a4a74ab12")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1da7118f-beca-42c6-885b-ab31d25f6b5b")
 			(effects
 				(font
 					(size 1 1)
@@ -23004,12 +24164,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C346210"
+		(property "LCSC Part Number" "C346210"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "eb0eee53-fafa-47cd-a5d3-fbb45e62022d")
+			(uuid "e64f00ef-35ae-44c2-9c6c-fb4d77f28eca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "724de7d0-695d-40d9-a15b-28b4aab6d00b")
 			(effects
 				(font
 					(size 1 1)
@@ -23253,12 +24426,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C191023"
+		(property "LCSC Part Number" "C191023"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "120b7224-4fc3-47f5-82a1-d35c84223aa9")
+			(uuid "eeeb682f-ce0c-4823-91e1-7c2a02c9a06c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5eaf2120-58a5-4d5b-bed7-e4c6debec0dd")
 			(effects
 				(font
 					(size 1 1)
@@ -23484,17 +24670,17 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_0805_2012Metric"
+	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "976a9914-1dee-4075-b492-86b1758aa1b1")
 		(at 121.525 95.35)
-		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
+		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C1"
-			(at -0.8 -0.53 0)
+			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "078d1495-ddff-4118-b55a-7aa8ac04c110")
+			(uuid "89f2dcdd-7791-4ccd-9d3b-8433287a23c4")
 			(effects
 				(font
 					(size 1 1)
@@ -23502,10 +24688,10 @@
 				)
 			)
 		)
-		(property "Value" "0.47uF"
-			(at 0 1.68 0)
+		(property "Value" "470nF"
+			(at 0 1.43 0)
 			(layer "F.Fab")
-			(uuid "33a5ae10-7516-47cf-a0ef-d337ad66ae4e")
+			(uuid "55c8ad8d-cd8a-49ae-bc55-be76992ce7a2")
 			(effects
 				(font
 					(size 1 1)
@@ -23513,11 +24699,12 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 0 0 0)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "03d62274-4466-49ac-89da-27032edc3842")
+			(uuid "9f8e6197-2139-4e64-9787-1239e8a6cb09")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23525,11 +24712,12 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL21A475KAQNNNE_C1779.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL10B474KA8NNNC_C1623.pdf"
 			(at 0 0 0)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b94107da-11ef-451f-83a4-b400adb32644")
+			(uuid "1f6633ed-e436-44a6-a4c3-456b250d939b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23539,9 +24727,10 @@
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "251ba947-e786-461f-ae8a-4cbeb8465840")
+			(uuid "018e4f8c-9957-42f1-af3d-dfe73b2603f8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23549,7 +24738,7 @@
 				)
 			)
 		)
-		(property "Manufacturing part number" "CL21A475KAQNNNE"
+		(property "Manufacturing part number" "CL10B474KA8NNNC"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23562,12 +24751,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C1779"
+		(property "LCSC Part Number" "C1623"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c951c75a-d0e0-46e6-83f6-a9064a5ef25f")
+			(uuid "0b3dab9b-30b2-4e7f-ad03-40c69919b0ac")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4f773787-5ea5-4a54-926e-686a235cc07e")
 			(effects
 				(font
 					(size 1 1)
@@ -23581,135 +24783,135 @@
 		(sheetfile "driver.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -0.261252 -0.735)
-			(end 0.261252 -0.735)
+			(start -0.14058 -0.51)
+			(end 0.14058 -0.51)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "3ce768bf-76c3-4b12-8a97-a7150e7bfacb")
+			(uuid "e414d671-029d-4b19-9c9e-aa76545122c6")
 		)
 		(fp_line
-			(start -0.261252 0.735)
-			(end 0.261252 0.735)
+			(start -0.14058 0.51)
+			(end 0.14058 0.51)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "59123c1a-15eb-4cd4-8da4-0d64ce4bbe63")
+			(uuid "7e6c04df-5b56-41cd-baf7-5c94bde943cd")
 		)
 		(fp_line
-			(start -1.7 -0.98)
-			(end 1.7 -0.98)
+			(start -1.48 -0.73)
+			(end 1.48 -0.73)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "75de0322-d7f1-41c5-a4b9-bf695cacd660")
+			(uuid "d78689ff-ed4d-4ac5-b07a-e8e26230524f")
 		)
 		(fp_line
-			(start -1.7 0.98)
-			(end -1.7 -0.98)
+			(start -1.48 0.73)
+			(end -1.48 -0.73)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "e5f2fb2c-691d-46b4-b089-8cceb0b7c939")
+			(uuid "aea9d328-b232-4a78-b263-e382d0524add")
 		)
 		(fp_line
-			(start 1.7 -0.98)
-			(end 1.7 0.98)
+			(start 1.48 -0.73)
+			(end 1.48 0.73)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "4f4f8082-f570-4570-9d72-5ab8bfaeaf49")
+			(uuid "5076f250-3419-48d5-9e93-c51c261631c1")
 		)
 		(fp_line
-			(start 1.7 0.98)
-			(end -1.7 0.98)
+			(start 1.48 0.73)
+			(end -1.48 0.73)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "f684d36b-98ac-45fa-b98f-1f502e4bf4f3")
+			(uuid "b0512189-50f6-4d63-8e70-e72b1077aba0")
 		)
 		(fp_line
-			(start -1 -0.625)
-			(end 1 -0.625)
+			(start -0.8 -0.4)
+			(end 0.8 -0.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "14659cdf-2c73-4e3e-8bff-362f01c05665")
+			(uuid "7afbbedc-9871-40e2-b7c9-c2a06b2b7e07")
 		)
 		(fp_line
-			(start -1 0.625)
-			(end -1 -0.625)
+			(start -0.8 0.4)
+			(end -0.8 -0.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "4f207926-7339-4f6e-9477-0e9447b4bc0e")
+			(uuid "0b846591-96b4-4508-a4d4-a1726fe1c344")
 		)
 		(fp_line
-			(start 1 -0.625)
-			(end 1 0.625)
+			(start 0.8 -0.4)
+			(end 0.8 0.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "4c1c5fd4-2e0c-4305-bb10-1ab2ca269f40")
+			(uuid "1e66ed1c-7b6c-4984-86ce-221ba065323b")
 		)
 		(fp_line
-			(start 1 0.625)
-			(end -1 0.625)
+			(start 0.8 0.4)
+			(end -0.8 0.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "a64e98fa-504d-4d83-a98a-a6eb9a3ed9b1")
+			(uuid "4395b70f-c84d-4ece-b36f-d6d2d476a3d7")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "61f7a55e-9841-4a11-944c-1fb56bc325b7")
+			(uuid "c6327fc2-6f18-4d13-a588-177d59636ccf")
 			(effects
 				(font
-					(size 0.5 0.5)
-					(thickness 0.08)
+					(size 0.4 0.4)
+					(thickness 0.06)
 				)
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.95 0)
-			(size 1 1.45)
+			(at -0.775 0)
+			(size 0.9 0.95)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
 			(net 1 "+10V")
 			(pintype "passive")
-			(uuid "5ede0f86-ff67-4eeb-b818-25b414e5c299")
+			(uuid "fc2864d4-cddc-44c8-b96b-3aed2fc2ecb2")
 		)
 		(pad "2" smd roundrect
-			(at 0.95 0)
-			(size 1 1.45)
+			(at 0.775 0)
+			(size 0.9 0.95)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
 			(net 2 "GND")
 			(pintype "passive")
-			(uuid "7dce80b7-4f2c-49a6-8e60-f92665500c51")
+			(uuid "eb3c451a-c067-49ff-a3c2-0f5a8ed5eba1")
 		)
-		(model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
+		(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -23799,12 +25001,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C106666"
+		(property "LCSC Part Number" "C106666"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "655f6821-e4d4-49eb-aec3-3e442cc0e782")
+			(uuid "b5ff2d98-080d-4f54-bdaf-b5c442d24fe5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e03586b1-c910-43a7-9b4c-6ae148169b68")
 			(effects
 				(font
 					(size 1 1)
@@ -23995,12 +25210,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C15195"
+		(property "LCSC Part Number" "C15195"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6d16fcd3-feb1-4860-845e-dfd216fe2c0a")
+			(uuid "fb9d38d9-7833-43cd-9b99-ab95f223cd6f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "56ab7fa9-e60f-4dd6-aedc-ced8ed5bc8ec")
 			(effects
 				(font
 					(size 1 1)
@@ -24232,12 +25460,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C4125"
+		(property "LCSC Part Number" "C4125"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8898a5bd-8a12-4c51-83b3-bddb350fcf25")
+			(uuid "74bdaeeb-b500-4e3a-822a-dc5d2a738e2c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "18173b24-adcf-4365-951c-1c7825508f1b")
 			(effects
 				(font
 					(size 1 1)
@@ -24456,6 +25697,19 @@
 				)
 			)
 		)
+		(property "jlcpcb" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "be6022ea-d53a-4445-ba86-5a3acdf99220")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/53dc30ee-9af6-4771-8676-c78726df5d90/e92c91ce-929a-4e6a-b673-a1dc68bb304c")
 		(sheetname "POWER")
 		(sheetfile "power.kicad_sch")
@@ -24599,12 +25853,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C12333"
+		(property "LCSC Part Number" "C12333"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "baa6c09b-c639-4ac3-b06f-e01fa1fb705f")
+			(uuid "17b19b63-4834-4ded-a1a2-a68529f75a99")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d2e55582-3628-452c-bfa4-e2e89b4d0bb6")
 			(effects
 				(font
 					(size 1 1)
@@ -24892,12 +26159,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C19666"
+		(property "LCSC Part Number" "C19666"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4a319e1c-611f-448e-a892-7dc4d3297448")
+			(uuid "e3b1b21e-c4ea-401b-8948-1897309e01da")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9f2e0db1-6796-4d04-b111-833302910b85")
 			(effects
 				(font
 					(size 1 1)
@@ -25153,12 +26433,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C15195"
+		(property "LCSC Part Number" "C15195"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "798f8526-00c6-4422-ae50-7928d470af24")
+			(uuid "2449ce58-1388-4b36-854e-786d038f02b9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "292e712a-9440-4ce1-b312-7fcda50086ca")
 			(effects
 				(font
 					(size 1 1)
@@ -25319,7 +26612,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R64"
-			(at 0 -1.17 360)
+			(at 0 -1.17 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "9020cd7c-e597-4d5b-bc99-2bf50d362f94")
@@ -25331,7 +26624,7 @@
 			)
 		)
 		(property "Value" "10"
-			(at 0 1.17 360)
+			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "5b6d59e0-82dc-4a86-a53d-29e12c75c796")
 			(effects
@@ -25393,12 +26686,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C25077"
+		(property "LCSC Part Number" "C25077"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f9640ebb-6ec3-409a-a199-86c06a178eb4")
+			(uuid "bca0ea6e-a84b-42e3-bcaf-25a70b6c19fd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "96037d05-58c2-4b5d-9e5d-301029609326")
 			(effects
 				(font
 					(size 1 1)
@@ -25512,7 +26818,7 @@
 			(uuid "09e826bb-e9ff-45a1-bbb8-d49db30ff4cd")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "21beddb7-0f2d-4947-9e25-9225fbb79476")
 			(effects
@@ -25630,12 +26936,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C4125"
+		(property "LCSC Part Number" "C4125"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "94b0d654-4e25-471d-8d6b-e4523d6bb79f")
+			(uuid "683e7b4c-dde4-4b06-a4b0-4a7d3690f8c5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "556f95a9-7d8f-4f48-98e6-b7ddf261b191")
 			(effects
 				(font
 					(size 1 1)
@@ -25854,6 +27173,19 @@
 				)
 			)
 		)
+		(property "jlcpcb" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5ebb5729-c804-420f-b02e-4040069bad5f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Fiducial*")
 		(path "/53dc30ee-9af6-4771-8676-c78726df5d90/40081f69-af43-4c63-a11f-01031673d5a7")
 		(sheetname "POWER")
@@ -25991,12 +27323,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C19666"
+		(property "LCSC Part Number" "C19666"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a7528b79-81c4-4b5d-854e-ace870e6265f")
+			(uuid "00eeee13-fb90-49b0-b21c-a5ec5b57cfb1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "111b1869-e7e7-48a9-a3ec-1a0009ef0c10")
 			(effects
 				(font
 					(size 1 1)
@@ -26231,12 +27576,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C25347"
+		(property "LCSC Part Number" "C25347"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a6a7739d-46f7-444b-919b-6c45a36999e0")
+			(uuid "022f5d5a-df9b-4778-aded-276146c2b0a7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1f372a46-ab5b-4812-867a-a36a07387ebd")
 			(effects
 				(font
 					(size 1 1)
@@ -26468,12 +27826,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C389817"
+		(property "LCSC Part Number" "C389817"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5f1036ae-098e-4965-bced-d3a163b1ea99")
+			(uuid "538d349a-6868-4415-8848-02210ca0a07b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6b91e73f-cdb3-4f30-833b-228aa7194970")
 			(effects
 				(font
 					(size 1 1)
@@ -26662,7 +28033,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R57"
-			(at 0 -1.17 360)
+			(at 0 -1.17 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "d1743230-0275-4175-ae2f-2e8397f78c6f")
@@ -26674,7 +28045,7 @@
 			)
 		)
 		(property "Value" "10"
-			(at 0 1.17 360)
+			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "064a4ad3-bd6a-48e3-b249-e8720c7e8076")
 			(effects
@@ -26736,12 +28107,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C25077"
+		(property "LCSC Part Number" "C25077"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "663c5888-6218-4027-a6ee-37135a9f430b")
+			(uuid "b0b3acfc-d0cc-445c-a132-6204c0b7b6bc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fc8cdbee-b82d-4369-924b-5b0e1e2a6541")
 			(effects
 				(font
 					(size 1 1)
@@ -26855,7 +28239,7 @@
 			(uuid "59c8f932-acc4-4fb4-88fe-60ce0d387093")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "66207ed3-d957-4a75-a7dc-f094419cb0a5")
 			(effects
@@ -26985,12 +28369,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C18019"
+		(property "LCSC Part Number" "C18019"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d09f7bd2-7313-45d0-9391-f5b6aab0a439")
+			(uuid "1c0b5024-9b5a-4728-9410-4b2f83c788b7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8b23f7e7-3408-47d8-888f-e8c41d44944d")
 			(effects
 				(font
 					(size 1 1)
@@ -27222,12 +28619,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C307331"
+		(property "LCSC Part Number" "C307331"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "06873808-0b1e-48b3-8e74-217309cc5235")
+			(uuid "6ee3b8ed-501b-447a-90ee-8fd7ffe84290")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "37301344-5872-46df-b18c-dfc563b25d58")
 			(effects
 				(font
 					(size 1 1)
@@ -27459,12 +28869,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C307331"
+		(property "LCSC Part Number" "C307331"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6cb62867-a099-40ad-9af8-0b55218d5dec")
+			(uuid "6e0dbbba-da6e-4c8f-9096-5cd9c6d44a3f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "75804c61-79cb-458a-b44e-40c974629246")
 			(effects
 				(font
 					(size 1 1)
@@ -27696,12 +29119,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C5446"
+		(property "LCSC Part Number" "C5446"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "63dff222-5f47-4658-a0d9-06d97f8b6ac8")
+			(uuid "31815f68-26e3-43c8-8e72-d6edb2b0c6ad")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f736fe1c-e5b5-4c5b-9b8f-6d118321b356")
 			(effects
 				(font
 					(size 1 1)
@@ -27990,12 +29426,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C720477"
+		(property "LCSC Part Number" "C720477"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ce8de4a1-93a2-46ee-81f5-98cdfbbcfa84")
+			(uuid "b3513837-06bd-4c74-ab1e-6147b32033ae")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "013894ec-9a53-4e7d-b420-ac7ac4393885")
 			(effects
 				(font
 					(size 1 1)
@@ -28143,12 +29592,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C22936"
+		(property "LCSC Part Number" "C22936"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6017c61c-9c92-4e83-803a-c182356dd6bd")
+			(uuid "e8970d67-8d3f-446c-9a64-52e4a63a5687")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "abf71019-096d-4ce4-911e-802907b9de9d")
 			(effects
 				(font
 					(size 1 1)
@@ -28380,12 +29842,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C7496820"
+		(property "LCSC Part Number" "C7496820"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "307f52be-c630-49d2-8db1-e8c6f74695b8")
+			(uuid "d3c53d4b-c99c-4be4-85df-83d28ec7f154")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3bca56fc-ba58-4456-9242-364c8c8a3c98")
 			(effects
 				(font
 					(size 1 1)
@@ -28571,7 +30046,7 @@
 			(at 0 -4 180)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "b9dd6cb9-e431-4aea-b18b-fc877f2e155e")
+			(uuid "b378a857-e1a4-4238-a41f-2fc2ed74773f")
 			(effects
 				(font
 					(size 1 1)
@@ -28582,7 +30057,7 @@
 		(property "Value" "100uH"
 			(at 0 4 180)
 			(layer "F.Fab")
-			(uuid "9edc046d-9612-4981-a3cf-73207f7176f9")
+			(uuid "7b36a65c-4857-45de-a67c-5557c633b0ee")
 			(effects
 				(font
 					(size 1 1)
@@ -28594,7 +30069,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ae797b6b-08e5-48a1-9cf4-4ec11bb25057")
+			(uuid "1663825c-66ef-4f1c-9940-b9dc0f4336ae")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28606,7 +30081,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "25cd370c-d6cd-434c-8319-9e4c9f6b12e6")
+			(uuid "06ecf3c8-e898-4d02-b7ff-e7d443b43f8b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28618,7 +30093,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2ca1b1d1-cbe2-4464-b469-9225b83d2791")
+			(uuid "a32fa398-34e4-432b-9a77-9ca2bfcb083d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28639,12 +30114,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C60633"
+		(property "LCSC Part Number" "C60633"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "223a3020-66b4-4482-bd3d-817bb95a77c3")
+			(uuid "29ad3702-f9c0-4a02-b15f-b866d3fc381b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1a282669-c6a9-4202-a156-41c7ddd6b8a1")
 			(effects
 				(font
 					(size 1 1)
@@ -28665,7 +30153,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "64673745-6e89-4ab7-83cc-f35107667cc8")
+			(uuid "44b3dd2b-d072-4b57-af84-3905476715ee")
 		)
 		(fp_line
 			(start 3.26 -3.26)
@@ -28675,7 +30163,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "cd6e08f7-4b8d-419b-96b6-c10460f4b4d3")
+			(uuid "69e3d057-4c1d-46fc-83f4-ec112d11be5f")
 		)
 		(fp_line
 			(start -3.26 3.26)
@@ -28685,7 +30173,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "365c8946-73fe-4097-b79c-b757eb8a380d")
+			(uuid "a72fd951-ed23-4459-bb04-28298ad104f2")
 		)
 		(fp_line
 			(start -3.26 3.26)
@@ -28695,7 +30183,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "c587d263-3458-471e-b902-815dc6f0f8d0")
+			(uuid "f6609892-0293-4bb7-8e44-64d1897d269e")
 		)
 		(fp_line
 			(start -3.26 -3.26)
@@ -28705,7 +30193,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "9583d1f1-f41e-4bb4-8927-ba67a052e82c")
+			(uuid "e5c5ac0e-22ee-4d52-a712-a56904146df6")
 		)
 		(fp_line
 			(start -3.26 -3.26)
@@ -28715,7 +30203,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "1a913ec2-cfe2-4765-a76a-0e9733ab9474")
+			(uuid "0a39ac36-8c52-48c4-9981-e6dc5ef76227")
 		)
 		(fp_line
 			(start 3.35 3.25)
@@ -28725,7 +30213,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "6b1c283e-6d14-475e-a993-02438a6cd1d1")
+			(uuid "868f69ed-3dc7-46be-9bbb-4a120401957c")
 		)
 		(fp_line
 			(start 3.35 -3.25)
@@ -28735,7 +30223,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "54b06101-b69b-44c2-92df-bab7e1a866d0")
+			(uuid "7af31fab-8b09-4a32-9469-86dc04b90c61")
 		)
 		(fp_line
 			(start -3.35 3.25)
@@ -28745,7 +30233,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "a0ada7f4-48a5-4e40-a850-26532faf04fa")
+			(uuid "af419d58-3ee1-49ae-ada3-4cd57fbe368e")
 		)
 		(fp_line
 			(start -3.35 -3.25)
@@ -28755,7 +30243,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "ba2f08f7-d383-487c-870f-87f2cb8bd6e6")
+			(uuid "390ba164-c8de-440e-9cee-d4e4646ba0dd")
 		)
 		(fp_line
 			(start 3 3)
@@ -28765,7 +30253,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "06a01f02-7f73-4319-9c18-8be0a215e200")
+			(uuid "d9dc5ebc-c92e-4676-af5b-43bac3aff227")
 		)
 		(fp_line
 			(start 3 -3)
@@ -28775,7 +30263,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "263e7aa7-9984-49ba-b68d-fae5e2b9554d")
+			(uuid "90dadcde-692b-4b74-b1f9-9577e7c0d9f4")
 		)
 		(fp_line
 			(start -3 3)
@@ -28785,7 +30273,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "62878c76-2e58-4348-9bbe-818cfa7d5393")
+			(uuid "7c31f112-2968-4bb2-ab49-76176fec227c")
 		)
 		(fp_line
 			(start -3 -3)
@@ -28795,12 +30283,12 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "82bedfa8-0952-4a68-a884-55ab697911cb")
+			(uuid "6fc6ed15-77cd-4fcb-87d2-ad6ba06943b9")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 180)
 			(layer "F.Fab")
-			(uuid "4397f0fa-bbd0-4f11-8f20-d7f2779f449f")
+			(uuid "31b012a3-6e5a-4169-9015-359251e979e7")
 			(effects
 				(font
 					(size 0.566667 0.566667)
@@ -28814,7 +30302,7 @@
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 24 "/POWER/VBUCK5_OUT")
 			(pintype "passive")
-			(uuid "00abedde-4899-4fe2-932d-e7f12d3676ea")
+			(uuid "b20b16d9-85e1-40a8-b45b-7a13fdf879cb")
 		)
 		(pad "2" smd rect
 			(at 2.25 0 180)
@@ -28822,7 +30310,7 @@
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 103 "Net-(D4-K)")
 			(pintype "passive")
-			(uuid "015af64e-b704-40d2-af26-f8500fc14040")
+			(uuid "f2e2c74a-0d7a-4400-afc6-df2b0af845e3")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Sunlord_SWPA6045S.wrl"
 			(offset
@@ -28836,17 +30324,17 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_0805_2012Metric"
+	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "b6fc29cf-268c-43cf-a266-2d902d93e364")
 		(at 102.8 95.2625)
-		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
+		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C3"
-			(at 0 -1.68 0)
+			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "a104aa70-8ec4-45b2-849c-09b23f0bde02")
+			(uuid "1d574197-d362-44e0-833a-20a06fe3b56c")
 			(effects
 				(font
 					(size 1 1)
@@ -28854,10 +30342,10 @@
 				)
 			)
 		)
-		(property "Value" "0.47uF"
-			(at 0 1.68 0)
+		(property "Value" "470nF"
+			(at 0 1.43 0)
 			(layer "F.Fab")
-			(uuid "b2f70f27-df73-4763-854a-30c31cadafc9")
+			(uuid "c8620d4f-366b-47fa-bddd-92e05d01f2a6")
 			(effects
 				(font
 					(size 1 1)
@@ -28865,11 +30353,12 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 0 0 0)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "506066e4-e31b-48b1-a828-046d13dc6161")
+			(uuid "d1dd49ea-5b28-48ce-a0a9-3d49bc7b0aef")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28877,11 +30366,12 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL21A475KAQNNNE_C1779.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL10B474KA8NNNC_C1623.pdf"
 			(at 0 0 0)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "226ec206-100f-4488-88b4-9f2b30a40c9b")
+			(uuid "d18ffe4d-3094-4d43-bd9e-cf08198de9c0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28891,9 +30381,10 @@
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5a2e2b67-2d28-40a7-a5f6-8cd75ffdd1ac")
+			(uuid "7de7053c-d179-4a3f-96c7-ded8cf938ef3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28901,7 +30392,7 @@
 				)
 			)
 		)
-		(property "Manufacturing part number" "CL21A475KAQNNNE"
+		(property "Manufacturing part number" "CL10B474KA8NNNC"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28914,12 +30405,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C1779"
+		(property "LCSC Part Number" "C1623"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7aae74e3-fe99-4e7e-bf7f-84f1097bfab6")
+			(uuid "daf0fad1-5498-40b6-9b37-351db0f6e199")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b7321bad-171a-4d99-9c73-3dfa4ea83deb")
 			(effects
 				(font
 					(size 1 1)
@@ -28933,135 +30437,135 @@
 		(sheetfile "driver.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -0.261252 -0.735)
-			(end 0.261252 -0.735)
+			(start -0.14058 -0.51)
+			(end 0.14058 -0.51)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "fa482017-ba32-4b56-93f1-3c7183fe29f5")
+			(uuid "da53fa1c-c979-45e0-a67b-63bef86c12f7")
 		)
 		(fp_line
-			(start -0.261252 0.735)
-			(end 0.261252 0.735)
+			(start -0.14058 0.51)
+			(end 0.14058 0.51)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "eab74d42-8141-460a-b93f-aa1b3aecf389")
+			(uuid "b51eb9e8-6006-4950-bf2f-af44f0d198f2")
 		)
 		(fp_line
-			(start -1.7 -0.98)
-			(end 1.7 -0.98)
+			(start -1.48 -0.73)
+			(end 1.48 -0.73)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "57b40470-7390-44f1-b800-266f805c3ace")
+			(uuid "405c012d-ebdd-4d31-8355-eec3a50638c9")
 		)
 		(fp_line
-			(start -1.7 0.98)
-			(end -1.7 -0.98)
+			(start -1.48 0.73)
+			(end -1.48 -0.73)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "098ad95e-0d6b-492f-9ff5-48c66496b981")
+			(uuid "f5012228-cd97-4644-b89c-e79369c21e5c")
 		)
 		(fp_line
-			(start 1.7 -0.98)
-			(end 1.7 0.98)
+			(start 1.48 -0.73)
+			(end 1.48 0.73)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "8725c5c8-f89e-4453-94dc-f4bd341d3394")
+			(uuid "dffd4f6f-24a3-4e17-ae34-27ab115fa133")
 		)
 		(fp_line
-			(start 1.7 0.98)
-			(end -1.7 0.98)
+			(start 1.48 0.73)
+			(end -1.48 0.73)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "ab1fe77a-fdce-436e-8615-97fc7ca0cc8e")
+			(uuid "e734ad4e-bb51-4652-abf9-005e67c3c5ae")
 		)
 		(fp_line
-			(start -1 -0.625)
-			(end 1 -0.625)
+			(start -0.8 -0.4)
+			(end 0.8 -0.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "f864ef87-4b99-43c4-a663-9cb7667884c0")
+			(uuid "18727e97-e462-441c-b903-c3cce083c994")
 		)
 		(fp_line
-			(start -1 0.625)
-			(end -1 -0.625)
+			(start -0.8 0.4)
+			(end -0.8 -0.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "058305dc-e816-4efa-abd2-2fb4f9c29f2a")
+			(uuid "60f2c811-2651-4a89-8b88-897ed215e2ec")
 		)
 		(fp_line
-			(start 1 -0.625)
-			(end 1 0.625)
+			(start 0.8 -0.4)
+			(end 0.8 0.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "7043688b-abbb-4fd0-ae52-98dca15def33")
+			(uuid "0f170f4f-05d1-406c-96b7-49b8a01d541f")
 		)
 		(fp_line
-			(start 1 0.625)
-			(end -1 0.625)
+			(start 0.8 0.4)
+			(end -0.8 0.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "45b24508-da4a-4a89-bb75-087a8cdc9e1c")
+			(uuid "394ab5ed-9c08-434d-a7cc-dbc81f20bd63")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "d57f0919-4e18-43aa-8e7f-38077ebe0df1")
+			(uuid "ff7a212b-4f56-4100-bdd1-83dbeabf33c6")
 			(effects
 				(font
-					(size 0.5 0.5)
-					(thickness 0.08)
+					(size 0.4 0.4)
+					(thickness 0.06)
 				)
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.95 0)
-			(size 1 1.45)
+			(at -0.775 0)
+			(size 0.9 0.95)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
 			(net 1 "+10V")
 			(pintype "passive")
-			(uuid "918d9ec8-d0f7-46fb-86fe-c528519b238b")
+			(uuid "5c4dc113-60b2-4e52-b7e3-ba2a0c04644a")
 		)
 		(pad "2" smd roundrect
-			(at 0.95 0)
-			(size 1 1.45)
+			(at 0.775 0)
+			(size 0.9 0.95)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
 			(net 2 "GND")
 			(pintype "passive")
-			(uuid "3e8e6143-4a9e-4411-96de-5334ee6c1505")
+			(uuid "c6ade8dc-ea92-4709-a1d9-0d5162357b18")
 		)
-		(model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
+		(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -29151,12 +30655,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C191023"
+		(property "LCSC Part Number" "C191023"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "44ab987e-9434-42ef-a53e-c07f781c70d8")
+			(uuid "c7b786d8-5e2b-4516-a4a0-5a09e1e39f30")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1c282892-de6e-4f15-91f2-1921fde9d620")
 			(effects
 				(font
 					(size 1 1)
@@ -29460,12 +30977,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C27834"
+		(property "LCSC Part Number" "C27834"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ef06aaeb-3874-4580-a1d7-082d46269884")
+			(uuid "ff841131-ff0a-4926-8847-84fe59164e8f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d6b44c11-aa4e-46d2-bad9-a96df66e3e66")
 			(effects
 				(font
 					(size 1 1)
@@ -29629,7 +31159,7 @@
 			(at 0 -4 180)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "f00b2f87-98ca-4ce2-910e-5122575bb4d8")
+			(uuid "50ccd761-9387-4430-977d-4295e5bc35d1")
 			(effects
 				(font
 					(size 1 1)
@@ -29640,7 +31170,7 @@
 		(property "Value" "100uH"
 			(at 0 4 180)
 			(layer "F.Fab")
-			(uuid "63dd95c7-b4d9-4183-b12c-150f6d8d10ae")
+			(uuid "f00d5122-ffc1-4ed0-b854-d01c3277c710")
 			(effects
 				(font
 					(size 1 1)
@@ -29652,7 +31182,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "122a1451-6913-489d-9de9-280e1f31994f")
+			(uuid "e8607287-1516-4f5b-ba70-b1b58ce76c98")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29664,7 +31194,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e254805f-b018-4220-8bca-3054d813fd13")
+			(uuid "79254fb9-ed70-49e9-bec4-173346e3fb32")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29676,7 +31206,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "855e8e26-117e-4836-99ba-a3861e72ceb6")
+			(uuid "7e84b2db-dece-4285-8e77-3798b3858e92")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29697,12 +31227,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C60633"
+		(property "LCSC Part Number" "C60633"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f1d6f562-642f-4a80-873e-a141745151be")
+			(uuid "3a5a0af5-8ad9-4364-bd3c-20836b147663")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c2db9c33-1bcb-4c33-a8d8-c4700daf8106")
 			(effects
 				(font
 					(size 1 1)
@@ -29723,7 +31266,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "3e47e99d-02af-4feb-94a8-ae7f83fc3c97")
+			(uuid "ff3633ba-5149-4795-8de4-bac283b88476")
 		)
 		(fp_line
 			(start 3.26 -3.26)
@@ -29733,7 +31276,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "f7fe236c-da34-4751-beb2-66c7d9acff27")
+			(uuid "ad99d527-3c18-4e52-ba3d-4172460deee8")
 		)
 		(fp_line
 			(start -3.26 3.26)
@@ -29743,7 +31286,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "3b20c8e1-f385-4007-929d-cf3a57b659b7")
+			(uuid "d24c37e6-1e39-4dee-ab43-ce4b1b3835b5")
 		)
 		(fp_line
 			(start -3.26 3.26)
@@ -29753,7 +31296,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "45d2fbb3-14be-400c-9d66-20cf94b4f293")
+			(uuid "a51758ea-94ae-49b8-ac04-7815b1903124")
 		)
 		(fp_line
 			(start -3.26 -3.26)
@@ -29763,7 +31306,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "08575069-f291-4920-be9b-0d60f37ecd3d")
+			(uuid "dfc4ed31-eda9-4f35-8b94-5abb7a97a556")
 		)
 		(fp_line
 			(start -3.26 -3.26)
@@ -29773,7 +31316,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "e227a8e4-5672-4aae-aebb-24982a8cefa7")
+			(uuid "d3ba3c4d-8ef0-491c-8279-a06ec2c3e834")
 		)
 		(fp_line
 			(start 3.35 3.25)
@@ -29783,7 +31326,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "72245f14-7cd1-44aa-88b7-e1a5c210a76f")
+			(uuid "5fc734eb-686a-4d78-a264-a74859415143")
 		)
 		(fp_line
 			(start 3.35 -3.25)
@@ -29793,7 +31336,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "57026ccd-aa9e-4a07-8f5c-194644a1303b")
+			(uuid "c3f36906-31af-4b0f-bf10-e4a2ebeaf9d5")
 		)
 		(fp_line
 			(start -3.35 3.25)
@@ -29803,7 +31346,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "b49cce5f-ebcb-4d4a-861b-a8d5cb3f725b")
+			(uuid "d903daf3-be40-4f0d-8b59-42df32f01931")
 		)
 		(fp_line
 			(start -3.35 -3.25)
@@ -29813,7 +31356,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "6f0302b3-55e1-4d3e-9c41-cfc1e4f4a79d")
+			(uuid "f895cd6a-c7e1-42d1-b378-3c3f566b2ddb")
 		)
 		(fp_line
 			(start 3 3)
@@ -29823,7 +31366,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "33b932da-9921-441a-b90f-fe0b278ed98a")
+			(uuid "fa2963ff-ef15-43eb-933f-35165ebb9f33")
 		)
 		(fp_line
 			(start 3 -3)
@@ -29833,7 +31376,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "156ee561-ed7d-4fa4-8e96-d18a6e671a18")
+			(uuid "a8c9cee4-78c3-4b30-a772-be18298e2957")
 		)
 		(fp_line
 			(start -3 3)
@@ -29843,7 +31386,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "9e16407c-7e45-4715-80a8-e86fd50b55b6")
+			(uuid "7e893ca0-f3cb-401e-aa6c-98c50a4d53db")
 		)
 		(fp_line
 			(start -3 -3)
@@ -29853,12 +31396,12 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "1d64f792-d003-4d60-a6ac-bdd397f9ee5d")
+			(uuid "211931a0-68ad-4d3c-8032-488dd188df6c")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 180)
 			(layer "F.Fab")
-			(uuid "bc19fa24-abbf-468a-934f-905f6e397c23")
+			(uuid "55569882-bb0a-463c-8413-f1f441c7ec53")
 			(effects
 				(font
 					(size 0.566667 0.566667)
@@ -29872,7 +31415,7 @@
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 1 "+10V")
 			(pintype "passive")
-			(uuid "49e8c5c2-57bb-4935-99a8-4186f711d346")
+			(uuid "a9a4871c-e138-438a-a0e6-939c2a8481d3")
 		)
 		(pad "2" smd rect
 			(at 2.25 0 180)
@@ -29880,7 +31423,7 @@
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 104 "Net-(D5-K)")
 			(pintype "passive")
-			(uuid "121d8a49-0c66-4c99-86bb-c69143c18cc2")
+			(uuid "254a0811-a84a-48ec-b319-6dea50d5a8bd")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Sunlord_SWPA6045S.wrl"
 			(offset
@@ -29972,12 +31515,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C346210"
+		(property "LCSC Part Number" "C346210"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4347af75-872e-4ad1-a00e-6558c1692a86")
+			(uuid "7af74342-c07d-4b15-92f3-b083d7a537bc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f6919a69-2d2d-4f5c-9f12-ae97edfadc2c")
 			(effects
 				(font
 					(size 1 1)
@@ -30209,12 +31765,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C307331"
+		(property "LCSC Part Number" "C307331"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4279219a-f39c-44d2-9399-d7fbd62b52e8")
+			(uuid "dd80ba56-a050-4221-8b62-6105df9174b5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b05fca35-2ad2-4249-9544-e7b8219c6977")
 			(effects
 				(font
 					(size 1 1)
@@ -30446,12 +32015,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C307331"
+		(property "LCSC Part Number" "C307331"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f007ae8e-44b7-4c12-b0e0-4efdb2b13c58")
+			(uuid "65621999-f763-413d-92c8-7866426f6bca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b3334a66-b87a-4de7-9bb3-f092f423edde")
 			(effects
 				(font
 					(size 1 1)
@@ -30683,12 +32265,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C307331"
+		(property "LCSC Part Number" "C307331"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "050ec7d2-885c-44f6-a9a9-f1ed79b25a17")
+			(uuid "527ef290-3287-4a03-ab8c-719b9cbe271e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b2174089-0e7e-483d-b5b2-570642ea924f")
 			(effects
 				(font
 					(size 1 1)
@@ -30849,7 +32444,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R44"
-			(at 0 -1.65 360)
+			(at 0 -1.65 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "58689f28-2d53-4d96-8658-dddb758b002e")
@@ -30861,7 +32456,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 0 1.65 360)
+			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "0546b1c1-eed7-483b-8187-cf1b84f97cf5")
 			(effects
@@ -30872,7 +32467,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b5493ce8-a0a0-4602-8918-31c11350f6e3")
@@ -30884,7 +32479,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206010200_UNI-ROYAL-Uniroyal-Elec-0805W8F4701T5E_C17673.pdf"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d8c7a70b-1f47-449b-8381-c913e62f58fa")
@@ -30896,7 +32491,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f093c182-cbdd-4ae8-9d64-a935cc946e46")
@@ -30920,12 +32515,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C17673"
+		(property "LCSC Part Number" "C17673"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a91b28f1-6fd5-4048-b69d-1562d70fd73e")
+			(uuid "616e33c3-0781-4338-86ef-ce25bd9284af")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "664958ce-964f-4026-89cf-0b2f5f898347")
 			(effects
 				(font
 					(size 1 1)
@@ -31039,7 +32647,7 @@
 			(uuid "6bb06370-9719-498d-ba67-09470894acad")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "1a9a14e9-5b96-4aec-9fee-6d5a6944bc71")
 			(effects
@@ -31157,12 +32765,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C4125"
+		(property "LCSC Part Number" "C4125"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d44b43e7-ad62-496c-a4e7-fb4f226a5f91")
+			(uuid "7be332d0-2f09-4a5f-b020-ed22d0f998f5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bb35a332-210a-4f49-9d52-c175d18cf0e7")
 			(effects
 				(font
 					(size 1 1)
@@ -31394,12 +33015,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C307331"
+		(property "LCSC Part Number" "C307331"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ee9cccd1-9b36-4340-80c3-447094d18c89")
+			(uuid "191f962d-8514-4e56-ae49-08122a064f96")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "205c151f-7d81-477a-922e-c317662a5ae4")
 			(effects
 				(font
 					(size 1 1)
@@ -31631,12 +33265,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C25077"
+		(property "LCSC Part Number" "C25077"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f3cd409f-f5df-4f8d-8fac-e25070afa8de")
+			(uuid "bc392b6a-a6f4-4302-8196-2be45b78b9bd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "86b86b42-13fb-4baa-86ef-fc280f043e33")
 			(effects
 				(font
 					(size 1 1)
@@ -31868,12 +33515,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C296722"
+		(property "LCSC Part Number" "C296722"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "19e7f537-9061-4bce-9a53-e908dba5bd9c")
+			(uuid "54b14320-b4cf-4ce7-b9a0-5cfa6ae85453")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2bc310ed-d388-4b88-b65c-de14eb8e7e29")
 			(effects
 				(font
 					(size 1 1)
@@ -32105,12 +33765,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C5804631"
+		(property "LCSC Part Number" "C5804631"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "129796e0-84ef-41d1-8748-3cd50f1323e0")
+			(uuid "bdb00939-da81-4c06-bfc2-c6fb8577d441")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "75ed3bb2-440b-459a-b7b6-2718d03374c8")
 			(effects
 				(font
 					(size 1 1)
@@ -32484,12 +34157,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C307331"
+		(property "LCSC Part Number" "C307331"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "14fb8a9e-59ca-46aa-af40-bea6ac81ef91")
+			(uuid "90a41fe0-986d-4469-9e5b-09447fc0bba9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "27205ee4-0127-4523-b694-d06048d3f2c9")
 			(effects
 				(font
 					(size 1 1)
@@ -32733,12 +34419,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C22936"
+		(property "LCSC Part Number" "C22936"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c6f337ca-17c0-477a-a4be-0d79f4b04875")
+			(uuid "55812ec7-e3da-4222-a17e-c47088c06934")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "623ef7a9-2882-4943-a80f-c676c042e0f6")
 			(effects
 				(font
 					(size 1 1)
@@ -32970,12 +34669,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C17673"
+		(property "LCSC Part Number" "C17673"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c21385de-4002-4ac5-a2f8-e4c56fcd166a")
+			(uuid "794d68e3-63a9-44df-b5ab-1209528e4474")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fbca2a67-2b00-4a1d-927d-e35df3e2bd84")
 			(effects
 				(font
 					(size 1 1)
@@ -33207,12 +34919,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C192764"
+		(property "LCSC Part Number" "C192764"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6a202056-159f-4b11-9cbb-7aa5ba5bbfff")
+			(uuid "654a5585-5471-4fc9-85ad-a2bf82e199b1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3f8b5795-c540-4a0b-b092-6508e9ebbaa1")
 			(effects
 				(font
 					(size 1 1)
@@ -33517,12 +35242,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C307331"
+		(property "LCSC Part Number" "C307331"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4d1f5a47-9989-4678-976a-2750d63521ff")
+			(uuid "1ffdf860-a76b-43a6-8f1a-c0e99a766400")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "067239ac-ef06-4976-81ea-482f5ee4b353")
 			(effects
 				(font
 					(size 1 1)
@@ -33754,12 +35492,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C4216"
+		(property "LCSC Part Number" "C4216"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b95f013b-8b35-4866-887f-3f0e0c792bb0")
+			(uuid "a97fde3e-4bba-449b-866c-52f954bf0f23")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0a292a00-1135-4e81-ad90-62cbceb82f7d")
 			(effects
 				(font
 					(size 1 1)
@@ -34003,12 +35754,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C15195"
+		(property "LCSC Part Number" "C15195"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "43ab10a8-3359-4018-8045-242e6cd2da65")
+			(uuid "6b8778a1-7f3a-4210-a2c7-c84f5011b528")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9b3f88b1-8a1a-40d0-b6fb-26440712d846")
 			(effects
 				(font
 					(size 1 1)
@@ -34252,12 +36016,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C500615"
+		(property "LCSC Part Number" "C500615"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "955db945-ab01-45e4-ac9f-695df75ecfa0")
+			(uuid "565b6152-7eda-4139-8a80-08dfc4246b01")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fbab44f1-04a7-4497-ae98-7276bf06adcb")
 			(effects
 				(font
 					(size 1 1)
@@ -34489,12 +36266,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C568913"
+		(property "LCSC Part Number" "C568913"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6a06ec98-f0f1-403d-be06-f9185af15738")
+			(uuid "17bf0861-6e92-44fa-b455-0578792041a4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c5f85092-93f0-423b-8485-05f2919a0158")
 			(effects
 				(font
 					(size 1 1)
@@ -34738,12 +36528,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C191023"
+		(property "LCSC Part Number" "C191023"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b477a7ac-a2eb-4174-ac70-483ba914eb9f")
+			(uuid "99bf0f1f-21f3-4ecd-a6a6-73caa1bed077")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "93036b10-00e8-49d7-8183-861a8ce760d0")
 			(effects
 				(font
 					(size 1 1)
@@ -35047,12 +36850,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C5804631"
+		(property "LCSC Part Number" "C5804631"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fd550ad9-0fa8-41e9-9664-25a29952e576")
+			(uuid "152948c8-a8c6-4895-a87c-1ac2f6e5e470")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ee29bea9-70dc-4028-a0fd-c9e4435414d4")
 			(effects
 				(font
 					(size 1 1)
@@ -35426,12 +37242,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C568913"
+		(property "LCSC Part Number" "C568913"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0f4d7770-407a-4102-b55a-0dcb8d8d4809")
+			(uuid "b7cd3596-14aa-4a47-a55b-7ae76b77d495")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "638894ca-4a47-4c69-924a-5fa05864f786")
 			(effects
 				(font
 					(size 1 1)
@@ -35675,12 +37504,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C18019"
+		(property "LCSC Part Number" "C18019"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3fe94419-9f2a-4551-be76-6df0cb3c5a7a")
+			(uuid "c291291d-9310-4c4e-acfa-5e9346d75092")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cc248be0-f000-408a-a172-6d1c09b6b3b7")
 			(effects
 				(font
 					(size 1 1)
@@ -35912,12 +37754,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C4216"
+		(property "LCSC Part Number" "C4216"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "08c7df44-9e64-495b-9928-721a58e1933b")
+			(uuid "8ea65fa7-4deb-463a-9c69-422e10c41d49")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d178fb50-ac3c-48c0-b652-d4a7a211b703")
 			(effects
 				(font
 					(size 1 1)
@@ -36149,12 +38004,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C4216"
+		(property "LCSC Part Number" "C4216"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0cf5a072-f960-49d0-91e8-a01ecacfeb08")
+			(uuid "346517c6-21a6-47db-97a7-1922cf1d70d1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aa4a1aad-0cf9-4876-b063-ae4b0c8e241b")
 			(effects
 				(font
 					(size 1 1)
@@ -36376,7 +38244,7 @@
 				)
 			)
 		)
-		(property "MFR.Part" "HB-PH3-25413PB2GOP "
+		(property "MFR.Part" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -36388,12 +38256,38 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C6332196"
+		(property "LCSC Part Number" "C6332196"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a6d8d60b-68cf-4892-baac-968231533714")
+			(uuid "178563ff-8f21-4a02-a5bd-58f830ae5bd8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturing part number" "HB-PH3-25413PB2GOP "
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d9bdf8d7-e27d-4eaf-9e66-b2df2bcb96fe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "195ac705-bd58-43df-b8c5-373ff919bb46")
 			(effects
 				(font
 					(size 1 1)
@@ -36677,6 +38571,19 @@
 				)
 			)
 		)
+		(property "jlcpcb" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e01e29c5-c8f5-4394-910f-b27d6f9410c6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/53dc30ee-9af6-4771-8676-c78726df5d90/c0fafa15-94e5-4106-85c0-287a92f64012")
 		(sheetname "POWER")
@@ -36828,12 +38735,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C15195"
+		(property "LCSC Part Number" "C15195"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "35fd2e80-d248-4c5b-a0ab-f00cf634be77")
+			(uuid "6081f19d-1f27-4300-9f74-f7bfcc158c49")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5bcc9b01-721b-45b0-a7c1-bddb83a469f2")
 			(effects
 				(font
 					(size 1 1)
@@ -37065,12 +38985,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C4216"
+		(property "LCSC Part Number" "C4216"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "91716d33-6e47-4b03-9511-51e2c552c356")
+			(uuid "348c79df-1a48-4168-a422-9dd6a0870e5f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "32e25db2-7a1d-469d-9f49-a95599cb63d9")
 			(effects
 				(font
 					(size 1 1)
@@ -37302,12 +39235,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C4216"
+		(property "LCSC Part Number" "C4216"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "871ec62d-98aa-49fd-8054-30b73ed35f52")
+			(uuid "29bac34c-0f21-4d68-a7a8-1933cf2e52c8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "26c359a4-0a14-4da8-85cb-4499b4883cc7")
 			(effects
 				(font
 					(size 1 1)
@@ -37526,6 +39472,19 @@
 				)
 			)
 		)
+		(property "jlcpcb" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6403caa6-54ec-4f94-ad98-47f9fabf7303")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/7f7e17e0-7d73-4fbb-9112-49949fae378a/88874b50-c486-44d8-addd-20b971cb1d8b")
 		(sheetname "DRIVER")
 		(sheetfile "driver.kicad_sch")
@@ -37669,12 +39628,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C4216"
+		(property "LCSC Part Number" "C4216"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c34b2874-7065-4d77-b137-c80c48e5cf22")
+			(uuid "b16a6038-d1f6-462e-823c-4a685edebec6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "751c7660-4535-4f79-b8f9-5d984818da7f")
 			(effects
 				(font
 					(size 1 1)
@@ -37906,12 +39878,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C2586"
+		(property "LCSC Part Number" "C2586"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ab3002c7-9816-440a-85bb-09708ac7cc3d")
+			(uuid "ebbf028b-2b1d-4cbb-9abc-b9fb19fb2a73")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bd9564b2-3144-43e7-b414-adf34a143a50")
 			(effects
 				(font
 					(size 1 1)
@@ -38228,7 +40213,7 @@
 				)
 			)
 		)
-		(property "MFR.Part" "HB-PH3-25418PB2GOP "
+		(property "MFR.Part" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -38241,12 +40226,38 @@
 				)
 			)
 		)
-		(property "jlcpcb" "C6332201"
+		(property "LCSC Part Number" "C6332201"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8c88843b-b008-4304-97b5-36ef4e13f4cf")
+			(uuid "33cbbd8d-9835-4d44-94b1-20af3566d48b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturing part number" "HB-PH3-25418PB2GOP "
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5f6cda19-5559-44a8-9c53-da48f81f3105")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b9f9a645-403c-42e8-b6b5-3385ba9e760c")
 			(effects
 				(font
 					(size 1 1)
@@ -38520,17 +40531,17 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "ef7719da-8515-435c-9c4a-8e15e334baf2")
 		(at 84.1 99.4 -90)
-		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
-		(tags "capacitor handsolder")
+		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+		(tags "capacitor")
 		(property "Reference" "C42"
-			(at 0 -1.68 -90)
+			(at 0 -1.43 -90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "7b98d43c-7ecd-4264-9519-e01ad5253305")
+			(uuid "7d4909fe-4616-4107-8b6a-b7ccd10d7041")
 			(effects
 				(font
 					(size 1 1)
@@ -38539,9 +40550,9 @@
 			)
 		)
 		(property "Value" "470pF"
-			(at 0 1.68 -90)
+			(at 0 1.43 -90)
 			(layer "F.Fab")
-			(uuid "64aefe09-5468-4013-a003-74cde6cc13b7")
+			(uuid "c4112212-e485-4df3-acbf-bb7209a9387b")
 			(effects
 				(font
 					(size 1 1)
@@ -38549,11 +40560,12 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 0 0 -90)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9f674d42-b414-43b3-93be-ed7e2c252e8a")
+			(uuid "a1405652-39f6-459d-a866-282471d32deb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38561,11 +40573,12 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0805B471K500NT_C1743.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0603B471K500NT_C1620.pdf"
 			(at 0 0 -90)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b2b5b372-f144-46de-b87d-dd827abe67a6")
+			(uuid "e2d76fcf-4ec0-4e7e-a7de-eb135f89f99d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38575,9 +40588,10 @@
 		)
 		(property "Description" ""
 			(at 0 0 -90)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a8b02945-7a61-40cd-916b-7df6b268ff69")
+			(uuid "1679f166-b4e0-4429-a227-ae2fe5f2def3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38585,7 +40599,7 @@
 				)
 			)
 		)
-		(property "Manufacturing part number" "0805B471K500NT"
+		(property "Manufacturing part number" "0603B471K500NT"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -38598,12 +40612,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C1743"
+		(property "LCSC Part Number" "C1620"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7671b8a8-a8ab-4b76-847d-4a69401eda51")
+			(uuid "852b1282-dd92-40f7-922a-6db3cbbebd73")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "89937575-5fe5-45d4-8ee1-b609cf00b373")
 			(effects
 				(font
 					(size 1 1)
@@ -38617,135 +40644,135 @@
 		(sheetfile "power.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -0.261252 0.735)
-			(end 0.261252 0.735)
+			(start -0.14058 0.51)
+			(end 0.14058 0.51)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "cc9cbb3a-f16f-444e-96a5-e5bcce6b09de")
+			(uuid "d2d990bc-9671-4d1d-b1c3-2a9b58ece34d")
 		)
 		(fp_line
-			(start -0.261252 -0.735)
-			(end 0.261252 -0.735)
+			(start -0.14058 -0.51)
+			(end 0.14058 -0.51)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "da950b1d-23b2-4ced-bd7e-d4000c2671b5")
+			(uuid "6e6c72bd-4844-40ff-b8a9-ec1e7943c654")
 		)
 		(fp_line
-			(start -1.88 0.98)
-			(end -1.88 -0.98)
+			(start -1.48 0.73)
+			(end -1.48 -0.73)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "807c4222-6bc6-4428-897d-34fbcd4df1ae")
+			(uuid "4c298e5c-397b-44d9-9660-a27594919002")
 		)
 		(fp_line
-			(start 1.88 0.98)
-			(end -1.88 0.98)
+			(start 1.48 0.73)
+			(end -1.48 0.73)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "5668172c-44e4-4579-862e-15d250fff2be")
+			(uuid "1cc4f714-2488-42ac-8bac-82188072f445")
 		)
 		(fp_line
-			(start -1.88 -0.98)
-			(end 1.88 -0.98)
+			(start -1.48 -0.73)
+			(end 1.48 -0.73)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "1eaa0c10-ca1e-4cdc-9c55-63068770e8ec")
+			(uuid "3aec4c1c-b305-465b-a5bd-cbbb85ef89b0")
 		)
 		(fp_line
-			(start 1.88 -0.98)
-			(end 1.88 0.98)
+			(start 1.48 -0.73)
+			(end 1.48 0.73)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "0dc5ee30-4f75-4e60-bc19-3e61ba9fc66e")
+			(uuid "f09d0a84-1622-47ce-bc86-b20b3c5a503d")
 		)
 		(fp_line
-			(start -1 0.625)
-			(end -1 -0.625)
+			(start -0.8 0.4)
+			(end -0.8 -0.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "e5856d5c-d069-431c-97b2-3bab4c4696cb")
+			(uuid "370e9ae6-9746-4ba4-9968-2e374ff06292")
 		)
 		(fp_line
-			(start 1 0.625)
-			(end -1 0.625)
+			(start 0.8 0.4)
+			(end -0.8 0.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "e981c0f8-82e0-45da-8483-e70c6c15acb4")
+			(uuid "6cc6d9c3-835c-427f-861d-4679953234a7")
 		)
 		(fp_line
-			(start -1 -0.625)
-			(end 1 -0.625)
+			(start -0.8 -0.4)
+			(end 0.8 -0.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "6f7409c6-09e6-4a55-9116-166c25bc835e")
+			(uuid "b4dd58eb-712b-4df5-810a-1bd67cc654bf")
 		)
 		(fp_line
-			(start 1 -0.625)
-			(end 1 0.625)
+			(start 0.8 -0.4)
+			(end 0.8 0.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "b8c6f886-3267-4e5e-99c1-71db4358f7f4")
+			(uuid "9a013f1f-0281-449a-93ac-9e220001b836")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 -90)
 			(layer "F.Fab")
-			(uuid "58440246-51ab-4003-b520-da3b72d3281f")
+			(uuid "514c04ab-bedc-4838-8641-682fec1326be")
 			(effects
 				(font
-					(size 0.5 0.5)
-					(thickness 0.08)
+					(size 0.4 0.4)
+					(thickness 0.06)
 				)
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.0375 0 270)
-			(size 1.175 1.45)
+			(at -0.775 0 270)
+			(size 0.9 0.95)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(roundrect_rratio 0.212766)
+			(roundrect_rratio 0.25)
 			(net 2 "GND")
 			(pintype "passive")
-			(uuid "31188d08-a249-4dd9-97cc-540ad277f9f1")
+			(uuid "1d078754-05a4-46c9-a3dc-5b0a51c2168e")
 		)
 		(pad "2" smd roundrect
-			(at 1.0375 0 270)
-			(size 1.175 1.45)
+			(at 0.775 0 270)
+			(size 0.9 0.95)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(roundrect_rratio 0.212766)
+			(roundrect_rratio 0.25)
 			(net 26 "Net-(U10-TC)")
 			(pintype "passive")
-			(uuid "18b6d3c2-8b74-4cf4-a25a-0f75f0a0e11b")
+			(uuid "9136e91d-3bc4-4e91-8cb9-d90b9db451a2")
 		)
-		(model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
+		(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -38838,12 +40865,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C25347"
+		(property "LCSC Part Number" "C25347"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b1cebf6a-b87c-48a4-80e8-16920cc854c2")
+			(uuid "5c4450ca-08dd-45d3-8563-7dd59b177ac8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c106cd66-79cf-4bf4-b8da-511c7e43620e")
 			(effects
 				(font
 					(size 1 1)
@@ -39087,12 +41127,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C17903"
+		(property "LCSC Part Number" "C17903"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "086cb71a-aa3a-444c-975f-5d70c006ce08")
+			(uuid "b4d667f1-b901-46b7-9968-b150d492e42b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cd39aeb4-1ced-4b04-8e0b-3637704bde02")
 			(effects
 				(font
 					(size 1 1)
@@ -39336,12 +41389,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C22936"
+		(property "LCSC Part Number" "C22936"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "367ee709-6f53-4c3f-8a18-392d2436498d")
+			(uuid "2ba90a33-a1ba-45e3-a7fa-3db6d5e48a1a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0caed434-f811-4a57-9118-6c6d9b46fd0b")
 			(effects
 				(font
 					(size 1 1)
@@ -39585,12 +41651,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C17903"
+		(property "LCSC Part Number" "C17903"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e8a41812-6805-472d-9052-ad8727ef0a51")
+			(uuid "46e11865-4708-44b9-9b97-37b6bbd71d2b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "417b1ff5-0009-4985-ba88-06836ca51876")
 			(effects
 				(font
 					(size 1 1)
@@ -39822,12 +41901,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C1848"
+		(property "LCSC Part Number" "C1848"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "03011e1e-7141-4f30-a5f7-4b8c07654edb")
+			(uuid "fb6716d1-4b22-4168-b3fc-1d07d24b0d4f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8dd2b84a-2391-4b27-900b-187a3ba379b8")
 			(effects
 				(font
 					(size 1 1)
@@ -40059,12 +42151,25 @@
 				)
 			)
 		)
-		(property "jlcpcb part number" "C4216"
+		(property "LCSC Part Number" "C4216"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e31ada17-9fa8-4fd8-bb61-28186e307ce3")
+			(uuid "558888dd-0ca6-466b-a63d-4dbb6c027b49")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d500ed4a-5773-4535-aa0d-2d8e30e22033")
 			(effects
 				(font
 					(size 1 1)
@@ -40285,6 +42390,20 @@
 				)
 			)
 		)
+		(property "jlcpcb" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "8e2d3d8a-bc78-4355-80e3-4f6a5d91816a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/7eb1e86b-8a48-408f-b231-0c52f4ea1971/d2582262-8444-4ab9-b9bc-30a261a88255")
 		(sheetname "CPU")
@@ -40401,6 +42520,20 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "fb17fe7b-eb13-4aaa-954f-8922592c6700")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
 			)
 		)
 		(property ki_fp_filters "Pin* Test*")
@@ -40521,6 +42654,20 @@
 				)
 			)
 		)
+		(property "jlcpcb" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "af303cee-01c2-4e5e-87da-01c08c340572")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/7f7e17e0-7d73-4fbb-9112-49949fae378a/5cbf61fb-946b-413b-aeb3-c4368edf48ca")
 		(sheetname "DRIVER")
@@ -40637,6 +42784,20 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "38c93816-af2a-4cce-96c8-59fdaa767766")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
 			)
 		)
 		(property ki_fp_filters "Pin* Test*")
@@ -40757,6 +42918,20 @@
 				)
 			)
 		)
+		(property "jlcpcb" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "701f7cf0-f2e6-4221-a9d1-9ab5ce7e9e13")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/7eb1e86b-8a48-408f-b231-0c52f4ea1971/adec2807-2af4-40c7-ab0b-46c44b2a4d7e")
 		(sheetname "CPU")
@@ -40873,6 +43048,20 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "7700f649-6d24-4446-a40c-4a449390ebb4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
 			)
 		)
 		(property ki_fp_filters "Pin* Test*")
@@ -40993,6 +43182,20 @@
 				)
 			)
 		)
+		(property "jlcpcb" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "fdc99634-b81f-461c-b185-0e343bed7046")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/53dc30ee-9af6-4771-8676-c78726df5d90/d12a3919-799b-4c66-81c8-27c0b251da99")
 		(sheetname "POWER")
@@ -41109,6 +43312,20 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "aaa5d4bb-3da4-4feb-a82a-14937e0ef86a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
 			)
 		)
 		(property ki_fp_filters "Pin* Test*")
@@ -41229,6 +43446,20 @@
 				)
 			)
 		)
+		(property "jlcpcb" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5fcaa932-cef3-4fd3-9438-0d87a80cfd40")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/7f7e17e0-7d73-4fbb-9112-49949fae378a/428e497f-1cea-47f3-ac10-2773057e5f89")
 		(sheetname "DRIVER")
@@ -41345,6 +43576,20 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "02c187bc-6ea9-424f-a81f-c202ceb28bda")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
 			)
 		)
 		(property ki_fp_filters "Pin* Test*")
@@ -41465,6 +43710,20 @@
 				)
 			)
 		)
+		(property "jlcpcb" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1b237276-c13e-402c-ac63-3c47cc2e038e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/7eb1e86b-8a48-408f-b231-0c52f4ea1971/1260010b-ba90-42b6-862b-5dfe19be5fba")
 		(sheetname "CPU")
@@ -41581,6 +43840,20 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c0307090-6fb3-4966-9b1c-a71e13f65032")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
 			)
 		)
 		(property ki_fp_filters "Pin* Test*")
@@ -41701,6 +43974,20 @@
 				)
 			)
 		)
+		(property "jlcpcb" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1a3ada57-7ee7-4756-b3f7-92a606099537")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/7f7e17e0-7d73-4fbb-9112-49949fae378a/ad0b94bd-15fc-4a17-b9dc-40c583f0498c")
 		(sheetname "DRIVER")
@@ -41817,6 +44104,20 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ec1bde09-2ef0-482d-a2bb-c4bc13e749fc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
 			)
 		)
 		(property ki_fp_filters "Pin* Test*")
@@ -41937,6 +44238,20 @@
 				)
 			)
 		)
+		(property "jlcpcb" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "8fb76cc6-4e10-47ff-93f4-9775401ae860")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/7eb1e86b-8a48-408f-b231-0c52f4ea1971/3ec5895b-f7ce-4f61-a3fa-95cf22108f3a")
 		(sheetname "CPU")
@@ -42053,6 +44368,20 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "be009980-202e-4f6f-aaa7-60061f124e96")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
 			)
 		)
 		(property ki_fp_filters "Pin* Test*")
@@ -42173,6 +44502,20 @@
 				)
 			)
 		)
+		(property "jlcpcb" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "897eadf6-0266-4142-9600-bc0ce659c51e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/7f7e17e0-7d73-4fbb-9112-49949fae378a/ec108eb4-7f86-4e1f-814b-7cd2c8d446f1")
 		(sheetname "DRIVER")
@@ -42289,6 +44632,20 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ad538499-72b2-48a7-9a68-138cb4d1f21f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
 			)
 		)
 		(property ki_fp_filters "Pin* Test*")
@@ -42409,6 +44766,20 @@
 				)
 			)
 		)
+		(property "jlcpcb" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5ad0a5cb-6316-46dd-9258-e1e8e9597593")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/7f7e17e0-7d73-4fbb-9112-49949fae378a/58f31a0d-118b-4a7e-8dd1-c8dac925c8c5")
 		(sheetname "DRIVER")
@@ -42525,6 +44896,20 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c294a8f2-230f-4048-909e-395c8e386c05")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
 			)
 		)
 		(property ki_fp_filters "Pin* Test*")
@@ -42645,6 +45030,20 @@
 				)
 			)
 		)
+		(property "jlcpcb" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f60d1264-9389-44cc-92fb-d00bdcae2547")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/53dc30ee-9af6-4771-8676-c78726df5d90/dc39f0b4-417d-4afe-afa0-3e99125b551d")
 		(sheetname "POWER")
@@ -42761,6 +45160,20 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ffe20819-533d-4c1e-b183-7eaa2af4fb36")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
 			)
 		)
 		(property ki_fp_filters "Pin* Test*")
@@ -42881,6 +45294,20 @@
 				)
 			)
 		)
+		(property "jlcpcb" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2486c221-e777-41d0-af15-5b8497cf2370")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/7f7e17e0-7d73-4fbb-9112-49949fae378a/1c791c1f-debc-4e85-8377-2f94de51ba78")
 		(sheetname "DRIVER")
@@ -42999,6 +45426,20 @@
 				)
 			)
 		)
+		(property "jlcpcb" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "57700e28-bb09-4f74-a073-02e0cb337a5f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/7f7e17e0-7d73-4fbb-9112-49949fae378a/017b1dc8-e839-4702-867d-2227d27d9b9a")
 		(sheetname "DRIVER")
@@ -43059,28 +45500,6 @@
 		)
 		(layer "F.SilkS")
 		(uuid "08a4013f-1a6c-4656-a89c-5e70f3e25b7f")
-	)
-	(gr_circle
-		(center 59.45 139.1)
-		(end 59.673607 139.1)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(fill solid)
-		(layer "F.SilkS")
-		(uuid "0a9fa740-1cc4-4669-a40f-933b58903a77")
-	)
-	(gr_circle
-		(center 42.2 117.8)
-		(end 42.4 117.8)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(fill solid)
-		(layer "F.SilkS")
-		(uuid "0d8f0ba6-b270-40bc-84e7-de72eb11b4db")
 	)
 	(gr_line
 		(start 123.25 83.425)
@@ -43675,7 +46094,7 @@
 		)
 	)
 	(gr_text "BLDC Driver, rev 1"
-		(at 66.3 81.5 180)
+		(at 66.3 82 180)
 		(layer "B.SilkS")
 		(uuid "f08043bd-c1b9-4915-becd-1766c8e7d59f")
 		(effects
@@ -43723,7 +46142,7 @@
 		)
 	)
 	(gr_text "CAN"
-		(at 45 139.2 0)
+		(at 45.5 139.2 0)
 		(layer "F.SilkS")
 		(uuid "4d605a16-b482-4c02-b7e7-0e48cefeeb8e")
 		(effects
@@ -44022,14 +46441,6 @@
 		(uuid "01f5baad-7069-45d6-abf2-3a4b623213b4")
 	)
 	(segment
-		(start 115.7 85.1)
-		(end 115.4 85.4)
-		(width 1)
-		(layer "F.Cu")
-		(net 2)
-		(uuid "02f53da6-ed26-4e67-bb0e-7ab28f0a530d")
-	)
-	(segment
 		(start 113.9825 130.3)
 		(end 113.9825 131.4825)
 		(width 0.5)
@@ -44068,6 +46479,14 @@
 		(layer "F.Cu")
 		(net 2)
 		(uuid "05382ba3-c80b-4dca-988a-37e151b48a62")
+	)
+	(segment
+		(start 114.7 85.8)
+		(end 115.4 85.1)
+		(width 1)
+		(layer "F.Cu")
+		(net 2)
+		(uuid "058ae09c-20b0-49b7-844f-e8492a1b42eb")
 	)
 	(segment
 		(start 126.45 91.15)
@@ -44430,6 +46849,14 @@
 		(uuid "317cfb42-9013-4753-a127-1d42b9f83830")
 	)
 	(segment
+		(start 59.4 135.4)
+		(end 58.325 136.475)
+		(width 1)
+		(layer "F.Cu")
+		(net 2)
+		(uuid "36dbab2e-47be-46d1-b364-8be4cd9e14a4")
+	)
+	(segment
 		(start 77.8125 105.545)
 		(end 78.5675 106.3)
 		(width 0.3)
@@ -44462,12 +46889,12 @@
 		(uuid "3b29d70c-aded-4055-b0d7-1eb199c82898")
 	)
 	(segment
-		(start 117 85.1)
-		(end 115.7 85.1)
+		(start 115.4 85.1)
+		(end 117 85.1)
 		(width 1)
 		(layer "F.Cu")
 		(net 2)
-		(uuid "3c96f7da-a0e5-4704-8385-4306cbb9d0ff")
+		(uuid "3c4a4dc7-075f-49e7-a40b-63f9385cc884")
 	)
 	(segment
 		(start 54.55 131.475)
@@ -44494,14 +46921,6 @@
 		(uuid "43e12f48-9f25-4557-97d8-cea71ff2a543")
 	)
 	(segment
-		(start 55.83 136.475)
-		(end 59.175 136.475)
-		(width 1)
-		(layer "F.Cu")
-		(net 2)
-		(uuid "45345a54-1326-40b1-8d8d-e03141dab12e")
-	)
-	(segment
 		(start 73.1 108.8)
 		(end 74.7 110.4)
 		(width 0.5)
@@ -44516,6 +46935,14 @@
 		(layer "F.Cu")
 		(net 2)
 		(uuid "46066a75-d512-40e0-b08e-64712e0ad08e")
+	)
+	(segment
+		(start 74.025 134.025)
+		(end 73.4 133.4)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 2)
+		(uuid "472b65e4-4e5c-4263-a2a8-ddb1515c6800")
 	)
 	(segment
 		(start 59.4 121.55)
@@ -44606,12 +47033,20 @@
 		(uuid "52efb827-11fa-4d0f-a211-4d1750884ada")
 	)
 	(segment
-		(start 44.975 116.365)
-		(end 43.5 114.89)
-		(width 1)
+		(start 47.9 113.6)
+		(end 47.1 114.4)
+		(width 0.3)
 		(layer "F.Cu")
 		(net 2)
-		(uuid "5375fc4b-c233-4d9a-abd5-36302b0fafe0")
+		(uuid "54646dc0-6efe-407f-9260-27d21b47ae12")
+	)
+	(segment
+		(start 43.99 114.4)
+		(end 43.5 114.89)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 2)
+		(uuid "54b43193-7a05-45d5-8d09-8c7d5f2ce846")
 	)
 	(segment
 		(start 98.035 99.935)
@@ -44726,6 +47161,14 @@
 		(uuid "659dad7a-92f5-4b98-ac4a-31f1ffb2bd33")
 	)
 	(segment
+		(start 115 85.8)
+		(end 115.4 85.4)
+		(width 1)
+		(layer "F.Cu")
+		(net 2)
+		(uuid "6707aded-55ed-42e5-95a6-f6c045d45dc0")
+	)
+	(segment
 		(start 83.9625 96.275)
 		(end 84.1875 96.5)
 		(width 0.5)
@@ -44740,6 +47183,14 @@
 		(layer "F.Cu")
 		(net 2)
 		(uuid "6bab3324-4b77-46ad-bef9-7486cab36934")
+	)
+	(segment
+		(start 114.7 85.8)
+		(end 115 85.8)
+		(width 1)
+		(layer "F.Cu")
+		(net 2)
+		(uuid "6be5c88a-c940-45ec-9cd5-29ab87d03271")
 	)
 	(segment
 		(start 60.8 94.3125)
@@ -44806,28 +47257,12 @@
 		(uuid "7b68279f-833c-4c67-8ecb-8ec0d85e4079")
 	)
 	(segment
-		(start 75.582831 135.717169)
-		(end 74.9 135.034338)
-		(width 0.5)
-		(layer "F.Cu")
-		(net 2)
-		(uuid "7b824c9a-22c2-467f-a427-f7d2a1eb300b")
-	)
-	(segment
 		(start 53.775 116.365)
 		(end 53.94 116.2)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 2)
 		(uuid "7c138317-c6b8-437f-ad98-c89d105b0d6f")
-	)
-	(segment
-		(start 44.975 119.9)
-		(end 44.975 116.365)
-		(width 1)
-		(layer "F.Cu")
-		(net 2)
-		(uuid "7c1bc36a-3dd9-461d-b714-d95251220691")
 	)
 	(segment
 		(start 64.85 108.81)
@@ -44886,6 +47321,14 @@
 		(uuid "8db46eda-441a-45f5-a607-b9c90012717a")
 	)
 	(segment
+		(start 74.9 134.025)
+		(end 74.9 135.1)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 2)
+		(uuid "91196ed2-6616-46ef-a10f-484477d5e553")
+	)
+	(segment
 		(start 73.025 108.8)
 		(end 73.1 108.8)
 		(width 0.5)
@@ -44926,6 +47369,14 @@
 		(uuid "9b289cd5-0150-4bbb-a1ba-87b02c96e45d")
 	)
 	(segment
+		(start 74.9 134.025)
+		(end 74.025 134.025)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 2)
+		(uuid "9bb13c9e-ead1-4c68-8122-39c98cea862a")
+	)
+	(segment
 		(start 56.7 113.45)
 		(end 56.75 113.5)
 		(width 0.3)
@@ -44964,6 +47415,14 @@
 		(layer "F.Cu")
 		(net 2)
 		(uuid "a2a026b3-43ae-4065-b509-4bc8cde38d4e")
+	)
+	(segment
+		(start 47.4 114.7)
+		(end 47.1 114.4)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 2)
+		(uuid "a32b30ab-b2c3-4d7a-abc0-1c2573cf0ce0")
 	)
 	(segment
 		(start 52.075 117.65)
@@ -45038,12 +47497,20 @@
 		(uuid "b47482d3-85bb-4a5d-a1f5-49c1bb44402b")
 	)
 	(segment
-		(start 74.9 135.034338)
-		(end 74.9 134.025)
-		(width 0.5)
+		(start 74.9 135.1)
+		(end 75.4 135.6)
+		(width 0.3)
 		(layer "F.Cu")
 		(net 2)
-		(uuid "b4ee9daa-9614-4f45-991b-37af81cde902")
+		(uuid "b5664aab-a8d1-4df9-9547-2752dd4cf00f")
+	)
+	(segment
+		(start 47.1 114.4)
+		(end 43.99 114.4)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 2)
+		(uuid "b5acce88-6028-45a4-b4f8-6e11d98f1d09")
 	)
 	(segment
 		(start 54.55 132.475)
@@ -45084,14 +47551,6 @@
 		(layer "F.Cu")
 		(net 2)
 		(uuid "bcc97737-cd60-4f79-854b-f826398c204d")
-	)
-	(segment
-		(start 57.525 136.475)
-		(end 59.075 134.925)
-		(width 1)
-		(layer "F.Cu")
-		(net 2)
-		(uuid "bd0757a8-d3b2-4638-925e-4d2a701775d0")
 	)
 	(segment
 		(start 45.6 97.45)
@@ -45156,6 +47615,14 @@
 		(layer "F.Cu")
 		(net 2)
 		(uuid "c4cb36d1-3115-420f-97c1-1c796db29c6f")
+	)
+	(segment
+		(start 58.325 136.475)
+		(end 55.83 136.475)
+		(width 1)
+		(layer "F.Cu")
+		(net 2)
+		(uuid "c4df8f73-e262-42ad-8e77-536bed6f3dd9")
 	)
 	(segment
 		(start 128.94 85.15)
@@ -45236,14 +47703,6 @@
 		(layer "F.Cu")
 		(net 2)
 		(uuid "d35d16c9-1318-4427-8d6e-6aba24b02234")
-	)
-	(segment
-		(start 59.175 136.475)
-		(end 59.225 136.425)
-		(width 1)
-		(layer "F.Cu")
-		(net 2)
-		(uuid "d3a258c8-efc3-4213-98bb-7adcf78a13de")
 	)
 	(segment
 		(start 45.6 98.2)
@@ -45430,6 +47889,14 @@
 		(uuid "f3d4a5fa-8aed-48ed-86a8-f8c7ff302ff4")
 	)
 	(segment
+		(start 48 114.7)
+		(end 47.4 114.7)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 2)
+		(uuid "f41edf67-3a62-47c7-bd3f-610e5dd781e9")
+	)
+	(segment
 		(start 114.3 95.5)
 		(end 114.4 95.4)
 		(width 0.5)
@@ -45567,21 +48034,13 @@
 		(uuid "09393557-558d-4d5d-980d-6efac01f308d")
 	)
 	(via
-		(at 139.4 105.5)
+		(at 139.3 104.5)
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
 		(net 2)
 		(uuid "0a3e03b0-5b24-4b03-ba11-50bf54937c8c")
-	)
-	(via
-		(at 44.975 119.9)
-		(size 0.8)
-		(drill 0.4)
-		(layers "F.Cu" "B.Cu")
-		(net 2)
-		(uuid "0a713535-9b81-41dc-be29-e38664d461b9")
 	)
 	(via
 		(at 125 91.2)
@@ -45609,7 +48068,7 @@
 		(uuid "0d6bc0f0-4c67-43f5-a2ce-e83a961e462d")
 	)
 	(via
-		(at 138 114.5)
+		(at 138.5 114.9)
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
@@ -45681,15 +48140,6 @@
 		(uuid "17e1e072-8d15-4fb9-b78c-234714c39245")
 	)
 	(via
-		(at 102.4 85.6)
-		(size 0.8)
-		(drill 0.4)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net 2)
-		(uuid "180320ad-2709-42bc-8d5d-4274ae7777d3")
-	)
-	(via
 		(at 76.45 116.5)
 		(size 0.5)
 		(drill 0.3)
@@ -45705,15 +48155,6 @@
 		(layers "F.Cu" "B.Cu")
 		(net 2)
 		(uuid "188ba3d9-0561-42e4-87f0-5d5094329742")
-	)
-	(via
-		(at 101.1 84.4)
-		(size 0.8)
-		(drill 0.4)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net 2)
-		(uuid "18926d66-a2a0-4ef4-8c5d-4ac2721d5a5b")
 	)
 	(via
 		(at 103.3 109.8)
@@ -45759,14 +48200,6 @@
 		(uuid "1b5e3678-2ce6-4518-93a4-9d713ade64ca")
 	)
 	(via
-		(at 75.582831 135.717169)
-		(size 0.8)
-		(drill 0.4)
-		(layers "F.Cu" "B.Cu")
-		(net 2)
-		(uuid "1d8f0380-d115-42c7-9b10-da9d1eb1b3ca")
-	)
-	(via
 		(at 51.825 127.45)
 		(size 0.5)
 		(drill 0.3)
@@ -45799,15 +48232,6 @@
 		(free yes)
 		(net 2)
 		(uuid "1eb29cdd-2449-4304-84df-56dbf0f29d61")
-	)
-	(via
-		(at 139.7 127.6)
-		(size 0.8)
-		(drill 0.4)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net 2)
-		(uuid "21fc2998-e9fb-43eb-99ca-c2e8993af79b")
 	)
 	(via
 		(at 75.1 127.1)
@@ -45878,22 +48302,12 @@
 		(uuid "2a594a90-47d2-45c0-8ded-b9842d5b1b02")
 	)
 	(via
-		(at 115.4 84.2)
-		(size 0.8)
-		(drill 0.4)
+		(at 114.7 85.8)
+		(size 1)
+		(drill 0.7)
 		(layers "F.Cu" "B.Cu")
-		(free yes)
 		(net 2)
-		(uuid "2c028013-6bd7-41a6-b20a-de393f7a0bbe")
-	)
-	(via
-		(at 114.1 81.9)
-		(size 0.8)
-		(drill 0.4)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net 2)
-		(uuid "2fe7ae6d-f1e3-4ce4-82db-bb67e22d3fc0")
+		(uuid "2e205155-2796-42a5-bfcb-bea6891ab004")
 	)
 	(via
 		(at 54.9 107.4)
@@ -45937,15 +48351,6 @@
 		(free yes)
 		(net 2)
 		(uuid "33967825-22c6-4231-88d4-86b0f5e4a9ec")
-	)
-	(via
-		(at 139.1 115.2)
-		(size 0.8)
-		(drill 0.4)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net 2)
-		(uuid "33a784dc-f21f-42c4-808d-a8386a75620d")
 	)
 	(via
 		(at 81.5 109.200001)
@@ -46008,15 +48413,6 @@
 		(uuid "3b928c01-b7d4-41ae-8164-8ea1ccd786f9")
 	)
 	(via
-		(at 101.1 85.6)
-		(size 0.8)
-		(drill 0.4)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net 2)
-		(uuid "3e1af51b-df64-4cd6-9372-51b6ee6d4324")
-	)
-	(via
 		(at 72.05 122)
 		(size 0.5)
 		(drill 0.3)
@@ -46024,15 +48420,6 @@
 		(free yes)
 		(net 2)
 		(uuid "3f1e4d94-0163-4854-916f-f053ad408f4b")
-	)
-	(via
-		(at 101.1 83.3)
-		(size 0.8)
-		(drill 0.4)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net 2)
-		(uuid "3f4e3127-cd2f-4c23-b79c-e51884588b40")
 	)
 	(via
 		(at 99.75 109.25)
@@ -46210,7 +48597,7 @@
 		(uuid "507b0979-1113-420d-93e6-d7e3f1a15a85")
 	)
 	(via
-		(at 136.7 115)
+		(at 136.9 114.8)
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
@@ -46227,7 +48614,7 @@
 		(uuid "512d5728-266d-4255-a252-fb12a2a867f0")
 	)
 	(via
-		(at 136.8 106.5)
+		(at 136.9 107)
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
@@ -46260,14 +48647,6 @@
 		(free yes)
 		(net 2)
 		(uuid "54351c47-9158-490d-949e-fc64a84918f2")
-	)
-	(via
-		(at 46.4 119.825)
-		(size 0.8)
-		(drill 0.4)
-		(layers "F.Cu" "B.Cu")
-		(net 2)
-		(uuid "54fa4fdc-5732-4f56-853c-3410e657d36f")
 	)
 	(via
 		(at 121.95 120.6)
@@ -46358,13 +48737,13 @@
 		(uuid "6478a621-cd0a-4def-9d49-b84423e9d707")
 	)
 	(via
-		(at 70.8 135.9)
-		(size 0.5)
-		(drill 0.3)
+		(at 101.8 82.1)
+		(size 1)
+		(drill 0.7)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
 		(net 2)
-		(uuid "651dde80-7030-4d0b-be4e-a75193a47248")
+		(uuid "64c8669c-23bc-4350-a5c5-a442e1cca967")
 	)
 	(via
 		(at 126.9 85.8)
@@ -46435,7 +48814,16 @@
 		(uuid "6baf13d3-23c6-4f5e-b980-8958209dd232")
 	)
 	(via
-		(at 139.4 116.3)
+		(at 114.7 83.4)
+		(size 1)
+		(drill 0.7)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 2)
+		(uuid "6bb76314-90cb-42f4-b818-50966da2013b")
+	)
+	(via
+		(at 139.4 116)
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
@@ -46451,6 +48839,15 @@
 		(free yes)
 		(net 2)
 		(uuid "6cfa6c34-1e01-4faf-a476-a510e7919692")
+	)
+	(via
+		(at 75.4 135.6)
+		(size 0.5)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 2)
+		(uuid "6d237a05-caff-4bd1-8a7d-44f982ff0ead")
 	)
 	(via
 		(at 109.85 95.55)
@@ -46506,6 +48903,24 @@
 		(uuid "71a613b4-831b-45ae-adbb-659c2460af73")
 	)
 	(via
+		(at 101.8 84.7)
+		(size 1)
+		(drill 0.7)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 2)
+		(uuid "72c2001c-73e8-46ff-b656-70eead3f5b67")
+	)
+	(via
+		(at 101.8 83.4)
+		(size 1)
+		(drill 0.7)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 2)
+		(uuid "73daf375-94d6-4a46-893a-872dd7a93ee0")
+	)
+	(via
 		(at 61.7 110.7)
 		(size 0.5)
 		(drill 0.3)
@@ -46515,13 +48930,13 @@
 		(uuid "747be4de-7680-46a4-a5a3-937e5e917d7f")
 	)
 	(via
-		(at 114.1 84.2)
-		(size 0.8)
-		(drill 0.4)
+		(at 101.8 85.9)
+		(size 1)
+		(drill 0.7)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
 		(net 2)
-		(uuid "749e528a-c2fa-481d-ae70-04d5b5a189e2")
+		(uuid "74a5175e-f6e0-451d-83af-0fefffbd3d24")
 	)
 	(via
 		(at 48.05 115.9)
@@ -46531,15 +48946,6 @@
 		(free yes)
 		(net 2)
 		(uuid "7670db20-73f6-469a-978d-126492732e96")
-	)
-	(via
-		(at 73.65 135.85)
-		(size 0.5)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net 2)
-		(uuid "7696cd79-39e7-4ed0-8479-8f4d0bc1e800")
 	)
 	(via
 		(at 123.85 123.95)
@@ -46559,13 +48965,13 @@
 		(uuid "782b6ab4-cf4f-4230-9631-d45e49b03996")
 	)
 	(via
-		(at 115.4 85.4)
-		(size 0.8)
-		(drill 0.4)
+		(at 114.7 82.1)
+		(size 1)
+		(drill 0.7)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
 		(net 2)
-		(uuid "78eb35af-3696-4eab-8c7f-d0c222f33ed0")
+		(uuid "78a0ec63-2b9d-4f91-9010-813662381244")
 	)
 	(via
 		(at 51.45 114.6)
@@ -46796,15 +49202,6 @@
 		(uuid "8bb6bcab-e041-4ff3-b105-129413ffd11a")
 	)
 	(via
-		(at 102.4 82.1)
-		(size 0.8)
-		(drill 0.4)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net 2)
-		(uuid "8bc3ef7d-7da2-4ce3-a2e3-56de163ae077")
-	)
-	(via
 		(at 120.2 104.4)
 		(size 0.5)
 		(drill 0.3)
@@ -46840,29 +49237,12 @@
 		(uuid "92f761fe-b479-4dd3-8bc5-c8752e906dce")
 	)
 	(via
-		(at 139 104.3)
-		(size 0.8)
-		(drill 0.4)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net 2)
-		(uuid "936d280d-6acd-469a-a3ce-e9afd5385c58")
-	)
-	(via
 		(at 119.3 99.6)
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
 		(net 2)
 		(uuid "93c5a9bc-a28b-458a-8c97-b9dcff306336")
-	)
-	(via
-		(at 59.075 134.925)
-		(size 0.8)
-		(drill 0.4)
-		(layers "F.Cu" "B.Cu")
-		(net 2)
-		(uuid "94ef9b0d-f7f2-4b37-95f1-b4c72f2c196b")
 	)
 	(via
 		(at 120.2 110.5)
@@ -46889,15 +49269,6 @@
 		(free yes)
 		(net 2)
 		(uuid "976903f4-3f69-4270-b5a2-6403949f4cc8")
-	)
-	(via
-		(at 138.9 82.4)
-		(size 0.8)
-		(drill 0.4)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net 2)
-		(uuid "9917c444-03ae-459f-9148-32a792719171")
 	)
 	(via
 		(at 117.8 99.6)
@@ -46950,15 +49321,6 @@
 		(free yes)
 		(net 2)
 		(uuid "9dcbadc2-4b6a-4a55-8e7f-de5c6101630b")
-	)
-	(via
-		(at 101.1 82.1)
-		(size 0.8)
-		(drill 0.4)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net 2)
-		(uuid "9ff4c8e6-ca6f-4070-ad9e-40eb54e23315")
 	)
 	(via
 		(at 73.925 119.55)
@@ -47054,7 +49416,7 @@
 		(uuid "a878e9b6-00c5-4444-8f1c-bd6a7c20c923")
 	)
 	(via
-		(at 59.225 136.425)
+		(at 59.4 135.4)
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
@@ -47088,15 +49450,6 @@
 		(uuid "adfd43ef-8d0d-4231-b720-821db0ecba3b")
 	)
 	(via
-		(at 114.1 85.4)
-		(size 0.8)
-		(drill 0.4)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net 2)
-		(uuid "ae9b3eb0-de38-496e-8b76-5c34dc11bddd")
-	)
-	(via
 		(at 51.5 90.4)
 		(size 0.8)
 		(drill 0.4)
@@ -47114,21 +49467,21 @@
 		(uuid "b188a5fd-ba99-4c06-9c60-86644efb3a90")
 	)
 	(via
-		(at 102.4 83.3)
-		(size 0.8)
-		(drill 0.4)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net 2)
-		(uuid "b2918780-0f3e-4f04-80b5-effd6add839e")
-	)
-	(via
 		(at 63.8 128.05)
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
 		(net 2)
 		(uuid "b2c10b26-a36e-4165-942b-bdb84a3fb6e5")
+	)
+	(via
+		(at 114.7 84.6)
+		(size 1)
+		(drill 0.7)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 2)
+		(uuid "b34beb5c-c016-4cd1-aac0-c1c3727b731f")
 	)
 	(via
 		(at 69.4 118.875)
@@ -47272,15 +49625,6 @@
 		(uuid "c45ceca5-64bd-4fc6-9190-6f496b2ecc07")
 	)
 	(via
-		(at 114.1 83.1)
-		(size 0.8)
-		(drill 0.4)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net 2)
-		(uuid "c60731ca-c968-496a-ad91-fb3bae3ff18a")
-	)
-	(via
 		(at 72.157532 134.35)
 		(size 0.5)
 		(drill 0.3)
@@ -47298,7 +49642,7 @@
 		(uuid "c654c47b-9516-4686-b368-21eb073ac720")
 	)
 	(via
-		(at 136.9 125.6)
+		(at 136.8 126)
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
@@ -47368,15 +49712,6 @@
 		(uuid "d15f712a-9b5e-4ac3-a7e0-9c3e9d452242")
 	)
 	(via
-		(at 115.4 81.9)
-		(size 0.8)
-		(drill 0.4)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net 2)
-		(uuid "d3083a51-54af-4a15-925d-d06e28b54b16")
-	)
-	(via
 		(at 80 123.05)
 		(size 0.5)
 		(drill 0.3)
@@ -47402,15 +49737,6 @@
 		(free yes)
 		(net 2)
 		(uuid "d63bce93-23e8-4eb0-b0c8-9cd65293cc02")
-	)
-	(via
-		(at 115.4 83.1)
-		(size 0.8)
-		(drill 0.4)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net 2)
-		(uuid "da5d3199-64af-4c2b-8c73-95180bccd183")
 	)
 	(via
 		(at 55.7 90.8)
@@ -47584,7 +49910,7 @@
 		(uuid "efd565e6-a5e7-42b2-82dc-29316e617eae")
 	)
 	(via
-		(at 137.8 106.9)
+		(at 138.2 106.8)
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
@@ -47600,15 +49926,6 @@
 		(free yes)
 		(net 2)
 		(uuid "f00d334a-9a9e-42c6-b076-1a641f4d1453")
-	)
-	(via
-		(at 138.9 88)
-		(size 0.8)
-		(drill 0.4)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net 2)
-		(uuid "f09870d3-055a-4c22-96ad-fb1a6d710954")
 	)
 	(via
 		(at 54.35 125.475)
@@ -47637,7 +49954,7 @@
 		(uuid "f258f520-4356-42c5-8b74-5df0e036191f")
 	)
 	(via
-		(at 138.8 106.5)
+		(at 139.2 105.9)
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
@@ -47660,15 +49977,6 @@
 		(layers "F.Cu" "B.Cu")
 		(net 2)
 		(uuid "f609d9eb-ca17-4b8b-a1f2-8690084ac4f3")
-	)
-	(via
-		(at 102.4 84.4)
-		(size 0.8)
-		(drill 0.4)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net 2)
-		(uuid "f6ec288c-9d3c-4275-b914-019f4211c291")
 	)
 	(via
 		(at 108.4 100.9)
@@ -49434,12 +51742,20 @@
 		(uuid "deff3e74-e149-4c2b-aa98-3f6eeae4e9e0")
 	)
 	(segment
+		(start 47.05 98.75)
+		(end 47.05 109.25)
+		(width 0.3)
+		(layer "B.Cu")
+		(net 23)
+		(uuid "6124af0e-6c2e-4086-bcf9-18b1ed43f9d9")
+	)
+	(segment
 		(start 52 111)
 		(end 59.1 118.1)
 		(width 0.3)
 		(layer "B.Cu")
 		(net 23)
-		(uuid "14900bf4-8235-4899-910b-4699a04dabcf")
+		(uuid "73781d91-45a4-4579-995b-eba9821640bd")
 	)
 	(segment
 		(start 48.8 111)
@@ -49447,23 +51763,7 @@
 		(width 0.3)
 		(layer "B.Cu")
 		(net 23)
-		(uuid "185642d3-4c62-4a0a-a53f-356d41b35da5")
-	)
-	(segment
-		(start 59.1 118.1)
-		(end 59.8 118.1)
-		(width 0.3)
-		(layer "B.Cu")
-		(net 23)
-		(uuid "23c67bdd-db41-4a62-8f11-94bbcae8b36a")
-	)
-	(segment
-		(start 47.05 98.75)
-		(end 47.05 109.25)
-		(width 0.3)
-		(layer "B.Cu")
-		(net 23)
-		(uuid "a55d5918-edb9-4fd2-b069-589c3d1b2ce5")
+		(uuid "7a0a2761-4676-46f3-b181-9e1cbc52ac45")
 	)
 	(segment
 		(start 48.5 97.3)
@@ -49471,7 +51771,15 @@
 		(width 0.3)
 		(layer "B.Cu")
 		(net 23)
-		(uuid "c5cb7a54-710f-4f0e-a345-818952cb17e8")
+		(uuid "d2cee623-853a-4874-b54e-f6a0f2f1228a")
+	)
+	(segment
+		(start 59.1 118.1)
+		(end 59.8 118.1)
+		(width 0.3)
+		(layer "B.Cu")
+		(net 23)
+		(uuid "d404b189-28ac-4e56-8faa-aad7cfddbf20")
 	)
 	(segment
 		(start 47.05 109.25)
@@ -49479,7 +51787,7 @@
 		(width 0.3)
 		(layer "B.Cu")
 		(net 23)
-		(uuid "e9340e41-541e-4a0f-9c59-55b2bb4de30f")
+		(uuid "fe32ff53-7000-4f29-a810-a9caf92c9be5")
 	)
 	(segment
 		(start 76.3125 107.025)
@@ -49802,20 +52110,12 @@
 		(uuid "ef7ebe22-d359-434f-be11-6b6afd2b7ad0")
 	)
 	(segment
-		(start 84.1 100.25)
-		(end 83.9125 100.25)
+		(start 83.95 100.25)
+		(end 82.2 98.5)
 		(width 0.3)
 		(layer "F.Cu")
 		(net 26)
-		(uuid "004f37a6-f956-4b48-9aff-3b7f22e4ba57")
-	)
-	(segment
-		(start 82.2 98.5375)
-		(end 82.2 97.1)
-		(width 0.3)
-		(layer "F.Cu")
-		(net 26)
-		(uuid "35d98c28-4653-4278-891e-7b0ef75eb160")
+		(uuid "0a0fdc5f-76b0-4929-9e38-5e1b0331f015")
 	)
 	(segment
 		(start 81.07 95.97)
@@ -49823,7 +52123,23 @@
 		(width 0.3)
 		(layer "F.Cu")
 		(net 26)
-		(uuid "8011770d-a4d6-44f8-bb21-044109c2755c")
+		(uuid "7cdb38b6-d218-40dd-8001-53e2b263911f")
+	)
+	(segment
+		(start 82.2 98.5)
+		(end 82.2 97.1)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 26)
+		(uuid "81808783-0b82-4c31-80ae-e61cc71ce354")
+	)
+	(segment
+		(start 84.1 100.25)
+		(end 83.95 100.25)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 26)
+		(uuid "8e74403f-d0dd-4cb3-8a1a-e069d4adb6c1")
 	)
 	(segment
 		(start 82.2 97.1)
@@ -49831,15 +52147,7 @@
 		(width 0.3)
 		(layer "F.Cu")
 		(net 26)
-		(uuid "def183a2-7d68-4449-bb48-e6c591c0bb38")
-	)
-	(segment
-		(start 83.9125 100.25)
-		(end 82.2 98.5375)
-		(width 0.3)
-		(layer "F.Cu")
-		(net 26)
-		(uuid "e12ea704-56d1-4615-9712-01327cbb2312")
+		(uuid "9b59fe33-1873-4a6f-97e8-e493af8169ec")
 	)
 	(segment
 		(start 131.2 87.05)
@@ -51994,20 +54302,20 @@
 		(uuid "a312d227-2f77-4f9e-938a-0498eee1951f")
 	)
 	(segment
-		(start 51.369669 104.730331)
-		(end 51.369669 106.589669)
-		(width 0.3)
-		(layer "B.Cu")
-		(net 66)
-		(uuid "af0da42a-598d-4005-996a-3d0c505755cd")
-	)
-	(segment
 		(start 51.369669 106.589669)
 		(end 52 107.22)
 		(width 0.3)
 		(layer "B.Cu")
 		(net 66)
-		(uuid "b4283120-57ed-4e50-b8c5-508a1b557b54")
+		(uuid "0a3661c7-9473-4ff8-a982-64205419b3c1")
+	)
+	(segment
+		(start 51.369669 104.730331)
+		(end 51.369669 106.589669)
+		(width 0.3)
+		(layer "B.Cu")
+		(net 66)
+		(uuid "4e44cd4b-3205-4654-8e9f-43a622bf8459")
 	)
 	(segment
 		(start 86.0125 96.5)
@@ -53127,7 +55435,15 @@
 		(width 0.3)
 		(layer "B.Cu")
 		(net 78)
-		(uuid "46c80e68-c98c-44d4-adcf-4f48a39ec5b2")
+		(uuid "27b002d8-1a0b-46e5-8fad-e09406480eab")
+	)
+	(segment
+		(start 101.332831 134.967169)
+		(end 69.367169 134.967169)
+		(width 0.3)
+		(layer "B.Cu")
+		(net 78)
+		(uuid "44817e0d-7b3c-4c85-b55a-41afb3384057")
 	)
 	(segment
 		(start 66.9 117.339339)
@@ -53135,15 +55451,7 @@
 		(width 0.3)
 		(layer "B.Cu")
 		(net 78)
-		(uuid "4b248b3f-fe71-424d-925b-768df7e0b0cc")
-	)
-	(segment
-		(start 62.55 112.989339)
-		(end 62.55 105.55)
-		(width 0.3)
-		(layer "B.Cu")
-		(net 78)
-		(uuid "5e93bce7-c323-451f-a699-43e408f26510")
+		(uuid "631c9d46-0eed-4da1-a698-f39e11e5f168")
 	)
 	(segment
 		(start 112 128.3)
@@ -53154,36 +55462,12 @@
 		(uuid "65a03e80-0f01-4dec-a6ae-5645f80c43bc")
 	)
 	(segment
-		(start 112 126.7)
-		(end 109.6 126.7)
-		(width 0.3)
-		(layer "B.Cu")
-		(net 78)
-		(uuid "8b4bf278-9707-486a-b927-4be007661f2a")
-	)
-	(segment
-		(start 101.25 135.05)
-		(end 75.976323 135.05)
-		(width 0.3)
-		(layer "B.Cu")
-		(net 78)
-		(uuid "9a2250eb-3948-49d4-b83a-dd88fe599779")
-	)
-	(segment
-		(start 69.45 135.05)
+		(start 69.367169 134.967169)
 		(end 66.9 132.5)
 		(width 0.3)
 		(layer "B.Cu")
 		(net 78)
-		(uuid "9db507c7-3ab9-4ac5-8088-fae5b4532db7")
-	)
-	(segment
-		(start 75.893492 134.967169)
-		(end 75.27217 134.967169)
-		(width 0.3)
-		(layer "B.Cu")
-		(net 78)
-		(uuid "a63d3fc7-8141-471b-b160-280604e0e8d0")
+		(uuid "6a0ce331-63c4-4d67-92f6-a66ffadd73dc")
 	)
 	(segment
 		(start 112 126.7)
@@ -53194,44 +55478,36 @@
 		(uuid "b564fb4c-0ec2-4dd9-8dc6-1b0905289622")
 	)
 	(segment
-		(start 75.976323 135.05)
-		(end 75.893492 134.967169)
-		(width 0.3)
-		(layer "B.Cu")
-		(net 78)
-		(uuid "bed13c57-b990-48f8-ab5d-99c275237c57")
-	)
-	(segment
 		(start 62.55 105.55)
 		(end 62.6 105.5)
 		(width 0.3)
 		(layer "B.Cu")
 		(net 78)
-		(uuid "c7d565be-21ad-4a54-86ef-d2c1bcec07e8")
+		(uuid "b809e691-5e5c-4044-a4c4-93c82f5fba50")
+	)
+	(segment
+		(start 112 126.7)
+		(end 109.6 126.7)
+		(width 0.3)
+		(layer "B.Cu")
+		(net 78)
+		(uuid "cd072987-f204-4927-a48a-52447007a0e4")
 	)
 	(segment
 		(start 109.6 126.7)
-		(end 101.25 135.05)
+		(end 101.332831 134.967169)
 		(width 0.3)
 		(layer "B.Cu")
 		(net 78)
-		(uuid "d7731d96-d335-45d7-ae2b-3e8f8a37d657")
+		(uuid "d250ffed-7085-4439-b7c8-540d1c575ede")
 	)
 	(segment
-		(start 75.189339 135.05)
-		(end 69.45 135.05)
+		(start 62.55 112.989339)
+		(end 62.55 105.55)
 		(width 0.3)
 		(layer "B.Cu")
 		(net 78)
-		(uuid "de674844-0891-483f-a708-f4dad5cb4273")
-	)
-	(segment
-		(start 75.27217 134.967169)
-		(end 75.189339 135.05)
-		(width 0.3)
-		(layer "B.Cu")
-		(net 78)
-		(uuid "e2bdccaf-6eb1-4573-bcc3-800af49664d7")
+		(uuid "e00d80cf-ad9a-49fd-bba5-d79ef570ebff")
 	)
 	(segment
 		(start 93.4275 126.5275)
@@ -55179,22 +57455,22 @@
 			(pts
 				(xy 121.1 121.4) (xy 121.121637 121.940928) (xy 119.75 126.9) (xy 119.8 129.6) (xy 116.1 131.7)
 				(xy 116.1 136) (xy 114.7 136) (xy 114.7 137.4) (xy 126.7 137.2) (xy 126.85 131.65) (xy 127.25 129.4)
-				(xy 121.9 129.35) (xy 121.85 126.6) (xy 123.7 123) (xy 123.7 121.4)
+				(xy 121.9 129.6) (xy 121.85 126.6) (xy 123.7 123) (xy 123.7 121.4)
 			)
 		)
 		(filled_polygon
 			(layer "F.Cu")
 			(pts
 				(xy 123.643039 121.419685) (xy 123.688794 121.472489) (xy 123.7 121.524) (xy 123.7 122.970003) (xy 123.686289 123.02668)
-				(xy 121.85 126.599998) (xy 121.85 126.599999) (xy 121.85 126.6) (xy 121.9 129.35) (xy 127.103414 129.39863)
-				(xy 127.170266 129.418941) (xy 127.215526 129.47217) (xy 127.224823 129.541418) (xy 127.224341 129.544329)
-				(xy 126.85 131.65) (xy 126.703206 137.081345) (xy 126.681717 137.147828) (xy 126.627696 137.19214)
-				(xy 126.581317 137.201978) (xy 114.826066 137.397898) (xy 114.758708 137.379333) (xy 114.71208 137.327299)
-				(xy 114.7 137.273915) (xy 114.7 136.124) (xy 114.719685 136.056961) (xy 114.772489 136.011206) (xy 114.824 136)
-				(xy 116.1 136) (xy 116.1 131.772201) (xy 116.119685 131.705162) (xy 116.162791 131.664361) (xy 119.8 129.6)
-				(xy 119.750333 126.917997) (xy 119.754799 126.882648) (xy 120.821327 123.02668) (xy 121.121637 121.940928)
-				(xy 121.105158 121.528955) (xy 121.122147 121.461184) (xy 121.17308 121.413355) (xy 121.229059 121.4)
-				(xy 123.576 121.4)
+				(xy 121.85 126.599999) (xy 121.85 126.6) (xy 121.9 129.6) (xy 121.9 129.599999) (xy 121.900001 129.6)
+				(xy 123.78959 129.529361) (xy 127.096373 129.405743) (xy 127.164101 129.422909) (xy 127.211796 129.473967)
+				(xy 127.224316 129.542706) (xy 127.223091 129.55136) (xy 126.85 131.65) (xy 126.703206 137.081345)
+				(xy 126.681717 137.147828) (xy 126.627696 137.19214) (xy 126.581317 137.201978) (xy 114.826066 137.397898)
+				(xy 114.758708 137.379333) (xy 114.71208 137.327299) (xy 114.7 137.273915) (xy 114.7 136.124) (xy 114.719685 136.056961)
+				(xy 114.772489 136.011206) (xy 114.824 136) (xy 116.1 136) (xy 116.1 131.772201) (xy 116.119685 131.705162)
+				(xy 116.162791 131.664361) (xy 119.8 129.6) (xy 119.750333 126.917997) (xy 119.754799 126.882648)
+				(xy 119.832977 126.6) (xy 121.121637 121.940928) (xy 121.105158 121.528955) (xy 121.122147 121.461184)
+				(xy 121.17308 121.413355) (xy 121.229059 121.4) (xy 123.576 121.4)
 			)
 		)
 	)
@@ -55248,15 +57524,15 @@
 		)
 		(polygon
 			(pts
-				(xy 95.5 87.1) (xy 113.3 87.05) (xy 113.5 90.725) (xy 95.85 91)
+				(xy 95.517944 87.29995) (xy 113.310882 87.249969) (xy 113.4 90.725) (xy 95.85 91)
 			)
 		)
 		(filled_polygon
 			(layer "F.Cu")
 			(pts
-				(xy 113.249328 87.069827) (xy 113.295231 87.122502) (xy 113.306399 87.167592) (xy 113.492995 90.596285)
-				(xy 113.476982 90.664295) (xy 113.426743 90.712851) (xy 113.37111 90.727008) (xy 96.337044 90.99241)
-				(xy 96.337043 90.992411) (xy 95.85 91) (xy 95.5 87.1) (xy 113.182236 87.05033)
+				(xy 113.256776 87.269806) (xy 113.302679 87.322481) (xy 113.313989 87.37113) (xy 113.396789 90.599798)
+				(xy 113.37883 90.66732) (xy 113.327216 90.714414) (xy 113.274773 90.726962) (xy 96.337044 90.992368)
+				(xy 95.85 91) (xy 95.517944 87.29995) (xy 113.189683 87.250309)
 			)
 		)
 	)
@@ -55384,14 +57660,15 @@
 			(layer "F.Cu")
 			(pts
 				(xy 123.489223 91.019878) (xy 123.534957 91.069915) (xy 124.199998 92.399998) (xy 124.199999 92.399999)
-				(xy 124.2 92.4) (xy 128.420379 92.4) (xy 128.487418 92.419685) (xy 128.533133 92.472401) (xy 129.849999 95.349999)
-				(xy 129.849999 95.349998) (xy 129.85 95.35) (xy 136.487685 95.301549) (xy 136.554864 95.320744)
-				(xy 136.601003 95.373213) (xy 136.611451 95.442297) (xy 136.59703 95.485682) (xy 135.206168 97.993794)
-				(xy 135.175 98.024557) (xy 135.175 97.2) (xy 125.5 97.4) (xy 124 97.6) (xy 123.7 97.6) (xy 123.7 94.3)
-				(xy 119.349998 93.099999) (xy 111.879614 93.183465) (xy 111.9 93) (xy 110.3 92.8) (xy 110.313145 93.200943)
-				(xy 110.313145 93.200944) (xy 110.313144 93.200944) (xy 102.477287 93.286115) (xy 102.5 92.9) (xy 101.2 93.3)
-				(xy 101.014163 91.534553) (xy 101.026722 91.465824) (xy 101.074446 91.414793) (xy 101.135277 91.397595)
-				(xy 123.421845 91.001389)
+				(xy 124.2 92.4) (xy 128.420379 92.4) (xy 128.487418 92.419685) (xy 128.533132 92.4724) (xy 128.866101 93.199999)
+				(xy 129.849999 95.349999) (xy 129.849999 95.349998) (xy 129.85 95.35) (xy 136.487685 95.301549)
+				(xy 136.554864 95.320744) (xy 136.601003 95.373213) (xy 136.611451 95.442297) (xy 136.59703 95.485682)
+				(xy 135.206168 97.993794) (xy 135.175 98.024557) (xy 135.175 97.2) (xy 125.5 97.4) (xy 124 97.6)
+				(xy 123.7 97.6) (xy 123.7 94.3) (xy 121.201977 93.610889) (xy 121.210887 93.410887) (xy 120.110133 93.210133)
+				(xy 120.109952 93.309641) (xy 120.109951 93.309641) (xy 119.349998 93.099999) (xy 111.879614 93.183465)
+				(xy 111.9 93) (xy 110.519339 93.019339) (xy 110.518749 93.198671) (xy 110.518748 93.198672) (xy 110.400037 93.199999)
+				(xy 110.4 93.2) (xy 102.477287 93.286115) (xy 102.5 92.9) (xy 101.2 93.3) (xy 101.014163 91.534553)
+				(xy 101.026722 91.465824) (xy 101.074446 91.414793) (xy 101.135277 91.397595) (xy 123.421845 91.001389)
 			)
 		)
 	)
@@ -55463,8 +57740,8 @@
 			(layer "F.Cu")
 			(pts
 				(xy 88.493767 86.386729) (xy 96.341917 86.485139) (xy 96.408703 86.505662) (xy 96.453792 86.559036)
-				(xy 96.464309 86.612731) (xy 96.450227 87.097329) (xy 96.450226 87.09733) (xy 95.5 87.1) (xy 95.85 91)
-				(xy 96.337043 90.992411) (xy 95.742971 111.43672) (xy 111.785405 111.297704) (xy 111.821408 111.302721)
+				(xy 96.464309 86.612731) (xy 96.444415 87.297346) (xy 96.444414 87.297347) (xy 95.517944 87.29995)
+				(xy 95.85 91) (xy 96.337044 90.992368) (xy 95.742971 111.43672) (xy 111.785405 111.297704) (xy 111.821408 111.302721)
 				(xy 111.827464 111.3045) (xy 111.972534 111.3045) (xy 111.972536 111.3045) (xy 111.9855 111.300693)
 				(xy 112.019352 111.295676) (xy 124.574091 111.186883) (xy 124.611044 111.192184) (xy 124.626652 111.196902)
 				(xy 124.3 112.1) (xy 128.7 114.3) (xy 129.617595 112.631644) (xy 130.892971 112.88672) (xy 133 112.608957)
@@ -55486,9 +57763,7 @@
 				(xy 85.897735 123.764362) (xy 85.89084 123.725908) (xy 85.877409 123.027515) (xy 85.883112 122.987888)
 				(xy 85.89108 122.962588) (xy 85.900727 122.893388) (xy 85.90041 122.819529) (xy 85.870542 122.617923)
 				(xy 85.869229 122.602172) (xy 85.843077 121.242248) (xy 85.843357 121.231209) (xy 86.042526 118.39306)
-				(xy 86.044061 118.380463) (xy 87.842971 108.06172) (xy 87.83907 104.68034) (xy 87.842837 104.649876)
-				(xy 87.846662 104.634718) (xy 87.854355 104.561261) (xy 87.853779 104.546296) (xy 87.845791 104.338596)
-				(xy 87.838543 104.150167) (xy 87.838454 104.145656) (xy 87.823283 90.992411) (xy 87.818114 86.510858)
+				(xy 86.044061 118.380463) (xy 87.842971 108.06172) (xy 87.823283 90.992368) (xy 87.818114 86.510858)
 				(xy 87.83772 86.443801) (xy 87.890471 86.397985) (xy 87.942113 86.38672) (xy 88.492214 86.38672)
 			)
 		)
@@ -55718,25 +57993,24 @@
 		)
 		(polygon
 			(pts
-				(xy 85.35 100.8) (xy 87.05 100.8) (xy 86.55 102.7) (xy 86.55 103.4) (xy 87.55 103.4) (xy 87.6 104.7)
-				(xy 76 104.7) (xy 75.9 103.6) (xy 79.8 103.1) (xy 79.75 97.05) (xy 81.65 97.05) (xy 81.9 103.25)
+				(xy 85.35 100.8) (xy 87.05 100.8) (xy 86.55 102.7) (xy 86.55 103.4) (xy 87.3 103.4) (xy 87.285493 104.890505)
+				(xy 76 104.7) (xy 76 103.6) (xy 79.8 103.1) (xy 79.88748 97.18748) (xy 81.505584 97.194416) (xy 81.9 103.25)
 				(xy 85.05 103.6)
 			)
 		)
 		(filled_polygon
 			(layer "F.Cu")
 			(pts
-				(xy 81.593628 97.069685) (xy 81.61427 97.086319) (xy 81.618761 97.09081) (xy 81.652246 97.152133)
-				(xy 81.654979 97.173495) (xy 81.899999 103.249999) (xy 81.9 103.25) (xy 85.05 103.6) (xy 85.05 103.599999)
-				(xy 85.058654 103.519234) (xy 85.146429 102.699998) (xy 85.33813 100.91079) (xy 85.364844 100.846229)
+				(xy 81.389897 97.19392) (xy 81.456851 97.213892) (xy 81.502379 97.266892) (xy 81.513103 97.30986)
+				(xy 81.9 103.249999) (xy 81.899999 103.249999) (xy 81.9 103.25) (xy 85.05 103.6) (xy 85.05 103.599999)
+				(xy 85.058014 103.525207) (xy 85.146429 102.699998) (xy 85.33813 100.91079) (xy 85.364844 100.846229)
 				(xy 85.422222 100.80636) (xy 85.461424 100.8) (xy 86.889147 100.8) (xy 86.956186 100.819685) (xy 87.001941 100.872489)
 				(xy 87.011885 100.941647) (xy 87.009064 100.955557) (xy 86.55 102.699998) (xy 86.55 102.7) (xy 86.55 103.4)
-				(xy 87.430678 103.4) (xy 87.497717 103.419685) (xy 87.543472 103.472489) (xy 87.554586 103.519234)
-				(xy 87.595047 104.571234) (xy 87.577954 104.638981) (xy 87.526947 104.686731) (xy 87.471139 104.7)
-				(xy 76.113239 104.7) (xy 76.0462 104.680315) (xy 76.000445 104.627511) (xy 75.989748 104.587226)
-				(xy 75.91082 103.719021) (xy 75.924354 103.650475) (xy 75.972799 103.600128) (xy 76.018542 103.584802)
-				(xy 79.8 103.1) (xy 79.751033 97.175024) (xy 79.770163 97.107825) (xy 79.822587 97.061635) (xy 79.875029 97.05)
-				(xy 81.526589 97.05)
+				(xy 87.174787 103.4) (xy 87.241826 103.419685) (xy 87.287581 103.472489) (xy 87.298781 103.525207)
+				(xy 87.286708 104.765622) (xy 87.266372 104.832467) (xy 87.213125 104.877705) (xy 87.160621 104.888397)
+				(xy 76.121907 104.702057) (xy 76.055209 104.681244) (xy 76.010352 104.627675) (xy 76 104.578075)
+				(xy 76 103.708752) (xy 76.019685 103.641713) (xy 76.072489 103.595958) (xy 76.107819 103.585813)
+				(xy 79.8 103.1) (xy 79.885664 97.310167) (xy 79.906338 97.243429) (xy 79.959813 97.19846) (xy 80.010177 97.188005)
 			)
 		)
 	)
@@ -55902,7 +58176,7 @@
 		(polygon
 			(pts
 				(xy 81.85 127.35) (xy 81.8 129.35) (xy 81.5 129.8) (xy 79.3 131.7) (xy 79.1 134.6) (xy 77.9 134.8)
-				(xy 77.9 136.2) (xy 79.4 136.9) (xy 89.9 136.8) (xy 89.5 133.1) (xy 89.5 131.9) (xy 89.45 129.45)
+				(xy 77.9 136.2) (xy 79.4 136.9) (xy 89.4 136.8) (xy 89.5 133.1) (xy 89.5 131.9) (xy 89.45 129.45)
 				(xy 84.05 129.85) (xy 83.9 127.5) (xy 83.6 127.05)
 			)
 		)
@@ -55912,8 +58186,8 @@
 				(xy 83.83448 127.401721) (xy 83.834481 127.401723) (xy 83.881545 127.472318) (xy 83.902119 127.533202)
 				(xy 84.049999 129.85) (xy 84.049999 129.849999) (xy 84.05 129.85) (xy 89.319535 129.459664) (xy 89.387845 129.474342)
 				(xy 89.437376 129.523622) (xy 89.452669 129.580795) (xy 89.499974 131.898726) (xy 89.5 131.901256)
-				(xy 89.5 133.100002) (xy 89.885295 136.66398) (xy 89.87293 136.732747) (xy 89.825349 136.783912)
-				(xy 89.763194 136.801302) (xy 79.428129 136.899732) (xy 79.374511 136.888105) (xy 78.873457 136.65428)
+				(xy 89.5 133.098315) (xy 89.499955 133.101665) (xy 89.403228 136.68055) (xy 89.381739 136.747033)
+				(xy 89.327718 136.791345) (xy 89.280513 136.801194) (xy 79.428159 136.899718) (xy 79.374481 136.888091)
 				(xy 77.971562 136.233395) (xy 77.919136 136.187207) (xy 77.9 136.121028) (xy 77.9 134.905043) (xy 77.919685 134.838004)
 				(xy 77.972489 134.792249) (xy 78.003609 134.782731) (xy 79.1 134.6) (xy 79.296445 131.751543) (xy 79.320695 131.686017)
 				(xy 79.339096 131.666234) (xy 81.5 129.8) (xy 81.8 129.35) (xy 81.849661 127.363555) (xy 81.851523 127.349738)
@@ -55973,7 +58247,7 @@
 		(polygon
 			(pts
 				(xy 101.8 121.9) (xy 101.9 124.5) (xy 100.45 126.55) (xy 100.55 129.85) (xy 97.7 131.8) (xy 97.5 135.1)
-				(xy 96.4 135.1) (xy 96.4 136.6) (xy 97.7 136.8) (xy 108.1 136.9) (xy 108.1 129) (xy 102.7 129.35)
+				(xy 96.4 135.1) (xy 96.4 136.6) (xy 97.7 136.8) (xy 108.1 136.9) (xy 108.1 129) (xy 102.7 129.6)
 				(xy 102.65 126.15) (xy 104.4 123.9) (xy 104.2 121.6) (xy 101.8 121.6)
 			)
 		)
@@ -55981,15 +58255,16 @@
 			(layer "F.Cu")
 			(pts
 				(xy 104.153354 121.619685) (xy 104.199109 121.672489) (xy 104.209848 121.713255) (xy 104.226087 121.9)
-				(xy 104.395785 123.851531) (xy 104.381982 123.920024) (xy 104.370131 123.938402) (xy 102.649999 126.150001)
-				(xy 102.7 129.349999) (xy 102.7 129.35) (xy 107.967982 129.008556) (xy 108.036152 129.023863) (xy 108.085226 129.073597)
-				(xy 108.1 129.132296) (xy 108.1 136.774802) (xy 108.080315 136.841841) (xy 108.027511 136.887596)
-				(xy 107.974808 136.898796) (xy 97.708884 136.800085) (xy 97.691221 136.798649) (xy 96.505145 136.616176)
-				(xy 96.441878 136.586527) (xy 96.404685 136.527379) (xy 96.4 136.493618) (xy 96.4 135.224) (xy 96.419685 135.156961)
-				(xy 96.472489 135.111206) (xy 96.524 135.1) (xy 97.5 135.1) (xy 97.696329 131.860571) (xy 97.720033 131.794845)
-				(xy 97.750081 131.765734) (xy 100.55 129.85) (xy 100.451257 126.591481) (xy 100.468902 126.523876)
-				(xy 100.473956 126.51613) (xy 101.9 124.5) (xy 101.800092 121.902391) (xy 101.8 121.897625) (xy 101.8 121.724)
-				(xy 101.819685 121.656961) (xy 101.872489 121.611206) (xy 101.924 121.6) (xy 104.086315 121.6)
+				(xy 104.395785 123.851531) (xy 104.381982 123.920024) (xy 104.370131 123.938402) (xy 102.65 126.15)
+				(xy 102.699999 129.599999) (xy 102.699999 129.599998) (xy 102.7 129.6) (xy 107.962307 129.015299)
+				(xy 108.03111 129.02746) (xy 108.082416 129.074889) (xy 108.1 129.138541) (xy 108.1 136.774802)
+				(xy 108.080315 136.841841) (xy 108.027511 136.887596) (xy 107.974808 136.898796) (xy 97.708884 136.800085)
+				(xy 97.691221 136.798649) (xy 96.505145 136.616176) (xy 96.441878 136.586527) (xy 96.404685 136.527379)
+				(xy 96.4 136.493618) (xy 96.4 135.224) (xy 96.419685 135.156961) (xy 96.472489 135.111206) (xy 96.524 135.1)
+				(xy 97.5 135.1) (xy 97.696329 131.860571) (xy 97.720033 131.794845) (xy 97.750081 131.765734) (xy 100.55 129.85)
+				(xy 100.451257 126.591481) (xy 100.468902 126.523876) (xy 100.473956 126.51613) (xy 101.9 124.5)
+				(xy 101.800092 121.902391) (xy 101.8 121.897625) (xy 101.8 121.724) (xy 101.819685 121.656961) (xy 101.872489 121.611206)
+				(xy 101.924 121.6) (xy 104.086315 121.6)
 			)
 		)
 	)
@@ -56117,18 +58392,16 @@
 		)
 		(polygon
 			(pts
-				(xy 119.9 93.5) (xy 120.1 98.8) (xy 120.9 98.8) (xy 120.8 96.2) (xy 121.1 95.9) (xy 121.1 93.7)
+				(xy 120.110133 93.210133) (xy 120.1 98.8) (xy 120.9 98.8) (xy 120.8 96.2) (xy 121.1 95.9) (xy 121.210887 93.410887)
 			)
 		)
 		(filled_polygon
 			(layer "F.Cu")
 			(pts
-				(xy 120.050021 93.525003) (xy 120.996387 93.682731) (xy 121.059277 93.713168) (xy 121.095728 93.772776)
-				(xy 121.1 93.805043) (xy 121.1 95.848637) (xy 121.080315 95.915676) (xy 121.063681 95.936318) (xy 120.8 96.199998)
-				(xy 120.799999 96.2) (xy 120.895047 98.671234) (xy 120.877954 98.738981) (xy 120.826947 98.786731)
-				(xy 120.771139 98.8) (xy 120.219409 98.8) (xy 120.15237 98.780315) (xy 120.106615 98.727511) (xy 120.095497 98.680676)
-				(xy 120.095141 98.671234) (xy 119.905735 93.651991) (xy 119.922878 93.58426) (xy 119.973919 93.536546)
-				(xy 120.042653 93.524002)
+				(xy 121.210887 93.410887) (xy 121.201977 93.610889) (xy 121.201976 93.61089) (xy 121.102143 95.85189)
+				(xy 121.079495 95.917987) (xy 121.065947 95.934052) (xy 120.8 96.199998) (xy 120.799999 96.2) (xy 120.895047 98.671234)
+				(xy 120.877954 98.738981) (xy 120.826947 98.786731) (xy 120.771139 98.8) (xy 120.224225 98.8) (xy 120.157186 98.780315)
+				(xy 120.111431 98.727511) (xy 120.100225 98.675775) (xy 120.105344 95.85189) (xy 120.110133 93.210133)
 			)
 		)
 	)
@@ -56158,19 +58431,19 @@
 			(layer "F.Cu")
 			(pts
 				(xy 119.215677 124.019685) (xy 119.236319 124.036319) (xy 119.563681 124.363681) (xy 119.597166 124.425004)
-				(xy 119.6 124.451362) (xy 119.6 126.452048) (xy 119.595513 126.485104) (xy 119.504689 126.813469)
-				(xy 119.497345 126.850124) (xy 119.49288 126.885464) (xy 119.490877 126.922794) (xy 119.534411 129.273704)
-				(xy 119.515971 129.341097) (xy 119.464023 129.387821) (xy 119.410432 129.4) (xy 117.651362 129.4)
-				(xy 117.584323 129.380315) (xy 117.563681 129.363681) (xy 115.9 127.7) (xy 115.6 127.7) (xy 115.599999 127.7)
-				(xy 115.536319 127.763681) (xy 115.474996 127.797166) (xy 115.448638 127.8) (xy 114.251362 127.8)
-				(xy 114.184323 127.780315) (xy 114.163681 127.763681) (xy 113.954777 127.554777) (xy 113.921292 127.493454)
-				(xy 113.926276 127.423762) (xy 113.927481 127.42066) (xy 113.929298 127.416159) (xy 113.929303 127.416151)
-				(xy 113.948988 127.349112) (xy 113.9595 127.276) (xy 113.9595 126.251362) (xy 113.958013 126.223621)
-				(xy 113.955179 126.197263) (xy 113.924924 126.100639) (xy 113.891439 126.039316) (xy 113.891437 126.039312)
-				(xy 113.847183 125.980197) (xy 113.847178 125.980192) (xy 113.847175 125.980187) (xy 113.847171 125.980183)
-				(xy 113.847165 125.980176) (xy 113.836319 125.96933) (xy 113.802834 125.908007) (xy 113.8 125.881649)
-				(xy 113.8 124.351362) (xy 113.819685 124.284323) (xy 113.836319 124.263681) (xy 114.063681 124.036319)
-				(xy 114.125004 124.002834) (xy 114.151362 124) (xy 119.148638 124)
+				(xy 119.6 124.451362) (xy 119.6 126.452048) (xy 119.595513 126.485104) (xy 119.582868 126.530822)
+				(xy 119.504689 126.813469) (xy 119.497345 126.850124) (xy 119.49288 126.885464) (xy 119.490877 126.922794)
+				(xy 119.534411 129.273704) (xy 119.515971 129.341097) (xy 119.464023 129.387821) (xy 119.410432 129.4)
+				(xy 117.651362 129.4) (xy 117.584323 129.380315) (xy 117.563681 129.363681) (xy 115.9 127.7) (xy 115.6 127.7)
+				(xy 115.599999 127.7) (xy 115.536319 127.763681) (xy 115.474996 127.797166) (xy 115.448638 127.8)
+				(xy 114.251362 127.8) (xy 114.184323 127.780315) (xy 114.163681 127.763681) (xy 113.954777 127.554777)
+				(xy 113.921292 127.493454) (xy 113.926276 127.423762) (xy 113.927481 127.42066) (xy 113.929298 127.416159)
+				(xy 113.929303 127.416151) (xy 113.948988 127.349112) (xy 113.9595 127.276) (xy 113.9595 126.251362)
+				(xy 113.958013 126.223621) (xy 113.955179 126.197263) (xy 113.924924 126.100639) (xy 113.891439 126.039316)
+				(xy 113.891437 126.039312) (xy 113.847183 125.980197) (xy 113.847178 125.980192) (xy 113.847175 125.980187)
+				(xy 113.847171 125.980183) (xy 113.847165 125.980176) (xy 113.836319 125.96933) (xy 113.802834 125.908007)
+				(xy 113.8 125.881649) (xy 113.8 124.351362) (xy 113.819685 124.284323) (xy 113.836319 124.263681)
+				(xy 114.063681 124.036319) (xy 114.125004 124.002834) (xy 114.151362 124) (xy 119.148638 124)
 			)
 		)
 	)
@@ -56226,17 +58499,16 @@
 		)
 		(polygon
 			(pts
-				(xy 137.9 81.8) (xy 137.9 85) (xy 137.9 85.3) (xy 137.9 85.9) (xy 137.9 88.6) (xy 139.8 88.6) (xy 139.8 88.5)
-				(xy 139.8 81.8)
+				(xy 137.9 82.6) (xy 137.9 85) (xy 137.9 85.3) (xy 137.9 85.9) (xy 137.9 87.9) (xy 139.8 87.9) (xy 139.8 82.6)
 			)
 		)
 		(filled_polygon
 			(layer "F.Cu")
 			(pts
-				(xy 139.743039 81.819685) (xy 139.788794 81.872489) (xy 139.8 81.924) (xy 139.8 88.476) (xy 139.780315 88.543039)
-				(xy 139.727511 88.588794) (xy 139.676 88.6) (xy 138.024 88.6) (xy 137.956961 88.580315) (xy 137.911206 88.527511)
-				(xy 137.9 88.476) (xy 137.9 81.924) (xy 137.919685 81.856961) (xy 137.972489 81.811206) (xy 138.024 81.8)
-				(xy 139.676 81.8)
+				(xy 139.743039 82.619685) (xy 139.788794 82.672489) (xy 139.8 82.724) (xy 139.8 87.776) (xy 139.780315 87.843039)
+				(xy 139.727511 87.888794) (xy 139.676 87.9) (xy 138.024 87.9) (xy 137.956961 87.880315) (xy 137.911206 87.827511)
+				(xy 137.9 87.776) (xy 137.9 82.724) (xy 137.919685 82.656961) (xy 137.972489 82.611206) (xy 138.024 82.6)
+				(xy 139.676 82.6)
 			)
 		)
 	)
@@ -56359,16 +58631,16 @@
 		)
 		(polygon
 			(pts
-				(xy 110.5 98.9) (xy 110.3 92.8) (xy 111.9 93) (xy 111.5 96.6) (xy 111.4 97.5) (xy 111.4 99)
+				(xy 110.5 98.9) (xy 110.519339 93.019339) (xy 111.9 93) (xy 111.5 96.6) (xy 111.4 97.5) (xy 111.4 99)
 			)
 		)
 		(filled_polygon
 			(layer "F.Cu")
 			(pts
-				(xy 111.9 93) (xy 111.879614 93.183466) (xy 111.5 96.6) (xy 111.4 97.499999) (xy 111.4 98.861458)
-				(xy 111.380315 98.928497) (xy 111.327511 98.974252) (xy 111.262306 98.9847) (xy 110.60672 98.911857)
-				(xy 110.542265 98.884889) (xy 110.502621 98.827355) (xy 110.496481 98.792678) (xy 110.42459 96.6)
-				(xy 110.3 92.8)
+				(xy 111.879614 93.183466) (xy 111.5 96.6) (xy 111.4 97.499999) (xy 111.4 98.861458) (xy 111.380315 98.928497)
+				(xy 111.327511 98.974252) (xy 111.262306 98.9847) (xy 110.610671 98.912296) (xy 110.546216 98.885328)
+				(xy 110.506572 98.827794) (xy 110.500366 98.788646) (xy 110.518749 93.198673) (xy 110.519339 93.019339)
+				(xy 111.9 93)
 			)
 		)
 	)

@@ -225,6 +225,10 @@
         {
           "diameter": 0.5,
           "drill": 0.3
+        },
+        {
+          "diameter": 1.0,
+          "drill": 0.7
         }
       ],
       "zones_allow_external_fillets": false
@@ -735,7 +739,7 @@
           "show": true
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Reference",
           "name": "Reference",
           "show": true
@@ -790,8 +794,8 @@
         },
         {
           "group_by": false,
-          "label": "jlcpcb part number",
-          "name": "jlcpcb part number",
+          "label": "LCSC Part Number",
+          "name": "LCSC Part Number",
           "show": true
         },
         {
@@ -810,20 +814,20 @@
           "group_by": false,
           "label": "MFR.Part",
           "name": "MFR.Part",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "jlcpcb",
           "name": "jlcpcb",
-          "show": true
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "name": "",
-      "sort_asc": false,
-      "sort_field": "Reference"
+      "sort_asc": true,
+      "sort_field": "LCSC Part Number"
     },
     "connection_grid_size": 50.0,
     "drawing": {

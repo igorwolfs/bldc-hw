@@ -4007,7 +4007,7 @@
 		(uuid "252ec137-b088-40ce-b7de-6518d3157f24")
 	)
 	(junction
-		(at 245.11 57.15)
+		(at 245.41 59.08)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "30c8411b-460f-4af1-9f61-1b5c40018a6c")
@@ -4073,7 +4073,7 @@
 		(uuid "9f4252a6-8dcc-4003-9f25-c90cf1f0cd89")
 	)
 	(junction
-		(at 262.89 46.99)
+		(at 263.19 48.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "af95b8b8-59b3-4b7c-9624-89f25f4992e1")
@@ -4127,7 +4127,7 @@
 		(uuid "cb8f2083-dd51-4e50-ae5f-15d562f61b68")
 	)
 	(junction
-		(at 256.54 44.45)
+		(at 256.84 46.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cee320e8-318c-4dbb-9a92-a4cb35d5189d")
@@ -4332,7 +4332,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 52.07) (xy 245.11 52.07)
+			(xy 233.98 54) (xy 245.41 54)
 		)
 		(stroke
 			(width 0)
@@ -4472,7 +4472,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 40.64) (xy 262.89 46.99)
+			(xy 263.19 42.57) (xy 263.19 48.92)
 		)
 		(stroke
 			(width 0)
@@ -4582,7 +4582,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 63.5) (xy 245.11 64.77)
+			(xy 245.41 65.43) (xy 245.41 66.7)
 		)
 		(stroke
 			(width 0)
@@ -4632,7 +4632,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 35.56) (xy 256.54 44.45)
+			(xy 256.84 37.49) (xy 256.84 46.38)
 		)
 		(stroke
 			(width 0)
@@ -4692,7 +4692,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 41.91) (xy 266.7 41.91)
+			(xy 239.06 43.84) (xy 267 43.84)
 		)
 		(stroke
 			(width 0)
@@ -4852,7 +4852,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 46.99) (xy 262.89 46.99)
+			(xy 242.87 48.92) (xy 263.19 48.92)
 		)
 		(stroke
 			(width 0)
@@ -4862,7 +4862,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 52.07) (xy 266.7 52.07)
+			(xy 250.49 54) (xy 267 54)
 		)
 		(stroke
 			(width 0)
@@ -4892,7 +4892,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 54.61) (xy 245.11 54.61)
+			(xy 233.98 56.54) (xy 245.41 56.54)
 		)
 		(stroke
 			(width 0)
@@ -4912,7 +4912,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 49.53) (xy 238.76 49.53)
+			(xy 267 51.46) (xy 239.06 51.46)
 		)
 		(stroke
 			(width 0)
@@ -4962,7 +4962,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 44.45) (xy 256.54 44.45)
+			(xy 242.87 46.38) (xy 256.84 46.38)
 		)
 		(stroke
 			(width 0)
@@ -5122,7 +5122,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 54.61) (xy 266.7 54.61)
+			(xy 250.49 56.54) (xy 267 56.54)
 		)
 		(stroke
 			(width 0)
@@ -5152,7 +5152,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 44.45) (xy 266.7 44.45)
+			(xy 256.84 46.38) (xy 267 46.38)
 		)
 		(stroke
 			(width 0)
@@ -5442,7 +5442,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 57.15) (xy 266.7 57.15)
+			(xy 250.49 59.08) (xy 267 59.08)
 		)
 		(stroke
 			(width 0)
@@ -5472,7 +5472,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 59.69) (xy 257.81 59.69)
+			(xy 267 61.62) (xy 258.11 61.62)
 		)
 		(stroke
 			(width 0)
@@ -5562,7 +5562,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 35.56) (xy 262.89 34.29)
+			(xy 263.19 37.49) (xy 263.19 36.22)
 		)
 		(stroke
 			(width 0)
@@ -5702,7 +5702,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 57.15) (xy 245.11 57.15)
+			(xy 233.98 59.08) (xy 245.41 59.08)
 		)
 		(stroke
 			(width 0)
@@ -5742,7 +5742,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 57.15) (xy 245.11 58.42)
+			(xy 245.41 59.08) (xy 245.41 60.35)
 		)
 		(stroke
 			(width 0)
@@ -5762,7 +5762,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 46.99) (xy 266.7 46.99)
+			(xy 263.19 48.92) (xy 267 48.92)
 		)
 		(stroke
 			(width 0)
@@ -6206,7 +6206,7 @@
 		(uuid "22465567-61cd-4126-bcd7-f8b69b94b3b9")
 	)
 	(label "SWD_SWDIO_IN"
-		(at 250.19 54.61 0)
+		(at 250.49 56.54 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6217,7 +6217,7 @@
 		(uuid "3956f151-1d58-4851-afdd-d039500240c7")
 	)
 	(label "I2C_SCL"
-		(at 242.57 46.99 0)
+		(at 242.87 48.92 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6239,7 +6239,7 @@
 		(uuid "40a8470c-874e-4b92-bd68-d8887251f99d")
 	)
 	(label "SWD_NRESET"
-		(at 233.68 57.15 0)
+		(at 233.98 59.08 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6261,7 +6261,7 @@
 		(uuid "56d5e96c-443f-4137-9cb9-d6bfef75b48e")
 	)
 	(label "I2C_SDA"
-		(at 242.57 44.45 0)
+		(at 242.87 46.38 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6393,7 +6393,7 @@
 		(uuid "c57ecd64-efb3-4ca5-bcfe-2d1d321ab85a")
 	)
 	(label "SWD_NRESET_IN"
-		(at 250.19 57.15 0)
+		(at 250.49 59.08 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6404,7 +6404,7 @@
 		(uuid "c63c2fd1-a4e2-4909-9edf-3cf07a2ff541")
 	)
 	(label "SWD_SWCLK_IN"
-		(at 250.19 52.07 0)
+		(at 250.49 54 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6448,7 +6448,7 @@
 		(uuid "cff8866c-b0f3-4b8e-9dbd-0ec98aa7dfa6")
 	)
 	(label "SWD_SWCLK"
-		(at 233.68 52.07 0)
+		(at 233.98 54 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6470,7 +6470,7 @@
 		(uuid "eab50fc5-1ef9-4837-b4ad-96a14c804267")
 	)
 	(label "SWD_SWDIO"
-		(at 233.68 54.61 0)
+		(at 233.98 56.54 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6981,7 +6981,16 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb part number" "C346210"
+		(property "LCSC Part Number" "C346210"
+			(at 115.57 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" ""
 			(at 115.57 22.86 0)
 			(effects
 				(font
@@ -7067,7 +7076,16 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb part number" "C720477"
+		(property "LCSC Part Number" "C720477"
+			(at 29.21 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" ""
 			(at 29.21 118.11 0)
 			(effects
 				(font
@@ -7093,7 +7111,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 245.11 60.96 0)
+		(at 245.41 62.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7102,7 +7120,7 @@
 		(fields_autoplaced yes)
 		(uuid "060ba384-8ee2-4b0a-9357-4db74bf8106e")
 		(property "Reference" "C32"
-			(at 247.65 59.6963 0)
+			(at 247.95 61.6263 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7111,7 +7129,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 247.65 62.2363 0)
+			(at 247.95 64.1663 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7120,7 +7138,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 245.11 60.96 0)
+			(at 245.41 62.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7129,7 +7147,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.pdf"
-			(at 245.11 60.96 0)
+			(at 245.41 62.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7138,7 +7156,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 245.11 60.96 0)
+			(at 245.41 62.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7147,7 +7165,7 @@
 			)
 		)
 		(property "Manufacturing part number" "CL05B104KB54PNC"
-			(at 245.11 60.96 0)
+			(at 245.41 62.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7155,8 +7173,17 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb part number" "C307331"
-			(at 245.11 60.96 0)
+		(property "LCSC Part Number" "C307331"
+			(at 245.41 62.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 245.41 62.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7181,7 +7208,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 245.11 64.77 0)
+		(at 245.41 66.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7190,7 +7217,7 @@
 		(fields_autoplaced yes)
 		(uuid "0773fc96-ad9b-4529-b04c-aa085913b8b3")
 		(property "Reference" "#PWR045"
-			(at 245.11 71.12 0)
+			(at 245.41 73.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7199,7 +7226,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 245.11 69.85 0)
+			(at 245.41 71.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7207,7 +7234,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 245.11 64.77 0)
+			(at 245.41 66.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7216,7 +7243,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 245.11 64.77 0)
+			(at 245.41 66.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7225,7 +7252,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 245.11 64.77 0)
+			(at 245.41 66.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7309,7 +7336,16 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb part number" "C307331"
+		(property "LCSC Part Number" "C307331"
+			(at 29.21 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" ""
 			(at 29.21 76.2 0)
 			(effects
 				(font
@@ -7380,6 +7416,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 166.37 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" ""
 			(at 166.37 132.08 0)
 			(effects
 				(font
@@ -7468,7 +7513,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 247.65 52.07 90)
+		(at 247.95 54 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7476,7 +7521,7 @@
 		(dnp no)
 		(uuid "18528ee2-5b3a-42ee-a621-5f6043726a3b")
 		(property "Reference" "R57"
-			(at 247.65 46.99 90)
+			(at 247.95 48.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7485,7 +7530,7 @@
 			)
 		)
 		(property "Value" "10"
-			(at 247.396 52.07 90)
+			(at 247.696 54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7493,7 +7538,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 247.65 52.07 0)
+			(at 247.95 54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7502,7 +7547,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF100JTCE_C25077.pdf"
-			(at 247.65 52.07 0)
+			(at 247.95 54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7511,7 +7556,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 247.65 52.07 0)
+			(at 247.95 54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7520,7 +7565,7 @@
 			)
 		)
 		(property "Manufacturing part number" "0402WGF100JTCE"
-			(at 247.65 52.07 0)
+			(at 247.95 54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7528,8 +7573,17 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb part number" "C25077"
-			(at 247.65 52.07 0)
+		(property "LCSC Part Number" "C25077"
+			(at 247.95 54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 247.95 54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7622,7 +7676,16 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb part number" "C423025"
+		(property "LCSC Part Number" "C423025"
+			(at 242.57 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" ""
 			(at 242.57 129.54 0)
 			(effects
 				(font
@@ -7707,7 +7770,16 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb part number" "C389817"
+		(property "LCSC Part Number" "C389817"
+			(at 111.76 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" ""
 			(at 111.76 27.94 0)
 			(effects
 				(font
@@ -7804,7 +7876,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 247.65 57.15 90)
+		(at 247.95 59.08 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7812,7 +7884,7 @@
 		(dnp no)
 		(uuid "2a1bc965-e48c-4196-bdc9-a129408e2ba4")
 		(property "Reference" "R41"
-			(at 247.65 52.07 90)
+			(at 247.95 54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7821,7 +7893,7 @@
 			)
 		)
 		(property "Value" "10"
-			(at 247.396 57.15 90)
+			(at 247.696 59.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7829,7 +7901,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 247.65 57.15 0)
+			(at 247.95 59.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7838,7 +7910,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF100JTCE_C25077.pdf"
-			(at 247.65 57.15 0)
+			(at 247.95 59.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7847,7 +7919,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 247.65 57.15 0)
+			(at 247.95 59.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7856,7 +7928,7 @@
 			)
 		)
 		(property "Manufacturing part number" "0402WGF100JTCE"
-			(at 247.65 57.15 0)
+			(at 247.95 59.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7864,8 +7936,17 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb part number" "C25077"
-			(at 247.65 57.15 0)
+		(property "LCSC Part Number" "C25077"
+			(at 247.95 59.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 247.95 59.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8280,7 +8361,16 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb part number" "C307331"
+		(property "LCSC Part Number" "C307331"
+			(at 63.5 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" ""
 			(at 63.5 76.2 0)
 			(effects
 				(font
@@ -8351,6 +8441,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 165.1 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" ""
 			(at 165.1 153.67 0)
 			(effects
 				(font
@@ -8435,7 +8534,16 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb part number" "C307331"
+		(property "LCSC Part Number" "C307331"
+			(at 217.805 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" ""
 			(at 217.805 114.3 0)
 			(effects
 				(font
@@ -8589,7 +8697,16 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb part number" "C307331"
+		(property "LCSC Part Number" "C307331"
+			(at 38.1 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" ""
 			(at 38.1 76.2 0)
 			(effects
 				(font
@@ -8677,7 +8794,16 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb part number" "C307331"
+		(property "LCSC Part Number" "C307331"
+			(at 43.18 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" ""
 			(at 43.18 121.285 0)
 			(effects
 				(font
@@ -8773,7 +8899,16 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb part number" "C19666"
+		(property "LCSC Part Number" "C19666"
+			(at 20.32 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" ""
 			(at 20.32 76.2 0)
 			(effects
 				(font
@@ -8860,7 +8995,16 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb part number" "C4216"
+		(property "LCSC Part Number" "C4216"
+			(at 38.1 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" ""
 			(at 38.1 40.64 0)
 			(effects
 				(font
@@ -8886,7 +9030,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 238.76 41.91 0)
+		(at 239.06 43.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8894,7 +9038,7 @@
 		(dnp no)
 		(uuid "51d6c3ea-d830-449f-9e0a-4d16211f14b8")
 		(property "Reference" "#PWR091"
-			(at 238.76 48.26 0)
+			(at 239.06 50.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8903,7 +9047,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 242.062 40.64 0)
+			(at 242.362 42.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8912,7 +9056,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 238.76 41.91 0)
+			(at 239.06 43.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8921,7 +9065,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 238.76 41.91 0)
+			(at 239.06 43.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8930,7 +9074,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 238.76 41.91 0)
+			(at 239.06 43.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9078,7 +9222,16 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb part number" "C4216"
+		(property "LCSC Part Number" "C4216"
+			(at 62.23 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" ""
 			(at 62.23 29.21 0)
 			(effects
 				(font
@@ -9297,7 +9450,16 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb part number" "C14858"
+		(property "LCSC Part Number" "C14858"
+			(at 238.125 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" ""
 			(at 238.125 143.51 0)
 			(effects
 				(font
@@ -9515,7 +9677,16 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb part number" "C2671262"
+		(property "LCSC Part Number" "C2671262"
+			(at 226.695 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" ""
 			(at 226.695 132.08 0)
 			(effects
 				(font
@@ -9678,6 +9849,15 @@
 				(hide yes)
 			)
 		)
+		(property "jlcpcb" ""
+			(at 166.37 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "66c2fef8-b528-4fef-b096-6c3c301dbb29")
 		)
@@ -9754,7 +9934,16 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb part number" "C4216"
+		(property "LCSC Part Number" "C4216"
+			(at 52.705 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" ""
 			(at 52.705 121.92 0)
 			(effects
 				(font
@@ -9842,7 +10031,16 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb part number" "C279702"
+		(property "LCSC Part Number" "C279702"
+			(at 62.23 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" ""
 			(at 62.23 39.37 0)
 			(effects
 				(font
@@ -9927,7 +10125,16 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb part number" "C7496819"
+		(property "LCSC Part Number" "C7496819"
+			(at 60.325 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" ""
 			(at 60.325 130.81 0)
 			(effects
 				(font
@@ -9953,7 +10160,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 247.65 54.61 90)
+		(at 247.95 56.54 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9961,7 +10168,7 @@
 		(dnp no)
 		(uuid "72e1dc9c-9cad-43ea-b488-24e667b1b658")
 		(property "Reference" "R64"
-			(at 247.65 49.53 90)
+			(at 247.95 51.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9970,7 +10177,7 @@
 			)
 		)
 		(property "Value" "10"
-			(at 247.396 54.356 90)
+			(at 247.696 56.286 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9978,7 +10185,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 247.65 54.61 0)
+			(at 247.95 56.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9987,7 +10194,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF100JTCE_C25077.pdf"
-			(at 247.65 54.61 0)
+			(at 247.95 56.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9996,7 +10203,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 247.65 54.61 0)
+			(at 247.95 56.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10005,7 +10212,7 @@
 			)
 		)
 		(property "Manufacturing part number" "0402WGF100JTCE"
-			(at 247.65 54.61 0)
+			(at 247.95 56.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10013,8 +10220,17 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb part number" "C25077"
-			(at 247.65 54.61 0)
+		(property "LCSC Part Number" "C25077"
+			(at 247.95 56.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 247.95 56.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10166,7 +10382,16 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb part number" "C307331"
+		(property "LCSC Part Number" "C307331"
+			(at 46.99 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" ""
 			(at 46.99 76.2 0)
 			(effects
 				(font
@@ -10192,7 +10417,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 257.81 59.69 0)
+		(at 258.11 61.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10200,7 +10425,7 @@
 		(dnp no)
 		(uuid "79d1f79b-7d7f-4b49-95e3-f9f6df9e462a")
 		(property "Reference" "#PWR046"
-			(at 257.81 66.04 0)
+			(at 258.11 67.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10209,7 +10434,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 261.112 58.42 0)
+			(at 261.412 60.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10218,7 +10443,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 257.81 59.69 0)
+			(at 258.11 61.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10227,7 +10452,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 59.69 0)
+			(at 258.11 61.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10236,7 +10461,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 257.81 59.69 0)
+			(at 258.11 61.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10258,7 +10483,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 238.76 49.53 0)
+		(at 239.06 51.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10266,7 +10491,7 @@
 		(dnp no)
 		(uuid "7a5b4b84-1d2c-48a6-89ba-3e9c01baf606")
 		(property "Reference" "#PWR047"
-			(at 238.76 53.34 0)
+			(at 239.06 55.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10275,7 +10500,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 243.586 48.514 0)
+			(at 233.3 47.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10284,7 +10509,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 238.76 49.53 0)
+			(at 239.06 51.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10293,7 +10518,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 238.76 49.53 0)
+			(at 239.06 51.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10302,7 +10527,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 238.76 49.53 0)
+			(at 239.06 51.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10443,7 +10668,7 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb part number" "C6332196"
+		(property "MFR.Part" ""
 			(at 264.16 132.08 0)
 			(effects
 				(font
@@ -10452,7 +10677,25 @@
 				(hide yes)
 			)
 		)
-		(property "MFR.Part" "HB-PH3-25413PB2GOP "
+		(property "LCSC Part Number" "C6332196"
+			(at 264.16 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturing part number" "HB-PH3-25413PB2GOP "
+			(at 264.16 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" ""
 			(at 264.16 132.08 0)
 			(effects
 				(font
@@ -10543,7 +10786,16 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb part number" "C307331"
+		(property "LCSC Part Number" "C307331"
+			(at 85.09 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" ""
 			(at 85.09 76.2 0)
 			(effects
 				(font
@@ -10697,7 +10949,16 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb part number" "C1848"
+		(property "LCSC Part Number" "C1848"
+			(at 105.41 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" ""
 			(at 105.41 76.2 0)
 			(effects
 				(font
@@ -10783,7 +11044,16 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb part number" "C14709"
+		(property "LCSC Part Number" "C14709"
+			(at 95.25 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" ""
 			(at 95.25 73.66 0)
 			(effects
 				(font
@@ -10934,7 +11204,16 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb part number" "C346210"
+		(property "LCSC Part Number" "C346210"
+			(at 115.57 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" ""
 			(at 115.57 31.75 0)
 			(effects
 				(font
@@ -11086,7 +11365,16 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb part number" "C4310"
+		(property "LCSC Part Number" "C4310"
+			(at 39.37 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" ""
 			(at 39.37 118.11 0)
 			(effects
 				(font
@@ -11178,7 +11466,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 262.89 34.29 0)
+		(at 263.19 36.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11187,7 +11475,7 @@
 		(fields_autoplaced yes)
 		(uuid "9fa9d4a2-fcc9-43ad-bda0-057bf2a51375")
 		(property "Reference" "#PWR055"
-			(at 262.89 38.1 0)
+			(at 263.19 40.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11196,7 +11484,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 262.89 29.21 0)
+			(at 263.19 31.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11204,7 +11492,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 262.89 34.29 0)
+			(at 263.19 36.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11213,7 +11501,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 262.89 34.29 0)
+			(at 263.19 36.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11222,7 +11510,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 262.89 34.29 0)
+			(at 263.19 36.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11289,6 +11577,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 166.37 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" ""
 			(at 166.37 125.73 0)
 			(effects
 				(font
@@ -11373,7 +11670,16 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb part number" "C1848"
+		(property "LCSC Part Number" "C1848"
+			(at 76.2 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" ""
 			(at 76.2 76.2 0)
 			(effects
 				(font
@@ -11444,6 +11750,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 166.37 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" ""
 			(at 166.37 119.38 0)
 			(effects
 				(font
@@ -11665,7 +11980,16 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb part number" "C423025"
+		(property "LCSC Part Number" "C423025"
+			(at 242.57 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" ""
 			(at 242.57 134.62 0)
 			(effects
 				(font
@@ -11819,7 +12143,16 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb part number" "C108516"
+		(property "LCSC Part Number" "C108516"
+			(at 96.52 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" ""
 			(at 96.52 148.59 0)
 			(effects
 				(font
@@ -11983,7 +12316,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x08")
-		(at 271.78 49.53 0)
+		(at 272.08 51.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11991,7 +12324,7 @@
 		(dnp no)
 		(uuid "c1e55e2d-d268-4197-859a-7927ffad6db0")
 		(property "Reference" "J1"
-			(at 274.32 49.5299 0)
+			(at 274.62 51.4599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12000,7 +12333,7 @@
 			)
 		)
 		(property "Value" "Conn_01x08"
-			(at 264.668 63.5 0)
+			(at 264.968 65.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12009,7 +12342,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
-			(at 271.78 49.53 0)
+			(at 272.08 51.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12018,7 +12351,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2305120906_Hanbo-Electronic-HB-PH8-25424PB2GOP_C6332207.pdf"
-			(at 271.78 49.53 0)
+			(at 272.08 51.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12027,7 +12360,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 271.78 49.53 0)
+			(at 272.08 51.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12035,8 +12368,8 @@
 				(hide yes)
 			)
 		)
-		(property "MFR.Part" "HB-PH3-25418PB2GOP "
-			(at 271.78 49.53 0)
+		(property "MFR.Part" ""
+			(at 272.08 51.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12044,8 +12377,26 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb part number" "C6332201"
-			(at 271.78 49.53 0)
+		(property "LCSC Part Number" "C6332201"
+			(at 272.08 51.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturing part number" "HB-PH3-25418PB2GOP "
+			(at 272.08 51.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 272.08 51.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12207,6 +12558,15 @@
 				(hide yes)
 			)
 		)
+		(property "jlcpcb" ""
+			(at 165.1 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c7aa6e7e-8d91-4363-ab92-c7971722361f")
 		)
@@ -12283,7 +12643,16 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb part number" "C23137"
+		(property "LCSC Part Number" "C23137"
+			(at 38.1 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" ""
 			(at 38.1 30.48 0)
 			(effects
 				(font
@@ -12309,15 +12678,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 256.54 33.02 0)
+		(at 256.84 34.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "ddcc9cfc-c415-474a-9658-1a90abc3da14")
-		(property "Reference" "R46"
-			(at 250.19 31.75 0)
+		(property "Reference" "R44"
+			(at 250.49 33.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12326,7 +12695,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 250.19 34.29 0)
+			(at 250.49 36.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12335,7 +12704,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 256.54 33.02 0)
+			(at 256.84 34.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12344,7 +12713,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206010200_UNI-ROYAL-Uniroyal-Elec-0805W8F4701T5E_C17673.pdf"
-			(at 256.54 33.02 0)
+			(at 256.84 34.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12353,7 +12722,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 256.54 33.02 0)
+			(at 256.84 34.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12362,7 +12731,7 @@
 			)
 		)
 		(property "Manufacturing part number" "0805W8F4701T5E"
-			(at 256.54 33.02 0)
+			(at 256.84 34.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12370,8 +12739,17 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb part number" "C17673"
-			(at 256.54 33.02 0)
+		(property "LCSC Part Number" "C17673"
+			(at 256.84 34.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 256.84 34.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12388,7 +12766,7 @@
 		(instances
 			(project "bldc_project"
 				(path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7eb1e86b-8a48-408f-b231-0c52f4ea1971"
-					(reference "R46")
+					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -12522,7 +12900,16 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb part number" "C4125"
+		(property "LCSC Part Number" "C4125"
+			(at 67.31 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" ""
 			(at 67.31 130.81 0)
 			(effects
 				(font
@@ -12607,7 +12994,16 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb part number" "C17168"
+		(property "LCSC Part Number" "C17168"
+			(at 104.14 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" ""
 			(at 104.14 22.86 0)
 			(effects
 				(font
@@ -12633,7 +13029,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 256.54 30.48 0)
+		(at 256.84 32.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12642,7 +13038,7 @@
 		(fields_autoplaced yes)
 		(uuid "e8aac3c1-419d-46f9-8c84-658487a58750")
 		(property "Reference" "#PWR054"
-			(at 256.54 34.29 0)
+			(at 256.84 36.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12651,7 +13047,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 256.54 25.4 0)
+			(at 256.84 27.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12659,7 +13055,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 256.54 30.48 0)
+			(at 256.84 32.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12668,7 +13064,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 256.54 30.48 0)
+			(at 256.84 32.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12677,7 +13073,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 256.54 30.48 0)
+			(at 256.84 32.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12699,15 +13095,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 262.89 38.1 0)
+		(at 263.19 40.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "eb5772eb-e342-4afc-a9d6-3551916436f8")
-		(property "Reference" "R44"
-			(at 265.43 36.83 0)
+		(property "Reference" "R46"
+			(at 265.73 38.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12716,7 +13112,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 265.43 39.37 0)
+			(at 265.73 41.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12725,7 +13121,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 262.89 38.1 0)
+			(at 263.19 40.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12734,7 +13130,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206010200_UNI-ROYAL-Uniroyal-Elec-0805W8F4701T5E_C17673.pdf"
-			(at 262.89 38.1 0)
+			(at 263.19 40.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12743,7 +13139,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 262.89 38.1 0)
+			(at 263.19 40.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12752,7 +13148,7 @@
 			)
 		)
 		(property "Manufacturing part number" "0805W8F4701T5E"
-			(at 262.89 38.1 0)
+			(at 263.19 40.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12760,8 +13156,17 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb part number" "C17673"
-			(at 262.89 38.1 0)
+		(property "LCSC Part Number" "C17673"
+			(at 263.19 40.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" ""
+			(at 263.19 40.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12778,7 +13183,7 @@
 		(instances
 			(project "bldc_project"
 				(path "/91e2f46a-700b-4d7a-a06a-22469f63223f/7eb1e86b-8a48-408f-b231-0c52f4ea1971"
-					(reference "R44")
+					(reference "R46")
 					(unit 1)
 				)
 			)
@@ -12848,7 +13253,16 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb part number" "C307331"
+		(property "LCSC Part Number" "C307331"
+			(at 54.61 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" ""
 			(at 54.61 76.2 0)
 			(effects
 				(font

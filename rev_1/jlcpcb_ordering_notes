@@ -1,0 +1,10 @@
+# Component choice
+- Place components only on one side (25 dollars) instead of 2-sides for cheaper assembly assembly.
+- Use standard components, that are in the feeder by default. In no-standard (extended) component case the price to load a component into the feeder is 3 dollars.
+- Make sure to buy as much of the same components as possible.
+
+# Size of board
+- Order 100x100mm board (or whatever is the largest size that can be bought without increasing the price too much).
+- Leave enough space for manual assembly if necessary, create clear silkscreen indications where possible.
+- Make sure to respect the minimum hole diameter.
+- 

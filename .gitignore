@@ -12,3 +12,4 @@ simulations/spice_libs/*.plt
 examples
 scripts/.ipynb_checkpoints/*
 rev_1/fw/zephyr_ws/zephyr/*
+rev_1/fw/zephyr_ws/modules/*

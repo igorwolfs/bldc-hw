@@ -1,0 +1,21 @@
+# my-repo/west.yml:
+manifest:
+  remotes:
+    - name: zephyrproject-rtos
+      url-base: https://github.com/zephyrproject-rtos
+  projects:
+    - name: zephyr
+      remote: zephyrproject-rtos
+      revision: v3.6-branch
+      import:
+        # By using name-allowlist we can clone only the modules that are
+        # strictly needed by the application.
+        name-allowlist:
+          - cmsis      # required by the ARM port
+          - cmsis-dsp
+          - hal_stm32  # required by the nucleo_f302r8 board (STM32 based)
+
+    - name: boards
+      path: boards
+
+# Example 4: https://docs.zephyrproject.org/latest/develop/west/manifest.html

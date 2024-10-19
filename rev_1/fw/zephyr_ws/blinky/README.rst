@@ -1,97 +1,92 @@
-.. zephyr:code-sample:: blinky
-   :name: Blinky
-   :relevant-api: gpio_interface
+.. zephyr:code-sample:: testusb-app
+   :name: USB testing application
+   :relevant-api: _usb_device_core_api
 
-   Blink an LED forever using the GPIO API.
+   Test USB device drivers using a loopback function.
 
-Overview
-********
+This sample implements a loopback function that can be used
+to test USB device drivers and the device stack connected to a Linux host
+and has a similar interface to "Gadget Zero" of the Linux kernel.
+The userspace tool ``testusb`` is needed to start the tests.
 
-The Blinky sample blinks an LED forever using the :ref:`GPIO API <gpio_api>`.
+Building and flashing
+*********************
 
-The source code shows how to:
+Follow the general procedure for building and flashing Zephyr device.
 
-#. Get a pin specification from the :ref:`devicetree <dt-guide>` as a
-   :c:struct:`gpio_dt_spec`
-#. Configure the GPIO pin as an output
-#. Toggle the pin forever
+Testing
+*******
 
-See :zephyr:code-sample:`pwm-blinky` for a similar sample that uses the PWM API instead.
+To run USB tests:
 
-.. _blinky-sample-requirements:
+#. Load the ``usbtest`` Linux kernel module on the Linux Host.
 
-Requirements
-************
+   .. code-block:: console
 
-Your board must:
+      $ sudo modprobe usbtest vendor=0x2fe3 product=0x0009
 
-#. Have an LED connected via a GPIO pin (these are called "User LEDs" on many of
-   Zephyr's :ref:`boards`).
-#. Have the LED configured using the ``led0`` devicetree alias.
+   The ``usbtest`` module should claim the device:
 
-Building and Running
-********************
+   .. code-block:: console
 
-Build and flash Blinky as follows, changing ``reel_board`` for your board:
+      [21746.128743] usb 9-1: new full-speed USB device number 16 using uhci_hcd
+      [21746.303051] usb 9-1: New USB device found, idVendor=2fe3, idProduct=0009, bcdDevice= 2.03
+      [21746.303055] usb 9-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+      [21746.303058] usb 9-1: Product: Zephyr testusb sample
+      [21746.303060] usb 9-1: Manufacturer: ZEPHYR
+      [21746.303063] usb 9-1: SerialNumber: 86FE679A598AC47A
+      [21746.306149] usbtest 9-1:1.0: matched module params, vend=0x2fe3 prod=0x0009
+      [21746.306153] usbtest 9-1:1.0: Generic USB device
+      [21746.306156] usbtest 9-1:1.0: full-speed {control} tests
 
-.. zephyr-app-commands::
-   :zephyr-app: samples/basic/blinky
-   :board: reel_board
-   :goals: build flash
-   :compact:
+#. Use the ``testusb`` tool in ``linux/tools/usb`` inside Linux kernel source directory
+   to start the tests.
 
-After flashing, the LED starts to blink and messages with the current LED state
-are printed on the console. If a runtime error occurs, the sample exits without
-printing to the console.
+   .. code-block:: console
 
-Build errors
-************
+      $ sudo ./testusb -D /dev/bus/usb/009/016
+      /dev/bus/usb/009/016 test 0,    0.000007 secs
+      /dev/bus/usb/009/016 test 9,    4.994475 secs
+      /dev/bus/usb/009/016 test 10,   11.990054 secs
 
-You will see a build error at the source code line defining the ``struct
-gpio_dt_spec led`` variable if you try to build Blinky for an unsupported
-board.
+#. To run all the tests the Zephyr's VID / PID should be inserted to USB
+   driver id table. The method for loading the ``usbtest`` driver for our
+   device is described here: https://lwn.net/Articles/160944/.
 
-On GCC-based toolchains, the error looks like this:
+   Since we use the "Gadget Zero" interface we specify reference device
+   ``0525:a4a0``.
 
-.. code-block:: none
+   .. code-block:: console
 
-   error: '__device_dts_ord_DT_N_ALIAS_led_P_gpios_IDX_0_PH_ORD' undeclared here (not in a function)
+      $ sudo sh -c "echo 0x2fe3 0x0009 0 0x0525 0xa4a0 > /sys/bus/usb/drivers/usbtest/new_id"
 
-Adding board support
-********************
+#. Use the ``testusb`` tool in ``linux/tools/usb`` inside Linux kernel source directory
+   to start the tests.
 
-To add support for your board, add something like this to your devicetree:
+   .. code-block:: console
 
-.. code-block:: DTS
-
-   / {
-   	aliases {
-   		led0 = &myled0;
-   	};
-
-   	leds {
-   		compatible = "gpio-leds";
-   		myled0: led_0 {
-   			gpios = <&gpio0 13 GPIO_ACTIVE_LOW>;
-                };
-   	};
-   };
-
-The above sets your board's ``led0`` alias to use pin 13 on GPIO controller
-``gpio0``. The pin flags :c:macro:`GPIO_ACTIVE_HIGH` mean the LED is on when
-the pin is set to its high state, and off when the pin is in its low state.
-
-Tips:
-
-- See :dtcompatible:`gpio-leds` for more information on defining GPIO-based LEDs
-  in devicetree.
-
-- If you're not sure what to do, check the devicetrees for supported boards which
-  use the same SoC as your target. See :ref:`get-devicetree-outputs` for details.
-
-- See :zephyr_file:`include/zephyr/dt-bindings/gpio/gpio.h` for the flags you can use
-  in devicetree.
-
-- If the LED is built in to your board hardware, the alias should be defined in
-  your :ref:`BOARD.dts file <devicetree-in-out-files>`. Otherwise, you can
-  define one in a :ref:`devicetree overlay <set-devicetree-overlays>`.
+      $ sudo ./testusb -v 512 -D /dev/bus/usb/009/016
+      /dev/bus/usb/009/017 test 0,    0.000008 secs
+      /dev/bus/usb/009/017 test 1,    2.000001 secs
+      /dev/bus/usb/009/017 test 2,    2.003058 secs
+      /dev/bus/usb/009/017 test 3,    1.054082 secs
+      /dev/bus/usb/009/017 test 4,    1.001010 secs
+      /dev/bus/usb/009/017 test 5,   57.962142 secs
+      /dev/bus/usb/009/017 test 6,   35.000096 secs
+      /dev/bus/usb/009/017 test 7,   30.000063 secs
+      /dev/bus/usb/009/017 test 8,   18.000159 secs
+      /dev/bus/usb/009/017 test 9,    4.984975 secs
+      /dev/bus/usb/009/017 test 10,   11.991022 secs
+      /dev/bus/usb/009/017 test 11,   17.030996 secs
+      /dev/bus/usb/009/017 test 12,   17.103034 secs
+      /dev/bus/usb/009/017 test 13,   18.022084 secs
+      /dev/bus/usb/009/017 test 14,    2.458976 secs
+      /dev/bus/usb/009/017 test 17,    2.001089 secs
+      /dev/bus/usb/009/017 test 18,    1.998975 secs
+      /dev/bus/usb/009/017 test 19,    2.010055 secs
+      /dev/bus/usb/009/017 test 20,    1.999911 secs
+      /dev/bus/usb/009/017 test 21,    2.440972 secs
+      /dev/bus/usb/009/017 test 24,   55.112078 secs
+      /dev/bus/usb/009/017 test 27,   56.911052 secs
+      /dev/bus/usb/009/017 test 28,   34.163089 secs
+      /dev/bus/usb/009/017 test 29,    3.983999 secs

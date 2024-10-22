@@ -1,6 +1,0 @@
-if BOARD_BLDC
-
-config BOARD
-    default "bldc"
-
-endif

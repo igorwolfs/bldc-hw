@@ -3,6 +3,8 @@ manifest:
   remotes:
     - name: zephyrproject-rtos
       url-base: https://github.com/zephyrproject-rtos
+    - name: iw_remote
+      url-base: https://github.com/igorwolfs/
   projects:
     - name: zephyr
       remote: zephyrproject-rtos
@@ -15,7 +17,7 @@ manifest:
           - cmsis-dsp
           - hal_stm32  # required by the nucleo_f302r8 board (STM32 based)
 
-    - name: boards
-      path: boards
-
-# Example 4: https://docs.zephyrproject.org/latest/develop/west/manifest.html
+    - name: zephyr-boards
+      remote: iw_remote
+      revision: main
+      path: zephyr-boards

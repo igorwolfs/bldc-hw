@@ -1,0 +1,29 @@
+/*
+ * Copyright (c) 2021, Jonathan Hahn
+ *
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+/ {
+	aliases {
+		usbs = &usb_sense;
+		usbpu = &usb_dp_pu;
+	};
+};
+
+
+&usb {
+	status = "okay";
+};
+
+&rcc {
+	status = "okay";
+};
+
+&pll {
+	status = "okay";
+};
+
+&clk_hse {
+	status = "okay";
+};

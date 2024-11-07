@@ -54,6 +54,8 @@ USBD_HandleTypeDef hUsbDeviceFS;
  * -- Insert your external function declaration here --
  */
 /* USER CODE BEGIN 1 */
+
+//! >>> PRINTF DECLARATION
 #ifdef __GNUC__
 /* With GCC, small printf (option LD Linker->Libraries->Small printf
    set to 'Yes') calls __io_putchar() */
@@ -74,16 +76,8 @@ int _write(int file, char *ptr, int len)
 	// }
 	return len;
 }
+//! <<< PRINTF DECLARATION
 
-
-PUTCHAR_PROTOTYPE
-{
-  /* Place your implementation of fputc here */
-  /* e.g. write a character to the USART3 and Loop until the end of transmission */
-  CDC_Transmit_FS(".", sizeof("."));
-  CDC_Transmit_FS(".", sizeof("."));
-  return ch;
-}
 /* USER CODE END 1 */
 
 /**

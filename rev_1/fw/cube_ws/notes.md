@@ -28,3 +28,16 @@ Make sure to add to linkerscript:
 ```c
 LDFLAGS += -u _printf_float
 ```
+
+# Building and Flashing
+## Building
+```bash
+sudo apt install gcc-arm-none-eabi
+```
+## Flashing
+- Download stm32-cube programmer.
+- Use command
+```bash
+$STM32_PRG_PATH/STM32_Programmer_CLI -c port=swd -w build/uart_usb.bin 0x080000000
+```
+with STM32_PRG_PATH the path to the CLI binary.

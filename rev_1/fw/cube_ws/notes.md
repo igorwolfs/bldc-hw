@@ -1,4 +1,7 @@
 # Logging and printing
+## Configuring usb-logging
+
+
 ## Adding printf
 
 ```c

@@ -45,6 +45,7 @@ CMakeFiles/adc_usb.dir/Core/Src/adc_read.c.obj: Core/Src/adc_read.c \
   /usr/include/newlib/machine/_types.h \
   /usr/include/newlib/machine/ieeefp.h \
   /usr/include/newlib/machine/stdlib.h \
+  /usr/include/newlib/math.h \
   /usr/include/newlib/newlib.h \
   /usr/include/newlib/stdio.h \
   /usr/include/newlib/stdlib.h \
@@ -64,6 +65,7 @@ CMakeFiles/adc_usb.dir/Core/Src/adc_read.c.obj: Core/Src/adc_read.c \
   /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h
 
 CMakeFiles/adc_usb.dir/Core/Src/main.c.obj: Core/Src/main.c \
+  Core/Src/adc_read.h \
   Core/Inc/main.h \
   Core/Inc/stm32f3xx_hal_conf.h \
   Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f303xc.h \
@@ -1455,8 +1457,6 @@ Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h:
 
 Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c:
 
-Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c:
-
 Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c:
 
 Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c:
@@ -1518,6 +1518,10 @@ Core/Inc/stm32f3xx_it.h:
 /usr/include/newlib/sys/_pthreadtypes.h:
 
 /usr/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h:
+
+Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c:
+
+/usr/lib/gcc/arm-none-eabi/13.2.1/include/stdarg.h:
 
 Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_pcd_ex.h:
 
@@ -1649,6 +1653,10 @@ Core/Src/stm32f3xx_it.c:
 
 /usr/include/newlib/machine/stdlib.h:
 
+Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c:
+
+/usr/include/newlib/math.h:
+
 /usr/include/newlib/newlib.h:
 
 Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pcd_ex.c:
@@ -1678,7 +1686,3 @@ Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h:
 /usr/include/newlib/sys/stat.h:
 
 /usr/include/newlib/sys/string.h:
-
-Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c:
-
-/usr/lib/gcc/arm-none-eabi/13.2.1/include/stdarg.h:

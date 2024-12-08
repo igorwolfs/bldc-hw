@@ -17,12 +17,10 @@ The temperature is measured over
     - B-constant: 4050 (between 25->50 degrees (298.15 -> 323.15))
 
 **Thermistor variation**
-
 Temperature change: B(T1->T2) = T1*T2 / (T2-T1) * ln(R1 / R2)
-So: (approximating using exp(x) = 1+x)
-
-=> R2 = R1 * exp([T1*T2 / (T1-T2)] / B(T1->T2)) = R1 + R1 * T1*T2 / ((T1-T2) * B(T1->T2)) = R1 (1+ 0.94*dT)
-=> So the temperature (R2/R1-1) / 0.94 is the temperature change from 25 degrees (or 298.15 Kelvin)
+So: ln(R1/R2) / Beta = 1/T1 - 1/T2
+So the temperature T2 becomes
+=> 1/T2 = 1/T1 - ln(R1/R2) / Beta
 
 
 **Test**
@@ -31,9 +29,11 @@ Values at room temperature:
 
 
 1. Resolution: 12-bit (2**12-1 steps) = 4095
-2. Reference voltage: stored somewhere inside NVM, get it first
-3. So VRef / 
-
+2. Reference voltage assume 3.3
+3. So vtemp = 3.3 * (2360/4095) = 1.90183150183
+4. So Ith = (3.3-vtemp) / 33 kOhm = 42 uA
+5. So Rth = vtemp / Ith = 44.9e3
+6. So T2 = (1/298.15 - ln(47/45) / 4050)^(-1) - 273.15 = 26 degrees OK
 
 **Internal temperature channel**
 - Temperature range: -40 -> 124 degrees C

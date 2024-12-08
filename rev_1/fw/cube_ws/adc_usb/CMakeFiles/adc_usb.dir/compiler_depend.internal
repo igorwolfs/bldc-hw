@@ -46,6 +46,7 @@ CMakeFiles/adc_usb.dir/Core/Src/adc_read.c.obj
  /usr/include/newlib/machine/_types.h
  /usr/include/newlib/machine/ieeefp.h
  /usr/include/newlib/machine/stdlib.h
+ /usr/include/newlib/math.h
  /usr/include/newlib/newlib.h
  /usr/include/newlib/stdio.h
  /usr/include/newlib/stdlib.h
@@ -66,6 +67,7 @@ CMakeFiles/adc_usb.dir/Core/Src/adc_read.c.obj
 
 CMakeFiles/adc_usb.dir/Core/Src/main.c.obj
  /home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/Core/Src/main.c
+ /home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/Core/Src/adc_read.h
  /home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/Core/Inc/main.h
  /home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/Core/Inc/stm32f3xx_hal_conf.h
  /home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f303xc.h

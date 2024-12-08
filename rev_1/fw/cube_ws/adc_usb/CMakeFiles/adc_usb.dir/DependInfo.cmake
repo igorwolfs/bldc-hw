@@ -21,7 +21,6 @@ set(CMAKE_TARGET_DEFINITIONS_ASM
 
 # The include file search paths:
 set(CMAKE_ASM_TARGET_INCLUDE_PATH
-  "Core/Src/adc_read.h"
   "cmake/stm32cubemx/../../USB_DEVICE/App"
   "cmake/stm32cubemx/../../USB_DEVICE/Target"
   "cmake/stm32cubemx/../../Core/Inc"

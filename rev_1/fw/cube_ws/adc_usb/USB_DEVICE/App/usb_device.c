@@ -69,7 +69,15 @@ int _write(int file, char *ptr, int len)
 {
 	int DataIdx;
 
-  CDC_Transmit_FS((uint8_t*)ptr, len);
+  // while (CDC_Transmit_FS((uint8_t*)ptr, len))
+  // {
+  //   continue;
+  // }
+  uint8_t result = CDC_Transmit_FS((uint8_t*)ptr, len);
+  if (result != USBD_OK)
+  {
+    printf("!E! %u", result);
+  }
 	// for (DataIdx = 0; DataIdx < len; DataIdx++)
 	// {
 	// 	__io_putchar(*ptr++);

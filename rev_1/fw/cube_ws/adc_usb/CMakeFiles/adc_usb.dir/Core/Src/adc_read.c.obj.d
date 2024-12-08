@@ -50,4 +50,4 @@ CMakeFiles/adc_usb.dir/Core/Src/adc_read.c.obj: \
  /usr/include/newlib/stdlib.h /usr/include/newlib/machine/stdlib.h \
  /usr/include/newlib/alloca.h /usr/include/newlib/string.h \
  /usr/include/newlib/sys/_locale.h /usr/include/newlib/strings.h \
- /usr/include/newlib/sys/string.h
+ /usr/include/newlib/sys/string.h /usr/include/newlib/math.h

@@ -104,6 +104,7 @@ int main(void)
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
+  int i=1;
   while (1)
   {
     // CDC_Transmit_FS(buffer, sizeof(buffer));
@@ -111,11 +112,17 @@ int main(void)
     HAL_Delay(1000);
     HAL_GPIO_WritePin(GPIOC, GPIO_PIN_13, GPIO_PIN_RESET);
     HAL_Delay(1000);
-
-    adc1_read(&hadc1);
+    for (;i%10!=0; i++)
+    {
+      HAL_Delay(10);
+      printf("ATTEMPTING TO OVERFLOW BUFFER %d\r\n", i);
+    }
+    i++;
+    
+    // adc1_read(&hadc1);
     // adc2_read(&hadc2);
     // adc3_read(&hadc3);
-    adc4_read(&hadc4);
+    // adc4_read(&hadc4);
 
     /* USER CODE END WHILE */
 

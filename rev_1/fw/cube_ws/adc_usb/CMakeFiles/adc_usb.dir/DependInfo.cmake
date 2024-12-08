@@ -21,6 +21,7 @@ set(CMAKE_TARGET_DEFINITIONS_ASM
 
 # The include file search paths:
 set(CMAKE_ASM_TARGET_INCLUDE_PATH
+  "Core/Src/adc_read.h"
   "cmake/stm32cubemx/../../USB_DEVICE/App"
   "cmake/stm32cubemx/../../USB_DEVICE/Target"
   "cmake/stm32cubemx/../../Core/Inc"
@@ -34,6 +35,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/Core/Src/adc_read.c" "CMakeFiles/adc_usb.dir/Core/Src/adc_read.c.obj" "gcc" "CMakeFiles/adc_usb.dir/Core/Src/adc_read.c.obj.d"
   "/home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/Core/Src/main.c" "CMakeFiles/adc_usb.dir/Core/Src/main.c.obj" "gcc" "CMakeFiles/adc_usb.dir/Core/Src/main.c.obj.d"
   "/home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/Core/Src/stm32f3xx_hal_msp.c" "CMakeFiles/adc_usb.dir/Core/Src/stm32f3xx_hal_msp.c.obj" "gcc" "CMakeFiles/adc_usb.dir/Core/Src/stm32f3xx_hal_msp.c.obj.d"
   "/home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/Core/Src/stm32f3xx_it.c" "CMakeFiles/adc_usb.dir/Core/Src/stm32f3xx_it.c.obj" "gcc" "CMakeFiles/adc_usb.dir/Core/Src/stm32f3xx_it.c.obj.d"

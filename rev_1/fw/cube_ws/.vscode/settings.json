@@ -1,5 +1,6 @@
 {
     "files.associations": {
         "main.h": "c"
-    }
+    },
+    "stm32-for-vscode.openOCDPath": false
 }

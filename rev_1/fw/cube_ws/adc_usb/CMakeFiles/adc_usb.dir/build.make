@@ -69,10 +69,24 @@ include CMakeFiles/adc_usb.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/adc_usb.dir/flags.make
 
+CMakeFiles/adc_usb.dir/Core/Src/adc_read.c.obj: CMakeFiles/adc_usb.dir/flags.make
+CMakeFiles/adc_usb.dir/Core/Src/adc_read.c.obj: Core/Src/adc_read.c
+CMakeFiles/adc_usb.dir/Core/Src/adc_read.c.obj: CMakeFiles/adc_usb.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/adc_usb.dir/Core/Src/adc_read.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/adc_usb.dir/Core/Src/adc_read.c.obj -MF CMakeFiles/adc_usb.dir/Core/Src/adc_read.c.obj.d -o CMakeFiles/adc_usb.dir/Core/Src/adc_read.c.obj -c /home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/Core/Src/adc_read.c
+
+CMakeFiles/adc_usb.dir/Core/Src/adc_read.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/adc_usb.dir/Core/Src/adc_read.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/Core/Src/adc_read.c > CMakeFiles/adc_usb.dir/Core/Src/adc_read.c.i
+
+CMakeFiles/adc_usb.dir/Core/Src/adc_read.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/adc_usb.dir/Core/Src/adc_read.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/Core/Src/adc_read.c -o CMakeFiles/adc_usb.dir/Core/Src/adc_read.c.s
+
 CMakeFiles/adc_usb.dir/Core/Src/main.c.obj: CMakeFiles/adc_usb.dir/flags.make
 CMakeFiles/adc_usb.dir/Core/Src/main.c.obj: Core/Src/main.c
 CMakeFiles/adc_usb.dir/Core/Src/main.c.obj: CMakeFiles/adc_usb.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/adc_usb.dir/Core/Src/main.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/adc_usb.dir/Core/Src/main.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/adc_usb.dir/Core/Src/main.c.obj -MF CMakeFiles/adc_usb.dir/Core/Src/main.c.obj.d -o CMakeFiles/adc_usb.dir/Core/Src/main.c.obj -c /home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/Core/Src/main.c
 
 CMakeFiles/adc_usb.dir/Core/Src/main.c.i: cmake_force
@@ -86,7 +100,7 @@ CMakeFiles/adc_usb.dir/Core/Src/main.c.s: cmake_force
 CMakeFiles/adc_usb.dir/Core/Src/stm32f3xx_it.c.obj: CMakeFiles/adc_usb.dir/flags.make
 CMakeFiles/adc_usb.dir/Core/Src/stm32f3xx_it.c.obj: Core/Src/stm32f3xx_it.c
 CMakeFiles/adc_usb.dir/Core/Src/stm32f3xx_it.c.obj: CMakeFiles/adc_usb.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/adc_usb.dir/Core/Src/stm32f3xx_it.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/adc_usb.dir/Core/Src/stm32f3xx_it.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/adc_usb.dir/Core/Src/stm32f3xx_it.c.obj -MF CMakeFiles/adc_usb.dir/Core/Src/stm32f3xx_it.c.obj.d -o CMakeFiles/adc_usb.dir/Core/Src/stm32f3xx_it.c.obj -c /home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/Core/Src/stm32f3xx_it.c
 
 CMakeFiles/adc_usb.dir/Core/Src/stm32f3xx_it.c.i: cmake_force
@@ -100,7 +114,7 @@ CMakeFiles/adc_usb.dir/Core/Src/stm32f3xx_it.c.s: cmake_force
 CMakeFiles/adc_usb.dir/Core/Src/stm32f3xx_hal_msp.c.obj: CMakeFiles/adc_usb.dir/flags.make
 CMakeFiles/adc_usb.dir/Core/Src/stm32f3xx_hal_msp.c.obj: Core/Src/stm32f3xx_hal_msp.c
 CMakeFiles/adc_usb.dir/Core/Src/stm32f3xx_hal_msp.c.obj: CMakeFiles/adc_usb.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/adc_usb.dir/Core/Src/stm32f3xx_hal_msp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/adc_usb.dir/Core/Src/stm32f3xx_hal_msp.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/adc_usb.dir/Core/Src/stm32f3xx_hal_msp.c.obj -MF CMakeFiles/adc_usb.dir/Core/Src/stm32f3xx_hal_msp.c.obj.d -o CMakeFiles/adc_usb.dir/Core/Src/stm32f3xx_hal_msp.c.obj -c /home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/Core/Src/stm32f3xx_hal_msp.c
 
 CMakeFiles/adc_usb.dir/Core/Src/stm32f3xx_hal_msp.c.i: cmake_force
@@ -114,7 +128,7 @@ CMakeFiles/adc_usb.dir/Core/Src/stm32f3xx_hal_msp.c.s: cmake_force
 CMakeFiles/adc_usb.dir/USB_DEVICE/App/usb_device.c.obj: CMakeFiles/adc_usb.dir/flags.make
 CMakeFiles/adc_usb.dir/USB_DEVICE/App/usb_device.c.obj: USB_DEVICE/App/usb_device.c
 CMakeFiles/adc_usb.dir/USB_DEVICE/App/usb_device.c.obj: CMakeFiles/adc_usb.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/adc_usb.dir/USB_DEVICE/App/usb_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/adc_usb.dir/USB_DEVICE/App/usb_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/adc_usb.dir/USB_DEVICE/App/usb_device.c.obj -MF CMakeFiles/adc_usb.dir/USB_DEVICE/App/usb_device.c.obj.d -o CMakeFiles/adc_usb.dir/USB_DEVICE/App/usb_device.c.obj -c /home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/USB_DEVICE/App/usb_device.c
 
 CMakeFiles/adc_usb.dir/USB_DEVICE/App/usb_device.c.i: cmake_force
@@ -128,7 +142,7 @@ CMakeFiles/adc_usb.dir/USB_DEVICE/App/usb_device.c.s: cmake_force
 CMakeFiles/adc_usb.dir/USB_DEVICE/App/usbd_desc.c.obj: CMakeFiles/adc_usb.dir/flags.make
 CMakeFiles/adc_usb.dir/USB_DEVICE/App/usbd_desc.c.obj: USB_DEVICE/App/usbd_desc.c
 CMakeFiles/adc_usb.dir/USB_DEVICE/App/usbd_desc.c.obj: CMakeFiles/adc_usb.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/adc_usb.dir/USB_DEVICE/App/usbd_desc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/adc_usb.dir/USB_DEVICE/App/usbd_desc.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/adc_usb.dir/USB_DEVICE/App/usbd_desc.c.obj -MF CMakeFiles/adc_usb.dir/USB_DEVICE/App/usbd_desc.c.obj.d -o CMakeFiles/adc_usb.dir/USB_DEVICE/App/usbd_desc.c.obj -c /home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/USB_DEVICE/App/usbd_desc.c
 
 CMakeFiles/adc_usb.dir/USB_DEVICE/App/usbd_desc.c.i: cmake_force
@@ -142,7 +156,7 @@ CMakeFiles/adc_usb.dir/USB_DEVICE/App/usbd_desc.c.s: cmake_force
 CMakeFiles/adc_usb.dir/USB_DEVICE/App/usbd_cdc_if.c.obj: CMakeFiles/adc_usb.dir/flags.make
 CMakeFiles/adc_usb.dir/USB_DEVICE/App/usbd_cdc_if.c.obj: USB_DEVICE/App/usbd_cdc_if.c
 CMakeFiles/adc_usb.dir/USB_DEVICE/App/usbd_cdc_if.c.obj: CMakeFiles/adc_usb.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/adc_usb.dir/USB_DEVICE/App/usbd_cdc_if.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/adc_usb.dir/USB_DEVICE/App/usbd_cdc_if.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/adc_usb.dir/USB_DEVICE/App/usbd_cdc_if.c.obj -MF CMakeFiles/adc_usb.dir/USB_DEVICE/App/usbd_cdc_if.c.obj.d -o CMakeFiles/adc_usb.dir/USB_DEVICE/App/usbd_cdc_if.c.obj -c /home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/USB_DEVICE/App/usbd_cdc_if.c
 
 CMakeFiles/adc_usb.dir/USB_DEVICE/App/usbd_cdc_if.c.i: cmake_force
@@ -156,7 +170,7 @@ CMakeFiles/adc_usb.dir/USB_DEVICE/App/usbd_cdc_if.c.s: cmake_force
 CMakeFiles/adc_usb.dir/USB_DEVICE/Target/usbd_conf.c.obj: CMakeFiles/adc_usb.dir/flags.make
 CMakeFiles/adc_usb.dir/USB_DEVICE/Target/usbd_conf.c.obj: USB_DEVICE/Target/usbd_conf.c
 CMakeFiles/adc_usb.dir/USB_DEVICE/Target/usbd_conf.c.obj: CMakeFiles/adc_usb.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/adc_usb.dir/USB_DEVICE/Target/usbd_conf.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/adc_usb.dir/USB_DEVICE/Target/usbd_conf.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/adc_usb.dir/USB_DEVICE/Target/usbd_conf.c.obj -MF CMakeFiles/adc_usb.dir/USB_DEVICE/Target/usbd_conf.c.obj.d -o CMakeFiles/adc_usb.dir/USB_DEVICE/Target/usbd_conf.c.obj -c /home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/USB_DEVICE/Target/usbd_conf.c
 
 CMakeFiles/adc_usb.dir/USB_DEVICE/Target/usbd_conf.c.i: cmake_force
@@ -170,7 +184,7 @@ CMakeFiles/adc_usb.dir/USB_DEVICE/Target/usbd_conf.c.s: cmake_force
 CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c.obj: CMakeFiles/adc_usb.dir/flags.make
 CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c.obj: Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c
 CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c.obj: CMakeFiles/adc_usb.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c.obj -MF CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c.obj.d -o CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c.obj -c /home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c
 
 CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c.i: cmake_force
@@ -184,7 +198,7 @@ CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c.s: cm
 CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pcd.c.obj: CMakeFiles/adc_usb.dir/flags.make
 CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pcd.c.obj: Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pcd.c
 CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pcd.c.obj: CMakeFiles/adc_usb.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pcd.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pcd.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pcd.c.obj -MF CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pcd.c.obj.d -o CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pcd.c.obj -c /home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pcd.c
 
 CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pcd.c.i: cmake_force
@@ -198,7 +212,7 @@ CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pcd.c.s: c
 CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pcd_ex.c.obj: CMakeFiles/adc_usb.dir/flags.make
 CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pcd_ex.c.obj: Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pcd_ex.c
 CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pcd_ex.c.obj: CMakeFiles/adc_usb.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pcd_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pcd_ex.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pcd_ex.c.obj -MF CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pcd_ex.c.obj.d -o CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pcd_ex.c.obj -c /home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pcd_ex.c
 
 CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pcd_ex.c.i: cmake_force
@@ -212,7 +226,7 @@ CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pcd_ex.c.s
 CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj: CMakeFiles/adc_usb.dir/flags.make
 CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj: Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c
 CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj: CMakeFiles/adc_usb.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj -MF CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj.d -o CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj -c /home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c
 
 CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.i: cmake_force
@@ -226,7 +240,7 @@ CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.s: cmake
 CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj: CMakeFiles/adc_usb.dir/flags.make
 CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj: Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c
 CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj: CMakeFiles/adc_usb.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj -MF CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj.d -o CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj -c /home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c
 
 CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.i: cmake_force
@@ -240,7 +254,7 @@ CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.s: c
 CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj: CMakeFiles/adc_usb.dir/flags.make
 CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj: Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c
 CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj: CMakeFiles/adc_usb.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj -MF CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj.d -o CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj -c /home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c
 
 CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.i: cmake_force
@@ -254,7 +268,7 @@ CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.s
 CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj: CMakeFiles/adc_usb.dir/flags.make
 CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj: Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c
 CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj: CMakeFiles/adc_usb.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj -MF CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj.d -o CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj -c /home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c
 
 CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.i: cmake_force
@@ -268,7 +282,7 @@ CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.s: 
 CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.obj: CMakeFiles/adc_usb.dir/flags.make
 CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.obj: Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c
 CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.obj: CMakeFiles/adc_usb.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.obj -MF CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.obj.d -o CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.obj -c /home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c
 
 CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.i: cmake_force
@@ -282,7 +296,7 @@ CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.s: c
 CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj: CMakeFiles/adc_usb.dir/flags.make
 CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj: Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c
 CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj: CMakeFiles/adc_usb.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj -MF CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj.d -o CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj -c /home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c
 
 CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.i: cmake_force
@@ -296,7 +310,7 @@ CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.s
 CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.obj: CMakeFiles/adc_usb.dir/flags.make
 CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.obj: Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c
 CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.obj: CMakeFiles/adc_usb.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.obj -MF CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.obj.d -o CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.obj -c /home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c
 
 CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.i: cmake_force
@@ -310,7 +324,7 @@ CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.s: c
 CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.obj: CMakeFiles/adc_usb.dir/flags.make
 CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.obj: Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c
 CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.obj: CMakeFiles/adc_usb.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.obj -MF CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.obj.d -o CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.obj -c /home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c
 
 CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.i: cmake_force
@@ -324,7 +338,7 @@ CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.s
 CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.obj: CMakeFiles/adc_usb.dir/flags.make
 CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.obj: Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c
 CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.obj: CMakeFiles/adc_usb.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.obj -MF CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.obj.d -o CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.obj -c /home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c
 
 CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.i: cmake_force
@@ -338,7 +352,7 @@ CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.s:
 CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.obj: CMakeFiles/adc_usb.dir/flags.make
 CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.obj: Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c
 CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.obj: CMakeFiles/adc_usb.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.obj -MF CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.obj.d -o CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.obj -c /home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c
 
 CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.i: cmake_force
@@ -352,7 +366,7 @@ CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c
 CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj: CMakeFiles/adc_usb.dir/flags.make
 CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj: Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c
 CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj: CMakeFiles/adc_usb.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj -MF CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj.d -o CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj -c /home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c
 
 CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.i: cmake_force
@@ -366,7 +380,7 @@ CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.s: c
 CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.obj: CMakeFiles/adc_usb.dir/flags.make
 CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.obj: Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c
 CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.obj: CMakeFiles/adc_usb.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.obj -MF CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.obj.d -o CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.obj -c /home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c
 
 CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.i: cmake_force
@@ -380,7 +394,7 @@ CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.s
 CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.obj: CMakeFiles/adc_usb.dir/flags.make
 CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.obj: Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c
 CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.obj: CMakeFiles/adc_usb.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.obj -MF CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.obj.d -o CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.obj -c /home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c
 
 CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.i: cmake_force
@@ -394,7 +408,7 @@ CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.s: 
 CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc.c.obj: CMakeFiles/adc_usb.dir/flags.make
 CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc.c.obj: Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc.c
 CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc.c.obj: CMakeFiles/adc_usb.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc.c.obj -MF CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc.c.obj.d -o CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc.c.obj -c /home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc.c
 
 CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc.c.i: cmake_force
@@ -408,7 +422,7 @@ CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc.c.s: c
 CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c.obj: CMakeFiles/adc_usb.dir/flags.make
 CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c.obj: Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c
 CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c.obj: CMakeFiles/adc_usb.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c.obj -MF CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c.obj.d -o CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c.obj -c /home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c
 
 CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c.i: cmake_force
@@ -422,7 +436,7 @@ CMakeFiles/adc_usb.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c.s
 CMakeFiles/adc_usb.dir/Core/Src/system_stm32f3xx.c.obj: CMakeFiles/adc_usb.dir/flags.make
 CMakeFiles/adc_usb.dir/Core/Src/system_stm32f3xx.c.obj: Core/Src/system_stm32f3xx.c
 CMakeFiles/adc_usb.dir/Core/Src/system_stm32f3xx.c.obj: CMakeFiles/adc_usb.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/adc_usb.dir/Core/Src/system_stm32f3xx.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/adc_usb.dir/Core/Src/system_stm32f3xx.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/adc_usb.dir/Core/Src/system_stm32f3xx.c.obj -MF CMakeFiles/adc_usb.dir/Core/Src/system_stm32f3xx.c.obj.d -o CMakeFiles/adc_usb.dir/Core/Src/system_stm32f3xx.c.obj -c /home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/Core/Src/system_stm32f3xx.c
 
 CMakeFiles/adc_usb.dir/Core/Src/system_stm32f3xx.c.i: cmake_force
@@ -436,7 +450,7 @@ CMakeFiles/adc_usb.dir/Core/Src/system_stm32f3xx.c.s: cmake_force
 CMakeFiles/adc_usb.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj: CMakeFiles/adc_usb.dir/flags.make
 CMakeFiles/adc_usb.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj: Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c
 CMakeFiles/adc_usb.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj: CMakeFiles/adc_usb.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/adc_usb.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/adc_usb.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/adc_usb.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj -MF CMakeFiles/adc_usb.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj.d -o CMakeFiles/adc_usb.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj -c /home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c
 
 CMakeFiles/adc_usb.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.i: cmake_force
@@ -450,7 +464,7 @@ CMakeFiles/adc_usb.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_cor
 CMakeFiles/adc_usb.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj: CMakeFiles/adc_usb.dir/flags.make
 CMakeFiles/adc_usb.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj: Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c
 CMakeFiles/adc_usb.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj: CMakeFiles/adc_usb.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/adc_usb.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/adc_usb.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/adc_usb.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj -MF CMakeFiles/adc_usb.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj.d -o CMakeFiles/adc_usb.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj -c /home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c
 
 CMakeFiles/adc_usb.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.i: cmake_force
@@ -464,7 +478,7 @@ CMakeFiles/adc_usb.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctl
 CMakeFiles/adc_usb.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj: CMakeFiles/adc_usb.dir/flags.make
 CMakeFiles/adc_usb.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj: Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c
 CMakeFiles/adc_usb.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj: CMakeFiles/adc_usb.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/adc_usb.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/adc_usb.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/adc_usb.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj -MF CMakeFiles/adc_usb.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj.d -o CMakeFiles/adc_usb.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj -c /home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c
 
 CMakeFiles/adc_usb.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.i: cmake_force
@@ -478,7 +492,7 @@ CMakeFiles/adc_usb.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ior
 CMakeFiles/adc_usb.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj: CMakeFiles/adc_usb.dir/flags.make
 CMakeFiles/adc_usb.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj: Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c
 CMakeFiles/adc_usb.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj: CMakeFiles/adc_usb.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/adc_usb.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/adc_usb.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/adc_usb.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj -MF CMakeFiles/adc_usb.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj.d -o CMakeFiles/adc_usb.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj -c /home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c
 
 CMakeFiles/adc_usb.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.i: cmake_force
@@ -492,7 +506,7 @@ CMakeFiles/adc_usb.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usb
 CMakeFiles/adc_usb.dir/Core/Src/sysmem.c.obj: CMakeFiles/adc_usb.dir/flags.make
 CMakeFiles/adc_usb.dir/Core/Src/sysmem.c.obj: Core/Src/sysmem.c
 CMakeFiles/adc_usb.dir/Core/Src/sysmem.c.obj: CMakeFiles/adc_usb.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/adc_usb.dir/Core/Src/sysmem.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/adc_usb.dir/Core/Src/sysmem.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/adc_usb.dir/Core/Src/sysmem.c.obj -MF CMakeFiles/adc_usb.dir/Core/Src/sysmem.c.obj.d -o CMakeFiles/adc_usb.dir/Core/Src/sysmem.c.obj -c /home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/Core/Src/sysmem.c
 
 CMakeFiles/adc_usb.dir/Core/Src/sysmem.c.i: cmake_force
@@ -506,7 +520,7 @@ CMakeFiles/adc_usb.dir/Core/Src/sysmem.c.s: cmake_force
 CMakeFiles/adc_usb.dir/Core/Src/syscalls.c.obj: CMakeFiles/adc_usb.dir/flags.make
 CMakeFiles/adc_usb.dir/Core/Src/syscalls.c.obj: Core/Src/syscalls.c
 CMakeFiles/adc_usb.dir/Core/Src/syscalls.c.obj: CMakeFiles/adc_usb.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/adc_usb.dir/Core/Src/syscalls.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/adc_usb.dir/Core/Src/syscalls.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/adc_usb.dir/Core/Src/syscalls.c.obj -MF CMakeFiles/adc_usb.dir/Core/Src/syscalls.c.obj.d -o CMakeFiles/adc_usb.dir/Core/Src/syscalls.c.obj -c /home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/Core/Src/syscalls.c
 
 CMakeFiles/adc_usb.dir/Core/Src/syscalls.c.i: cmake_force
@@ -519,7 +533,7 @@ CMakeFiles/adc_usb.dir/Core/Src/syscalls.c.s: cmake_force
 
 CMakeFiles/adc_usb.dir/startup_stm32f303xc.s.obj: CMakeFiles/adc_usb.dir/flags.make
 CMakeFiles/adc_usb.dir/startup_stm32f303xc.s.obj: startup_stm32f303xc.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building ASM object CMakeFiles/adc_usb.dir/startup_stm32f303xc.s.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building ASM object CMakeFiles/adc_usb.dir/startup_stm32f303xc.s.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/adc_usb.dir/startup_stm32f303xc.s.obj -c /home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/startup_stm32f303xc.s
 
 CMakeFiles/adc_usb.dir/startup_stm32f303xc.s.i: cmake_force
@@ -532,6 +546,7 @@ CMakeFiles/adc_usb.dir/startup_stm32f303xc.s.s: cmake_force
 
 # Object files for target adc_usb
 adc_usb_OBJECTS = \
+"CMakeFiles/adc_usb.dir/Core/Src/adc_read.c.obj" \
 "CMakeFiles/adc_usb.dir/Core/Src/main.c.obj" \
 "CMakeFiles/adc_usb.dir/Core/Src/stm32f3xx_it.c.obj" \
 "CMakeFiles/adc_usb.dir/Core/Src/stm32f3xx_hal_msp.c.obj" \
@@ -569,6 +584,7 @@ adc_usb_OBJECTS = \
 # External object files for target adc_usb
 adc_usb_EXTERNAL_OBJECTS =
 
+adc_usb.elf: CMakeFiles/adc_usb.dir/Core/Src/adc_read.c.obj
 adc_usb.elf: CMakeFiles/adc_usb.dir/Core/Src/main.c.obj
 adc_usb.elf: CMakeFiles/adc_usb.dir/Core/Src/stm32f3xx_it.c.obj
 adc_usb.elf: CMakeFiles/adc_usb.dir/Core/Src/stm32f3xx_hal_msp.c.obj
@@ -604,7 +620,7 @@ adc_usb.elf: CMakeFiles/adc_usb.dir/Core/Src/syscalls.c.obj
 adc_usb.elf: CMakeFiles/adc_usb.dir/startup_stm32f303xc.s.obj
 adc_usb.elf: CMakeFiles/adc_usb.dir/build.make
 adc_usb.elf: CMakeFiles/adc_usb.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Linking C executable adc_usb.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Linking C executable adc_usb.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/adc_usb.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

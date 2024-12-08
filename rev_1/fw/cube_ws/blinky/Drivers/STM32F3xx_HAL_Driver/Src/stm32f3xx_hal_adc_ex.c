@@ -1358,7 +1358,6 @@ HAL_StatusTypeDef HAL_ADC_Start(ADC_HandleTypeDef* hadc)
    
   /* Enable the ADC peripheral */
   tmp_hal_status = ADC_Enable(hadc);
-  
   /* Start conversion if ADC is effectively enabled */
   if (tmp_hal_status == HAL_OK)
   {

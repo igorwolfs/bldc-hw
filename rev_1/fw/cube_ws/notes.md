@@ -55,11 +55,28 @@ Make sure to add to linkerscript:
 LDFLAGS += -u _printf_float
 ```
 
-## Configure adc
-### Sensors
-- MEAS-temp: PB14
-- MEAS-bat: PB15
+Alternatively when using cmake add
+```cmake
+target_link_options(${CMAKE_PROJECT_NAME} PRIVATE -u _printf_float)
+```
+to your CMakeLists.txt
 
+## Configure adc
+### Pins
+**Sensors**
+- MEAS-temp: PB14, ADC4, CH4
+- MEAS-bat: PB15, ADC4, CH5
+
+**Voltage feedback**
+- PhaseU_DIV: PA2, ADC1, CH3
+- PhaseV_DIV: PA5, ADC2, CH2
+- PhaseW_DIV: PA6, ADC2, CH3
+- Phase-GVIRTUAL: PA1, ADC1, CH2
+
+**Current feedback**
+- PhaseU-current: PB13, ADC3, CH5
+- PhaseV-current: PB12, ADC4, CH3
+- PhaseW-current: PB2, ADC2, CH12
 
 # Building and Flashing
 ## Building
@@ -67,9 +84,15 @@ LDFLAGS += -u _printf_float
 sudo apt install gcc-arm-none-eabi
 ```
 ## Flashing
-- Download stm32-cube programmer.
-- Use command
+1. Download stm32-cube programmer.
+
+2. Use the following command to flash the stm32f303, which performs a hardware reset
 ```bash
-$STM32_PRG_PATH/STM32_Programmer_CLI -c port=swd mode=UR -rst -w build/uart_usb.bin 0x08000000
+$STM32_PRG_PATH/STM32_Programmer_CLI -c port=swd mode=UR -rst -w <path_to_binary> 0x08000000
 ```
 with STM32_PRG_PATH the path to the CLI binary.
+
+In case of issues, perform a flash erase:
+```bash
+$STM32_PRG_PATH/STM32_Programmer_CLI -c port=swd mode=UR -e all
+```

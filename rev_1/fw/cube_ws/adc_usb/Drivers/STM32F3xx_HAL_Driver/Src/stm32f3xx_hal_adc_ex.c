@@ -1238,7 +1238,6 @@ HAL_StatusTypeDef HAL_ADC_Start(ADC_HandleTypeDef* hadc)
   
   /* Check the parameters */
   assert_param(IS_ADC_ALL_INSTANCE(hadc->Instance));
-  
   /* Perform ADC enable and conversion start if no conversion is on going */
   if (ADC_IS_CONVERSION_ONGOING_REGULAR(hadc) == RESET)
   {
@@ -1247,10 +1246,12 @@ HAL_StatusTypeDef HAL_ADC_Start(ADC_HandleTypeDef* hadc)
     
     /* Enable the ADC peripheral */
     tmp_hal_status = ADC_Enable(hadc);
+    printf("ADC_Enable: %d\r\n", tmp_hal_status);
     
     /* Start conversion if ADC is effectively enabled */
     if (tmp_hal_status == HAL_OK)
     {
+      printf("HAL_OK: %d\r\n", tmp_hal_status);
       /* Set ADC state                                                        */
       /* - Clear state bitfield related to regular group conversion results   */
       /* - Set state bitfield related to regular operation                    */
@@ -1263,9 +1264,10 @@ HAL_StatusTypeDef HAL_ADC_Start(ADC_HandleTypeDef* hadc)
       /* or multimode ADC slave (for devices with several ADCs):              */
       if (ADC_NONMULTIMODE_OR_MULTIMODEMASTER(hadc))
       {
+        printf("ADC_NONMULTIMODE_OR_MULTIMODEMASTER: %d\r\n", tmp_hal_status);
         /* Set ADC state (ADC independent or master) */
         CLEAR_BIT(hadc->State, HAL_ADC_STATE_MULTIMODE_SLAVE);
-        
+
         /* If conversions on group regular are also triggering group injected,*/
         /* update ADC state.                                                  */
         if (READ_BIT(hadc->Instance->CFGR, ADC_CFGR_JAUTO) != RESET)
@@ -1322,12 +1324,14 @@ HAL_StatusTypeDef HAL_ADC_Start(ADC_HandleTypeDef* hadc)
     }
     else
     {
+        printf("Unlocked: %d\r\n", tmp_hal_status);
       /* Process unlocked */
       __HAL_UNLOCK(hadc);
     }
   }
   else
   {
+    printf("BUSY: %d\r\n", tmp_hal_status);
     tmp_hal_status = HAL_BUSY;
   }
   

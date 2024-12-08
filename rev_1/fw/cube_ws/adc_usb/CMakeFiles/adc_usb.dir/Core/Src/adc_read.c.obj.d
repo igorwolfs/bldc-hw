@@ -1,5 +1,6 @@
-CMakeFiles/adc_usb.dir/Core/Src/main.c.obj: \
- /home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/Core/Src/main.c \
+CMakeFiles/adc_usb.dir/Core/Src/adc_read.c.obj: \
+ /home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/Core/Src/adc_read.c \
+ /home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/Core/Src/adc_read.h \
  /home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/cmake/stm32cubemx/../../Core/Inc/main.h \
  /home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/cmake/stm32cubemx/../../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h \
  /home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/cmake/stm32cubemx/../../Core/Inc/stm32f3xx_hal_conf.h \
@@ -49,5 +50,4 @@ CMakeFiles/adc_usb.dir/Core/Src/main.c.obj: \
  /usr/include/newlib/stdlib.h /usr/include/newlib/machine/stdlib.h \
  /usr/include/newlib/alloca.h /usr/include/newlib/string.h \
  /usr/include/newlib/sys/_locale.h /usr/include/newlib/strings.h \
- /usr/include/newlib/sys/string.h \
- /home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/Core/Src/adc_read.h
+ /usr/include/newlib/sys/string.h

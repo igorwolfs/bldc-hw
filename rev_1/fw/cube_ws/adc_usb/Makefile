@@ -129,6 +129,30 @@ adc_usb/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/adc_usb.dir/build.make CMakeFiles/adc_usb.dir/build
 .PHONY : adc_usb/fast
 
+Core/Src/adc_read.obj: Core/Src/adc_read.c.obj
+.PHONY : Core/Src/adc_read.obj
+
+# target to build an object file
+Core/Src/adc_read.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/adc_usb.dir/build.make CMakeFiles/adc_usb.dir/Core/Src/adc_read.c.obj
+.PHONY : Core/Src/adc_read.c.obj
+
+Core/Src/adc_read.i: Core/Src/adc_read.c.i
+.PHONY : Core/Src/adc_read.i
+
+# target to preprocess a source file
+Core/Src/adc_read.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/adc_usb.dir/build.make CMakeFiles/adc_usb.dir/Core/Src/adc_read.c.i
+.PHONY : Core/Src/adc_read.c.i
+
+Core/Src/adc_read.s: Core/Src/adc_read.c.s
+.PHONY : Core/Src/adc_read.s
+
+# target to generate assembly for a file
+Core/Src/adc_read.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/adc_usb.dir/build.make CMakeFiles/adc_usb.dir/Core/Src/adc_read.c.s
+.PHONY : Core/Src/adc_read.c.s
+
 Core/Src/main.obj: Core/Src/main.c.obj
 .PHONY : Core/Src/main.obj
 
@@ -914,6 +938,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... adc_usb"
+	@echo "... Core/Src/adc_read.obj"
+	@echo "... Core/Src/adc_read.i"
+	@echo "... Core/Src/adc_read.s"
 	@echo "... Core/Src/main.obj"
 	@echo "... Core/Src/main.i"
 	@echo "... Core/Src/main.s"

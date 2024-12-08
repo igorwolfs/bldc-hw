@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/adc_usb.dir/Core/Src/adc_read.c.obj"
+  "CMakeFiles/adc_usb.dir/Core/Src/adc_read.c.obj.d"
   "CMakeFiles/adc_usb.dir/Core/Src/main.c.obj"
   "CMakeFiles/adc_usb.dir/Core/Src/main.c.obj.d"
   "CMakeFiles/adc_usb.dir/Core/Src/stm32f3xx_hal_msp.c.obj"

@@ -96,3 +96,16 @@ In case of issues, perform a flash erase:
 ```bash
 $STM32_PRG_PATH/STM32_Programmer_CLI -c port=swd mode=UR -e all
 ```
+
+# TODO
+## Logging issue
+There's an issue where we need some kind-of buffer mechanism for the logger to print and wait so it doesn't reject half the messages it receives on short notice.
+One of the best ways would be to introduce a separate logger thread.
+However for that we would need to introduce an RTOS, which I would only do after the drivers are fully operational.
+SO:
+1. Test PWM + generate code
+2. Test USART + generate code 
+3. Test CAN + generate code
+4. Test I2C + generate code
+
+-> Package all this code nicely in some drivers AND add an RTOS on top (FreeRTOS preferably)

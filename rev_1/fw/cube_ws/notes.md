@@ -78,6 +78,21 @@ to your CMakeLists.txt
 - PhaseV-current: PB12, ADC4, CH3
 - PhaseW-current: PB2, ADC2, CH12
 
+## Configure MCO
+### Pins
+TIM1
+- PhaseU_SW: PA7, CH1N
+- PhaseU_SD: PB0, CH2N
+- PhaseV_SW: PB1, CH3N
+
+TIM8
+- PhaseV_SD: PB6, CH1
+- PhaseW_SW: PB5, CH3N
+- PhaseW_SD: PB4, CH2N
+
+## Configure CAN + I2C
+
+
 # Building and Flashing
 ## Building
 ```bash

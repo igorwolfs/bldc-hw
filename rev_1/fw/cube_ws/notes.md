@@ -90,6 +90,14 @@ TIM8
 - PhaseW_SW: PB5, CH3N
 - PhaseW_SD: PB4, CH2N
 
+-> Big mistake already here
+- Should have used 
+    - U,V,W_SW controlled by a separate advanced timer
+    - U,V,W_SD controlled by a separate advanced timer
+
+Instead of intermixing them
+
+
 ## Configure CAN + I2C
 
 

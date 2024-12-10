@@ -54,7 +54,36 @@ USBD_HandleTypeDef hUsbDeviceFS;
  * -- Insert your external function declaration here --
  */
 /* USER CODE BEGIN 1 */
+//! >>> PRINTF DECLARATION
+#ifdef __GNUC__
+/* With GCC, small printf (option LD Linker->Libraries->Small printf
+   set to 'Yes') calls __io_putchar() */
+#define PUTCHAR_PROTOTYPE int __io_putchar(int ch)
+#else
+#define PUTCHAR_PROTOTYPE int fputc(int ch, FILE *f)
+#endif /* __GNUC__ */
 
+
+int _write(int file, char *ptr, int len)
+{
+	int DataIdx;
+
+  // while (CDC_Transmit_FS((uint8_t*)ptr, len))
+  // {
+  //   continue;
+  // }
+  uint8_t result = CDC_Transmit_FS((uint8_t*)ptr, len);
+  if (result != USBD_OK)
+  {
+    printf("!E! %u", result);
+  }
+	// for (DataIdx = 0; DataIdx < len; DataIdx++)
+	// {
+	// 	__io_putchar(*ptr++);
+	// }
+	return len;
+}
+//! <<< PRINTF DECLARATION
 /* USER CODE END 1 */
 
 /**

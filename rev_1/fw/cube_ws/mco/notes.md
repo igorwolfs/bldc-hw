@@ -126,7 +126,34 @@ But it is probably manageable to
     - The 2 middle timers will need a center-aligned PWM signal
     - Other timers will need to be right aligned OR inverted.
 
+When choosing the prescaler
+- fCK_PSC / (PSC[15:0] + 1).
+
+So choose the prescaler for the SW equal to 1, this way the frequency will be twice as large as the NS-frequency.
+
+Bumping into a new issue here, which is that multiplying the clock frequency by a certain amount (e.g. by 2, doesn't actually mean the edge stays at the same place, it means the edge shifts too).
+
+This means that any kind of clock scaling thus becomes not really usefull. 
+
+We could introduce a delay for the relevant timers, aka 
+- NSD: TIM3 AND TIM4
+
+OR
+- SW: TIM8 AND TIM1
+
+It seems like just setting the dead-time as a random value doesn't introduce any shifts. Probably because of some wrong configuration.
+
+Check again, if not go into the trigger and edge-comparison slave-master timer stuff:
+
+https://community.st.com/t5/stm32-mcus-products/stm32f303re-pwms-utilizing-timers-with-phase-shift/td-p/635212
+
+Video explains how one rising edge of one triggers another timer:
+https://www.youtube.com/watch?v=QMAgD9SS5_E
 
 **Edge comparison using OC-ref signals**
+
+https://community.st.com/t5/stm32-mcus-products/output-compare-stm32f3discovery/td-p/692551
+Compare basically means something changes when somehting else changes. So you can probably add an extra channel with an additional duty cycle shifting the timer.
+
 
 **Edge triggers**

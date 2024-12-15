@@ -3841,6 +3841,7 @@ HAL_StatusTypeDef HAL_TIM_Encoder_Stop_DMA(TIM_HandleTypeDef *htim, uint32_t Cha
   */
 void HAL_TIM_IRQHandler(TIM_HandleTypeDef *htim)
 {
+  printf("IRQ");
   uint32_t itsource = htim->Instance->DIER;
   uint32_t itflag   = htim->Instance->SR;
 

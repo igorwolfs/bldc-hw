@@ -1,5 +1,0 @@
-/home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/CMakeFiles/adc_usb.dir
-/home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/CMakeFiles/edit_cache.dir
-/home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/CMakeFiles/rebuild_cache.dir
-/home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/cmake/stm32cubemx/CMakeFiles/edit_cache.dir
-/home/iwolfs/Documents/personal/projects/bldc_project/bldc/rev_1/fw/cube_ws/adc_usb/cmake/stm32cubemx/CMakeFiles/rebuild_cache.dir

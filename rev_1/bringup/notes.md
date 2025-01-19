@@ -74,3 +74,30 @@ Main questions here
     - So the issue here is probably a connection straight through ground.
 
 #### Try pulling the NSD pin low at all times, check if this issue still happens.
+- Current consumption stays below 0.1 Amp
+- Buck converter supplies steady 12 V to 
+
+## Try buck converter switching 
+- Wait 3 seconds
+- Switch phase 1 HIGH
+- Wait 3 seconds
+- Switch phase 2 HIGH
+- Wait 3 seconds
+- Switch phase 3 HIGH
+- Wait 3 seconds
+- Switch phase 1 LOW
+- Wait 3 seconds
+- Switch phase 2 LOW
+- Wait 3 seconds
+- Switch phase 3 LOW
+
+One phase of the buck converter each 3 seconds, with 3 seconds in between the switches to make sure the voltage has time to stabilize.
+
+- Check on which up/down there's a voltage drop
+    - FET to ground closed?
+    - FET to vbat closed?
+
+### Observation
+It seems like 3 out of the 6 switches (either connection to ground or connection to VBAT), there is a voltage drop due to current limitation.
+
+The gate on the high side stays high (around 15 V) for too long, it should probably be grounded.

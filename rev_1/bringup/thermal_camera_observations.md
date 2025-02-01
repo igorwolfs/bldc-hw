@@ -1,0 +1,41 @@
+// 1/2/2025
+## Setup
+- Apply a 2 Hz square wave driving Phase U to ground.
+- Check where the heat is observed.
+- used a Topdon TC001 Thermal camera, which thanks to this github repo https://github.com/leswright1977/PyThermalCamera, was, with some minor modifications, easily usable on debian.
+
+### Observation
+It seems like the top FET is simply shorted.
+A possible reason for this is that the fet might have been shorted, because of the faulty bootstrap circuit connection.
+
+The max gate to source voltage is about 20 volts. So this might have led to the source and drain shorting out.
+
+We can check this by 
+- Taking out the FET and measuring the resistance drop over it.
+- Checking whether the Phase voltage on phase U still shorts to VBAT after removing the FET.
+
+After taking away I can confirm that the problem was indeed there. The new phase waveform to ground can be found at waveform_after_removal.jpg
+It seems consistent with the capacitor charging to about 3 V, probably originating at the voltage divider between the phases. (should be about )
+
+Impedance to vbat is about 70 kOhms, which is consistent with the sensory voltage circuits connected to virtual ground, and the adc input.
+
+## Next step
+- Take a second board
+- Take a way to soldermask with a dremel
+- Check for shorts between battery and phases (just to be sure)
+- Connect to the vbat supply
+- Test if it switches without connecting a load.
+
+
+### Observation
+It seems like the new resulting BLDC, with soldered wires accordingly and non-broken FET's does work accordingly.
+
+Make sure to
+- Buy some small grippers that can be connected through jumper wires
+- Buy a few new IRFZ44N FET's or similar mosfets usable for switching the inverter.
+
+## Next step
+- Try to flash a more realistic control signal with kHz switching speeds
+- check the wave-forms and currents in no load
+- check the behaviour with a 5-ohm load, to see if the PCB can withstand the high currents
+

@@ -146,4 +146,3 @@ Guess is that the ground FET opens which leaks remaining charge from the capacit
 ### Conclusion
 It seems that during modification, a short to VBAT was introduced.
 Before proceeding with a different BLDC-motor driver, detect where the short occurred exactly using a (borrowed) thermal camera / really precise multimeter.
-

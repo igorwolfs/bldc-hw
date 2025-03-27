@@ -6,5 +6,6 @@
 - Find a solution where USB to battery power switch actually allows USB connection while switching over to battery power supply.
 - Bigger (and more) testpoints
 - Use (larger sized) pads meant for manual soldering
+- Reduce the source impedance of the ADC's.
 ## Consider
 - Separate the inverter-part from the MCU part

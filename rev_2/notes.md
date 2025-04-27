@@ -7,5 +7,6 @@
 - Bigger (and more) testpoints
 - Use (larger sized) pads meant for manual soldering
 - Reduce the source impedance of the ADC's.
+	- Otherwise your sampling time will become too large like it became with rev1
 ## Consider
 - Separate the inverter-part from the MCU part

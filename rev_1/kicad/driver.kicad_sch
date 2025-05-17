@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "91e2f46a-700b-4d7a-a06a-22469f63223f")
 	(paper "A4")
 	(title_block
@@ -95,42 +95,6 @@
 				)
 			)
 			(symbol "INA180A2_1_1"
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 -7.62 90)
-					(length 3.81)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at -7.62 2.54 0)
 					(length 2.54)
@@ -185,12 +149,53 @@
 						)
 					)
 				)
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Connector:TestPoint_Probe"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.762) hide)
+				(offset 0.762)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -301,11 +306,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:C_Polarized_Small"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -374,17 +384,6 @@
 			)
 			(symbol "C_Polarized_Small_0_1"
 				(rectangle
-					(start -1.524 -0.3048)
-					(end 1.524 -0.6858)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
 					(start -1.524 0.6858)
 					(end 1.524 0.3048)
 					(stroke
@@ -393,6 +392,17 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+				(rectangle
+					(start -1.524 -0.3048)
+					(end 1.524 -0.6858)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 				(polyline
@@ -458,11 +468,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:C_Small"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -532,10 +547,10 @@
 			(symbol "C_Small_0_1"
 				(polyline
 					(pts
-						(xy -1.524 -0.508) (xy 1.524 -0.508)
+						(xy -1.524 0.508) (xy 1.524 0.508)
 					)
 					(stroke
-						(width 0.3302)
+						(width 0.3048)
 						(type default)
 					)
 					(fill
@@ -544,10 +559,10 @@
 				)
 				(polyline
 					(pts
-						(xy -1.524 0.508) (xy 1.524 0.508)
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
 					)
 					(stroke
-						(width 0.3048)
+						(width 0.3302)
 						(type default)
 					)
 					(fill
@@ -593,11 +608,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R_Small"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -715,11 +735,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Diode:1N5819"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -787,10 +812,10 @@
 			(symbol "1N5819_0_1"
 				(polyline
 					(pts
-						(xy 1.27 0) (xy -1.27 0)
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
 					)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -811,10 +836,10 @@
 				)
 				(polyline
 					(pts
-						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+						(xy 1.27 0) (xy -1.27 0)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -860,12 +885,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "GND_1"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -956,9 +986,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "bldc:IRFZ44N"
-			(pin_names hide)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1031,18 +1064,6 @@
 			(symbol "IRFZ44N_0_1"
 				(polyline
 					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
 					)
 					(stroke
@@ -1055,7 +1076,19 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -1079,34 +1112,10 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
 					)
 					(stroke
 						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
 						(type default)
 					)
 					(fill
@@ -1137,6 +1146,63 @@
 						(type outline)
 					)
 				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(polyline
 					(pts
 						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
@@ -1159,39 +1225,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
 					)
 				)
 			)
@@ -1251,6 +1284,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "bldc:ir2104_th"
 			(exclude_from_sim no)
@@ -1324,16 +1358,16 @@
 			)
 			(symbol "ir2104_th_1_1"
 				(pin power_in line
-					(at 0 12.7 270)
+					(at -7.62 2.54 0)
 					(length 2.54)
-					(name "VCC"
+					(name "GND_TH"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1378,6 +1412,24 @@
 					)
 				)
 				(pin power_in line
+					(at 0 12.7 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
 					(at 0 -12.7 90)
 					(length 2.54)
 					(name "COM"
@@ -1395,35 +1447,17 @@
 						)
 					)
 				)
-				(pin output line
-					(at 7.62 -7.62 180)
-					(length 2.54)
-					(name "LO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin passive line
-					(at 7.62 -5.08 180)
+					(at 7.62 7.62 180)
 					(length 2.54)
-					(name "VS"
+					(name "VB"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "6"
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1450,16 +1484,16 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 7.62 180)
+					(at 7.62 -5.08 180)
 					(length 2.54)
-					(name "VB"
+					(name "VS"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "8"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1467,17 +1501,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at -7.62 2.54 0)
+				(pin output line
+					(at 7.62 -7.62 180)
 					(length 2.54)
-					(name "GND_TH"
+					(name "LO"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "9"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1486,6 +1520,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "bldc:pad"
 			(exclude_from_sim no)
@@ -1565,6 +1600,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "ir2104_th_1"
 			(exclude_from_sim no)
@@ -1638,16 +1674,16 @@
 			)
 			(symbol "ir2104_th_1_1_1"
 				(pin power_in line
-					(at 0 12.7 270)
+					(at -7.62 2.54 0)
 					(length 2.54)
-					(name "VCC"
+					(name "GND_TH"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1692,6 +1728,24 @@
 					)
 				)
 				(pin power_in line
+					(at 0 12.7 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
 					(at 0 -12.7 90)
 					(length 2.54)
 					(name "COM"
@@ -1709,35 +1763,17 @@
 						)
 					)
 				)
-				(pin output line
-					(at 7.62 -7.62 180)
-					(length 2.54)
-					(name "LO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin passive line
-					(at 7.62 -5.08 180)
+					(at 7.62 7.62 180)
 					(length 2.54)
-					(name "VS"
+					(name "VB"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "6"
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1764,16 +1800,16 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 7.62 180)
+					(at 7.62 -5.08 180)
 					(length 2.54)
-					(name "VB"
+					(name "VS"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "8"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1781,17 +1817,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at -7.62 2.54 0)
+				(pin output line
+					(at 7.62 -7.62 180)
 					(length 2.54)
-					(name "GND_TH"
+					(name "LO"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "9"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1800,6 +1836,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "ir2104_th_2"
 			(exclude_from_sim no)
@@ -1873,16 +1910,16 @@
 			)
 			(symbol "ir2104_th_2_1_1"
 				(pin power_in line
-					(at 0 12.7 270)
+					(at -7.62 2.54 0)
 					(length 2.54)
-					(name "VCC"
+					(name "GND_TH"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1927,6 +1964,24 @@
 					)
 				)
 				(pin power_in line
+					(at 0 12.7 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
 					(at 0 -12.7 90)
 					(length 2.54)
 					(name "COM"
@@ -1944,35 +1999,17 @@
 						)
 					)
 				)
-				(pin output line
-					(at 7.62 -7.62 180)
-					(length 2.54)
-					(name "LO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin passive line
-					(at 7.62 -5.08 180)
+					(at 7.62 7.62 180)
 					(length 2.54)
-					(name "VS"
+					(name "VB"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "6"
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1999,16 +2036,16 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 7.62 180)
+					(at 7.62 -5.08 180)
 					(length 2.54)
-					(name "VB"
+					(name "VS"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "8"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2016,17 +2053,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at -7.62 2.54 0)
+				(pin output line
+					(at 7.62 -7.62 180)
 					(length 2.54)
-					(name "GND_TH"
+					(name "LO"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "9"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2035,6 +2072,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+10V"
 			(power)
@@ -2112,7 +2150,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -2124,7 +2162,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -2138,7 +2176,8 @@
 			(symbol "+10V_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "+10V"
 						(effects
 							(font
@@ -2155,6 +2194,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+3.3V"
 			(power)
@@ -2232,7 +2272,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -2244,7 +2284,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -2258,7 +2298,8 @@
 			(symbol "+3.3V_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "+3.3V"
 						(effects
 							(font
@@ -2275,6 +2316,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+BATT"
 			(power)
@@ -2352,7 +2394,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -2364,7 +2406,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -2378,7 +2420,8 @@
 			(symbol "+BATT_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "+BATT"
 						(effects
 							(font
@@ -2395,6 +2438,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
@@ -2474,7 +2518,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "GND"
 						(effects
 							(font
@@ -2491,7 +2536,259 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(rectangle
+		(start 146.685 17.145)
+		(end 177.8 38.735)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 0b6de48c-9192-41af-9c76-0bb5c257d39b)
+	)
+	(rectangle
+		(start 17.145 17.78)
+		(end 134.62 195.58)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6d8627b2-e209-44a0-bc8d-043c02c83ad7)
+	)
+	(rectangle
+		(start 137 116.84)
+		(end 278.13 163.83)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 84553af2-6ecb-4d53-aa1d-32450ca3e08a)
+	)
+	(rectangle
+		(start 190.5 17.78)
+		(end 281.305 64.77)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 883a4360-534a-4436-a825-96e8430f70be)
+	)
+	(rectangle
+		(start 136.525 72.39)
+		(end 283.845 112.395)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a805fbed-7c17-471c-871c-b6efd5a71586)
+	)
+	(text "Make sure to minimize distance between the - and + of measuring resistor for routing"
+		(exclude_from_sim no)
+		(at 191.77 115.57 0)
+		(effects
+			(font
+				(size 1 1)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "13882be7-1367-4476-9f83-11e040677da3")
+	)
+	(text "min. 0.1 uF (datasheet)\n"
+		(exclude_from_sim no)
+		(at 165.1 80.645 0)
+		(effects
+			(font
+				(size 1 1)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "420b66ce-be07-4b21-9492-3d62b1c500e1")
+	)
+	(text "Minimum 10 V"
+		(exclude_from_sim no)
+		(at 40.64 29.21 0)
+		(effects
+			(font
+				(size 1 1)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "4a804ec5-ad7b-4cb2-8159-86ed4c0f1105")
+	)
+	(text "1->3mOhm to minimize noise / opamp parasitics"
+		(exclude_from_sim no)
+		(at 36.83 183.515 0)
+		(effects
+			(font
+				(size 1 1)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "86248326-f4f2-4da2-b233-9b9aedb293c9")
+	)
+	(text "- 4.7 uF Capacitor overdimensioned\n- Bootstrap circuit designed for maximum current of 1 Amp\n- gate circuit designed for 150 mA rms\n"
+		(exclude_from_sim no)
+		(at 19.05 76.2 0)
+		(effects
+			(font
+				(size 1 1)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "f32743a9-f709-4c11-9f06-72b6ad81646e")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 181.61 85.09 0)
+		(size 0 0)
+		(margins 0.75 0.75 0.75 0.75)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1 1)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "1fc8128a-5159-4baa-a3d5-1cfba5fab089")
+	)
+	(text_box "Half-bridge Circuit"
+		(exclude_from_sim no)
+		(at 20.32 190.5 0)
+		(size 35.56 5.08)
+		(margins 1.4999 1.4999 1.4999 1.4999)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 2)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "23825f4d-cb87-4335-93be-470dd53209e9")
+	)
+	(text_box "Phase Output"
+		(exclude_from_sim no)
+		(at 145.415 33.655 0)
+		(size 29.21 5.08)
+		(margins 1.4999 1.4999 1.4999 1.4999)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 2)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "3948c176-9a4d-4bdd-8636-89b1ed280b2a")
+	)
+	(text_box "DRIVER TESTPOINTS"
+		(exclude_from_sim no)
+		(at 135.89 158.75 0)
+		(size 35.56 5.08)
+		(margins 1.4999 1.4999 1.4999 1.4999)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 2)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "49045e9f-5413-4338-ae06-4797a21a715b")
+	)
+	(text_box "EMF resistive bridge"
+		(exclude_from_sim no)
+		(at 189.865 59.69 0)
+		(size 40.64 5.08)
+		(margins 1.4999 1.4999 1.4999 1.4999)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 2)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "5c3290a7-5d09-488d-9e58-40f9f8c6089b")
+	)
+	(text_box "Current measurement\n"
+		(exclude_from_sim no)
+		(at 141.605 107.95 0)
+		(size 54.61 5.08)
+		(margins 1.4999 1.4999 1.4999 1.4999)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 2)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "ff438c40-07bc-4e76-ac7d-04d3173aa568")
 	)
 	(junction
 		(at 210.82 48.26)
@@ -4703,254 +5000,8 @@
 		)
 		(uuid "fe2a32b6-8af9-4daa-a5a8-3feb0a39b9b9")
 	)
-	(rectangle
-		(start 146.685 17.145)
-		(end 177.8 38.735)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 0b6de48c-9192-41af-9c76-0bb5c257d39b)
-	)
-	(rectangle
-		(start 17.145 17.78)
-		(end 134.62 195.58)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 6d8627b2-e209-44a0-bc8d-043c02c83ad7)
-	)
-	(rectangle
-		(start 137 116.84)
-		(end 278.13 163.83)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 84553af2-6ecb-4d53-aa1d-32450ca3e08a)
-	)
-	(rectangle
-		(start 190.5 17.78)
-		(end 281.305 64.77)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 883a4360-534a-4436-a825-96e8430f70be)
-	)
-	(rectangle
-		(start 136.525 72.39)
-		(end 283.845 112.395)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid a805fbed-7c17-471c-871c-b6efd5a71586)
-	)
-	(text_box ""
-		(exclude_from_sim no)
-		(at 181.61 85.09 0)
-		(size 0 0)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1 1)
-				(bold yes)
-			)
-			(justify left top)
-		)
-		(uuid "1fc8128a-5159-4baa-a3d5-1cfba5fab089")
-	)
-	(text_box "Half-bridge Circuit"
-		(exclude_from_sim no)
-		(at 20.32 190.5 0)
-		(size 35.56 5.08)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 2 2)
-				(thickness 2)
-				(bold yes)
-			)
-			(justify left top)
-		)
-		(uuid "23825f4d-cb87-4335-93be-470dd53209e9")
-	)
-	(text_box "Phase Output"
-		(exclude_from_sim no)
-		(at 145.415 33.655 0)
-		(size 29.21 5.08)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 2 2)
-				(thickness 2)
-				(bold yes)
-			)
-			(justify left top)
-		)
-		(uuid "3948c176-9a4d-4bdd-8636-89b1ed280b2a")
-	)
-	(text_box "DRIVER TESTPOINTS"
-		(exclude_from_sim no)
-		(at 135.89 158.75 0)
-		(size 35.56 5.08)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 2 2)
-				(thickness 2)
-				(bold yes)
-			)
-			(justify left top)
-		)
-		(uuid "49045e9f-5413-4338-ae06-4797a21a715b")
-	)
-	(text_box "EMF resistive bridge"
-		(exclude_from_sim no)
-		(at 189.865 59.69 0)
-		(size 40.64 5.08)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 2 2)
-				(thickness 2)
-				(bold yes)
-			)
-			(justify left top)
-		)
-		(uuid "5c3290a7-5d09-488d-9e58-40f9f8c6089b")
-	)
-	(text_box "Current measurement\n"
-		(exclude_from_sim no)
-		(at 141.605 107.95 0)
-		(size 54.61 5.08)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 2 2)
-				(thickness 2)
-				(bold yes)
-			)
-			(justify left top)
-		)
-		(uuid "ff438c40-07bc-4e76-ac7d-04d3173aa568")
-	)
-	(text "Make sure to minimize distance between the - and + of measuring resistor for routing"
-		(exclude_from_sim no)
-		(at 191.77 115.57 0)
-		(effects
-			(font
-				(size 1 1)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "13882be7-1367-4476-9f83-11e040677da3")
-	)
-	(text "min. 0.1 uF (datasheet)\n"
-		(exclude_from_sim no)
-		(at 165.1 80.645 0)
-		(effects
-			(font
-				(size 1 1)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "420b66ce-be07-4b21-9492-3d62b1c500e1")
-	)
-	(text "Minimum 10 V"
-		(exclude_from_sim no)
-		(at 40.64 29.21 0)
-		(effects
-			(font
-				(size 1 1)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "4a804ec5-ad7b-4cb2-8159-86ed4c0f1105")
-	)
-	(text "1->3mOhm to minimize noise / opamp parasitics"
-		(exclude_from_sim no)
-		(at 36.83 183.515 0)
-		(effects
-			(font
-				(size 1 1)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "86248326-f4f2-4da2-b233-9b9aedb293c9")
-	)
-	(text "- 4.7 uF Capacitor overdimensioned\n- Bootstrap circuit designed for maximum current of 1 Amp\n- gate circuit designed for 150 mA rms\n"
-		(exclude_from_sim no)
-		(at 19.05 76.2 0)
-		(effects
-			(font
-				(size 1 1)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "f32743a9-f709-4c11-9f06-72b6ad81646e")
-	)
 	(label "PhaseU"
 		(at 92.71 50.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4961,7 +5012,6 @@
 	)
 	(label "PhaseV"
 		(at 220.345 27.94 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4972,7 +5022,6 @@
 	)
 	(label "PhaseW"
 		(at 94.615 158.75 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4983,7 +5032,6 @@
 	)
 	(label "PhaseW"
 		(at 151.765 31.115 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4994,7 +5042,6 @@
 	)
 	(label "PhaseU"
 		(at 230.505 27.94 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5005,7 +5052,6 @@
 	)
 	(label "PhaseV"
 		(at 93.345 107.315 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5016,7 +5062,6 @@
 	)
 	(label "PhaseV_CURRENT+"
 		(at 186.055 92.075 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5027,7 +5072,6 @@
 	)
 	(label "PhaseU"
 		(at 151.765 23.495 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5038,7 +5082,6 @@
 	)
 	(label "PhaseW_CURRENT+"
 		(at 224.79 92.71 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5049,7 +5092,6 @@
 	)
 	(label "PhaseU_CURRENT+"
 		(at 138.43 91.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5060,7 +5102,6 @@
 	)
 	(label "PhaseW_CURRENT+"
 		(at 63.5 177.165 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5071,7 +5112,6 @@
 	)
 	(label "PhaseW"
 		(at 210.82 27.94 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5082,7 +5122,6 @@
 	)
 	(label "PhaseV"
 		(at 151.765 27.305 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5093,7 +5132,6 @@
 	)
 	(label "PhaseU_CURRENT+"
 		(at 63.5 65.405 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5104,7 +5142,6 @@
 	)
 	(label "PhaseV_CURRENT+"
 		(at 64.135 125.73 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

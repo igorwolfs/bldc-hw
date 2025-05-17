@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "91e2f46a-700b-4d7a-a06a-22469f63223f")
 	(paper "A4")
 	(title_block
@@ -10,10 +10,24 @@
 		(company "IW")
 	)
 	(lib_symbols)
+	(text "BLDC DRIVER PROJECT 2024"
+		(exclude_from_sim no)
+		(at 17.78 34.29 0)
+		(effects
+			(font
+				(size 12 12)
+				(thickness 2.4)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "2068865f-2588-46ab-97f3-99cb1e6f8371")
+	)
 	(text_box "TODO for 1.0:\n- Add testpoints\nTODO for 1.1:\n- Add connectors for Power and phases instead of solder-pads\n- Add wireless com.\n- Modify Bulk Capacitance after simulation and testing\n- Modify crystal resistor after testing stm-oscillator drive strength\n- Check if USB power filtering is necessary\n- Check if keeping stm32 analog and digital ground separate has an effect on stm32 adc performance.\n- Add a 30 amp fuse to avoid the whole circuit from burning down\n- Add an extra sensor input for an encoder"
 		(exclude_from_sim no)
 		(at 124.46 49.53 0)
 		(size 115.57 25.4)
+		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
 			(type default)
@@ -29,22 +43,13 @@
 		)
 		(uuid "db0ea187-8e51-49b6-9096-9ccd09bb87b6")
 	)
-	(text "BLDC DRIVER PROJECT 2024"
-		(exclude_from_sim no)
-		(at 17.78 34.29 0)
-		(effects
-			(font
-				(size 12 12)
-				(thickness 2.4)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "2068865f-2588-46ab-97f3-99cb1e6f8371")
-	)
 	(sheet
 		(at 22.86 127)
 		(size 86.36 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -83,6 +88,10 @@
 	(sheet
 		(at 22.86 86.36)
 		(size 85.09 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -121,6 +130,10 @@
 	(sheet
 		(at 22.86 50.8)
 		(size 74.93 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -161,4 +174,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )

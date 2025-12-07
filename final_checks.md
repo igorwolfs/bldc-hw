@@ -7,8 +7,16 @@
 - Alignment of different layers (sometimes layers are mirrored)O
 - Are vias and drillholes connected to the right traces as per design?
 
-### Copper
+# Copper
+## Traces
+- Impedance matching where necessary?
+- Length matching where necessary?
+
+## Layers
 - Alignment of different layers (sometimes they are mirrored)
+
+## Pours
+- Make sure all copper pours of the same net are overlapping. Sometimes KiCad has non-overlapping pours which then translate into unconnected zones during manufacturing.
 
 ### Silkscreen
 - Check if silkscreen appears for all relevant components
@@ -20,6 +28,16 @@ Make sure anywhere where you need to be able to measure or solder manually, no s
 
 ### Plating
 Make sure the relevant plating is present where it should be.
+
+# Components
+## Info
+- Correct part number? Manufacturing number?
+## Footprints
+- Pad number
+- Footprint shape
+
+## Symbol
+- Component numbers vs footprint pad number
 
 ## Other
 ### Free DFM checks
